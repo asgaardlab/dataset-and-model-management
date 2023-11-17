@@ -1,0 +1,2 @@
+call_name,line_no,class_instantiation,instantiation_line_no,relative_file_path,repository_name,file_path
+model(collage_tensor),203,"model = Darknet(net_config_path, img_size)",183,app_specific_files/demo/collage.py,ANRGUSC/Jupiter,C:\Users\tajki\OneDrive\Documents\GitHub\dataset-model-source_code-integration-analyzer\data\repositories_for_manual_analysis\ANRGUSC@Jupiter\app_specific_files\demo\collage.py

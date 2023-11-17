@@ -1,0 +1,15 @@
+repo_name,notebook_path
+wimlds-trojmiasto/detect-waste,detr/notebooks/BALOONS_finetuning_detr.ipynb
+wimlds-trojmiasto/detect-waste,detr/notebooks/Detect_Waste_finetuning_detr.ipynb
+wimlds-trojmiasto/detect-waste,efficientdet/notebooks/run-check.ipynb
+wimlds-trojmiasto/detect-waste,efficientdet/notebooks/visualize_bboxes.ipynb
+wimlds-trojmiasto/detect-waste,FastRCNN/FastRCNNPredictor.ipynb
+wimlds-trojmiasto/detect-waste,FastRCNN/json_annot_to_csv.ipynb
+wimlds-trojmiasto/detect-waste,MaskRCNN/notebooks/eval.ipynb
+wimlds-trojmiasto/detect-waste,notebooks/EDA_taco.ipynb
+wimlds-trojmiasto/detect-waste,notebooks/EDA_trashcan_trashicra_uavvaste_drinkwaste_mjuwaste_wasteai.ipynb
+wimlds-trojmiasto/detect-waste,notebooks/statistics/1.0_trashcan_trashicra_uavvaste_drinkwaste_mjuwaste.ipynb
+wimlds-trojmiasto/detect-waste,notebooks/statistics/2.0_deepseawaste.ipynb
+wimlds-trojmiasto/detect-waste,notebooks/statistics/3.0_openlittermap.ipynb
+wimlds-trojmiasto/detect-waste,notebooks/statistics/4.0_trashnet.ipynb
+wimlds-trojmiasto/detect-waste,notebooks/statistics/5.0_wastepictures.ipynb

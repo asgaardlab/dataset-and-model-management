@@ -1,0 +1,7 @@
+repo_name,notebook_path
+iPieter/RobBERT,notebooks/demo_RobBERT_for_conll_ner.ipynb
+iPieter/RobBERT,notebooks/demo_RobBERT_for_masked_LM.ipynb
+iPieter/RobBERT,notebooks/die_dat_demo.ipynb
+iPieter/RobBERT,notebooks/evaluate_zeroshot_wordlists.ipynb
+iPieter/RobBERT,notebooks/evaluate_zeroshot_wordlists_v2.ipynb
+iPieter/RobBERT,notebooks/finetune_dbrd.ipynb

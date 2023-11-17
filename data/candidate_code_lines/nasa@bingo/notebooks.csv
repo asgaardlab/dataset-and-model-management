@@ -1,0 +1,9 @@
+repo_name,notebook_path
+nasa/bingo,examples/get_started.ipynb
+nasa/bingo,examples/physics_informed_fitness.ipynb
+nasa/bingo,examples/sklearn_wrapper.ipynb
+nasa/bingo,examples/Tutorial_1_One_Max.ipynb
+nasa/bingo,examples/Tutorial_2_Zero_Min.ipynb
+nasa/bingo,examples/Tutorial_3_Archipelagos_and_Logging.ipynb
+nasa/bingo,examples/Tutorial_4_Symbolic_Regression.ipynb
+nasa/bingo,examples/Tutorial_5_Benchmarking.ipynb

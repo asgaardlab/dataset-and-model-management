@@ -1,0 +1,14 @@
+repo_name,notebook_path
+tjhunter/dds_py,dds_tests_assets/class_defined_in_notebook.ipynb
+tjhunter/dds_py,docs/tut_collab/tut_collab.ipynb
+tjhunter/dds_py,docs/tut_custom_types/tut_custom_types.ipynb
+tjhunter/dds_py,docs/tut_modules/tut_modules.ipynb
+tjhunter/dds_py,docs/tut_plotting/tut_plotting.ipynb
+tjhunter/dds_py,docs/tut_sklearn/tut_sklearn.ipynb
+tjhunter/dds_py,docs/user_guide/user_guide.ipynb
+tjhunter/dds_py,doc_source/tut_collab.ipynb
+tjhunter/dds_py,doc_source/tut_custom_types.ipynb
+tjhunter/dds_py,doc_source/tut_modules.ipynb
+tjhunter/dds_py,doc_source/tut_plotting.ipynb
+tjhunter/dds_py,doc_source/tut_sklearn.ipynb
+tjhunter/dds_py,doc_source/user_guide.ipynb

@@ -1,0 +1,3 @@
+call_root_type,method_name,method_call,line_no,call_root,call_root_line_no,qualifying_name,call_root_package,relative_file_path,repository_name,file_path
+import,load,"model = torch.load(""./model/model.pt"", map_location=device)",39,import torch,8,torch.load,torch,examples/opt.py,lanl/PYSEQM,C:\Users\tajki\OneDrive\Documents\GitHub\dataset-model-source_code-integration-analyzer\data\repositories_for_manual_analysis\lanl@PYSEQM\examples\opt.py
+import,load,"model = torch.load(""./model/model.pt"", map_location=device)",26,import torch,2,torch.load,torch,examples/test.py,lanl/PYSEQM,C:\Users\tajki\OneDrive\Documents\GitHub\dataset-model-source_code-integration-analyzer\data\repositories_for_manual_analysis\lanl@PYSEQM\examples\test.py

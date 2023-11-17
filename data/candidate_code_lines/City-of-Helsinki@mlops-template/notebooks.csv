@@ -1,0 +1,8 @@
+repo_name,notebook_path
+City-of-Helsinki/mlops-template,examples/_model_store_mlflow.ipynb
+City-of-Helsinki/mlops-template,examples/_model_store_pickle.ipynb
+City-of-Helsinki/mlops-template,ml_pipe/00_data_etl.ipynb
+City-of-Helsinki/mlops-template,ml_pipe/01_model_class.ipynb
+City-of-Helsinki/mlops-template,ml_pipe/02_train_test_validate.ipynb
+City-of-Helsinki/mlops-template,ml_pipe/03_workflow.ipynb
+City-of-Helsinki/mlops-template,ml_pipe/index.ipynb

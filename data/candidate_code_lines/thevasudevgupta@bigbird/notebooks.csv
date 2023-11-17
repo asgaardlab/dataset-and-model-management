@@ -1,0 +1,5 @@
+repo_name,notebook_path
+thevasudevgupta/bigbird,notebooks/bigbird-inference.ipynb
+thevasudevgupta/bigbird,notebooks/bigbird_pegasus_evaluation.ipynb
+thevasudevgupta/bigbird,notebooks/evaluate-flax-natural-questions.ipynb
+thevasudevgupta/bigbird,notebooks/evaluate-torch-natural-questions.ipynb

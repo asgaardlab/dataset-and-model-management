@@ -1,0 +1,8 @@
+repo_name,notebook_path
+StanfordASL/CoCo,cartpole_dev.ipynb
+StanfordASL/CoCo,free_flyer_dev.ipynb
+StanfordASL/CoCo,free_flyer_generalization.ipynb
+StanfordASL/CoCo,manipulation_dev.ipynb
+StanfordASL/CoCo,cartpole/data_generation.ipynb
+StanfordASL/CoCo,free_flyer/data_generation.ipynb
+StanfordASL/CoCo,manipulation/data_generation.ipynb

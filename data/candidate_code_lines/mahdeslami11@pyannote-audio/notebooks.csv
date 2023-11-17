@@ -1,0 +1,15 @@
+repo_name,notebook_path
+mahdeslami11/pyannote-audio,notebook/augmentation.ipynb
+mahdeslami11/pyannote-audio,notebook/example.ipynb
+mahdeslami11/pyannote-audio,notebook/freeze.ipynb
+mahdeslami11/pyannote-audio,notebook/inference.ipynb
+mahdeslami11/pyannote-audio,notebook/sharing.ipynb
+mahdeslami11/pyannote-audio,tutorials/add_your_own_model.ipynb
+mahdeslami11/pyannote-audio,tutorials/add_your_own_task.ipynb
+mahdeslami11/pyannote-audio,tutorials/applying_a_model.ipynb
+mahdeslami11/pyannote-audio,tutorials/applying_a_pipeline.ipynb
+mahdeslami11/pyannote-audio,tutorials/intro.ipynb
+mahdeslami11/pyannote-audio,tutorials/overlapped_speech_detection.ipynb
+mahdeslami11/pyannote-audio,tutorials/speaker_verification.ipynb
+mahdeslami11/pyannote-audio,tutorials/training_a_model.ipynb
+mahdeslami11/pyannote-audio,tutorials/voice_activity_detection.ipynb

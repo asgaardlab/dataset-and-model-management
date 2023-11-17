@@ -1,0 +1,3 @@
+repo_name,notebook_path
+boxkite-ml/boxkite,examples/kubeflow-mlflow/demo.ipynb
+boxkite-ml/boxkite,notebooks/sample_model_monitoring.ipynb

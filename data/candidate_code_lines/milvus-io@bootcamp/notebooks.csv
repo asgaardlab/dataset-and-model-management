@@ -1,0 +1,16 @@
+repo_name,notebook_path
+milvus-io/bootcamp,etc/onnx_and_milvus/milvus_with_different_models.ipynb
+milvus-io/bootcamp,notebooks/text/movie_plot_semantic_search.ipynb
+milvus-io/bootcamp,notebooks/vision/reverse_painting_search.ipynb
+milvus-io/bootcamp,solutions/3d/milvus3d/jupyter_notebook/milvus3d_demo.ipynb
+milvus-io/bootcamp,solutions/audio/audio_similarity_search/audio_similarity_search.ipynb
+milvus-io/bootcamp,solutions/image/face_recognition_system/face_recognition_bootcamp.ipynb
+milvus-io/bootcamp,solutions/image/face_recognition_system/face_recognition_bootcamp_milvusv1.ipynb
+milvus-io/bootcamp,solutions/image/face_recognition_system/mtcnn_face_detection/MTCNN_Face_Detection.ipynb
+milvus-io/bootcamp,solutions/image/reverse_image_search/image_hash/image_hash_search.ipynb
+milvus-io/bootcamp,solutions/medical/dna_sequence_classification/dna_sequence_classification.ipynb
+milvus-io/bootcamp,solutions/nlp/HuggingFace/milvus.ipynb
+milvus-io/bootcamp,solutions/nlp/HuggingFace/towhee.ipynb
+milvus-io/bootcamp,solutions/nlp/OpenAI/openai_text_search.ipynb
+milvus-io/bootcamp,solutions/nlp/recommender_system/recommender_system.ipynb
+milvus-io/bootcamp,solutions/nlp/text_search_engine/text_search_engine.ipynb

@@ -1,0 +1,4 @@
+repo_name,notebook_path
+Kitware/kwiver,doc/manuals/python/algo.ipynb
+Kitware/kwiver,doc/manuals/python/process.ipynb
+Kitware/kwiver,doc/manuals/python/PythonPipelines.ipynb

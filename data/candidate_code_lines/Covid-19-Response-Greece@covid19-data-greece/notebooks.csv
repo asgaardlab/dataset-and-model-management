@@ -1,0 +1,5 @@
+repo_name,notebook_path
+Covid-19-Response-Greece/covid19-data-greece,deprecated/analysis/SIR model.ipynb
+Covid-19-Response-Greece/covid19-data-greece,deprecated/analysis/SIRD model.ipynb
+Covid-19-Response-Greece/covid19-data-greece,deprecated/analysis/SIRD_Perturbing_Infection_Rate.ipynb
+Covid-19-Response-Greece/covid19-data-greece,deprecated/analysis/SIRD_Perturbing_R0.ipynb

@@ -1,0 +1,5 @@
+repo_name,notebook_path
+eternagame/KaggleOpenVaccine,data/Demo_full_RYOS_dataset_10Feb2023.ipynb
+eternagame/KaggleOpenVaccine,data/mRNA_233x_data/RegenerateFigure5.ipynb
+eternagame/KaggleOpenVaccine,notebooks/DegScore-XGBoost-inference/XGB_predictions.ipynb
+eternagame/KaggleOpenVaccine,notebooks/nullrecurrent-inference/NN_predictions.ipynb

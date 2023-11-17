@@ -1,0 +1,4 @@
+repo_name,notebook_path
+zhengying-liu/autodl-contrib,utils/automl_format/automl_to_autodl.ipynb
+zhengying-liu/autodl-contrib,utils/series/wav/explore_wav.ipynb
+zhengying-liu/autodl-contrib,utils/video/explore_video.ipynb
