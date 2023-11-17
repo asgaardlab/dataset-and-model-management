@@ -1,0 +1,323 @@
+repository_name,dataset_path,files_count,dataset_location,dataset_path_set_from,dataset_size,comments
+alanmitchell/bmon,bmsapp/readingdb/data/bms_data.sqlite,1,database (not saved in VCS),hard coded and program variable,,[]
+alanmitchell/bmon,https://bmon.analysisnorth.com,1,library dataset,library api,,['Requesting to the app server for data through their api.']
+allegroai/clearml-serving,"make_blobs(n_samples=100, centers=2, n_features=2, random_state=1)",2,library dataset,program method,,['the dataset is loaded using the sklearn.datasets that generates isotropic Gaussian blobs for clustering. It is used to generate test datasets for machine learning algorithms.']
+allegroai/clearml-serving,"make_blobs(n_samples=100, centers=2, n_features=3, random_state=1)",1,library dataset,program method,,['the dataset is loaded using the sklearn.datasets that generates isotropic Gaussian blobs for clustering. It is used to generate test datasets for machine learning algorithms.']
+allegroai/clearml-serving,mnist.load_data(),1,library dataset,program method,,['the dataset is loaded using the tensorflow.keras.datasets.']
+angsten/pianonet,pianonet_mini_dataset_0_training.mna_jl,1,file system (not saved in VCS),json file,,[]
+aristoteleo/spateo-release,unknown,7,unknown,program variable,,"['The value passed through method parameter, however, the method has never been called.', 'the value passed through method parameter, however, the method has never been called.']"
+artonson/def,/data/abc/sharp_features_whole_models/whole_images/high_res/50/abc_0050_00500166_5894bbd701b2bb0fc88a6978_007.hdf5,1,file system (not saved in VCS - outside of the repository),hard coded,,[]
+artonson/def,https://www.dropbox.com/s/5k2swrpb0vhqv15/images_align4mm_fullmesh_whole.tar.gz?dl=0,1,online,readme file,753 MB,[]
+artonson/def,https://www.dropbox.com/s/ej7qzmh2153birb/points_align4mm_partmesh_whole.tar.gz?dl=0,1,online,readme file,6348.8 MB,[]
+artonson/def,https://www.dropbox.com/scl/fo/o1iwodlqs1ksd0riiymuq/h?dl=0&rlkey=37oc14dg1m5f0jzh6t1prjtbw,1,online,readme file,87244.8 MB,"[""Dataset they used to train their model.""]"
+artonson/def,https://www.dropbox.com/scl/fo/yizmgvuxtdblqqr6656c1/h?dl=0&rlkey=10knittkmv6v64dsmhdsbytx8,1,online,readme file,56524.8 MB,"[""intended for evaluation only.""]"
+artonson/def,unknown,1,unknown,program variable,,"['The dataset passed through method parameter. However, the method has never been called.']"
+artonson/def,untraceable,2,unknown,program variable,,"['The dataset passed through parameter. However, the call of the method is untraceable due to too much cascade call']"
+AshuKulu/HacktoberFest2022,Python/ElectricalUsagePrediction/energydata_complete.csv,1,file system (saved in VCS),hard coded,11.43 MB,"['Although the data is loaded from /content/gdrive/MyDrive/Dataset_Time_Series/energydata_complete.csv, a location outsode of the repository, a file with the same name found in the repository too. Noted down the saved file and its size.']"
+AshuKulu/HacktoberFest2022,Python/Email Spam Classifier/spam.csv,16,file system (saved in VCS),hard coded,0.5 MB,[]
+atulapra/Emotion-detection,"https://www.kaggle.com/deadskull7/fer2013
+",1,online,readme file,301.07 MB,['Instruction has been given to download the data and put it in the src folder.']
+avinashkranjan/Amazing-Python-Scripts,/content/Dataset/<row>,1,file system (not saved in VCS - outside of the repository),hard coded and program variable,,[]
+avinashkranjan/Amazing-Python-Scripts,Face-Mask-Detection/kaggle/input/face-mask-detection/train/<image_file_name>,1,file system (not saved in VCS),,,[]
+avinashkranjan/Amazing-Python-Scripts,Malaria/input/malaria/cell_images/Parasitized/<file_name>,1,file system (not saved in VCS),hard coded and program variable,,['Used multiple dataset for the training (Malaria/input/malaria/cell_images/Uninfected/<file_name>)']
+avinashkranjan/Amazing-Python-Scripts,Malaria/input/malaria/cell_images/Uninfected/<file_name>,1,file system (not saved in VCS),hard coded and program variable,,['Used multiple dataset for the training (Malaria/input/malaria/cell_images/Parasitized/<file_name>)']
+avinashkranjan/Amazing-Python-Scripts,Message-Spam/spam.csv,2,file system (saved in VCS),hard coded,0.47 MB,[]
+avinashkranjan/Amazing-Python-Scripts,Message_Spam_Detection/Cleaned_Dataset.csv,1,file system (saved in VCS),hard coded,0.29 MB,[]
+avinashkranjan/Amazing-Python-Scripts,Movie-Genre-Prediction-Chatbot/data.pickle,1,file system (saved in VCS),hard coded,0.05 MB,[]
+avinashkranjan/Amazing-Python-Scripts,Reddit-Scraping-And-Flair-Detection/data.csv,7,file system (saved in VCS),hard coded,7.40 MB,"['Although the file is loaded from drive/MyDrive/data.csv, a file with exact name found in the same directory level.']"
+avinashkranjan/Amazing-Python-Scripts,Salary Predictor/dataset/cleaned_dataset.csv,1,file system (saved in VCS),hard coded,3 MB,[]
+avinashkranjan/Amazing-Python-Scripts,images/1-Saint-Basils-Cathedral.jpg,1,file system (not saved in VCS),hard coded,,[]
+BioDepot/BioDepot-workflow-builder,unknown,7,unknown,method parameter,,"['The data passed through argument and the value is not set', ""The data paased through method parameter, however, couldn't find the call of the method."", ""The data paased through method parameter, however, couldn't find any call of the method.""]"
+boxkite-ml/boxkite,load_diabetes(),3,library dataset,library api,,[]
+boxkite-ml/boxkite,load_iris(),1,library dataset,library api,,[]
+boxkite-ml/boxkite,pd.DataFrame({...}),1,runtime memory,program method,,"[""Used demo code to load some fixed values as data. Developer commentted 'User code to load training data'.""]"
+bupt-ai-cz/LLVIP,LLVIP/images/train,1,file system (not saved in VCS),script file,,[]
+bupt-ai-cz/LLVIP,checkpoint_20/Train_LLVIP_ir/train.h5,1,file system (not saved in VCS),argument and hard coded,,['Used multiple dataset for the training']
+bupt-ai-cz/LLVIP,checkpoint_20/Train_LLVIP_vi/train.h5,1,file system (not saved in VCS),argument and hard coded,,['Used multiple dataset for the training']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/ae_photos.zip,1,online,script file,10.18 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/apple2orange.zip,1,online,script file,74.82 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/cezanne2photo.zip,1,online,script file,266.92 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/cityscapes.zip,1,online,script file,57.62 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/facades.zip,1,online,script file,33.51 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/horse2zebra.zip,1,online,script file,111.45 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/iphone2dslr_flower.zip,1,online,script file,324.22 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/maps.zip,1,online,script file,1408.34 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/monet2photo.zip,1,online,script file,291.09 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/ukiyoe2photo.zip,1,online,script file,279.38 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/vangogh2photo.zip,1,online,script file,292.39 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/cityscapes.tar.gz,1,online,script file,98.65 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/edges2handbags.tar.gz,1,online,script file,8160.03 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/edges2shoes.tar.gz,1,online,script file,2064.98 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/facades.tar.gz,1,online,script file,28.77 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/maps.tar.gz,1,online,script file,238.65 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/night2day.tar.gz,1,online,script file,1968.09 MB,['The dataset file names noted from the text block above the code block in the notebook.']
+bupt-ai-cz/LLVIP,http://images.cocodataset.org/zips/train2017.zip,2,online,script file,18441.07 MB,"['Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook.', ""Downloaded the data if not exists in the file system using a script. The config file doesn't exists in the exact directory, found inside one level.""]"
+bupt-ai-cz/LLVIP,http://trax-geometry.s3.amazonaws.com/cvpr_challenge/SKU110K_fixed.tar.gz,1,online,script file,11631.16 MB,['Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook.']
+bupt-ai-cz/LLVIP,https://argoverse-hd.s3.us-east-2.amazonaws.com/Argoverse-HD-Full.zip,1,online,config file,,['Got 404. Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook.']
+bupt-ai-cz/LLVIP,https://challenge.xviewdataset.org,1,online,script file,,"['Need to login to access data. Also, the path is not refering to any exact data file. Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook.']"
+bupt-ai-cz/LLVIP,https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/,1,online,script file,,['Got 403. Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook.']
+bupt-ai-cz/LLVIP,https://github.com/ultralytics/yolov5/releases/download/v1.0/VOCtrainval_06-Nov-2007.zip,1,online,script file,425 MB,['Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook. Used multiple dataset for the training.']
+bupt-ai-cz/LLVIP,https://github.com/ultralytics/yolov5/releases/download/v1.0/VOCtrainval_11-May-2012.zip,1,online,script file,1860.09 MB,['Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook. Used multiple dataset for the training.']
+bupt-ai-cz/LLVIP,https://github.com/ultralytics/yolov5/releases/download/v1.0/VisDrone2019-DET-train.zip,1,online,script file,1478.08 MB,['Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook.']
+bupt-ai-cz/LLVIP,https://zenodo.org/record/4298502/files/global-wheat-codalab-official.zip,1,online,script file,6607.23 MB,['Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook.']
+City-of-Helsinki/mlops-template,examples/iris_dataset.csv,2,file system (saved in VCS),hard coded,0.0 MB,[]
+colinrsmall/This-Hockey-Player-Does-Not-Exist,tf.random_normal([self.minibatch_per_gpu] + Gs_clone.input_shape[1:]),1,runtime memory,program method,,['Dataset of random values']
+Covid-19-Response-Greece/covid19-data-greece,https://covid19live.ismood.com/,1,online,readme file,,"['Got 404. The url referes to landing page, not to any data file. Used multiple dataset for the training.']"
+Covid-19-Response-Greece/covid19-data-greece,https://el.wikipedia.org/wiki/??????????_??????????_???_?????????_???_?????????_????_??????_??_2020,1,online,readme file,,"['The url referes to landing page, not to any data file. Used multiple dataset for the training.']"
+Covid-19-Response-Greece/covid19-data-greece,https://eody.gov.gr/,1,online,readme file,,"['The url referes to landing page, not to any data file. Used multiple dataset for the training.']"
+Covid-19-Response-Greece/covid19-data-greece,https://github.com/CSSEGISandData/COVID-19,1,online,readme file,,"['The url referes to landing page, not to any data file. Used multiple dataset for the training.']"
+Covid-19-Response-Greece/covid19-data-greece,https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/all_countries/JohnsHopkinsCSSE/deaths_global.csv,1,online,hard coded,,['Got 404. Used multiple dataset for the training.']
+Covid-19-Response-Greece/covid19-data-greece,https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/all_countries/JohnsHopkinsCSSE/recovered_global.csv,1,online,hard coded,,['Got 404. Used multiple dataset for the training.']
+Covid-19-Response-Greece/covid19-data-greece,https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/all_countries/JohnsHopkinsCSSE/time_series_covid19_confirmed_global.csv,1,online,hard coded,,['Got 404. Used multiple dataset for the training.']
+Covid-19-Response-Greece/covid19-data-greece,https://systems.jhu.edu/research/public-health/ncov,1,online,readme file,,"['The url referes to landing page, not to any data file. Used multiple dataset for the training.']"
+Covid-19-Response-Greece/covid19-data-greece,https://www.who.int/,1,online,readme file,,"['The url referes to landing page, not to any data file. Used multiple dataset for the training.']"
+Covid-19-Response-Greece/covid19-data-greece,unknown,1,unknown,method parameter,,"[""The dataset passed through a method parameter, however, couldn't find any call of the method.""]"
+eclipse/kura,kura/examples/scenarios/org.eclipse.kura.example.ai/training/new-train-raw.csv.zip,1,file system (saved in VCS),hard coded,2.84 MB,['The original file is in csv format']
+ekinakyurek/deprem_openai_apis,/home/akyurek/git/deprem//exps/new_labels_code_davinci_v4/merged.jsonl,1,file system (not saved in VCS - outside of the repository),hard coded and program variable,,[]
+ekinakyurek/deprem_openai_apis,data/test.jsonl,1,file system (saved in VCS),hard coded,0.003 MB,['The file is a test file to show how to save the data']
+EngineerDDP/Parallel-SGD,.data/cifar_data/cifar10,2,file system (not saved in VCS),hard coded,,[]
+EngineerDDP/Parallel-SGD,.data/mnist_data/,1,file system (saved in VCS),hard coded and program variable,63.4 MB,[]
+EngineerDDP/Parallel-SGD,.data/mnist_data/train-images.idx3-ubyte,1,file system (saved in VCS),hard coded,44.86 MB,[]
+EngineerDDP/Parallel-SGD,"np.linspace(0, 5, 100).reshape([-1, 1])",1,runtime memory,program method,,[]
+EngineerDDP/Parallel-SGD,np.random.uniform(...),1,runtime memory,program method,,[]
+eternagame/KaggleOpenVaccine,data/Kaggle_RYOS_data/Kaggle_RYOS_trainset.csv,1,file system (saved in VCS),readme file,15.36 MB,[]
+facebookresearch/param,"torch.randn(batch_size, input_size, device=device)",1,runtime memory,program method,,[]
+GauthierDmn/question_answering,https://rajpurkar.github.io/SQuAD-explorer/dataset,1,online,hard coded,,['Got 404']
+Giskard-AI/giskard,load_diabetes(),1,library dataset,program method,,[]
+Giskard-AI/giskard,python-client/tests/test_data/enron_data.csv,1,file system (saved in VCS),hard coded,0.56 MB,[]
+Giskard-AI/giskard,python-client/tests/test_data/german_credit_prepared.csv,3,file system (saved in VCS),hard coded,0.26 MB,[]
+harshareddy794/HACKTOBERFEST2020,Python/Sports Avalytics/sample_data.csv,16,file system (saved in VCS),hard coded,0.02 MB,[]
+harshareddy794/HACKTOBERFEST2020,Python/flight delay/flightss.csv,4,file system (saved in VCS),hard coded,9.62 MB,[]
+hukaixuan19970627/yolov5_obb,/media/test/4d846cae-2315-4928-8d1b-ca6d3a61a3c6/DOTA/DOTAv1.5/train_split_1024_gap200/images,2,file system (not saved in VCS - outside of the repository),argument and config file,,['Found the config file in the same directory of the default config file']
+hukaixuan19970627/yolov5_obb,/media/test/4d846cae-2315-4928-8d1b-ca6d3a61a3c6/DroneVehicle/train/raw/images,1,file system (not saved in VCS - outside of the repository),argument and config file,,[]
+hukaixuan19970627/yolov5_obb,dataset/dataset_demo/images,1,file system (saved in VCS),argument and config file,5.3 MB,['Found the config file in the same directory of the default config file. Only a sample image is stored in the directory.']
+hukaixuan19970627/yolov5_obb,dataset/dataset_demo_rate1.0_split1024_gap200/images,1,file system (not saved in VCS),argument and config file,,['Found the config file in the same directory of the default config file']
+hukaixuan19970627/yolov5_obb,unknown,1,unknown,argument and config file,,"[""Couldn't find the config file sent through argument for the dataset path.""]"
+informagi/REL,http://gem.cs.ru.nl/generic.tar.gz,1,online,readme file,2969.6 MB,[]
+informagi/REL,http://gem.cs.ru.nl/wiki_2014.tar.gz,1,online,readme file,7884.8 MB,[]
+informagi/REL,http://gem.cs.ru.nl/wiki_2019.tar.gz,1,online,readme file,17715.2 MB,[]
+infstellar/genshin_impact_assistant,datasets/COCO,1,file system (not saved in VCS),program variable and hard coded,,[]
+infstellar/genshin_impact_assistant,datasets/coco128,2,file system (not saved in VCS),program variable and hard coded,,[]
+iPieter/RobBERT,data/processed/dbrd/train,1,file system (not saved in VCS),hard coded,,[]
+iPieter/RobBERT,unknown,1,unknown,argument,,"['The dataset is loaded from file system, however, the path is unknown']"
+joapolarbear/dpro,<args.output_dir>/kernel_dataset/dataset,1,file system (not saved in VCS),argument and config file,,[]
+joapolarbear/dpro,unknown,2,unknown,method parameter,,"[""The data is passed through method parameter, however, couldn't find the call to the method.""]"
+Kirili4ik/code2vec,data/my_dataset/my_dataset.train.c2v,2,file system (saved in VCS),hard coded,13.64 MB,['Part of the path is set through argument. A similar name pattern found in the file system and measured size of it. The original path set is <TRAIN_DATA_PATH_PREFIX>.train.c2v']
+kubeflow/kfp-tekton,/mnt/shared/data,1,file system (not saved in VCS - outside of the repository),hard coded and program variable,,[]
+kwrobel-nlp/krnnt,data/train-reanalyzed.spickle,4,file system (not saved in VCS),hard codede,,[]
+kwrobel-nlp/krnnt,unknown,1,unknown,argument,,[]
+LineaLabs/lineapy,/tmp/penguins.csv,1,file system (not saved in VCS - outside of the repository),hard coded,,[]
+LineaLabs/lineapy,examples/use_cases/creating_reusable_components/data/Skyserver_SQL2_27_2018 6_51_39 PM.csv,1,file system (saved in VCS),hard coded,1.32 MB,[]
+LineaLabs/lineapy,fetch_california_housing(return_X_y=True),1,library dataset,sklearn api,,[]
+LineaLabs/lineapy,"fetch_openml(""yeast"", version=4, return_X_y=True)",2,library dataset,sklearn api,,[]
+LineaLabs/lineapy,http://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data,1,online,hard coded,0.03 MB,[]
+LineaLabs/lineapy,http://storage.googleapis.com/download.tensorflow.org/data/petfinder-mini.zip,2,online,hard coded,1.59 MB,[]
+LineaLabs/lineapy,https://raw.githubusercontent.com/LineaLabs/lineapy/main/examples/tutorials/data/iris.csv,1,online,hard coded,0.0 MB,[]
+LineaLabs/lineapy,https://raw.githubusercontent.com/LineaLabs/lineapy/main/examples/use_cases/predict_house_price/data/ames_train_cleaned.csv,1,online,hard coded,0.64 MB,[]
+LineaLabs/lineapy,https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz,4,online,hard coded,218 MB,[]
+LineaLabs/lineapy,https://storage.googleapis.com/tf-datasets/titanic/train.csv,1,online,hard coded,0.03 MB,[]
+LineaLabs/lineapy,load_breast_cancer(return_X_y=True),2,library dataset,sklearn api,,[]
+LineaLabs/lineapy,"load_digits(return_X_y=True, n_class=3)",2,library dataset,sklearn api,,[]
+LineaLabs/lineapy,load_iris(),3,library dataset,program method,,['synthetic dataset']
+LineaLabs/lineapy,load_wine(return_X_y=True),4,library dataset,sklearn api,,[]
+LineaLabs/lineapy,"make_circles(n_samples=n_samples, shuffle=False)",2,library dataset,sklearn api,,[]
+LineaLabs/lineapy,np.random.RandomState(random_state),2,runtime memory,program method,,['sythetic dataset']
+LineaLabs/lineapy,s3://data/data/ames_train_cleaned.csv,1,online,AWS api,,[]
+LineaLabs/lineapy,tests/ames_train_cleaned.csv,5,file system (saved in VCS),hard coded,0.65 MB,['Found the file in a bit different directory level with same file name.']
+louis-she/minetorch,"datasets.MNIST('./data', train=True, download=True, ...)",1,library dataset,program method,,[]
+luca-ant/WhatsSee,http://images.cocodataset.org/annotations/annotations_trainval2017.zip,1,online,program variable and readme file,241 MB,[]
+luca-ant/WhatsSee,https://github.com/luca-ant/WhatsSee_dataset,1,online,program variable and readme file,1063 MB,['A github repository of dataset']
+m-doru/Facial-based-authentication-system,random.uniform(...),1,runtime memory,program method,,['Some random values generated for testing purpose']
+m-doru/Facial-based-authentication-system,src/databases/MSU_MFSD/MSU-MFSD/scene01/attack/*,3,file system (not saved in VCS),hard coded and program variable,,['Used multiple dataset for the training']
+m-doru/Facial-based-authentication-system,src/databases/MSU_MFSD/MSU-MFSD/scene01/real/*,3,file system (not saved in VCS),hard coded and program variable,,['Used multiple dataset for the training']
+m-doru/Facial-based-authentication-system,src/databases/MSU_USSA/MSU_USSA_Public/SpoofSubjectImages/*/*,3,file system (not saved in VCS),hard coded and program variable,,['Used multiple dataset for the training']
+m-doru/Facial-based-authentication-system,src/databases/cbsr_antispoofing/train_release/*/*,3,file system (not saved in VCS),hard coded and program variable,,['Used multiple dataset for the training']
+m-doru/Facial-based-authentication-system,src/databases/idiap/train/attack/*/*,3,file system (not saved in VCS),hard coded and program variable,,['Used multiple dataset for the training']
+m-doru/Facial-based-authentication-system,src/databases/idiap/train/real/*/*,3,file system (not saved in VCS),hard coded and program variable,,['Used multiple dataset for the training']
+mahdeslami11/pyannote-audio,unknown,3,unknown,config file,,"[""The dataset is passed through method parameter, however, couldn't find the method call."", 'The dataset is not defined in the config file.']"
+makgyver/gossipy,"CIFAR10(root=path, train=True, download=download)",1,library dataset,program method,,['Run the training in a simulator']
+makgyver/gossipy,http://download.joachims.org/svm_light/examples/example1.tar.gz,1,online,hard coded,1.17 MB,[]
+makgyver/gossipy,https://archive.ics.uci.edu/ml/machine-learning-databases/00267/data_banknote_authentication.txt,1,online,hard coded,0.05 MB,[]
+makgyver/gossipy,https://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.data,1,online,hard coded,0.18 MB,[]
+makgyver/gossipy,https://archive.ics.uci.edu/ml/machine-learning-databases/ionosphere/ionosphere.data,1,online,hard coded,0.07 MB,[]
+makgyver/gossipy,https://archive.ics.uci.edu/ml/machine-learning-databases/spambase/spambase.data,1,online,hard coded,0.67 MB,[]
+makgyver/gossipy,https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data,1,online,hard coded,0.08 MB,[]
+makgyver/gossipy,load_breast_cancer(),1,library dataset,program method,,[]
+makgyver/gossipy,load_digits(),1,library dataset,program method,,[]
+makgyver/gossipy,load_iris(),1,library dataset,program method,,[]
+makgyver/gossipy,load_svmlight_file(name_or_path),1,library dataset,program method,,[]
+makgyver/gossipy,load_wine(),1,library dataset,program method,,[]
+makgyver/gossipy,unknown,1,unknown,method parameter,,"['The dataset passed through method parameter, however, the method never been called.']"
+manthan89-py/Plant-Disease-Detection,Model/Dataset,1,file system (not saved in VCS),hard coded,,[]
+manthan89-py/Plant-Disease-Detection,test_images/,1,file system (saved in VCS),readme file,1.11 MB,[]
+marcusturewicz/dotnet-twitter-bot,/Users/marcusturewicz/Documents/tweets.xlsx,1,file system (not saved in VCS - outside of the repository),hard coded,,['Loaded the model from C# code']
+memgraph/mage,unknown,3,unknown,method parameter,,"['The dataset passed through a method parameter, however, the method never been called.']"
+microsoft/nnfusion,"MNIST('./tmp', train=True, download=True, transform=transform)",2,library dataset,library api,,[]
+microsoft/nnfusion,http://ai.stanford.edu/\~amaas/data/sentiment/aclImdb_v1.tar.gz,1,online,hard coded,80.2 MB,[]
+microsoft/nnfusion,"tf.get_variable(""w"", shape=[3], initializer=tf.constant_initializer([0.1, -0.2, -0.1]))",1,runtime memory,program method,,[]
+microsoft/nnfusion,unknown,1,unknown,argument,,[]
+miha-skalic/youtube8mchallenge,data/frame/train/*.tfrecord,2,file system (not saved in VCS),config file,,[]
+miha-skalic/youtube8mchallenge,unknown,1,unknown,argument,,['The model is the dataset here. The weights of the models are used for training to do model quantization.']
+Moving-AI/virtual-walk,data/training_data.txt,3,file system (not saved in VCS),hard coded,,[]
+Moving-AI/virtual-walk,unknown,1,unknown,method parameter,,[]
+mr-chen-king/auto_control_app,jump_range.csv,1,file system (not saved in VCS),hard coded,,[]
+nasa/bingo,"np.linspace(-10, 10).reshape((-1, 1))",1,runtime memory,numpy api,,['Run a quick example to ensure that the installation works properly']
+nasa/bingo,"np.linspace(-10, 10, 1000).reshape([-1, 1])",1,runtime memory,program method,,[]
+nasa/bingo,"np.linspace(-10, 10, num=30).reshape((-1, 1))",1,runtime memory,numpy api,,['Used dummy training data. More on training data is provided in a link.']
+nasa/bingo,unknown,1,unknown,method parameter,,"[""The dataset has been passed through method parameter. However, didn't find any call of the method""]"
+naturalis/sdmdl,<self.gh.spec_ppa_env>/<self.spec>_env_dataframe.csv,1,file system (not saved in VCS),program variable and hard coded,,[]
+nsu-ai-team/conv1d-text-vae,data/eng_rus_for_training.txt,2,file system (saved in VCS),argument,22.47 MB,[]
+open-mmlab/mmskeleton,unknown,3,unknown,argument,,"['The data loaded from config passed through argument, however, no such variable exists in the arguments.', 'The data loaded from the path provided through argument, however, no such variable exists in the arguments.']"
+OpenStackweb/openstack-org,mysql database,1,database (not saved in VCS),argument and config file,,"['Although the path is set from argument, no database file found in the repository. A template for the db config file is available at db.ini.template']"
+pangyuteng/aigonewrong,/mnt/hd1/aigonewrong/stable-diffusion/ct/niftis.csv,1,file system (not saved in VCS - outside of the repository),hard coded,,[]
+pangyuteng/aigonewrong,/mnt/hd2/data/celeba_gan/img_align_celeba/*.jpg,1,file system (not saved in VCS - outside of the repository),hard coded,,[]
+pangyuteng/aigonewrong,/mnt/scratch/data/DeepLesion/Images_png/*.png,3,file system (not saved in VCS),hard coded,,[]
+pangyuteng/aigonewrong,/mnt/scratch/data/Totalsegmentator_dataset/*/ct.nii.gz,3,file system (not saved in VCS - outside of the repository),hard coded,,[]
+pangyuteng/aigonewrong,finance/transformer-volatility/X.npy,1,file system (not saved in VCS),hard coded,,[]
+pangyuteng/aigonewrong,finance/transformer/X.npy,1,file system (not saved in VCS),hard coded,,[]
+pangyuteng/aigonewrong,keras.datasets.mnist.load_data(),2,library dataset,keras api,,[]
+pangyuteng/aigonewrong,"tfds.load(dataset_name, split=split, shuffle_files=True)",3,library dataset,library api,,[]
+PMMon/Thesis_Social_Interactions,Experiments/datasets/eth/train,1,file system (saved in VCS),argument and program variable,1.26 MB,['Used multiple dataset for the training']
+PMMon/Thesis_Social_Interactions,Experiments/datasets/hotel/train,1,file system (saved in VCS),argument and program variable,1.07 MB,['Used multiple dataset for the training']
+PMMon/Thesis_Social_Interactions,Experiments/datasets/univ/train,1,file system (saved in VCS),argument and program variable,0.78 MB,['Used multiple dataset for the training']
+PMMon/Thesis_Social_Interactions,Experiments/datasets/zara1/train,1,file system (saved in VCS),argument and program variable,1.11 MB,['Used multiple dataset for the training']
+PMMon/Thesis_Social_Interactions,Experiments/datasets/zara2/train,1,file system (saved in VCS),argument and program variable,1.45 MB,['Used multiple dataset for the training']
+pulp-platform/snitch,torch.randn(...),1,runtime memory,program method,,[]
+QData/FastSK,data/1.1.train.fasta,13,file system (saved in VCS),readme file,0.37 MB,"['The training uses 25 datasets files. For simplicity, keeping path and size of one file only. Will have to change if we analyze hoe many times a dataset file is used for trainings.', 'Used multiple dataset for the training', ""Didn't find the file 1.1.train.fasta in location. Found the file in data/1.1.train.fasta and calculated size from there."", 'The training uses 11 datasets files. For simplicity, keeping path and size of one file only. Will have to change if we analyze hoe many times a dataset file is used for trainings.', 'The training uses multiple datasets files. For simplicity, keeping path and size of one file only. Will have to change if we analyze hoe many times a dataset file is used for trainings.']"
+QData/FastSK,data/1.34.train.fasta,5,file system (saved in VCS),readme file,0.28 MB,['Used multiple dataset for the training']
+QData/FastSK,data/2.1.train.fasta,1,file system (saved in VCS),readme file,0.8 MB,['Used multiple dataset for the training']
+QData/FastSK,data/2.19.train.fasta,5,file system (saved in VCS),readme file,0.24 MB,['Used multiple dataset for the training']
+QData/FastSK,data/2.31.train.fasta,5,file system (saved in VCS),readme file,0.43 MB,['Used multiple dataset for the training']
+QData/FastSK,data/2.34.train.fasta,5,file system (saved in VCS),readme file,0.3 MB,['Used multiple dataset for the training']
+QData/FastSK,data/2.41.train.fasta,5,file system (saved in VCS),readme file,0.24 MB,['Used multiple dataset for the training']
+QData/FastSK,data/2.8.train.fasta,5,file system (saved in VCS),readme file,0.22 MB,['Used multiple dataset for the training']
+QData/FastSK,data/3.19.train.fasta,5,file system (saved in VCS),readme file,0.4 MB,['Used multiple dataset for the training']
+QData/FastSK,data/3.25.train.fasta,5,file system (saved in VCS),readme file,0.44 MB,['Used multiple dataset for the training']
+QData/FastSK,data/3.33.train.fasta,5,file system (saved in VCS),readme file,0.26 MB,['Used multiple dataset for the training']
+QData/FastSK,data/3.50.train.fasta,5,file system (saved in VCS),readme file,0.25 MB,['Used multiple dataset for the training']
+QData/FastSK,data/AImed.train.fasta,1,file system (saved in VCS),readme file,0.29 MB,['Used multiple dataset for the training']
+QData/FastSK,data/BioInfer.train.fasta,1,file system (saved in VCS),readme file,0.52 MB,['Used multiple dataset for the training']
+QData/FastSK,data/CC1-LLL.train.fasta,1,file system (saved in VCS),readme file,0.76 MB,['Used multiple dataset for the training']
+QData/FastSK,data/CC2-IEPA.train.fasta,1,file system (saved in VCS),readme file,0.66 MB,['Used multiple dataset for the training']
+QData/FastSK,data/CC3-HPRD50.train.fasta,1,file system (saved in VCS),readme file,0.77 MB,['Used multiple dataset for the training']
+QData/FastSK,data/CTCF.train.fasta,3,file system (saved in VCS),readme file,0.2 MB,"['Used multiple dataset for the training.', 'Used multiple dataset for the training', 'The training uses multiple datasets files. For simplicity, keeping path and size of one file only. Will have to change if we analyze hoe many times a dataset file is used for trainings.']"
+QData/FastSK,data/DrugBank.train.fasta,1,file system (saved in VCS),readme file,0.44 MB,['Used multiple dataset for the training']
+QData/FastSK,data/EP300.train.fasta,3,file system (saved in VCS),readme file,0.2 MB,"['Used multiple dataset for the training.', 'Used multiple dataset for the training']"
+QData/FastSK,data/EP300_47848.train.fasta,2,file system (saved in VCS),readme file,1.28 MB,"['Used multiple dataset for the training.', 'Used multiple dataset for the training']"
+QData/FastSK,data/Hek29.train.fasta,2,file system (saved in VCS),readme file,1.96 MB,"['Used multiple dataset for the training.', 'Used multiple dataset for the training']"
+QData/FastSK,data/JUND.train.fasta,2,file system (saved in VCS),readme file,0.2 MB,"['Used multiple dataset for the training.', 'Used multiple dataset for the training']"
+QData/FastSK,data/KAT2B.train.fasta,2,file system (saved in VCS),readme file,1.24 MB,"['Used multiple dataset for the training.', 'Used multiple dataset for the training']"
+QData/FastSK,data/Mcf7.train.fasta,2,file system (saved in VCS),readme file,1.92 MB,"['Used multiple dataset for the training.', 'Used multiple dataset for the training']"
+QData/FastSK,data/MedLine.train.fasta,1,file system (saved in VCS),readme file,0.12 MB,['Used multiple dataset for the training']
+QData/FastSK,data/NR2C2.train.fasta,2,file system (saved in VCS),readme file,1.85 MB,"['Used multiple dataset for the training.', 'Used multiple dataset for the training']"
+QData/FastSK,data/Pbde.train.fasta,2,file system (saved in VCS),readme file,2.18 MB,"['Used multiple dataset for the training.', 'Used multiple dataset for the training']"
+QData/FastSK,data/RAD21.train.fasta,2,file system (saved in VCS),readme file,0.2 MB,"['Used multiple dataset for the training.', 'Used multiple dataset for the training']"
+QData/FastSK,data/SIN3A.train.fasta,2,file system (saved in VCS),readme file,0.2 MB,"['Used multiple dataset for the training.', 'Used multiple dataset for the training']"
+QData/FastSK,data/TP53.train.fasta,2,file system (saved in VCS),readme file,0.87 MB,"['Used multiple dataset for the training.', 'Used multiple dataset for the training']"
+QData/FastSK,data/ZBTB33.train.fasta,2,file system (saved in VCS),readme file,1.12 MB,"['Used multiple dataset for the training.', 'Used multiple dataset for the training']"
+QData/FastSK,data/ZZZ3.train.fasta,2,file system (saved in VCS),readme file,1.96 MB,"['Used multiple dataset for the training.', 'Used multiple dataset for the training']"
+QData/FastSK,data/sentiment-train.fasta,1,file system (saved in VCS),readme file,0.76 MB,['Used multiple dataset for the training']
+QData/FastSK,data/sentiment.train.fasta,1,file system (saved in VCS),readme file,0.76 MB,['Used multiple dataset for the training']
+QData/FastSK,data/small.train.fasta,1,file system (saved in VCS),readme file,0.0 MB,['Used multiple dataset for the training']
+QData/FastSK,data/webkb-train.fasta,1,file system (saved in VCS),readme file,2.3 MB,['Used multiple dataset for the training']
+QData/FastSK,temp/kernel.txt,2,file system (not saved in VCS),hard coded,,[]
+qianxunclub/ticket,python/captcha.npz,1,file system (not saved in VCS),hard coded,,[]
+qianxunclub/ticket,python/texts.txt,2,file system (saved in VCS),hard coded,0.0 MB,"['The loaded file in code is an .npz file which is not in the VCS, however, a .txt file with the same name found in the same location. Measured the size of the file.']"
+qianxunclub/ticket,python/texts.v2.npz,2,file system (not saved in VCS),hard coded,,[]
+raffg/trump-tweet-author-identification,X.pkl,3,file system (not saved in VCS),hard coded,,[]
+raffg/trump-tweet-author-identification,https://github.com/bpb27/trump_tweet_data_archive,1,online,readme file,9.4 MB,[]
+raffg/trump-tweet-author-identification,labeled_data_through_mar_11.pkl,10,file system (not saved in VCS),hard coded,,[]
+raphaelsty/mkb,unknown,2,unknown,program variable,,"[""The dataset has been passed through program parameter, however, couldn't find the call of the method.""]"
+refinery-platform/heatmap-scatter-dash,unknown,1,unknown,method parameter,,"[""The dataset passed through a method parameter. However, didn't find any call of the method.""]"
+ryry013/Rai,cogs/utils/advanced.csv,1,file system (not saved in VCS),hard coded and program variable,,['Ask Ryry013 for the language files needed to make this work (comment by the developer). The model trained and returned for prediction. Used multiple dataset for the training']
+ryry013/Rai,cogs/utils/avanzado.csv,1,file system (not saved in VCS),hard coded and program variable,,['Ask Ryry013 for the language files needed to make this work (comment by the developer). The model trained and returned for prediction. Used multiple dataset for the training']
+ryry013/Rai,cogs/utils/beginner.csv,1,file system (not saved in VCS),hard coded and program variable,,['Ask Ryry013 for the language files needed to make this work (comment by the developer). The model trained and returned for prediction. Used multiple dataset for the training']
+ryry013/Rai,cogs/utils/principiante.csv,1,file system (not saved in VCS),hard coded and program variable,,['Ask Ryry013 for the language files needed to make this work (comment by the developer). The model trained and returned for prediction. Used multiple dataset for the training']
+SamarthTMSL/HacktoberFest-Projects-and-games,"data.DataReader('AAPL', 'yahoo', start, end)",1,library dataset,library api,,['Apple Inc. stock market data from Yahoo Finance is loaded using library api']
+SamarthTMSL/HacktoberFest-Projects-and-games,energy-usage-prediction/energydata_complete.csv,1,file system (saved in VCS),hard coded,11.43 MB,"['Although the dataset is loaded from /content/gdrive/MyDrive/Dataset_Time_Series/energydata_complete.csv, a file with the exact name found in the same level of directory in the repository.']"
+SamarthTMSL/HacktoberFest-Projects-and-games,youtube-adview-predictor/Youtube-Adview-Prediction/train.csv,5,file system (saved in VCS),hard coded,0.73 MB,"['Although the data is loaded from /content/train.csv, found a same file in the same level of directory in the repository.']"
+Samuel-Buteau/universal-battery-database,<dataset_path>/dataset_ver_<data_version>.file,1,file system (not saved in VCS),config file,,[]
+sapols/Satellite-Telemetry-Anomaly-Detection,Data/BatteryTemperature.csv,2,file system (saved in VCS),hard coded,4.83 MB,['Used multiple dataset for the training']
+sapols/Satellite-Telemetry-Anomaly-Detection,Data/BusVoltage.csv,2,file system (saved in VCS),hard coded,1.94 MB,['Used multiple dataset for the training']
+sapols/Satellite-Telemetry-Anomaly-Detection,Data/TotalBusCurrent.csv,2,file system (saved in VCS),hard coded,0.16 MB,['Used multiple dataset for the training']
+sapols/Satellite-Telemetry-Anomaly-Detection,Data/WheelRPM.csv.zip,2,file system (saved in VCS),hard coded,3.67 MB,"['Data is loaded in csv format', 'Used multiple dataset for the training']"
+sapols/Satellite-Telemetry-Anomaly-Detection,Data/WheelTemperature.csv.zip,2,file system (saved in VCS),hard coded,2.93 MB,"['Data is loaded in csv format', 'Used multiple dataset for the training']"
+SeanNaren/deepspeech.pytorch,data/train_manifest.csv,1,file system (not saved in VCS),config file,,[]
+SoloTodo/solotodo_core,django.db,1,database (not saved in VCS),program method,,['Extended django.db.models for database query and filtering']
+StanfordASL/CoCo,cartpole/data/default/train.p,2,file system (saved in VCS),config file,0.09 MB,[]
+StanfordASL/CoCo,free_flyer/data/default/train.p,3,file system (saved in VCS),config file,0.16 MB,[]
+StanfordASL/CoCo,manipulation/data/default/train.p,2,file system (saved in VCS),config file,0.04 MB,[]
+SteveF92/FantasyCritic,boto3.resource('s3'),1,library dataset,program variable,,['Amazon S3 (Simple Storage Service)']
+TexasInstruments/edgeai-benchmark,http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip,1,online,readme file,923 MB,['A detail instruction has been given on how to download the dataset']
+TexasInstruments/edgeai-benchmark,http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCdevkit_18-May-2011.tar,1,online,readme file,0.49 MB,['A detail instruction has been given on how to download the dataset. Used multiple dataset for the training']
+TexasInstruments/edgeai-benchmark,http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar,1,online,readme file,1945.6 MB,['A detail instruction has been given on how to download the dataset. Used multiple dataset for the training']
+TexasInstruments/edgeai-benchmark,http://images.cocodataset.org/annotations/annotations_trainval2017.zip,1,online,readme file,241 MB,['A detail instruction has been given on how to download the dataset. Used multiple dataset for the training']
+TexasInstruments/edgeai-benchmark,http://images.cocodataset.org/zips/val2017.zip,1,online,readme file,778 MB,['A detail instruction has been given on how to download the dataset. Used multiple dataset for the training']
+TexasInstruments/edgeai-benchmark,http://www.image-net.org/,1,online,readme file,6451.2 MB,['A detail instruction has been given on how to download the dataset']
+TexasInstruments/edgeai-benchmark,https://www.cityscapes-dataset.com/,1,online,readme file,,['A detail instruction has been given on how to download the dataset. The dataset  is not freely available for download.']
+TexasInstruments/edgeai-benchmark,https://www.cvlibs.net/datasets/kitti/,1,online,readme file,,['A detail instruction has been given on how to download the dataset. Needs to login to download the dataset.']
+thevasudevgupta/bigbird,"load_dataset(""natural_questions"")",2,library dataset,library api,46151.68 MB,['Calculated the data size from https://huggingface.co/datasets/natural_questions']
+tianxing1994/OpenCV,dataset/data/car_data/TrainImages,3,file system (saved in VCS),hard coded,4.10 MB,[]
+tianxing1994/OpenCV,dataset/data/image_sample/bird.jpg,2,file system (saved in VCS),program method,0.43 MB,[]
+tianxing1994/OpenCV,dataset/data/image_sample/lena.png,1,file system (saved in VCS),hard coded,0.5 MB,[]
+tianxing1994/OpenCV,dataset/nlp/data_digits,1,file system (saved in VCS),hard coded,11.2 MB,[]
+tianxing1994/OpenCV,dataset/nlp/hmm_corpus/pku_training.utf8,1,file system (saved in VCS),hard coded,7.37 MB,[]
+tianxing1994/OpenCV,fetch_lfw_people(min_faces_per_person=60),1,library dataset,program method,,[]
+tianxing1994/OpenCV,fixed list of chinese string,1,runtime memory,hard coded,,[]
+tianxing1994/OpenCV,fixed list of english string,1,runtime memory,hard coded,,[]
+tianxing1994/OpenCV,load_boston(),1,library dataset,program method,,[]
+tianxing1994/OpenCV,load_breast_cancer(),1,library dataset,program method,,[]
+tianxing1994/OpenCV,load_iris(),9,library dataset,program method,,[]
+tianxing1994/OpenCV,"make_blobs(n_samples=500, centers=5, cluster_std=1.2, random_state=None)",1,library dataset,program method,,[]
+tianxing1994/OpenCV,make_classification(...),2,library dataset,program method,,[]
+tianxing1994/OpenCV,"np.array(np.linspace(0, 100, 20, endpoint=False), np.int)",1,runtime memory,program method,,[]
+tianxing1994/OpenCV,unknown,2,unknown,method parameter,,"[""The data passed through a method parameter, however, couldn't find the method call.""]"
+tianxing1994/OpenCV,????/SIFT_SURF ?????????(??????? QQ ?????)/template_match/dataset/image,1,file system (saved in VCS),program variable,16.3 MB,"['Although the full path is not understandable from the code, found the dataset folder and images in the location.']"
+tjhunter/dds_py,https://raw.githubusercontent.com/zygmuntz/wine-quality/master/winequality/winequality-red.csv,3,online,hard coded,0.08 MB,['The code is to test their api in a scenario to download data with their app']
+toshan-luktuke/stock-market-analyser,yf.download('SPY'),1,library dataset,library api,,['Yahoo Finance dataset is loaded using library api']
+toshan-luktuke/stock-market-analyser,"yf.download(name, auto_adjust=True)",1,library dataset,library api,,['Used the yfinance library to download historical stock price data']
+trevphil/cryptosym,data/<hash_algo>_d<difficulty>/train.hdf5,1,file system (not saved in VCS),argument and hard coded,,['A script is provided for dataset generation in dataset_generation/generate.py']
+ubicomplab/rPPG-Toolbox,/data/rPPG_dataset/mini_MMPD,1,file system (not saved in VCS - outside of the repository),config file,,[]
+ubicomplab/rPPG-Toolbox,/data1/acsp/toolbox_data/PURE/RawData,3,file system (not saved in VCS - outside of the repository),config file,,[]
+ubicomplab/rPPG-Toolbox,/data1/acsp/toolbox_data/UBFC/RawData/,1,file system (not saved in VCS - outside of the repository),config file,,[]
+ubicomplab/rPPG-Toolbox,/data1/acsp/toolbox_data/scamps/RawData/Train/,1,file system (not saved in VCS - outside of the repository),config file,,[]
+ubicomplab/rPPG-Toolbox,/gscratch/ubicomp/xliu0/data3/mnt/Datasets/PURE/RawData,3,file system (not saved in VCS - outside of the repository),config file,,[]
+ubicomplab/rPPG-Toolbox,/gscratch/ubicomp/xliu0/data3/mnt/Datasets/SCAMPS/RawData/Train,7,file system (not saved in VCS - outside of the repository),config file,,[]
+ubicomplab/rPPG-Toolbox,/gscratch/ubicomp/xliu0/data3/mnt/Datasets/UBFC/RawData,4,file system (not saved in VCS - outside of the repository),config file,,[]
+undera/chess-engine-nn,results.pkl,1,file system (not saved in VCS),hard coded,,[]
+UnitTestBot/UTBotJava,unknown,2,file system (not saved in VCS),argument,,"['The data is read from csv file, however, no csv file found in the repository']"
+v-sivak/quantum-control-rl,untraceable,1,untraceable,program method,,"['The training is invoked from six different files. The data is loaded using a library. However, it is being untraceable to identify the data source.']"
+vtuber-plan/vcvits,dataset/example/<folder_name>/<file_name>.wav,1,file system (not saved in VCS),config file,,[]
+vtuber-plan/vcvits,unknown,1,unknown,method parameter,,"[""The dataset passed through method parameter, however, couldn't find the method call.""]"
+wandb/sweeps,unknown,1,unknown,method parameter,,"[""The dataset passed through method paramter, however, didn't find the method call""]"
+wildboar-foundation/wildboar,Get the url after requesting to a repository url,1,online,program variable,,['Get the url after requesting to the repository url']
+wildboar-foundation/wildboar,"load_dataset(""GunPoint"", repository=""wildboar/ucr-tiny"", merge_train_test=False)",1,library dataset,program variable,,['The data returned from a']
+wildboar-foundation/wildboar,unknown,8,unknown,method parameter,,"[""The data set through a program variable, however, couldn't find the assignment of the variable"", ""The data passed through method parameter, however, couldn't find the call of the method.""]"
+wimlds-trojmiasto/detect-waste,../../FastRCNN/TACO-master/data/,1,file system (not saved in VCS - outside of the repository),hard coded and program variable,,[]
+wimlds-trojmiasto/detect-waste,/dih4/dih4_2/wimlds/amikolajczyk/detect-waste/classifier/images_square/train,1,file system (not saved in VCS - outside of the repository),argument and hard coded,,[]
+wimlds-trojmiasto/detect-waste,/dih4/dih4_2/wimlds/data/all_detect_images,1,file system (not saved in VCS - outside of the repository),argument,,[]
+wimlds-trojmiasto/detect-waste,/dih4/dih4_2/wimlds/smajchrowska/detr/balloon/,2,file system (not saved in VCS - outside of the repository),argument and hard coded,,[]
+wimlds-trojmiasto/detect-waste,/dih4/dih4_2/wimlds/smajchrowska/detr/balloon/train2017,2,file system (not saved in VCS - outside of the repository),argument and hard coded,,[]
+wimlds-trojmiasto/detect-waste,https://conservancy.umn.edu/bitstream/handle/11299/214366/trash_ICRA19.zip?sequence=12&isAllowed=y,1,online,readme file,980 MB,['Used multiple dataset for the training.']
+wimlds-trojmiasto/detect-waste,https://conservancy.umn.edu/bitstream/handle/11299/214865/dataset.zip?sequence=12&isAllowed=y,1,online,readme file,527 MB,['Used multiple dataset for the training.']
+wimlds-trojmiasto/detect-waste,https://drive.google.com/file/d/1o101UBJGeeMPpI-DSY6oh-tLk9AHXMny&export=download,1,online,readme file,,['Got 404. Used multiple dataset for the training.']
+wimlds-trojmiasto/detect-waste,https://github.com/PUTvision/UAVVaste/blob/main/annotations/flickurls.csv,1,online,readme file,2878.15 MB,['The csv file contains list of urls of images. Calculated size of the images from the urls. Used multiple dataset for the training.']
+wimlds-trojmiasto/detect-waste,https://github.com/garythung/trashnet,1,online,readme file,40.97 MB,"[""Url provides the landing page only. Calculated the size of the 'data' directory. Used multiple dataset for the training.""]"
+wimlds-trojmiasto/detect-waste,https://github.com/majsylw/wade-ai/tree/coco-annotation/Trash_Detection/trash/dataset,1,online,readme file,720 MB,['Used multiple dataset for the training.']
+wimlds-trojmiasto/detect-waste,https://github.com/pedropro/TACO/blob/master/data/all_image_urls.csv,1,online,readme file,7086.21 MB,['The csv file contains list of urls of images. Calculated size of the images from the urls. Used multiple dataset for the training.']
+wimlds-trojmiasto/detect-waste,https://www.kaggle.com/datasets/arkadiyhacks/drinking-waste-classification/download?datasetVersionNumber=2,1,online,readme file,1536 MB,['Need to sign in to download the dataset. Used multiple dataset for the training.']
+wimlds-trojmiasto/detect-waste,https://www.kaggle.com/datasets/wangziang/waste-pictures,1,online,readme file,2048 MB,['Used multiple dataset for the training.']
+wimlds-trojmiasto/detect-waste,unknown,1,unknown,argument,,[]
+wolfmanstout/screen-ocr,logs/*.png,1,file system (not saved in VCS),program variable,,[]
+yjh0410/FreeYOLO,D:\\python_work\\object-detection\\dataset\\COCO,1,file system (not saved in VCS - outside of the repository),argument and hard coded,,[]
+yjh0410/FreeYOLO,dataset/OurDataset/,1,file system (saved in VCS),readme file,1.64 MB,['The provided dataset is sample to explain the way to preprocess data for training.']
+yjh0410/FreeYOLO,http://images.cocodataset.org/zips/train2017.zip,1,online,readme file,18432 MB,[]
+yjh0410/FreeYOLO,http://shuoyang1213.me/WIDERFACE/,1,online,readme file,4198.4 MB,"[""The url doesn't provide the dataset specifically. Need to understand whats to use. Measured the size of https://drive.google.com/file/d/15hGDLhsx8bLgLcIRD5DhYt5iBxnjNF1M/view?usp=sharing""]"
+yjh0410/FreeYOLO,https://motchallenge.net/data/MOT17.zip,1,online,readme file,5632 MB,"[""The provided url in the readme file doesn't provide the dataset specifically. Need to understand what to use. Provided url in file is https://motchallenge.net/.""]"
+yjh0410/FreeYOLO,https://motchallenge.net/data/MOT20.zip,1,online,readme file,5120 MB,"[""The provided url in the readme file doesn't provide the dataset specifically. Need to understand what to use. Provided url in file is https://motchallenge.net/""]"
+yjh0410/FreeYOLO,https://www.crowdhuman.org/,1,online,readme file,7987.2 MB,"[""The url doesn't provide the dataset specifically. Need to understand what to use. Measured the size of train files from https://www.crowdhuman.org/download.html.""]"
+yjh0410/PyTorch_YOWO,https://drive.google.com/file/d/15nAIGrWPD4eH3y5OTWHiUbjwsr-9VFKT/view?usp=sharing,1,online,readme file,4300.8 MB,[]
+yjh0410/PyTorch_YOWO,https://drive.google.com/file/d/1Dwh90pRi7uGkH5qLRjQIFiEmMJrAog5J/view?usp=sharing,1,online,readme file,2355.2 MB,[]
+yjh0410/PyTorch_YOWO,https://github.com/yjh0410/AVA_Dataset/blob/main/download_trainval.txt,1,online,readme file,159891.49 MB,[]
+zhengying-liu/autodl-contrib,<input_dir>/<dataset_name>/<dataset_name>_train.data,1,file system (not saved in VCS),method parameter and hard coded,,"['The path is set through method parameter, however, the method has never been called.']"
+zhengying-liu/autodl-contrib,utils/automl_format/sample_data/<basename>_train.data,1,file system (not saved in VCS),method parameter and hard coded,,[]

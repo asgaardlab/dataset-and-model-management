@@ -1,0 +1,355 @@
+repository_name,is_self_pre_trained,model_path,files_count,model_location,model_path_set_from,model_size,comment
+algorithmiaio/langpacks,FALSE,unknown,1,file system (source unknown),user’s environment variable,,
+allegroai/clearml-serving,,<tmp_folder>/keras_example_new_temp_now/weight.1.hdf5,1,file system (not saved in VCS - outside of the repository),hard coded and program variable,,
+allegroai/clearml-serving,unknown,unknown,3,file system (source unknown),unknown,,"The model is loaded using clearml custom package, however, the package is not present in the repository"
+angsten/pianonet,unknown,<path_to_run_directory>/models/initial_model,1,file system (not saved in VCS),argument and hard coded,,"the root value is provided through cli. Although there is a directory in the file system named models, however, there is not directory named initial_model in it."
+angsten/pianonet,TRUE,models/0_trained_model,1,file system (not saved in VCS),hard coded,,
+angsten/pianonet,FALSE,models/micro_1,1,file system (saved in VCS),hard coded,2.64 MB,"the model is not present in /app/models/micro_1. However, there is a directory directly in the root in models name and the model is present inside that directory. The size is collected from there."
+angsten/pianonet,FALSE,models/r9p0_3500kparams_approx_9_blocks_model,1,file system (saved in VCS),hard coded,7.65 MB,"the model is not present in /app/models/r9p0_3500kparams_approx_9_blocks_model. However, there is a directory directly in the root in models name and the model is present inside that directory. The size is collected from there."
+angsten/pianonet,unknown,unknown,1,file system (source unknown),json file,,"the path loaded from run_description.json file, however, the file is not saved in the file system"
+ANRGUSC/Jupiter,FALSE,app_specific_files/demo/best.pt,1,file system (saved in VCS),program variable and hard coded,60.3 MB,
+ANRGUSC/Jupiter,FALSE,weights/best.pt,1,file system (not saved in VCS),program variable,,
+aristoteleo/spateo-release,TRUE,model_buffer/A,1,file system (not saved in VCS),program variable,,3 models used as one model for training and prediction.
+aristoteleo/spateo-release,TRUE,model_buffer/B,1,file system (not saved in VCS),program variable,,3 models used as one model for training and prediction.
+aristoteleo/spateo-release,TRUE,model_buffer/h,1,file system (not saved in VCS),program variable,,3 models used as one model for training and prediction.
+artonson/def,FALSE,contrib/sharpness_fields/src/sharpness_model.pt,1,file system (saved in VCS),argument,3.1 MB,
+artonson/def,TRUE,https://www.dropbox.com/scl/fo/7qg4r7m8wraykesn6crmx/h?dl=0&rlkey=l4kv9bqeyckdeaicjknmcluga,1,online,readme file,6553.6 MB,All their trained models are distributed in one zip file through the url.
+artonson/def,,sharpf/neural/best,1,file system (not saved in VCS),config file,,
+AshuKulu/HacktoberFest2022,TRUE,Python/Email Spam Classifier/model.pkl,1,file system (saved in VCS),hard coded,0.1 MB,
+atulapra/Emotion-detection,TRUE,https://drive.google.com/file/d/1FUn0XNOzf-nQV7QjbBPA6-8GLoHNNgv-/view?usp=sharing,1,online,readme file,9 MB,
+avinashkranjan/Amazing-Python-Scripts,TRUE,Covid -19-Detection-Using-Chest-X-Ray/model_adv.h5,1,file system (saved in VCS),hard coded,64.9 MB,
+avinashkranjan/Amazing-Python-Scripts,FALSE,Heart Disease Prediction/heart_model.pkl,1,file system (saved in VCS),hard coded,17.6 MB,
+avinashkranjan/Amazing-Python-Scripts,TRUE,Malaria/Models/malaria.h5,1,file system (saved in VCS),hard coded,1 KB,
+avinashkranjan/Amazing-Python-Scripts,TRUE,Message-Spam/filename.pkl,1,file system (saved in VCS),hard coded,0.04 MB,"Although the model is loaded from /content/filename.pkl, a file with exact name found in the same directory level of the repository."
+avinashkranjan/Amazing-Python-Scripts,TRUE,Reddit-Scraping-And-Flair-Detection/final_model.pkl -1,1,file system (saved in VCS),hard coded,6.72 MB,
+avinashkranjan/Amazing-Python-Scripts,TRUE,Salary Predictor/models/random_forest2_model.sav,1,file system (saved in VCS),,5.4 MB,
+bigscience-workshop/metadata,,unknown,1,file system (source unknown),argument,,Model load purpose is to convert model format from pt to hf (according to the file name and code). the values are passed through cli.
+boxkite-ml/boxkite,TRUE,examples/grafana-prometheus/model.pkl,3,file system (saved in VCS),hard coded,1 KB,
+bupt-ai-cz/LLVIP,FALSE,<checkpoints_dir>/<name>/<epoch>_net_<name>.pth,2,file system (not saved in VCS),method parameter and hard coded,,no saved .pth file found in the repository
+bupt-ai-cz/LLVIP,TRUE,<save_dir>/weights/best.pt,1,file system (not saved in VCS),"method parameter, hard coded and program variable",,Model load purpose is to strip optimizer from saved model
+bupt-ai-cz/LLVIP,TRUE,<save_dir>/weights/last.pt,1,file system (not saved in VCS),"method parameter, hard coded and program variable",,Model load purpose is to strip optimizer from saved model
+bupt-ai-cz/LLVIP,unknown,<your darknet weights file path>,1,file system (source unknown),hard coded,,"The model is loaded to convert file format of the model. Model loaded from the path defined by a program variable. However, in the code, the path is not set."
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/apple2orange.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/cityscapes_label2photo.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/cityscapes_photo2label.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/facades_label2photo.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/facades_photo2label.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/horse2zebra.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/iphone2dslr_flower.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/map2sat.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/monet2photo.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/orange2apple.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/sat2map.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/style_cezanne.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/style_monet.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/style_ukiyoe.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/style_vangogh.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/summer2winter_yosemite.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/winter2summer_yosemite.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/zebra2horse.pth,1,online,script file,43.46 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/pix2pix/models-pytorch/day2night.pth,1,online,script file,207.63 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/pix2pix/models-pytorch/edges2shoes.pth,1,online,script file,207.62 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/pix2pix/models-pytorch/facades_label2photo.pth,1,online,script file,207.62 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/pix2pix/models-pytorch/map2sat.pth,1,online,script file,207.63 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,unknown,http://efrosgans.eecs.berkeley.edu/pix2pix/models-pytorch/sat2map.pth,1,online,script file,207.62 MB,Noted the checkpoint file from the text block above the code block of the notebook.
+bupt-ai-cz/LLVIP,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5l.pt,1,online,derived from api,89.3 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+bupt-ai-cz/LLVIP,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5l6.pt,1,online,derived from api,147.36 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+bupt-ai-cz/LLVIP,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5m.pt,1,online,derived from api,40.8 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+bupt-ai-cz/LLVIP,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5m6.pt,1,online,derived from api,69.0 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+bupt-ai-cz/LLVIP,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5n.pt,1,online,derived from api,3.9 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+bupt-ai-cz/LLVIP,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5n6.pt,1,online,derived from api,6.9 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+bupt-ai-cz/LLVIP,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s.pt,6,online,derived from api,14.1 MB,The model is loaded to export to different formats. The url is defined after a request for the latest assets. Thus always download the latest asset.
+bupt-ai-cz/LLVIP,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s6.pt,1,online,derived from api,24.8 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+bupt-ai-cz/LLVIP,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5x.pt,1,online,derived from api,166 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+bupt-ai-cz/LLVIP,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5x6.pt,1,online,derived from api,269.62 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+bupt-ai-cz/LLVIP,FALSE,yolov5/resnet50.pt,1,file system (not saved in VCS),hard coded,,
+bupt-ai-cz/LLVIP,FALSE,yolov5/yolov5s.pt,1,file system (not saved in VCS),hard coded and program variable,,
+colinrsmall/This-Hockey-Player-Does-Not-Exist,FALSE,https://drive.google.com/uc?id=1MEGjdvVpUsu1jB4zrXZN7Y4kBBOzizDQ,2,online,hard coded,310 MB,
+colinrsmall/This-Hockey-Player-Does-Not-Exist,FALSE,https://drive.google.com/uc?id=1MJ6iCfNtMIRicihwRorsM3b7mmtmK9c3,1,online,hard coded,293 MB,
+colinrsmall/This-Hockey-Player-Does-Not-Exist,FALSE,https://drive.google.com/uc?id=1MOSKeGF0FJcivpBI7s63V9YHloUTORiF,1,online,hard coded,289 MB,
+colinrsmall/This-Hockey-Player-Does-Not-Exist,FALSE,https://drive.google.com/uc?id=1MQywl0FNt6lHu8E_EUqnRbviagS7fbiJ,1,online,hard coded,289 MB,
+colinrsmall/This-Hockey-Player-Does-Not-Exist,FALSE,models/jr_model.pkl,1,file system (not saved in VCS),hard coded,,
+colinrsmall/This-Hockey-Player-Does-Not-Exist,FALSE,models/sr_model.pkl,1,file system (not saved in VCS),hard coded,,
+datature/portal,unknown,<_directory_>/saved_model,1,file system (not saved in VCS),program variable,,"the _directory_ value is set through constructor. However, no initialization was found. Used the model for prediction in line 141"
+EngineerDDP/Parallel-SGD,TRUE,CIFARNET.model,1,file system (not saved in VCS),hard coded,,
+eternagame/KaggleOpenVaccine,FALSE,model_files/bt_xgb/bt_xgb.model,3,file system (saved in VCS),system environment variable and hard coded,65.72 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40032-wgts/model_0.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,42.26 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40032-wgts/model_1.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,42.26 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40032-wgts/model_2.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,42.26 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40032-wgts/model_3.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,42.26 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40032-wgts/model_4.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,42.26 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40131-wgts/model_0.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,41.26 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40131-wgts/model_1.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,41.26 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40131-wgts/model_2.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,41.26 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40131-wgts/model_3.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,41.26 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40131-wgts/model_4.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,41.26 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40237-wgts/model_0.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,52.24 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40237-wgts/model_1.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,52.24 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40237-wgts/model_2.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,52.24 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40237-wgts/model_3.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,52.24 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40237-wgts/model_4.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,52.24 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40334-wgts/model_0.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,43.44 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40334-wgts/model_1.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,43.44 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40334-wgts/model_2.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,43.44 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40334-wgts/model_3.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,43.44 MB,The system variable path is set to the root of the repository
+eternagame/KaggleOpenVaccine,FALSE,model_files/ov-v40334-wgts/model_4.h5,2,file system (saved in VCS),system environment variable and hard coded and program variable,43.44 MB,The system variable path is set to the root of the repository
+facebookresearch/param,TRUE,"nn.Embedding(n, m, *args, **kwargs)",1,runtime memory,class instantiation,,Loaded with random weights during instantiation
+facebookresearch/param,TRUE,"nn.Linear(hidden_size, output_size)",1,runtime memory,class instantiation,,Loaded with random weights during instantiation
+facebookresearch/param,TRUE,"nn.Linear(layers_size[i], layers_size[i + 1])",1,runtime memory,class instantiation,,Loaded with random weights during instantiation
+fusion-ml/trajectory-information-rl,FALSE,/zfsauton/project/public/ichar/BetaTracking/models/beta_rotation_mlp_limited,1,file system (not saved in VCS - outside of the repository),hard coded,,
+fusion-ml/trajectory-information-rl,FALSE,/zfsauton/project/public/ichar/BetaTracking/models/mlp_beta_only,1,file system (not saved in VCS - outside of the repository),hard coded,,
+fusion-ml/trajectory-information-rl,FALSE,barl/models/stan/model_pkls/gp_fixedsig.pkl,1,file system (not saved in VCS),hard coded,,
+fusion-ml/trajectory-information-rl,FALSE,barl/models/stan/model_pkls/gp_fixedsig_distmat.pkl,1,file system (not saved in VCS),hard coded,,
+GauthierDmn/question_answering,TRUE,output/exp-1/model.pkl,1,file system (not saved in VCS),hard coded and program variable,,
+GauthierDmn/question_answering,TRUE,output/exp-1/model_final.pkl,2,file system (not saved in VCS),hard coded and program variable,,"A model with ""model.pkl"" name is saved after training in the repository"
+harshareddy794/HACKTOBERFEST2020,TRUE,Python/flight delay/res.pkl,1,file system (saved in VCS),hard coded,0.03 MB,
+harshareddy794/HACKTOBERFEST2020,unknown,unknown,1,file system (source unknown),argument,,
+hukaixuan19970627/yolov5_obb,TRUE,<save_dir>/weights/best.pt,1,file system (not saved in VCS),"method parameter, hard coded and program variable",,Model load purpose is to strip optimizer from saved model
+hukaixuan19970627/yolov5_obb,TRUE,<save_dir>/weights/last.pt,1,file system (not saved in VCS),"method parameter, hard coded and program variable",,Model load purpose is to strip optimizer from saved model
+hukaixuan19970627/yolov5_obb,TRUE,https://drive.google.com/file/d/1NMgxcN98cmBg9_nVK4axxqfiq4pYh-as/view,1,online,readme file,96 MB,
+hukaixuan19970627/yolov5_obb,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5l.pt,1,online,derived from api,89.3 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+hukaixuan19970627/yolov5_obb,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5l6.pt,1,online,derived from api,147.36 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+hukaixuan19970627/yolov5_obb,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5m.pt,1,online,derived from api,40.8 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+hukaixuan19970627/yolov5_obb,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5m6.pt,1,online,derived from api,69.0 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+hukaixuan19970627/yolov5_obb,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5n.pt,1,online,derived from api,3.9 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+hukaixuan19970627/yolov5_obb,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5n6.pt,1,online,derived from api,6.9 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+hukaixuan19970627/yolov5_obb,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s.pt,5,online,derived from api,14.1 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+hukaixuan19970627/yolov5_obb,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s6.pt,1,online,derived from api,24.8 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+hukaixuan19970627/yolov5_obb,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5x.pt,1,online,derived from api,166 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+hukaixuan19970627/yolov5_obb,FALSE,https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5x6.pt,1,online,derived from api,269.62 MB,The url is defined after a request for the latest assets. Thus always download the latest asset.
+hukaixuan19970627/yolov5_obb,TRUE,https://pan.baidu.com/s/1Lqw42xlSZxZn-2gNniBpmw?pwd=yolo,2,online,readme file,,Couldn't download the file
+hukaixuan19970627/yolov5_obb,FALSE,runs/train/yolov5n_DroneVehicle/weights/best.pt,1,file system (not saved in VCS),argument,,
+informagi/REL,TRUE,/wiki_2019/generated/lr_model.pkl,1,file system (not saved in VCS - outside of the repository),hard coded and program variable,,
+informagi/REL,TRUE,http://gem.cs.ru.nl/ed-wiki-2014.tar.gz,1,online,readme file,0.97 MB,
+informagi/REL,TRUE,http://gem.cs.ru.nl/ed-wiki-2019.tar.gz,2,online,readme file,0.97 MB,
+infstellar/genshin_impact_assistant,TRUE,YOLOX_outputs/<experiment_name>/best_ckpt.pth,2,file system (not saved in VCS),argument and program variable,,
+infstellar/genshin_impact_assistant,TRUE,YOLOX_outputs/<experiment_name>/latest_ckpt.pth,1,file system (not saved in VCS),argument and program variable,,
+infstellar/genshin_impact_assistant,TRUE,assets/YoloxModels/best_ckpt.pth,1,file system (not saved in VCS),hard coded,,
+infstellar/genshin_impact_assistant,FALSE,https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_darknet.pth,1,online,hard coded,487 MB,
+infstellar/genshin_impact_assistant,FALSE,https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_l.pth,1,online,hard coded,414 MB,
+infstellar/genshin_impact_assistant,FALSE,https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_m.pth,1,online,hard coded,194 MB,
+infstellar/genshin_impact_assistant,FALSE,https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_nano.pth,1,online,hard coded,7.3 MB,
+infstellar/genshin_impact_assistant,FALSE,https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_s.pth,1,online,hard coded,68.7 MB,
+infstellar/genshin_impact_assistant,FALSE,https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_tiny.pth,1,online,hard coded,38.9 MB,
+infstellar/genshin_impact_assistant,FALSE,https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_x.pth,1,online,hard coded,757 MB,
+infstellar/genshin_impact_assistant,unknown,unknown,4,file system (source unknown),method parameter,,"The path passed through method paramater, however, couldn't find any call of the method."
+infstellar/genshin_impact_assistant,unknown,weights/darknet53.mix.pth,1,file system (not saved in VCS),method parameter,,
+JdeRobot/ObjectDetector,unknown,<unknown>.h5,2,file system (source unknown),method parameter,,"The path is set through a method parameter. However, the method never been called. The model is loaded to convert saved weights to saved full model."
+JdeRobot/ObjectDetector,FALSE,build/lib.linux-x86_64-2.7/Net/Keras/<model>,1,file system (not saved in VCS),hard coded and program variable,,"The path is set through a method parameter. However, the method never been called."
+joapolarbear/dpro,TRUE,<args.output_dir>/cost_model/model_weights.h5,1,file system (not saved in VCS),argument and config file,,
+Kitware/kwiver,FALSE,models/alexnet_default.pt,1,file system (not saved in VCS),argument,,
+Kitware/kwiver,FALSE,models/resnet50_default.pt,1,file system (not saved in VCS),argument,,
+Kitware/kwiver,FALSE,resnet/snapshot_epoch_6.pt,1,file system (not saved in VCS),argument,,
+Kitware/kwiver,FALSE,siamese/snapshot_epoch_6.pt,1,file system (not saved in VCS),argument,,
+Kitware/kwiver,FALSE,targetRNN_AI/App_LSTM_epoch_51.pt,1,file system (not saved in VCS),argument,,
+Kitware/kwiver,FALSE,targetRNN_snapshot/App_LSTM_epoch_51.pt,1,file system (not saved in VCS),argument,,
+Kitware/kwiver,FALSE,unknown,4,file system (source unknown),method parameter,,"The pre-trained model path passed through optional method parameter. However, the values were not passed while calling ht emethod."
+kwrobel-nlp/krnnt,unknown,unknown,1,file system (source unknown),program variable,,"The path is loaded from a dictionary, however, the key value has not been assigned."
+kwrobel-nlp/krnnt,unknown,weight_<uuid>.hdf5,2,file system (not saved in VCS),hard coded and program variable,,
+lanl/PYSEQM,FALSE,examples/model/model.pt,2,file system (saved in VCS),hard coded,1.84 MB,Found the model one step inside the file structure
+LineaLabs/lineapy,TRUE,xgb.model,1,file system (not saved in VCS),hard coded,,
+louis-she/minetorch,TRUE,alchemistic_directory/Experiment-6/models,1,file system (not saved in VCS),method parameter,,
+luca-ant/WhatsSee,TRUE,<working_dir>/data/training/model.h5,1,file system (not saved in VCS),argument and hard coded,,
+luca-ant/WhatsSee,TRUE,<working_dir>/data/weights/weights.h5,2,file system (not saved in VCS),argument and hard coded,,
+luca-ant/WhatsSee,TRUE,https://github.com/luca-ant/WhatsSee/releases/latest,1,online,readme file,13.9 MB,Provided their trained model through the url
+m-doru/Facial-based-authentication-system,FALSE,../classifiers/casia.pkl,1,file system (not saved in VCS),hard coded,,
+m-doru/Facial-based-authentication-system,TRUE,../classifiers/classifier_tested_on3.pkl,1,file system (not saved in VCS),hard coded and program variable,,
+m-doru/Facial-based-authentication-system,FALSE,../classifiers/idiap.pkl,1,file system (not saved in VCS),hard coded,,The self trained code found commented during the analysis
+m-doru/Facial-based-authentication-system,TRUE,../classifiers/msu_mfsdredchannel.pkl,1,file system (not saved in VCS),hard coded and program variable,,
+m-doru/Facial-based-authentication-system,TRUE,classifiers/casia.pkllinear,1,file system (not saved in VCS),hard coded,,
+m-doru/Facial-based-authentication-system,TRUE,classifiers/classifier_tested_on1.pkl,1,file system (not saved in VCS),hard coded,,
+m-doru/Facial-based-authentication-system,FALSE,faceSpoofDetection/classifiers/powerful_classifier.pkl,1,file system (not saved in VCS),hard coded,,
+manthan89-py/Plant-Disease-Detection,TRUE,https://drive.google.com/drive/folders/1ewJWAiduGuld_9oGSrTuLumg9y62qS6A?usp=share_link,2,online,readme file,200.7 MB,
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-aisegment-unet-large-fakept-q.pth.tar,1,file system (saved in VCS),hard coded,3.25 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-aisegment-unet-large-q.pth.tar,1,file system (saved in VCS),hard coded,3.24 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-aisegment-unet-large.pth.tar,1,file system (saved in VCS),hard coded,3.25 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-camvid-unet-large-fakept-q.pth.tar,1,file system (saved in VCS),hard coded,3.28 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-camvid-unet-large-q.pth.tar,1,file system (saved in VCS),hard coded,3.26 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-camvid-unet-large.pth.tar,1,file system (saved in VCS),hard coded,3.28 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-catsdogs-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,0.68 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-catsdogs-qat8.pth.tar,1,file system (saved in VCS),hard coded,0.69 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-cifar10-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,3.51 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-cifar10-qat8.pth.tar,1,file system (saved in VCS),hard coded,3.52 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-cifar100-noqat-q.pth.tar,1,file system (saved in VCS),hard coded,4.47 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-cifar100-noqat.pth.tar,1,file system (saved in VCS),hard coded,4.48 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-cifar100-qat-mixed-q.pth.tar,1,file system (saved in VCS),hard coded,4.47 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-cifar100-qat-mixed.pth.tar,1,file system (saved in VCS),hard coded,4.48 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-cifar100-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,4.03 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-cifar100-qat8.pth.tar,1,file system (saved in VCS),hard coded,4.04 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-cifar100-residual-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,4.41 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-cifar100-residual-qat8.pth.tar,1,file system (saved in VCS),hard coded,4.42 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-cifar100-simplenetwide2x-qat-mixed-q.pth.tar,1,file system (saved in VCS),hard coded,8.41 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-cifar100-simplenetwide2x-qat-mixed.pth.tar,1,file system (saved in VCS),hard coded,8.42 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-faceid-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,2.04 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-faceid-qat8.pth.tar,1,file system (saved in VCS),hard coded,2.05 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-kws20-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,1.48 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-kws20-qat8.pth.tar,1,file system (saved in VCS),hard coded,1.48 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-kws20_v2-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,4.25 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-kws20_v2-qat8.pth.tar,1,file system (saved in VCS),hard coded,4.25 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-kws20_v3-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,1.96 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-kws20_v3-qat8.pth.tar,1,file system (saved in VCS),hard coded,2.00 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-mnist-extrasmall-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,0.03 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-mnist-extrasmall-qat8.pth.tar,1,file system (saved in VCS),hard coded,0.03 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-mnist-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,0.56 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-mnist-qat8.pth.tar,1,file system (saved in VCS),hard coded,0.56 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-svhn-tinierssd-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,3.96 MB,
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai85-svhn-tinierssd-qat8.pth.tar,1,file system (saved in VCS),hard coded,4.00 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai87-cifar100-effnet2-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,8.90 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai87-cifar100-effnet2-qat8.pth.tar,1,file system (saved in VCS),hard coded,8.93 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai87-cifar100-mobilenet-v2-0.5-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,5.13 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai87-cifar100-mobilenet-v2-0.5-qat8.pth.tar,1,file system (saved in VCS),hard coded,5.18 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai87-cifar100-mobilenet-v2-0.75-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,10.53 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai87-cifar100-mobilenet-v2-0.75-qat8.pth.tar,1,file system (saved in VCS),hard coded,10.59 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai87-imagenet-effnet2-q.pth.tar,1,file system (saved in VCS),hard coded,19.58 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai87-imagenet-effnet2.pth.tar,1,file system (saved in VCS),hard coded,19.61 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai87-kws20_v2-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,4.21 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai87-kws20_v2-qat8.pth.tar,1,file system (saved in VCS),hard coded,4.22 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai87-kws20_v3-qat8-q.pth.tar,1,file system (saved in VCS),hard coded,1.73 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,FALSE,trained/ai87-kws20_v3-qat8.pth.tar,1,file system (saved in VCS),hard coded,1.74 MB,"Found the file in the same directory and same name pattern, just a little change in the file name."
+MaximIntegratedAI/ai8x-synthesis,unknown,unknown,3,file system (source unknown),argument,,The model is loaded to remove `module.` prefix from the state dictionary keys if model is trained with GPU and add passthrough layer.
+memgraph/mage,TRUE,/tmp/model.pt,1,file system (not saved in VCS - outside of the repository),hard coded and program variable,,
+memgraph/mage,TRUE,/tmp/predictor.pt,1,file system (not saved in VCS - outside of the repository),hard coded and program variable,,
+memgraph/mage,FALSE,/tmp/torch_models/model*.pt,1,file system (not saved in VCS - outside of the repository),hard coded and program variable,,
+microsoft/nnfusion,TRUE,/tmp/bert.pt,1,file system (not saved in VCS - outside of the repository),hard coded,,
+microsoft/nnfusion,TRUE,/tmp/mnist.pt,1,file system (not saved in VCS - outside of the repository),hard coded,,
+microsoft/nnfusion,TRUE,/tmp/rnn.pt,1,file system (not saved in VCS - outside of the repository),hard coded,,
+microsoft/nnfusion,TRUE,models/torchscript/vgg16/vgg16_trace_module.pt,1,file system (not saved in VCS),hard coded,,
+miha-skalic/youtube8mchallenge,unknown,unknown,1,file system (source unknown),argument,,
+milvus-io/bootcamp,FALSE,https://drive.google.com/uc?id=1t5jyJ4Ktmlck6GYhNTPVTFZuRP7wPUYq,3,online,config file,16.3 MB,
+milvus-io/bootcamp,TRUE,vectorizer.pkl,1,file system (not saved in VCS),config file,,"The path is set in environment variable. If the variable is not set, then this default value is used for model path."
+Moving-AI/virtual-walk,TRUE,https://drive.google.com/uc?export=download&id=1JydPMY58DVZr3qcZ3d7EPZWfq__yJH2Z,1,online,hard coded and program variable,0.12 MB,
+Moving-AI/virtual-walk,TRUE,https://drive.google.com/uc?export=download&id=1cYMuGlfBdkbH6wd9x__1D07I64VA94wE,1,online,hard coded and program variable,0.05 MB,
+Moving-AI/virtual-walk,TRUE,https://drive.google.com/uc?export=download&id=1dn51tNt96cWesufjCRtuQJQd2S3Ro6fu,1,online,hard coded and program variable,0.08 MB,
+Moving-AI/virtual-walk,TRUE,https://drive.google.com/uc?export=download&id=1eQUYZB1ZTWRjXH4Y-gxs2wsgAK30iwgC,1,online,hard coded and program variable,0.0 MB,
+naturalis/sdmdl,,<self.ch.result_path>/{}/{}_model.h5,1,file system (not saved in VCS),program variable,,
+nsu-ai-team/conv1d-text-vae,unknown,unknown,1,file system (source unknown),argument,,Default value of the model path is set to None.
+open-mmlab/mmskeleton,unknown,unknown,3,file system (source unknown),argument,,
+pangyuteng/aigonewrong,TRUE,checkpoints-celeba/diffusion_model,1,file system (not saved in VCS),hard coded,,
+pangyuteng/aigonewrong,TRUE,checkpoints-deeplesion/diffusion_model,1,file system (not saved in VCS),hard coded,,
+pangyuteng/aigonewrong,TRUE,checkpoints/diffusion_model,8,file system (not saved in VCS),hard coded,,
+pangyuteng/aigonewrong,TRUE,checkpoints/diffusion_model_image,2,file system (not saved in VCS),hard coded,,
+pangyuteng/aigonewrong,TRUE,checkpoints/diffusion_model_mask,2,file system (not saved in VCS),hard coded,,
+pangyuteng/aigonewrong,TRUE,finance/transformer-volatility/model.h5,2,file system (not saved in VCS),hard coded,,
+pangyuteng/aigonewrong,TRUE,finance/transformer/model.h5,2,file system (not saved in VCS),hard coded,,
+pangyuteng/aigonewrong,TRUE,tmp/pixel_cnn.h5,1,file system (not saved in VCS),hard coded,,
+pangyuteng/aigonewrong,TRUE,tmp/vqvae.h5,2,file system (not saved in VCS),hard coded,,
+PMMon/Thesis_Social_Interactions,TRUE,Experiments/Saved_Models/to_be_defined/<args.model_name>,1,file system (not saved in VCS),argument and hard coded,,
+qianxunclub/ticket,TRUE,python/12306.image.model.h5,2,file system (saved in VCS),hard coded,57.37 MB,
+qianxunclub/ticket,TRUE,python/model.h5,3,file system (saved in VCS),hard coded,0.64 MB,The saved model's name is little different in the code.
+raffg/trump-tweet-author-identification,FALSE,pickle/ensemble_knn.pkl,1,file system (not saved in VCS),hard coded,,A knn model saved in a different directory with a different name in TweetAuthorshipPredictor.py@415. self_trained set to no as neither the directory nor the file name matches.
+raffg/trump-tweet-author-identification,TRUE,twitterbot_pickles/gb.pkl,1,file system (not saved in VCS),hard coded,,Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+raffg/trump-tweet-author-identification,TRUE,twitterbot_pickles/knn.pkl,1,file system (not saved in VCS),hard coded,,Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+raffg/trump-tweet-author-identification,TRUE,twitterbot_pickles/rf.pkl,2,file system (not saved in VCS),hard coded,,Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+raffg/trump-tweet-author-identification,TRUE,twitterbot_pickles/tfidf_ner.pkl,3,file system (not saved in VCS),hard coded,,Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+raffg/trump-tweet-author-identification,TRUE,twitterbot_pickles/tfidf_pos.pkl,3,file system (not saved in VCS),hard coded,,Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+raffg/trump-tweet-author-identification,TRUE,twitterbot_pickles/tfidf_text.pkl,3,file system (not saved in VCS),hard coded,,Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+raffg/trump-tweet-author-identification,TRUE,twitterbot_pickles/trump.pkl,1,file system (not saved in VCS),hard coded,,Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+raphaelsty/mkb,TRUE,X_distill_X_<model>_<id>_<dataset>_<step>.pickle,1,file system (not saved in VCS),api usage documentation example,,"Couldn't resolve the full path, however, couldn't find any file with .pickle extension in the repository."
+SamarthTMSL/HacktoberFest-Projects-and-games,TRUE,Stock Market Prediction/keras_model.h5,1,file system (saved in VCS),hard coded,2.12 MB,
+sapols/Satellite-Telemetry-Anomaly-Detection,unknown,unknown,1,file system (source unknown),method parameter,,The default path is set to none and no value set during calling the method.
+SeanNaren/deepspeech.pytorch,FALSE,https://github.com/SeanNaren/deepspeech.pytorch/releases/download/V3.0/an4_pretrained_v3.ckpt,1,online,hard coded,991 MB,
+SeanNaren/deepspeech.pytorch,FALSE,https://github.com/SeanNaren/deepspeech.pytorch/releases/download/V3.0/librispeech_pretrained_v3.ckpt,1,online,hard coded,991 MB,
+SeanNaren/deepspeech.pytorch,FALSE,https://github.com/SeanNaren/deepspeech.pytorch/releases/download/V3.0/ted_pretrained_v3.ckpt,1,online,hard coded,991 MB,
+SeanNaren/deepspeech.pytorch,unknown,unknown,4,file system (source unknown),config file,,The path is set to empty in config file
+StanfordASL/CoCo,TRUE,mlopt_free_flyer_20200707_1425.pt,1,file system (not saved in VCS),hard coded,,
+StanfordASL/CoCo,TRUE,models/CoCoFF_free_flyer_20210125_0808.pt,1,file system (not saved in VCS),hard coded,,
+StanfordASL/CoCo,TRUE,models/mlopt_cartpole_20200708_1029.pt,1,file system (not saved in VCS),hard coded,,
+StanfordASL/CoCo,TRUE,models/mlopt_cartpole_20210118_1806.pt,1,file system (not saved in VCS),hard coded,,
+StanfordASL/CoCo,TRUE,models/mlopt_manipulation_20200710_1158.pt,1,file system (not saved in VCS),hard coded,,
+StanfordASL/CoCo,TRUE,models/mlopt_manipulation_20210119_0636.pt,1,file system (not saved in VCS),hard coded,,
+StanfordASL/CoCo,TRUE,models/mloptff_free_flyer_20200706_0823.pt,1,file system (not saved in VCS),hard coded,,
+StanfordASL/CoCo,TRUE,models/mloptff_free_flyer_20200716_0708.pt,1,file system (not saved in VCS),hard coded,,
+StanfordASL/CoCo,TRUE,models/regression_cartpole_20200708_1029.pt,1,file system (not saved in VCS),hard coded,,
+StanfordASL/CoCo,TRUE,models/regression_cartpole_20210118_1832.pt,1,file system (not saved in VCS),hard coded,,
+StanfordASL/CoCo,TRUE,models/regression_free_flyer_20200708_0809.pt,1,file system (not saved in VCS),hard coded,,
+StanfordASL/CoCo,TRUE,models/regression_manipulation_20210119_1057.pt,1,file system (not saved in VCS),hard coded,,
+Tesseract-MI/prostatecancer.ai,FALSE,models/Densenet_T2_ABK_auc_079_nozone/model/model_checkpoint.hdf5,1,file system (saved in VCS),hard coded,1.62 MB,
+Tesseract-MI/prostatecancer.ai,FALSE,models/Densenet_T2_ABK_auc_08/model/model_checkpoint.hdf5,1,file system (saved in VCS),hard coded,11.26 MB,
+thevasudevgupta/bigbird,TRUE,https://huggingface.co/vasudevgupta/bigbird-roberta-natural-questions,1,online,readme file,0.52 MB,Calculated size from https://huggingface.co/vasudevgupta/bigbird-roberta-natural-questions/blob/main/pytorch_model.bin
+thevasudevgupta/bigbird,TRUE,https://huggingface.co/vasudevgupta/flax-bigbird-natural-questions,1,online,readme file,0.83 MB,Calculated size from https://huggingface.co/vasudevgupta/flax-bigbird-natural-questions/blob/main/spiece.model
+toshan-luktuke/stock-market-analyser,TRUE,ml-ann/Models/ANN/AAPL.h5,1,file system (saved in VCS),hard coded and program variable,0.04 MB,The save statement was commented during analysis.
+toshan-luktuke/stock-market-analyser,TRUE,ml-ann/Models/ANN/FB.h5,1,file system (saved in VCS),hard coded and program variable,0.04 MB,The save statement was commented during analysis.
+toshan-luktuke/stock-market-analyser,TRUE,ml-ann/Models/ANN/GOOG.h5,1,file system (saved in VCS),hard coded and program variable,0.04 MB,The save statement was commented during analysis.
+toshan-luktuke/stock-market-analyser,TRUE,ml-ann/Models/ANN/GOOGL.h5,1,file system (saved in VCS),hard coded and program variable,0.04 MB,The save statement was commented during analysis.
+toshan-luktuke/stock-market-analyser,TRUE,ml-ann/Models/ANN/RELI.h5,1,file system (saved in VCS),hard coded and program variable,0.04 MB,The save statement was commented during analysis.
+toshan-luktuke/stock-market-analyser,TRUE,ml-ann/Models/ANN/SPY.h5,1,file system (saved in VCS),hard coded and program variable,0.04 MB,The save statement was commented during analysis.
+toshan-luktuke/stock-market-analyser,TRUE,ml-ann/Models/ANN/TSLA.h5,1,file system (saved in VCS),hard coded and program variable,0.04 MB,The save statement was commented during analysis.
+toshan-luktuke/stock-market-analyser,TRUE,ml-ann/Models/ANN/TTM.h5,1,file system (saved in VCS),hard coded and program variable,0.04 MB,The save statement was commented during analysis.
+toshan-luktuke/stock-market-analyser,FALSE,ml-linear/Models/Linear regression/AAPL.pkl,1,file system (saved in VCS),hard coded and program variable,0.0 MB,
+toshan-luktuke/stock-market-analyser,FALSE,ml-linear/Models/Linear regression/FB.pkl,1,file system (saved in VCS),hard coded and program variable,0.0 MB,
+toshan-luktuke/stock-market-analyser,FALSE,ml-linear/Models/Linear regression/GOOG.pkl,1,file system (saved in VCS),hard coded and program variable,0.0 MB,
+toshan-luktuke/stock-market-analyser,FALSE,ml-linear/Models/Linear regression/GOOGL.pkl,1,file system (saved in VCS),hard coded and program variable,0.0 MB,
+toshan-luktuke/stock-market-analyser,FALSE,ml-linear/Models/Linear regression/RELI.pkl,1,file system (saved in VCS),hard coded and program variable,0.0 MB,
+toshan-luktuke/stock-market-analyser,FALSE,ml-linear/Models/Linear regression/SPY.pkl,1,file system (saved in VCS),hard coded and program variable,0.0 MB,
+toshan-luktuke/stock-market-analyser,FALSE,ml-linear/Models/Linear regression/TSLA.pkl,1,file system (saved in VCS),hard coded and program variable,0.0 MB,
+toshan-luktuke/stock-market-analyser,FALSE,ml-linear/Models/Linear regression/TTM.pkl,1,file system (saved in VCS),hard coded and program variable,0.0 MB,
+ubicomplab/rPPG-Toolbox,TRUE,PreTrainedModels/<Data_derived_name>/_Epoch<best_epoch>.pth,4,file system (not saved in VCS),config file,,
+ubicomplab/rPPG-Toolbox,TRUE,PreTrainedModels/<Data_derived_name>/_Epoch<last_epoch>.pth,4,file system (not saved in VCS),config file,,
+ubicomplab/rPPG-Toolbox,TRUE,final_model_release/PURE_DeepPhys.pth,1,file system (saved in VCS),config file,8.51 MB,
+ubicomplab/rPPG-Toolbox,TRUE,final_model_release/PURE_EfficientPhys.pth,1,file system (saved in VCS),config file,8.26 MB,
+ubicomplab/rPPG-Toolbox,TRUE,final_model_release/PURE_PhysNet_DiffNormalized.pth,1,file system (saved in VCS),config file,2.96 MB,The file name in code and the saved file name didn't match exactly. Found a file little difference in the file names. The file name in code is final_model_release/PURE_PhysNet_Normalized.pth
+ubicomplab/rPPG-Toolbox,TRUE,final_model_release/PURE_TSCAN.pth,1,file system (saved in VCS),config file,8.51 MB,
+ubicomplab/rPPG-Toolbox,TRUE,final_model_release/SCAMPS_DeepPhys.pth,2,file system (saved in VCS),config file,8.51 MB,
+ubicomplab/rPPG-Toolbox,TRUE,final_model_release/SCAMPS_EfficientPhys.pth,2,file system (saved in VCS),config file,8.26 MB,
+ubicomplab/rPPG-Toolbox,TRUE,final_model_release/SCAMPS_PhysNet_DiffNormalied.pth,2,file system (saved in VCS),config file,2.96 MB,The file name in code and the saved file name didn't match exactly. Found a file little difference in the file names. The file name in code is final_model_release/SCAMPS_PhysNet_Normalied.pth
+ubicomplab/rPPG-Toolbox,TRUE,final_model_release/SCAMPS_TSCAN.pth,2,file system (saved in VCS),config file,8.51 MB,
+ubicomplab/rPPG-Toolbox,TRUE,final_model_release/UBFC_DeepPhys.pth,1,file system (saved in VCS),config file,8.51 MB,
+ubicomplab/rPPG-Toolbox,TRUE,final_model_release/UBFC_EfficientPhys.pth,1,file system (saved in VCS),config file,8.26 MB,
+ubicomplab/rPPG-Toolbox,TRUE,final_model_release/UBFC_PhysNet_DiffNormalized.pth,1,file system (saved in VCS),config file,2.96 MB,The file name in code and the saved file name didn't match exactly. Found a file little difference in the file names. The file name in code is final_model_release/UBFC_PhysNet_Normalized.pth
+ubicomplab/rPPG-Toolbox,TRUE,final_model_release/UBFC_TSCAN.pth,1,file system (saved in VCS),config file,8.51 MB,
+undera/chess-engine-nn,TRUE,models/<str(cs)>.hdf5,1,file system (not saved in VCS),program variable and hard coded,,
+undera/chess-engine-nn,TRUE,nn.hdf5,2,file system (not saved in VCS),hard coded,,
+v-sivak/quantum-control-rl,FALSE,E:\data\gkp_sims\PPO\ECD\EXP_Vlad\sbs_pauli\run_50\policy\001040,1,file system (not saved in VCS - outside of the repository),hard coded and program variable,,
+v-sivak/quantum-control-rl,FALSE,E:\data\gkp_sims\PPO\ECD\EXP_Vlad\sbs_pauli\run_56\policy\<epoch>,1,file system (not saved in VCS - outside of the repository),hard coded and program variable,,
+vtuber-plan/vcvits,FALSE,https://dl.fbaipublicfiles.com/hubert/hubert_base_ls960.pt,1,online,readme file,1126.4 MB,In the readme file the https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md url was provided to get the pre-trained models. Found this model from the url page.
+vtuber-plan/vcvits,FALSE,https://dl.fbaipublicfiles.com/hubert/hubert_large_ll60k.pt,1,online,readme file,3584 MB,In the readme file the https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md url was provided to get the pre-trained models. Found this model from the url page.
+vtuber-plan/vcvits,FALSE,https://dl.fbaipublicfiles.com/hubert/hubert_large_ll60k_finetune_ls960.pt,1,online,readme file,3614.87 MB,In the readme file the https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md url was provided to get the pre-trained models. Found this model from the url page.
+vtuber-plan/vcvits,FALSE,https://dl.fbaipublicfiles.com/hubert/hubert_xtralarge_ll60k.pt,1,online,readme file,11059.2 MB,In the readme file the https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md url was provided to get the pre-trained models. Found this model from the url page.
+vtuber-plan/vcvits,FALSE,https://dl.fbaipublicfiles.com/hubert/hubert_xtralarge_ll60k_finetune_ls960.pt,1,online,readme file,11021.58 MB,In the readme file the https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md url was provided to get the pre-trained models. Found this model from the url page.
+vtuber-plan/vcvits,unknown,unknown,1,file system (source unknown),method parameter,,"The path for the checkpoint provided through method parameter, however, couldn't find the method call."
+wimlds-trojmiasto/detect-waste,TRUE,../../FastRCNN/mkortas/detect-waste/models/model,1,file system (not saved in VCS - outside of the repository),hard coded and program variable,,
+wimlds-trojmiasto/detect-waste,TRUE,/dih4/dih4_2/wimlds/smajchrowska/detr/outputs_ballons/checkpoint.pth,1,file system (not saved in VCS - outside of the repository),hard coded,,
+wimlds-trojmiasto/detect-waste,TRUE,/dih4/dih4_2/wimlds/smajchrowska/maskrcnn_RN50/checkpoint_20.pth,1,file system (not saved in VCS - outside of the repository),hard coded,,
+wimlds-trojmiasto/detect-waste,FALSE,<args.out>/classification_net.pth,1,file system (not saved in VCS),argument and hard coded,,
+wimlds-trojmiasto/detect-waste,unknown,https://dl.fbaipublicfiles.com/detr/detr-r50-e632da11.pth,1,online,argument,158.90 MB,
+wimlds-trojmiasto/detect-waste,FALSE,https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/efficientdet_d0-f3276ba8.pth,5,online,config file,15.1 MB,
+wimlds-trojmiasto/detect-waste,FALSE,https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/efficientdet_d1-bb7e98fe.pth,5,online,config file,25.7 MB,
+wimlds-trojmiasto/detect-waste,FALSE,https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/resdet50_416-08676892.pth,5,online,config file,105.67 MB,
+wimlds-trojmiasto/detect-waste,FALSE,https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d0_34-f153e0cf.pth,5,online,config file,15.11 MB,
+wimlds-trojmiasto/detect-waste,FALSE,https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d1_40-a30f94af.pth,5,online,config file,25.71 MB,
+wimlds-trojmiasto/detect-waste,FALSE,https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d2_43-8107aa99.pth,5,online,config file,31.37 MB,
+wimlds-trojmiasto/detect-waste,FALSE,https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d3_47-0b525f35.pth,5,online,config file,46.54 MB,
+wimlds-trojmiasto/detect-waste,FALSE,https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d4_49-f56376d9.pth,5,online,config file,79.93 MB,
+wimlds-trojmiasto/detect-waste,FALSE,https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d5_51-c79f9be6.pth,5,online,config file,129.51 MB,
+wimlds-trojmiasto/detect-waste,FALSE,https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d6_52-4eda3773.pth,5,online,config file,199.36 MB,
+wimlds-trojmiasto/detect-waste,FALSE,https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d7_53-6d1d7a95.pth,5,online,config file,199.36 MB,
+wimlds-trojmiasto/detect-waste,FALSE,https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d7x-f390b87c.pth,5,online,config file,296.24 MB,
+wimlds-trojmiasto/detect-waste,FALSE,https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_lite0-f5f303a9.pth,5,online,config file,12.65 MB,
+wimlds-trojmiasto/detect-waste,unknown,unknown,5,file system (source unknown),argument,,
+yjh0410/FreeYOLO,FALSE,https://download.pytorch.org/models/shufflenetv2_x0.5-f707e7126e.pth,6,online,hard coded,5.3 MB,
+yjh0410/FreeYOLO,FALSE,https://download.pytorch.org/models/shufflenetv2_x1-5666bf0f80.pth,6,online,hard coded,8.8 MB,
+yjh0410/FreeYOLO,FALSE,https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_huge.pth,6,online,hard coded,101 MB,
+yjh0410/FreeYOLO,FALSE,https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_large.pth,6,online,hard coded,55.1 MB,
+yjh0410/FreeYOLO,FALSE,https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_nano.pth,6,online,hard coded,1.54 MB,
+yjh0410/FreeYOLO,FALSE,https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_tiny.pth,6,online,hard coded,5.3 MB,
+yjh0410/FreeYOLO,unknown,unknown,6,file system (source unknown),argument,,
+yjh0410/PyTorch_YOWO,FALSE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/kinetics_shufflenetv2_0.25x_RGB_16_best.pth,1,online,hard coded,6.6 MB,
+yjh0410/PyTorch_YOWO,FALSE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/kinetics_shufflenetv2_1.0x_RGB_16_best.pth,1,online,hard coded,14.9 MB,
+yjh0410/PyTorch_YOWO,FALSE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/kinetics_shufflenetv2_1.5x_RGB_16_best.pth,1,online,hard coded,24.5 MB,
+yjh0410/PyTorch_YOWO,FALSE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/kinetics_shufflenetv2_2.0x_RGB_16_best.pth,1,online,hard coded,50.9 MB,
+yjh0410/PyTorch_YOWO,FALSE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/resnext-101-kinetics.pth,1,online,hard coded,369 MB,
+yjh0410/PyTorch_YOWO,FALSE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/resnext-152-kinetics.pth,1,online,hard coded,,Got 404
+yjh0410/PyTorch_YOWO,FALSE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/resnext-50-kinetics.pth,1,online,hard coded,,Got 404
+yjh0410/PyTorch_YOWO,FALSE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yolov2.pth,1,online,hard coded,195 MB,
+yjh0410/PyTorch_YOWO,FALSE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yolov3.pth,1,online,hard coded,237 MB,
+yjh0410/PyTorch_YOWO,TRUE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_ava_v2.2_20.6.pth,1,online,readme file,464 MB,
+yjh0410/PyTorch_YOWO,TRUE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_ava_v2.2_K32_21.6.pth,1,online,readme file,464 MB,
+yjh0410/PyTorch_YOWO,TRUE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_nano_ava_v2.2_18.4.pth,1,online,readme file,279.07 MB,
+yjh0410/PyTorch_YOWO,TRUE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_nano_ava_v2.2_K32_19.5.pth,1,online,readme file,279.07 MB,
+yjh0410/PyTorch_YOWO,TRUE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_nano_ucf24_81.0.pth,1,online,readme file,278 MB,
+yjh0410/PyTorch_YOWO,TRUE,https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_ucf24_84.9.pth,1,online,readme file,463 MB,
+yjh0410/PyTorch_YOWO,FALSE,https://github.com/yjh0410/YOWOF/releases/download/yowof-weight/resnet-101-kinetics.pth,1,online,hard coded,657 MB,
+yjh0410/PyTorch_YOWO,FALSE,https://github.com/yjh0410/YOWOF/releases/download/yowof-weight/resnet-18-kinetics.pth,1,online,hard coded,254 MB,
+yjh0410/PyTorch_YOWO,FALSE,https://github.com/yjh0410/YOWOF/releases/download/yowof-weight/resnet-34-kinetics.pth,1,online,hard coded,,Got 404. No use of the loaded model found.
+yjh0410/PyTorch_YOWO,FALSE,https://github.com/yjh0410/YOWOF/releases/download/yowof-weight/resnet-50-kinetics.pth,1,online,hard coded,359 MB,
+yjh0410/PyTorch_YOWO,unknown,unknown,4,file system (source unknown),argument,,
