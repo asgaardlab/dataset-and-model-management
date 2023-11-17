@@ -13,7 +13,7 @@ The 1st analysis of the management of dataset and model in ML applications
 │   ├── library_releases: list of versions per libraries
 │   │   ├── *.csv
 │   ├── manual_analysis_result: manual analysis result
-│   │   ├── supporting files
+│   │   ├── supporting_files
 │   │   │   ├── *.csv: files generated after result export
 │   │   │   ├── *.yaml: helper files to generate manual analysis template for each repository 
 │   │   ├── *.yaml
