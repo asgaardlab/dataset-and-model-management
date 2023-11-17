@@ -1,0 +1,117 @@
+repository_name: thevasudevgupta/bigbird
+last_commit_date: 2022-09-17 20:00
+description: "Google's BigBird (Jax/Flax & PyTorch) @ \U0001F917Transformers"
+analyzing_commit_hash: 594783ae1c258763d8b337248026564d9be48d2b
+comment: Loaded model using transformers api in notebooks/bigbird_pegasus_evaluation.ipynb@In[6]:2 for prediction. Loaded model using train_nq_flax api in notebooks/evaluate-flax-natural-questions.ipynb@In[19]:3 for evaluation. Loaded model using train_nq api in notebooks/evaluate-torch-natural-questions.ipynb@In[14]:5 for evaluation.
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: null
+            line_no: null
+        model_load_purpose_trace:
+          - file_path: null
+            line_no: null
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 82
+              - 86
+        location: https://huggingface.co/vasudevgupta/flax-bigbird-natural-questions
+        location_type: online
+        location_set_from: readme file
+        size: 0.83 MB
+        comment: Calculated size from https://huggingface.co/vasudevgupta/flax-bigbird-natural-questions/blob/main/spiece.model
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: null
+            line_no: null
+        model_load_purpose_trace:
+          - file_path: null
+            line_no: null
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 82
+              - 87
+        location: https://huggingface.co/vasudevgupta/bigbird-roberta-natural-questions
+        location_type: online
+        location_set_from: readme file
+        size: 0.52 MB
+        comment: Calculated size from https://huggingface.co/vasudevgupta/bigbird-roberta-natural-questions/blob/main/pytorch_model.bin
+  training:
+    - model:
+        training_trace:
+          - file_path: src/train_nq_flax.py
+            line_no:
+              - 76
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: online through library (transformers)
+        save_location_trace:
+          - file_path: src/bigbird_flax.py
+            line_no:
+              - 291
+              - 274
+              - 102
+              - 96
+              - 95
+        save_location: training-expt/bigbird-roberta-natural-questions-e<epoch>-s<i>
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: src/train_nq_flax.py
+            line_no:
+              - 39
+              - 34
+          - file_path: src/bigbird_flax.py
+            line_no:
+              - 97
+          - file_path: README.md
+            line_no:
+              - 50
+              - 51
+          - file_path: src/prepare_natural_questions.py
+            line_no:
+              - 342
+              - 323
+        location: load_dataset("natural_questions")
+        location_type: library dataset
+        location_set_from: library api
+        size: 46151.68 MB
+        comment: Calculated the data size from https://huggingface.co/datasets/natural_questions
+    - model:
+        training_trace:
+          - file_path: src/train_nq_torch.py
+            line_no:
+              - 172
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: online through library (transformers)
+        save_location_trace:
+          - file_path: null
+            line_no: null
+        save_location: final-model
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: src/train_nq_torch.py
+            line_no:
+              - 168
+              - 111
+          - file_path: README.md
+            line_no:
+              - 50
+              - 51
+          - file_path: src/prepare_natural_questions.py
+            line_no:
+              - 342
+              - 323
+        location: load_dataset("natural_questions")
+        location_type: library dataset
+        location_set_from: library api
+        size: 46151.68 MB
+        comment: Calculated the data size from https://huggingface.co/datasets/natural_questions

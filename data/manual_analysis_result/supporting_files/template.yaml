@@ -1,0 +1,44 @@
+repository_name: ''
+last_commit_date: Month Date, Year
+description: ''
+analyzing_commit_hash: ''
+comment: ''
+has_instruction_in_readme: ''
+models:
+  pre_trained:
+    - model:
+        self_trained:
+        train_save_trace:
+          - file_path:
+            line_no:
+        model_load_purpose_trace:
+          - file_path:
+            line_no:
+        model_load_purpose:
+        location_trace:
+          - file_path:
+            line_no:
+        location:
+        location_type:
+        location_set_from:
+        size:
+  training:
+    - model:
+        training_trace:
+          - file_path:
+            line_no:
+        is_resume_from_checkpoint:
+        resume_from_checkpoint_location_type:
+        save_location_trace:
+          - file_path:
+            line_no:
+        save_location:
+        save_location_set_from:
+        dataset:
+          location_trace:
+            - file_path:
+              line_no:
+          location:
+          location_type:
+          location_set_from:
+          size:

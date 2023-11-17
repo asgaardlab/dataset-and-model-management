@@ -1,0 +1,260 @@
+repository_name: Moving-AI/virtual-walk
+last_commit_date: 2022-11-21 22:58
+description: Virtual walks in Google Street View using PoseNet and applying Deep Learning
+  models to recognize actions.
+analyzing_commit_hash: 75249dd4e2a3f6f949f40311d911ab716d2145a5
+comment: Downloaded and loaded .json model using tfjs.load_graph_model(model_path) in source/dataprocessing/__init__.py@58,48, download_models.py@9,36,37,38,40, source/funciones.py@179,192,161,166 for prediction. Downloaded and loaded .tflite model using tf.lite.Interpreter(path) in source/dataprocessing/__init__.py@58,50,51, download_models.py@9,19,23,24,25 for prediction
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: source/nn_models/lstm_model.py
+            line_no:
+              - 74
+              - 46
+        model_load_purpose_trace:
+          - file_path: source/webcam_predictor.py
+            line_no:
+              - 237
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: source/nn_models/lstm_model.py
+            line_no:
+              - 86
+              - 85
+              - 21
+              - 13
+          - file_path: source/webcam_predictor.py
+            line_no:
+              - 68
+              - 71
+              - 66
+          - file_path: download_models.py
+            line_no:
+              - 9
+              - 15
+              - 46
+              - 48
+          - file_path: source/funciones.py
+            line_no:
+              - 200
+              - 204
+        location: https://drive.google.com/uc?export=download&id=1JydPMY58DVZr3qcZ3d7EPZWfq__yJH2Z # models/LSTM.h5
+        location_type: online
+        location_set_from: hard coded and program variable
+        size: 0.12 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: source/nn_models/model.py
+            line_no:
+              - 204
+        model_load_purpose_trace:
+          - file_path: source/webcam_predictor.py
+            line_no:
+              - 218
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: source/nn_models/model.py
+            line_no:
+              - 219
+              - 217
+              - 51
+              - 19
+          - file_path: source/webcam_predictor.py
+            line_no:
+              - 90
+              - 94
+              - 88
+          - file_path: download_models.py
+            line_no:
+              - 9
+              - 17
+              - 46
+              - 48
+        location: https://drive.google.com/uc?export=download&id=1eQUYZB1ZTWRjXH4Y-gxs2wsgAK30iwgC # models/SCALER.pkl
+        location_type: online
+        location_set_from: hard coded and program variable
+        size: 0.0 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: source/nn_models/model.py
+            line_no:
+              - 213
+        model_load_purpose_trace:
+          - file_path: source/webcam_predictor.py
+            line_no:
+              - 218
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: source/nn_models/model.py
+            line_no:
+              - 219
+              - 217
+              - 56
+              - 19
+          - file_path: source/webcam_predictor.py
+            line_no:
+              - 90
+              - 92
+              - 78
+          - file_path: download_models.py
+            line_no:
+              - 9
+              - 17
+              - 46
+              - 48
+        location: https://drive.google.com/uc?export=download&id=1cYMuGlfBdkbH6wd9x__1D07I64VA94wE # models/PCA.pkl
+        location_type: online
+        location_set_from: hard coded and program variable
+        size: 0.05 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: source/nn_models/model.py
+            line_no:
+              - 228
+        model_load_purpose_trace:
+          - file_path: source/webcam_predictor.py
+            line_no:
+              - 218
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: source/nn_models/model.py
+            line_no:
+              - 225
+              - 224
+              - 61
+              - 19
+          - file_path: source/webcam_predictor.py
+            line_no:
+              - 90
+              - 93
+              - 83
+          - file_path: download_models.py
+            line_no:
+              - 9
+              - 18
+              - 46
+              - 48
+        location: https://drive.google.com/uc?export=download&id=1dn51tNt96cWesufjCRtuQJQd2S3Ro6fu # models/NN.h5
+        location_type: online
+        location_set_from: hard coded and program variable
+        size: 0.08 MB
+  training:
+    - model:
+        training_trace:
+          - file_path: source/nn_models/lstm_model.py
+            line_no:
+              - 66
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: online
+        save_location_trace:
+          - file_path: source/nn_models/lstm_model.py
+            line_no:
+              - 74
+              - 46
+        save_location: unknown
+        save_location_set_from: method parameter
+      dataset:
+        location_trace:
+          - file_path: source/nn_models/lstm_model.py
+            line_no:
+              - 46
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 55
+          - file_path: source/nn_models/model.py
+            line_no:
+              - 115
+              - 116
+              - 86
+              - 87
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: source/nn_models/model.py
+            line_no:
+              - 198
+              - 204
+        save_location: models/scaler_<current_time/i_sess>.pkl
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 38
+              - 36
+              - 35
+        location: data/training_data.txt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 55
+          - file_path: source/nn_models/model.py
+            line_no:
+              - 115
+              - 120
+              - 94
+              - 95
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: source/nn_models/model.py
+            line_no:
+              - 213
+              - 210
+        save_location: models/PCA_<current_time/i_sess>.pkl
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 38
+              - 36
+              - 35
+        location: data/training_data.txt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 55
+          - file_path: source/nn_models/model.py
+            line_no:
+              - 115
+              - 125
+              - 129
+              - 149
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: source/nn_models/model.py
+            line_no:
+              - 228
+        save_location: models/NN_<i_sess>.h5
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 38
+              - 36
+              - 35
+        location: data/training_data.txt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null

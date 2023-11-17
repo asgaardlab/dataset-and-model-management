@@ -1,0 +1,27 @@
+repository_name: pulp-platform/snitch
+last_commit_date: 2023-02-23 17:38
+description: Lean but mean RISC-V system!
+analyzing_commit_hash: 66c66a320b0d95a8cd36ef2019a49905d98b41b0
+comment: ''
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: sw/applications/data_gen.py
+            line_no:
+              - 310
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: runtime memory
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: sw/applications/data_gen.py
+            line_no:
+              - 303
+              - 440
+              - 432
+        location: torch.randn(...)
+        location_type: runtime memory
+        location_set_from: program method
+        size: null

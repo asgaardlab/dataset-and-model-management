@@ -1,0 +1,53 @@
+repository_name: Tesseract-MI/prostatecancer.ai
+last_commit_date: 2022-11-21 21:27
+description: prostatecancer.ai is an AI-based, zero-footprint medical image viewer
+  that can identify clinically significant prostate cancer.
+analyzing_commit_hash: 3e5d699f3972d1ceb5fa7b5010705643eae547ea
+comment: ''
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/pcad.py
+            line_no:
+              - 51
+              - 50
+              - 66
+          - file_path: models/Densenet_T2_ABK_auc_08/deploy.py
+            line_no:
+              - 28
+              - 36
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/Densenet_T2_ABK_auc_08/deploy.py
+            line_no:
+              - 25
+              - 13
+        location: models/Densenet_T2_ABK_auc_08/model/model_checkpoint.hdf5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 11.26 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/pcad.py
+            line_no:
+              - 55
+              - 54
+              - 68
+          - file_path: models/Densenet_T2_ABK_auc_079_nozone/deploy.py
+            line_no:
+              - 30
+              - 37
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/Densenet_T2_ABK_auc_079_nozone/deploy.py
+            line_no:
+              - 27
+              - 15
+        location: models/Densenet_T2_ABK_auc_079_nozone/model/model_checkpoint.hdf5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 1.62 MB

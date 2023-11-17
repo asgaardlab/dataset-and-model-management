@@ -1,0 +1,105 @@
+repository_name: mahdeslami11/pyannote-audio
+last_commit_date: 2023-01-12 21:23
+description: .nan
+analyzing_commit_hash: a673857c73b789caf1a9ddc1590684013c64551d
+comment: Loaded pre-trained model using huggingface_hub in pyannote/audio/core/model.py for evaluation and inference. The tests/test_train.py and tests/utils/probe_util_test.py file has been used to test code of the model.
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: pyannote/audio/cli/train.py
+            line_no:
+              - 145
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pyannote/audio/cli/train.py
+            line_no:
+              - 136
+              - 119
+              - 108
+        save_location: <epoch>
+        save_location_set_from: program variable
+      dataset:
+        location_trace:
+          - file_path: pyannote/audio/cli/train.py
+            line_no:
+              - 46
+          - file_path: pyannote/audio/cli/train_config/config.yaml
+            line_no:
+              - 1
+        location: unknown
+        location_type: unknown
+        location_set_from: config file
+        size: null
+        comment: The dataset is not defined in the config file.
+    - model:
+        training_trace:
+          - file_path: pyannote/audio/pipelines/clustering.py
+            line_no:
+              - 733
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: pyannote/audio/pipelines/clustering.py
+            line_no:
+              - 723
+              - 763
+              - 810
+              - 843
+              - 758
+              - 739
+              - 737
+              - 271
+              - 272
+              - 251
+              - 252
+              - 217
+              - 215
+              - 854
+              - 855
+              - 856
+              - 857
+              - 853
+          - file_path: pyannote/audio/pipelines/speaker_diarization.py
+            line_no:
+              - 170
+              - 175
+              - 494
+              - 495
+              - 486
+              - 487
+              - 424
+          - file_path: pyannote/audio/core/pipeline.py
+            line_no:
+              - 238
+              - 211
+          - file_path: pyannote/audio/interactive/pipeline/recipe.py
+            line_no:
+              - 105
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The dataset is passed through method parameter, however, couldn't find the method call.
+    - model:
+        training_trace:
+          - file_path: pyannote/audio/pipelines/voice_activity_detection.py
+            line_no:
+              - 349
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: pyannote/audio/pipelines/voice_activity_detection.py
+            line_no:
+              - 326
+              - 319
+              - 322
+              - 323
+        location: unknown
+        location_type: unknown
+        location_set_from: config file
+        size: null
+        comment: The dataset is passed through method parameter, however, couldn't find the method call.

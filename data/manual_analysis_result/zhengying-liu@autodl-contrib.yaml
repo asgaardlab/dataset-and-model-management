@@ -1,0 +1,63 @@
+repository_name: zhengying-liu/autodl-contrib
+last_commit_date: 2022-11-21 21:29
+description: Join us and be credited for AutoDL challenge - the next big thing in
+  automated machine learning. Organized by Google, ChaLearn and 4Paradigm.
+analyzing_commit_hash: 0c9c0d8362207533fe1e3a86bdbc53cd983f24d5
+comment: Datasets are provided from many files, however, they are not used for any model training.
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: utils/formatting_pipeline.py
+            line_no:
+              - 177
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: utils/formatting_pipeline.py
+            line_no:
+              - 171
+        location: <input_dir>/<dataset_name>/<dataset_name>_train.data
+        location_type: file system (not saved in VCS)
+        location_set_from: method parameter and hard coded
+        size: null
+        comment: The path is set through method parameter, however, the method has never been called.
+    - model:
+        training_trace:
+          - file_path: utils/automl_format/ingestion_program/ingestion.py
+            line_no:
+              - 217
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: utils/automl_format/ingestion_program/ingestion.py
+            line_no:
+              - 224
+              - 222
+              - 122
+              - 94
+              - 90
+        save_location: utils/automl_format/sample_code_submission/<basename>
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: utils/automl_format/ingestion_program/data_manager.py
+            line_no:
+              - 80
+              - 99
+              - 95
+              - 85
+              - 82
+              - 65
+              - 60
+          - file_path: utils/automl_format/ingestion_program/ingestion.py
+            line_no:
+              - 178
+              - 119
+              - 165
+              - 151
+        location: utils/automl_format/sample_data/<basename>_train.data
+        location_type: file system (not saved in VCS)
+        location_set_from: method parameter and hard coded
+        size: null

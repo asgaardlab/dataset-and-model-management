@@ -1,0 +1,375 @@
+repository_name: toshan-luktuke/stock-market-analyser
+last_commit_date: 2023-01-10 8:18
+description: This web app uses machine learning to analyse the stock market.
+analyzing_commit_hash: bf50a761373684d8cda9da7c2da5839590e21bb9
+comment: ''
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: ml-ann/Model/ann_model.py
+            line_no:
+              - 93
+        model_load_purpose_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 36
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 26
+              - 27
+              - 23
+              - 17
+        location: ml-ann/Models/ANN/SPY.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.04 MB
+        comment: The save statement was commented during analysis.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: ml-ann/Model/ann_model.py
+            line_no:
+              - 93
+        model_load_purpose_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 36
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 26
+              - 27
+              - 23
+              - 17
+        location: ml-ann/Models/ANN/TSLA.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.04 MB
+        comment: The save statement was commented during analysis.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: ml-ann/Model/ann_model.py
+            line_no:
+              - 93
+        model_load_purpose_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 36
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 26
+              - 27
+              - 23
+              - 17
+        location: ml-ann/Models/ANN/FB.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.04 MB
+        comment: The save statement was commented during analysis.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: ml-ann/Model/ann_model.py
+            line_no:
+              - 93
+        model_load_purpose_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 36
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 26
+              - 27
+              - 23
+              - 17
+        location: ml-ann/Models/ANN/GOOG.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.04 MB
+        comment: The save statement was commented during analysis.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: ml-ann/Model/ann_model.py
+            line_no:
+              - 93
+        model_load_purpose_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 36
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 26
+              - 27
+              - 23
+              - 17
+        location: ml-ann/Models/ANN/GOOGL.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.04 MB
+        comment: The save statement was commented during analysis.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: ml-ann/Model/ann_model.py
+            line_no:
+              - 93
+        model_load_purpose_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 36
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 26
+              - 27
+              - 23
+              - 17
+        location: ml-ann/Models/ANN/AAPL.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.04 MB
+        comment: The save statement was commented during analysis.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: ml-ann/Model/ann_model.py
+            line_no:
+              - 93
+        model_load_purpose_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 36
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 26
+              - 27
+              - 23
+              - 17
+        location: ml-ann/Models/ANN/TTM.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.04 MB
+        comment: The save statement was commented during analysis.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: ml-ann/Model/ann_model.py
+            line_no:
+              - 93
+        model_load_purpose_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 36
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-ann/main.py
+            line_no:
+              - 26
+              - 27
+              - 23
+              - 17
+        location: ml-ann/Models/ANN/RELI.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.04 MB
+        comment: The save statement was commented during analysis.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 26
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 19
+              - 29
+              - 13
+        location: ml-linear/Models/Linear regression/SPY.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.0 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 26
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 19
+              - 29
+              - 13
+        location: ml-linear/Models/Linear regression/TSLA.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.0 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 26
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 19
+              - 29
+              - 13
+        location: ml-linear/Models/Linear regression/FB.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.0 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 26
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 19
+              - 29
+              - 13
+        location: ml-linear/Models/Linear regression/GOOG.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.0 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 26
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 19
+              - 29
+              - 13
+        location: ml-linear/Models/Linear regression/GOOGL.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.0 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 26
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 19
+              - 29
+              - 13
+        location: ml-linear/Models/Linear regression/AAPL.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.0 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 26
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 19
+              - 29
+              - 13
+        location: ml-linear/Models/Linear regression/TTM.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.0 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 26
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: ml-linear/main.py
+            line_no:
+              - 19
+              - 29
+              - 13
+        location: ml-linear/Models/Linear regression/RELI.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 0.0 MB
+  training:
+    - model:
+        training_trace:
+          - file_path: ml-ann/Model/ann_model.py
+            line_no:
+              - 90
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: ml-ann/Model/ann_model.py
+            line_no:
+              - 93
+        save_location: ../Models/ANN/stock_name.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: ml-ann/Model/ann_model.py
+            line_no:
+              - 71
+              - 65
+              - 30
+              - 29
+              - 21
+        location: yf.download(name, auto_adjust=True)
+        location_type: library dataset
+        location_set_from: library api
+        size: null
+        comment: Used the yfinance library to download historical stock price data
+    - model:
+        training_trace:
+        - file_path: Reference_ML/ANN.ipynb
+          line_no:
+            - In[4]:23
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+        - file_path: Reference_ML/ANN.ipynb
+          line_no:
+            - In[4]:4
+            - In[3]:31
+            - In[2]:6
+            - In[2]:2
+        location: yf.download('SPY')
+        location_type: library dataset
+        location_set_from: library api
+        size: null
+        comment: Yahoo Finance dataset is loaded using library api

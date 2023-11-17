@@ -1,0 +1,554 @@
+repository_name: avinashkranjan/Amazing-Python-Scripts
+last_commit_date: 2023-02-16 3:09
+description: "A Curated collection of Amazing Python scripts from Basics to Advance with automation task scripts."
+analyzing_commit_hash: 19495cdb681ad67271540ac8e0341b38bd889384
+comment: A repo of lots of repos(!!)
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: Covid -19-Detection-Using-Chest-X-Ray/Covid_19_Detection_using_Chest_X_Ray.ipynb
+            line_no:
+              - In[10]:1
+        model_load_purpose_trace:
+          - file_path: Covid -19-Detection-Using-Chest-X-Ray/test.py
+            line_no:
+              - 87
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: Covid -19-Detection-Using-Chest-X-Ray/test.py
+            line_no:
+              - 85
+        location: Covid -19-Detection-Using-Chest-X-Ray/model_adv.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 64.9 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: Malaria/model_training.py
+            line_no:
+              - 89
+        model_load_purpose_trace:
+          - file_path: Malaria/main.py
+            line_no:
+              - 21
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: Malaria/main.py
+            line_no:
+              - 20
+              - 19
+        location: Malaria/Models/malaria.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 1 KB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: Heart Disease Prediction/script.py
+            line_no:
+              - 59
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: Heart Disease Prediction/script.py
+            line_no:
+              - 39
+        location: Heart Disease Prediction/heart_model.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 17.6 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: Salary Predictor/model.py
+            line_no:
+              - 51
+              - 52
+        model_load_purpose_trace:
+          - file_path: Salary Predictor/script.py
+            line_no:
+              - 82
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: Salary Predictor/script.py
+            line_no:
+              - 72
+              - 71
+        location: Salary Predictor/models/random_forest2_model.sav
+        location_type: file system (saved in VCS)
+        size: 5.4 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: Message-Spam/messagespam.ipynb
+            line_no:
+              - In[6]:1
+        model_load_purpose_trace:
+          - file_path: Message-Spam/messagespam.ipynb
+            line_no:
+              - In[13]:3
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: Message-Spam/messagespam.ipynb
+            line_no:
+              - In[13]:1
+        location: Message-Spam/filename.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.04 MB
+        comment: Although the model is loaded from /content/filename.pkl, a file with exact name found in the same directory level of the repository.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+            line_no:
+              - In[20]:3
+        model_load_purpose_trace:
+          - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+            line_no:
+              - In[24]:1
+              - In[27]:25
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+            line_no:
+              - In[21]:1
+        location: Reddit-Scraping-And-Flair-Detection/final_model.pkl -1
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 6.72 MB
+  training:
+    - model:
+        training_trace:
+          - file_path: Face-Mask-Detection/face_mask_detection_using_cnn.py
+            line_no: 100
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Face-Mask-Detection/face_mask_detection_using_cnn.py
+            line_no:
+              - 58
+              - 59
+              - 20
+              - 55
+              - 51
+              - 35
+              - 34
+        location: Face-Mask-Detection/kaggle/input/face-mask-detection/train/<image_file_name>
+        location_type: file system (not saved in VCS)
+        size: null
+    - model:
+        training_trace:
+          - file_path: Malaria/model_training.py
+            line_no:
+              - 81
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: Malaria/model_training.py
+            line_no:
+              - 89
+        save_location: Malaria/Models/malaria.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: Malaria/model_training.py
+            line_no:
+              - 57
+              - 55
+              - 51
+              - 44
+              - 16
+              - 26
+              - 25
+              - 24
+              - 23
+              - 21
+              - 19
+              - 38
+              - 37
+              - 36
+              - 35
+              - 33
+              - 31
+        location: Malaria/input/malaria/cell_images/Parasitized/<file_name>
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training (Malaria/input/malaria/cell_images/Uninfected/<file_name>)
+    - model:
+        training_trace:
+          - file_path: Malaria/model_training.py
+            line_no:
+              - 81
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: Malaria/model_training.py
+            line_no:
+              - 89
+        save_location: Malaria/Models/malaria.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: Malaria/model_training.py
+            line_no:
+              - 57
+              - 55
+              - 51
+              - 44
+              - 16
+              - 26
+              - 25
+              - 24
+              - 23
+              - 21
+              - 19
+              - 38
+              - 37
+              - 36
+              - 35
+              - 33
+              - 31
+        location: Malaria/input/malaria/cell_images/Uninfected/<file_name>
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training (Malaria/input/malaria/cell_images/Parasitized/<file_name>)
+    - model:
+        training_trace:
+          - file_path: Message-Spam/messagespam.py
+            line_no:
+              - 28
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: Message-Spam/messagespam.py
+            line_no:
+              - 34
+        save_location: Message-Spam/filename.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: Message-Spam/messagespam.py
+            line_no:
+              - 18
+              - 14
+              - 11
+              - 8
+        location: Message-Spam/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.47 MB
+    - model:
+        training_trace:
+          - file_path: Message_Spam_Detection/Message_Spam_Detection.py
+            line_no:
+              - 38
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Message_Spam_Detection/Message_Spam_Detection.py
+            line_no:
+              - 28
+              - 20
+              - 14
+        location: Message_Spam_Detection/Cleaned_Dataset.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.29 MB
+    - model:
+        training_trace:
+          - file_path: Salary Predictor/model.py
+            line_no:
+              - 42
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: Salary Predictor/model.py
+            line_no:
+              - 51
+              - 52
+        save_location: Salary Predictor/models/random_forest2_model.sav
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: Salary Predictor/model.py
+            line_no:
+              - 23
+              - 21
+              - 18
+              - 14
+              - 12
+        location: Salary Predictor/dataset/cleaned_dataset.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 3 MB
+    - model:
+        training_trace:
+          - file_path: Dominant-Color-Extraction/Dominant color Extraction.ipynb
+            line_no:
+              - In[8]:1
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Dominant-Color-Extraction/Dominant color Extraction.ipynb
+            line_no:
+              - In[5]:3
+              - In[2]:1
+        location: images/1-Saint-Basils-Cathedral.jpg
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: Message-Spam/messagespam.ipynb
+            line_no:
+              - In[5]:10
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: Message-Spam/messagespam.ipynb
+            line_no:
+              - In[6]:1
+        save_location: Message-Spam/filename.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: Message-Spam/messagespam.ipynb
+            line_no:
+              - In[5]:2
+              - In[4]:1
+              - In[3]:1
+              - In[2]:1
+        location: Message-Spam/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.47 MB
+    - model:
+        training_trace:
+        - file_path: Movie-Genre-Prediction-Chatbot/Movie_recommendation_Sentance_Embedding.ipynb
+          line_no:
+            - In[139]:5
+        is_resume_from_checkpoint: no
+        save_location_trace:
+        - file_path: Movie-Genre-Prediction-Chatbot/Movie_recommendation_Sentance_Embedding.ipynb
+          line_no:
+            - In[139]:6
+        save_location: Movie-Genre-Prediction-Chatbot/model.tflearn
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+        - file_path: Movie-Genre-Prediction-Chatbot/Movie_recommendation_Sentance_Embedding.ipynb
+          line_no:
+            - In[3]:3
+            - In[3]:2
+        location: Movie-Genre-Prediction-Chatbot/data.pickle
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.05 MB
+    - model:
+        training_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[6]:20
+            - In[6]:16
+            - In[6]:15
+            - In[6]:1
+            - In[9]:7
+            - In[7]:1
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[6]:1
+            - In[9]:7
+            - In[9]:5
+            - In[8]:1
+            - In[2]:1
+        location: Reddit-Scraping-And-Flair-Detection/data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 7.40 MB
+        comment: Although the file is loaded from drive/MyDrive/data.csv, a file with exact name found in the same directory level.
+    - model:
+        training_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[6]:20
+            - In[6]:16
+            - In[6]:15
+            - In[6]:1
+            - In[9]:7
+            - In[7]:2
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[6]:1
+            - In[9]:7
+            - In[9]:5
+            - In[8]:1
+            - In[2]:1
+        location: Reddit-Scraping-And-Flair-Detection/data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 7.40 MB
+        comment: Although the file is loaded from drive/MyDrive/data.csv, a file with exact name found in the same directory level.
+    - model:
+        training_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[6]:20
+            - In[6]:16
+            - In[6]:15
+            - In[6]:1
+            - In[9]:7
+            - In[7]:3
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[6]:1
+            - In[9]:7
+            - In[9]:5
+            - In[8]:1
+            - In[2]:1
+        location: Reddit-Scraping-And-Flair-Detection/data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 7.40 MB
+        comment: Although the file is loaded from drive/MyDrive/data.csv, a file with exact name found in the same directory level.
+    - model:
+        training_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[6]:20
+            - In[6]:16
+            - In[6]:15
+            - In[6]:1
+            - In[9]:7
+            - In[7]:4
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[6]:1
+            - In[9]:7
+            - In[9]:5
+            - In[8]:1
+            - In[2]:1
+        location: Reddit-Scraping-And-Flair-Detection/data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 7.40 MB
+        comment: Although the file is loaded from drive/MyDrive/data.csv, a file with exact name found in the same directory level.
+    - model:
+        training_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[6]:20
+            - In[6]:16
+            - In[6]:15
+            - In[6]:1
+            - In[9]:7
+            - In[7]:5
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[6]:1
+            - In[9]:7
+            - In[9]:5
+            - In[8]:1
+            - In[2]:1
+        location: Reddit-Scraping-And-Flair-Detection/data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 7.40 MB
+        comment: Although the file is loaded from drive/MyDrive/data.csv, a file with exact name found in the same directory level.
+    - model:
+        training_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[12]:10
+            - In[12]:7
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[12]:6
+            - In[12]:1
+            - In[2]:1
+        location: Reddit-Scraping-And-Flair-Detection/data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 7.40 MB
+        comment: Although the file is loaded from drive/MyDrive/data.csv, a file with exact name found in the same directory level.
+    - model:
+        training_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[13]:10
+            - In[13]:5
+        is_resume_from_checkpoint: no
+        save_location_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[20]:3
+        save_location: Reddit-Scraping-And-Flair-Detection/final_model.pkl -1
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+        - file_path: Reddit-Scraping-And-Flair-Detection/Modelling.ipynb
+          line_no:
+            - In[13]:4
+            - In[13]:1
+            - In[2]:1
+        location: Reddit-Scraping-And-Flair-Detection/data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 7.40 MB
+        comment: Although the file is loaded from drive/MyDrive/data.csv, a file with exact name found in the same directory level.
+    - model:
+        training_trace:
+        - file_path: Traffic-Sign-Detection/trafffic_sign_detection.ipynb
+          line_no:
+            - In[38]:6
+        is_resume_from_checkpoint: no
+        save_location_trace:
+        - file_path: Traffic-Sign-Detection/trafffic_sign_detection.ipynb
+          line_no:
+            - In[50]:1
+        save_location: Traffic-Sign-Detection/model_final.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+        - file_path: Traffic-Sign-Detection/trafffic_sign_detection.ipynb
+          line_no:
+            - In[37]:2
+            - In[14]:1
+            - In[12]:1
+            - In[12]:11
+            - In[12]:10
+            - In[10]:2
+            - In[12]:9
+            - In[12]:6
+            - In[12]:5
+        location: /content/Dataset/<row>
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded and program variable
+        size: null

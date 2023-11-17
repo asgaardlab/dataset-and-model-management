@@ -1,0 +1,265 @@
+repository_name: wildboar-foundation/wildboar
+last_commit_date: 2023-02-23 16:18
+description: wildboar is a Python module for temporal machine learning
+analyzing_commit_hash: c8ddd2b9465fb67b3c16873e365cf5dbebd877c6
+comment: A library
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: src/wildboar/datasets/outlier.py
+            line_no:
+              - 115
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/wildboar/datasets/outlier.py
+            line_no:
+              - 520
+              - 537
+              - 639
+              - 645
+              - 636
+              - 537
+              - 481
+              - 362
+          - file_path: tests/wildboar/ensemble/test_isolation_shapelet_forest.py
+            line_no:
+              - 16
+              - 15
+          - file_path: src/wildboar/datasets/__init__.py
+            line_no:
+              - 117
+              - 124
+              - 274
+              - 473
+              - 454
+              - 455
+              - 457
+              - 458
+              - 443
+              - 401
+          - file_path: src/wildboar/datasets/_repository.py
+            line_no:
+              - 395
+              - 424
+              - 423
+              - 418
+              - 412
+              - 413
+              - 343
+              - 575
+              - 576
+              - 594
+              - 582
+        location: Get the url after requesting to a repository url
+        location_type: online
+        location_set_from: program variable
+        size: null
+        comment: Get the url after requesting to the repository url
+    - model:
+        training_trace:
+          - file_path: src/wildboar/datasets/outlier.py
+            line_no:
+              - 173
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/wildboar/datasets/outlier.py
+            line_no:
+              - 167
+              - 125
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data passed through method parameter, however, couldn't find the call of the method.
+    - model:
+        training_trace:
+          - file_path: src/wildboar/datasets/outlier.py
+            line_no:
+              - 253
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/wildboar/datasets/outlier.py
+            line_no:
+              - 197
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data passed through method parameter, however, couldn't find the call of the method.
+    - model:
+        training_trace:
+          - file_path: src/wildboar/datasets/outlier.py
+            line_no:
+              - 720
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/wildboar/datasets/outlier.py
+            line_no:
+              - 714
+              - 735
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data passed through method parameter, however, couldn't find the call of the method.
+    - model:
+        training_trace:
+          - file_path: src/wildboar/explain/counterfactual/_nn.py
+            line_no:
+              - 63
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/wildboar/explain/counterfactual/_nn.py
+            line_no:
+              - 54
+        location: unknown
+        location_type: unknown
+        location_set_from: program variable
+        size: null
+        comment: The data set through a program variable, however, couldn't find the assignment of the variable
+    - model:
+        training_trace:
+          - file_path: src/wildboar/explain/counterfactual/_nn.py
+            line_no:
+              - 84
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/wildboar/explain/counterfactual/_nn.py
+            line_no:
+              - 81
+              - 80
+              - 63
+              - 54
+              - 51
+          - file_path: src/wildboar/explain/counterfactual/_helper.py
+            line_no:
+              - 89
+              - 183
+              - 201
+              - 208
+              - 95
+          - file_path: tests/wildboar/explain/test_counterfactuals.py
+            line_no:
+              - 86
+              - 87
+              - 82
+        location: load_dataset("GunPoint", repository="wildboar/ucr-tiny", merge_train_test=False)
+        location_type: library dataset
+        location_set_from: program variable
+        size: null
+        comment: The data returned from a
+    - model:
+        training_trace:
+          - file_path: src/wildboar/explain/counterfactual/_proto.py
+            line_no:
+              - 220
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/wildboar/explain/counterfactual/_proto.py
+            line_no:
+              - 198
+              - 367
+              - 368
+              - 359
+              - 473
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data passed through method parameter, however, couldn't find the call of the method.
+    - model:
+        training_trace:
+          - file_path: src/wildboar/linear_model/_transform.py
+            line_no:
+              - 25
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/wildboar/linear_model/_transform.py
+            line_no:
+              - 23
+              - 22
+              - 17
+              - 44
+              - 82
+              - 70
+              - 130
+          - file_path: src/wildboar/linear_model/_rocket.py
+            line_no:
+              - 8
+              - 62
+          - file_path: src/wildboar/linear_model/_shapelet.py
+            line_no:
+              - 8
+              - 56
+          - file_path: src/wildboar/linear_model/__init__.py
+            line_no:
+              - 10
+              - 11
+              - 12
+              - 13
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data passed through method parameter, however, couldn't find the call of the method.
+    - model:
+        training_trace:
+          - file_path: src/wildboar/metrics/_counterfactual.py
+            line_no:
+              - 97
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/wildboar/metrics/_counterfactual.py
+            line_no:
+              - 89
+              - 28
+          - file_path: src/wildboar/metrics/__init__.py
+            line_no:
+              - 16
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data passed through method parameter, however, couldn't find the call of the method.
+    - model:
+        training_trace:
+          - file_path: src/wildboar/metrics/_counterfactual.py
+            line_no:
+              - 120
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/wildboar/metrics/_counterfactual.py
+            line_no:
+              - 115
+              - 89
+              - 28
+          - file_path: src/wildboar/metrics/__init__.py
+            line_no:
+              - 16
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data passed through method parameter, however, couldn't find the call of the method.

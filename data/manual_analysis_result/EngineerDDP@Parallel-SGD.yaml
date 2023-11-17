@@ -1,0 +1,191 @@
+repository_name: EngineerDDP/Parallel-SGD
+last_commit_date: 2022-11-21 23:25
+description: "An easy framework for experimenting with different network topologies for federated learning or distributed machine learning."
+analyzing_commit_hash: 7ba8768bff10b974ea4b14349036830d879ac069
+comment: ''
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: integration_tests/nn_test.py
+            line_no:
+              - 33
+        model_load_purpose_trace:
+          - file_path: integration_tests/nn_test.py
+            line_no:
+              - 40
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: nn/model/abstract.py
+            line_no:
+              - 192
+          - file_path: integration_tests/nn_test.py
+            line_no:
+              - 34
+        location: CIFARNET.model
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: integration_tests/nn_test.py
+            line_no:
+              - 40
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: integration_tests/nn_test.py
+            line_no:
+              - 33
+        save_location: CIFARNET.model
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: integration_tests/nn_test.py
+            line_no:
+              - 38
+          - file_path: nn/dataset/cifar.py
+            line_no:
+              - 19
+              - 21
+              - 20
+              - 13
+        location: .data/cifar_data/cifar10
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: integration_tests/nn_test.py
+            line_no:
+              - 58
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: integration_tests/nn_test.py
+            line_no:
+              - 56
+          - file_path: nn/dataset/mnist.py
+            line_no:
+              - 62
+              - 66
+              - 63
+              - 48
+              - 60
+              - 58
+              - 56
+              - 51
+              - 12
+        location: .data/mnist_data/
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and program variable
+        size: 63.4 MB
+    - model:
+        training_trace:
+          - file_path: integration_tests/nn_test.py
+            line_no:
+              - 85
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: integration_tests/nn_test.py
+            line_no:
+              - 77
+        location: np.linspace(0, 5, 100).reshape([-1, 1])
+        location_type: runtime memory
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: parallel_sgd/worker.py
+            line_no:
+              - 150
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: parallel_sgd/worker.py
+            line_no:
+              - 121
+              - 117
+              - 39
+          - file_path: nn/dataset/interfaces.py
+            line_no:
+              - 4
+              - 22
+          - file_path: nn/dataset/cifar.py
+            line_no:
+              - 10
+              - 19
+              - 21
+              - 20
+              - 13
+        location: .data/cifar_data/cifar10
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: parallel_sgd/worker.py
+            line_no:
+              - 150
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: parallel_sgd/worker.py
+            line_no:
+              - 121
+              - 117
+              - 39
+          - file_path: nn/dataset/interfaces.py
+            line_no:
+              - 4
+              - 22
+          - file_path: nn/dataset/mnist.py
+            line_no:
+              - 62
+              - 66
+              - 63
+              - 48
+              - 60
+              - 58
+              - 56
+              - 51
+        location: .data/mnist_data/train-images.idx3-ubyte
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 44.86 MB
+    - model:
+        training_trace:
+          - file_path: parallel_sgd/worker.py
+            line_no:
+              - 150
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: parallel_sgd/worker.py
+            line_no:
+              - 121
+              - 117
+              - 39
+          - file_path: nn/dataset/interfaces.py
+            line_no:
+              - 4
+              - 22
+          - file_path: nn/dataset/simdata.py
+            line_no:
+              - 88
+              - 105
+              - 106
+              - 121
+        location: np.random.uniform(...)
+        location_type: runtime memory
+        location_set_from: program method
+        size: null

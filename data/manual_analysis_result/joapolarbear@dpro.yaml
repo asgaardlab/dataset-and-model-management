@@ -1,0 +1,134 @@
+repository_name: joapolarbear/dpro
+last_commit_date: 2022-09-07 13:27
+description: Analysis for the traces from byteprofile
+analyzing_commit_hash: 94538388590a51a8db5818cff3f93febb387c618
+comment: ''
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: dpro/cost_model/_xla/xla_module_cost_model.py
+            line_no:
+              - 700
+              - 686
+              - 685
+              - 590
+              - 856
+              - 851
+          - file_path: dpro/xla_cm_entry.py
+            line_no:
+              - 66
+              - 41
+              - 29
+          - file_path: dpro/cost_model/_xla/utils.py
+            line_no:
+              - 24
+        model_load_purpose_trace:
+          - file_path: dpro/cost_model/_xla/xla_module_cost_model.py
+            line_no:
+              - 809
+              - 829
+              - 975
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: dpro/cost_model/_xla/xla_module_cost_model.py
+            line_no:
+              - 808
+              - 807
+              - 777
+              - 829
+              - 824
+          - file_path: dpro/xla_cm_entry.py
+            line_no:
+              - 73
+          - file_path: dpro/cost_model/_xla/utils.py
+            line_no:
+              - 24
+        location: <args.output_dir>/cost_model/model_weights.h5
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and config file
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: dpro/cost_model/_gpu_predict/dim_reduce.py
+            line_no:
+              - 64
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: dpro/cost_model/_gpu_predict/dim_reduce.py
+            line_no:
+              - 28
+              - 17
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data is passed through method parameter, however, couldn't find the call to the method.
+    - model:
+        training_trace:
+          - file_path: dpro/cost_model/_mixed_precision/dim_reduce.py
+            line_no:
+              - 64
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: dpro/cost_model/_mixed_precision/dim_reduce.py
+            line_no:
+              - 28
+              - 17
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data is passed through method parameter, however, couldn't find the call to the method.
+    - model:
+        training_trace:
+          - file_path: dpro/cost_model/_xla/xla_module_cost_model.py
+            line_no:
+              - 695
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: dpro/cost_model/_xla/xla_module_cost_model.py
+            line_no:
+              - 700
+              - 686
+              - 685
+              - 590
+              - 856
+              - 851
+          - file_path: dpro/xla_cm_entry.py
+            line_no:
+              - 66
+              - 41
+              - 29
+          - file_path: dpro/cost_model/_xla/utils.py
+            line_no:
+              - 24
+        save_location: <args.output_dir>/cost_model/model_weights.h5
+        save_location_set_from: argument and config file
+      dataset:
+        location_trace:
+          - file_path: dpro/cost_model/_xla/xla_module_cost_model.py
+            line_no:
+              - 637
+              - 599
+              - 590
+              - 856
+              - 854
+              - 851
+          - file_path: dpro/xla_cm_entry.py
+            line_no:
+              - 66
+          - file_path: dpro/cost_model/_xla/utils.py
+            line_no:
+              - 2
+        location: <args.output_dir>/kernel_dataset/dataset
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and config file
+        size: null

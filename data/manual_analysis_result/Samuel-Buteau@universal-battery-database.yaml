@@ -1,0 +1,35 @@
+repository_name: Samuel-Buteau/universal-battery-database
+last_commit_date: 2022-12-08 3:55
+description: Open source Li-ion data management and modelling software
+analyzing_commit_hash: 55e64db74eb05cd9f0541a243bb540c0deba7d60
+comment: ''
+has_instruction_in_readme: yes
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: machine_learning/management/commands/ml_smoothing.py
+            line_no:
+              - 102
+              - 504
+              - 544
+              - 528
+              - 530
+              - 583
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: machine_learning/management/commands/ml_smoothing.py
+            line_no:
+              - 86
+              - 85
+              - 71
+          - file_path: Key.py
+            line_no:
+              - 75
+              - 77
+        location: <dataset_path>/dataset_ver_<data_version>.file
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null

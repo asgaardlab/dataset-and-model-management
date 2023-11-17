@@ -1,0 +1,218 @@
+repository_name: aristoteleo/spateo-release
+last_commit_date: 2023-02-22 0:24
+description: 'Spatiotemporal modeling of spatial transcriptomics '
+analyzing_commit_hash: 6f3f4cff7d25ca4c5a3bd7a45c127e639b8214f8
+comment: implementation of a paper. There are a lot of cascading of the parameters. However, the root of the call is untraceable.
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: spateo/tdr/widgets/deep_interpolation.py
+            line_no:
+              - 331
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: spateo/tdr/widgets/deep_interpolation.py
+            line_no:
+              - 334
+          - file_path: spateo/tdr/widgets/deep_interpolation.py
+            line_no:
+              - 77
+              - 32
+        location: model_buffer/h
+        location_type: file system (not saved in VCS)
+        location_set_from: program variable
+        size: null
+        comment: 3 models used as one model for training and prediction.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: spateo/tdr/widgets/deep_interpolation.py
+            line_no:
+              - 329
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: spateo/tdr/widgets/deep_interpolation.py
+            line_no:
+              - 336
+          - file_path: spateo/tdr/widgets/deep_interpolation.py
+            line_no:
+              - 77
+              - 32
+        location: model_buffer/A
+        location_type: file system (not saved in VCS)
+        location_set_from: program variable
+        size: null
+        comment: 3 models used as one model for training and prediction.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: spateo/tdr/widgets/deep_interpolation.py
+            line_no:
+              - 330
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: spateo/tdr/widgets/deep_interpolation.py
+            line_no:
+              - 337
+          - file_path: spateo/tdr/widgets/deep_interpolation.py
+            line_no:
+              - 77
+              - 32
+        location: model_buffer/B
+        location_type: file system (not saved in VCS)
+        location_set_from: program variable
+        size: null
+        comment: 3 models used as one model for training and prediction.
+  training:
+    - model:
+        training_trace:
+          - file_path: spateo/alignment/methods/paste.py
+            line_no:
+              - 270
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: spateo/alignment/methods/paste.py
+            line_no:
+              - 263
+              - 260
+              - 254
+              - 180
+        location: unknown
+        location_type: unknown
+        location_set_from: program variable
+        size: null
+        comment: The value passed through method parameter, however, the method has never been called.
+    - model:
+        training_trace:
+          - file_path: spateo/alignment/methods/paste.py
+            line_no:
+              - 311
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: spateo/alignment/methods/paste.py
+            line_no:
+              - 305
+              - 255
+              - 181
+        location: unknown
+        location_type: unknown
+        location_set_from: program variable
+        size: null
+        comment: The value passed through method parameter, however, the method has never been called.
+    - model:
+        training_trace:
+          - file_path: spateo/plotting/static/utils.py
+            line_no:
+              - 1973
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: spateo/alignment/methods/paste.py
+            line_no:
+              - 1894
+              - 2084
+              - 2046
+          - file_path: spateo/plotting/static/dotplot.py
+            line_no:
+              - 1478
+              - 365
+              - 334
+              - 1774
+              - 1630
+        location: unknown
+        location_type: unknown
+        location_set_from: program variable
+        size: null
+        comment: The value passed through method parameter, however, the method has never been called.
+    - model:
+        training_trace:
+          - file_path: spateo/tdr/morphometrics/morphology.py
+            line_no:
+              - 109
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: spateo/tdr/morphometrics/morphology.py
+            line_no:
+              - 108
+              - 107
+              - 75
+        location: unknown
+        location_type: unknown
+        location_set_from: program variable
+        size: null
+        comment: the value passed through method parameter, however, the method has never been called.
+    - model:
+        training_trace:
+          - file_path: spateo/tdr/widgets/tree.py
+            line_no:
+              - 267
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: spateo/tdr/widgets/tree.py
+            line_no:
+              - 244
+          - file_path: spateo/tdr/widgets/changes.py
+            line_no:
+              - 232
+              - 222
+              - 219
+              - 189
+              - 394
+              - 387
+              - 353
+        location: unknown
+        location_type: unknown
+        location_set_from: program variable
+        size: null
+        comment: The value passed through method parameter, however, the method has never been called.
+    - model:
+        training_trace:
+          - file_path: spateo/tools/cluster_degs.py
+            line_no:
+              - 74
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: spateo/tools/cluster_degs.py
+            line_no:
+              - 73
+              - 60
+              - 29
+        location: unknown
+        location_type: unknown
+        location_set_from: program variable
+        size: null
+        comment: The value passed through method parameter, however, the method has never been called.
+    - model:
+        training_trace:
+          - file_path: spateo/tools/coarse_align.py
+            line_no:
+              - 190
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: spateo/tools/coarse_align.py
+            line_no:
+              - 176
+              - 237
+              - 218
+              - 199
+        location: unknown
+        location_type: unknown
+        location_set_from: program variable
+        size: null
+        comment: The value passed through method parameter, however, the method has never been called.

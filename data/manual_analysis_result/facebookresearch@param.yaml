@@ -1,0 +1,109 @@
+repository_name: facebookresearch/param
+last_commit_date: 2023-02-13 22:53
+description: PArametrized Recommendation and Ai Model benchmark is a repository for
+  development of numerous uBenchmarks as well as end to end nets for evaluation of
+  training and inference platforms.
+analyzing_commit_hash: 18611f02a7d040049e14a5d36385c59bb3dacfb0
+comment: Generally, the main purpose is not to train or load a model. They instantiate models withnrandom weights to compare the performance in cpu, gpu and tpu. Should we consider the loading of the models with random weights?
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        model_load_purpose_trace:
+          - file_path: inference/compute/pt/pytorch_linear.py
+            line_no:
+              - 209
+              - 210
+              - 212
+              - 222
+              - 223
+              - 225
+              - 237
+              - 238
+              - 240
+              - 167
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: inference/compute/pt/pytorch_linear.py
+            line_no:
+              - 18
+              - 20
+              - 22
+        location: nn.Linear(hidden_size, output_size)
+        location_type: runtime memory
+        location_set_from: class instantiation
+        size: null
+        comment: Loaded with random weights during instantiation
+    - model:
+        self_trained: yes
+        model_load_purpose_trace:
+          - file_path: train/compute/pt/pytorch_emb.py
+            line_no:
+              - 189
+              - 195
+              - 200
+              - 208
+              - 42
+              - 57
+              - 64
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: train/compute/pt/pytorch_emb.py
+            line_no:
+              - 28
+        location: nn.Embedding(n, m, *args, **kwargs)
+        location_type: runtime memory
+        location_set_from: class instantiation
+        size: null
+        comment: Loaded with random weights during instantiation
+    - model:
+        self_trained: yes
+        model_load_purpose_trace:
+          - file_path: train/compute/pt/pytorch_linear.py
+            line_no:
+              - 278
+              - 289
+              - 307
+              - 314
+              - 223
+              - 228
+              - 240
+              - 252
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: train/compute/pt/pytorch_linear.py
+            line_no:
+              - 18
+        location: nn.Linear(layers_size[i], layers_size[i + 1])
+        location_type: runtime memory
+        location_set_from: class instantiation
+        size: null
+        comment: Loaded with random weights during instantiation
+  training:
+    - model:
+        training_trace:
+          - file_path: train/compute/pt/pytorch_linear.py
+            line_no:
+              - 224
+              - 228
+              - 51
+              - 240
+              - 88
+              - 133
+              - 252
+              - 212
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: train/compute/pt/pytorch_linear.py
+            line_no:
+              - 45
+              - 81
+              - 123
+              - 205
+        location: torch.randn(batch_size, input_size, device=device)
+        location_type: runtime memory
+        location_set_from: program method
+        size: null

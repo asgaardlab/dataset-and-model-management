@@ -1,0 +1,20 @@
+repository_name: datature/portal
+last_commit_date: 2022-12-20 1:52
+description: "Portal is the fastest way to load and visualize your deep neural networks on images and videos \U0001F52E"
+analyzing_commit_hash: 45517161ed110faf3ff6be5a8f90195a673a9f2a
+comment: Portal is an open-source browser-based app. A good repository type for analysis.
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: unknown
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/engine/server/models/tensorflow_model.py
+            line_no:
+              - 124
+        location: <_directory_>/saved_model
+        location_type: file system (not saved in VCS)
+        location_set_from: program variable
+        size: null
+        comment: the _directory_ value is set through constructor. However, no initialization was found. Used the model for prediction in line 141

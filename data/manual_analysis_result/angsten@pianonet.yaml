@@ -1,0 +1,153 @@
+repository_name: angsten/pianonet
+last_commit_date: 2022-11-21 22:53
+description: PianoNet is a deep neural network for generating piano compositions.
+analyzing_commit_hash: b092739e5fd4036821ce37e90e88c2d25838bf74
+comment: all the information to run the app are read from run_description.json file, however, the file is not saved in the file system. This repo gave me a lot of pera :/
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: pianonet/model_inspection/performance_from_pianoroll.py
+            line_no:
+              - 15
+              - 10
+          - file_path: pianonet/serving/app.py
+            line_no:
+              - 115
+              - 106
+              - 12
+        location: models/micro_1
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 2.64 MB
+        comment: the model is not present in /app/models/micro_1. However, there is a directory directly in the root in models name and the model is present inside that directory. The size is collected from there.
+    - model:
+        self_trained: no
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: pianonet/model_inspection/performance_from_pianoroll.py
+            line_no:
+              - 15
+              - 10
+          - file_path: pianonet/serving/app.py
+            line_no:
+              - 115
+              - 106
+              - 12
+        location: models/r9p0_3500kparams_approx_9_blocks_model
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 7.65 MB
+        comment: the model is not present in /app/models/r9p0_3500kparams_approx_9_blocks_model. However, there is a directory directly in the root in models name and the model is present inside that directory. The size is collected from there.
+    - model:
+        self_trained: unknown
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: pianonet/training_utils/run.py
+            line_no:
+              - 163
+              - 157
+              - 54
+              - 53
+              - 36
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: json file
+        size: null
+        comment: the path loaded from run_description.json file, however, the file is not saved in the file system
+    - model:
+        self_trained: unknown
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: pianonet/training_utils/run.py
+            line_no:
+              - 186
+              - 170
+              - 36
+              - 30
+          - file_path: pianonet/scripts/runner.py
+            line_no:
+              - 31
+              - 23
+        location: <path_to_run_directory>/models/initial_model
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and hard coded
+        size: null
+        comment: the root value is provided through cli. Although there is a directory in the file system named models, however, there is not directory named initial_model in it.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: pianonet/training_utils/run.py
+            line_no:
+              - 119
+              - 118
+              - 245
+              - 240
+              - 278
+              - 265
+              - 378
+              - 276
+              - 425
+        model_load_purpose_trace:
+          - file_path: examples/pianonet_mini/get_performances.ipynb
+            line_no:
+              - In[4]:13
+          - file_path: pianonet/model_inspection/performance_tools.py
+            line_no:
+              - 14
+              - 178
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: examples/pianonet_mini/get_performances.ipynb
+            line_no:
+              - In[3]:4
+              - In[3]:2
+              - In[3]:1
+        location: models/0_trained_model
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: pianonet/training_utils/run.py
+            line_no:
+              - 418
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pianonet/training_utils/run.py
+            line_no:
+              - 425
+              - 276
+              - 378
+              - 265
+              - 278
+              - 240
+              - 245
+              - 118
+              - 119
+              - 36
+        save_location: models/<run_index>_trained_model
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pianonet/training_utils/run.py
+            line_no:
+              - 207
+              - 141
+              - 142
+              - 136
+              - 54
+              - 53
+              - 36
+              - 32
+          - file_path: examples/pianonet_mini/run_description.json
+            line_no:
+              - 3
+        location: pianonet_mini_dataset_0_training.mna_jl
+        location_type: file system (not saved in VCS)
+        location_set_from: json file
+        size: null

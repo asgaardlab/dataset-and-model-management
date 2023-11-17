@@ -1,0 +1,118 @@
+repository_name: Kirili4ik/code2vec
+last_commit_date: 2022-11-21 23:28
+description: code2vec for Python 3 made for NL2ML project
+analyzing_commit_hash: 4867647eb68ec3708fb77d3500d4f3fc48331374
+comment: implementation of paper
+has_instruction_in_readme: yes
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: keras_model.py
+            line_no:
+              - 178
+              - 174
+          - file_path: code2vec.py
+            line_no:
+              - 23
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: unknown (passed from argument)
+        save_location_trace:
+          - file_path: keras_model.py
+            line_no:
+              - 250
+              - 248
+          - file_path: model_base.py
+            line_no:
+              - 109
+              - 104
+          - file_path: config.py
+            line_no:
+              - 118
+              - 77
+              - 17
+        save_location: null
+        save_location_set_from: null
+        comment: Model is saved if the path is not null and the path is set from argument
+      dataset:
+        location_trace:
+          - file_path: keras_model.py
+            line_no:
+              - 179
+          - file_path: path_context_reader.py
+            line_no:
+              - 114
+              - 117
+              - 116
+              - 119
+              - 151
+              - 120
+              - 122
+              - 123
+          - file_path: config.py
+            line_no:
+              - 174
+              - 175
+              - 181
+              - 184
+              - 120
+              - 79
+              - 74
+              - 11
+              - 13
+        location: data/my_dataset/my_dataset.train.c2v
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 13.64 MB
+        comment: Part of the path is set through argument. A similar name pattern found in the file system and measured size of it. The original path set is <TRAIN_DATA_PATH_PREFIX>.train.c2v
+    - model:
+        training_trace:
+          - file_path: tensorflow_model.py
+            line_no:
+              - 80
+          - file_path: code2vec.py
+            line_no:
+              - 23
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: tensorflow_model.py
+            line_no:
+              - 93
+              - 92
+          - file_path: config.py
+            line_no:
+              - 118
+              - 77
+              - 17
+        save_location: <MODEL_SAVE_PATH>_iter<epoch_num>
+      dataset:
+        location_trace:
+          - file_path: tensorflow_model.py
+            line_no:
+              - 52
+          - file_path: path_context_reader.py
+            line_no:
+              - 114
+              - 117
+              - 116
+              - 119
+              - 151
+              - 120
+              - 122
+              - 123
+          - file_path: config.py
+            line_no:
+              - 174
+              - 175
+              - 181
+              - 184
+              - 120
+              - 79
+              - 74
+              - 11
+              - 13
+        location: data/my_dataset/my_dataset.train.c2v
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 13.64 MB
+        comment: Part of the path is set through argument. A similar name pattern found in the file system and measured size of it. The original path set is <TRAIN_DATA_PATH_PREFIX>.train.c2v

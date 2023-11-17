@@ -1,0 +1,142 @@
+repository_name: vtuber-plan/vcvits
+last_commit_date: 2022-11-24 13:18
+description: Non Parallel Voice Conversion based on VITS
+analyzing_commit_hash: e49e32b50d7d3c0c08e5f13da0a0871c652a1c4d
+comment: a repository for a voice conversion model
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 8
+        location: https://dl.fbaipublicfiles.com/hubert/hubert_base_ls960.pt
+        location_type: online
+        location_set_from: readme file
+        size: 1126.4 MB
+        comment: In the readme file the https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md url was provided to get the pre-trained models. Found this model from the url page.
+    - model:
+        self_trained: no
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 8
+        location: https://dl.fbaipublicfiles.com/hubert/hubert_large_ll60k.pt
+        location_type: online
+        location_set_from: readme file
+        size: 3584 MB
+        comment: In the readme file the https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md url was provided to get the pre-trained models. Found this model from the url page.
+    - model:
+        self_trained: no
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 8
+        location: https://dl.fbaipublicfiles.com/hubert/hubert_xtralarge_ll60k.pt
+        location_type: online
+        location_set_from: readme file
+        size: 11059.2 MB
+        comment: In the readme file the https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md url was provided to get the pre-trained models. Found this model from the url page.
+    - model:
+        self_trained: no
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 8
+        location: https://dl.fbaipublicfiles.com/hubert/hubert_large_ll60k_finetune_ls960.pt
+        location_type: online
+        location_set_from: readme file
+        size: 3614.87 MB
+        comment: In the readme file the https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md url was provided to get the pre-trained models. Found this model from the url page.
+    - model:
+        self_trained: no
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 8
+        location: https://dl.fbaipublicfiles.com/hubert/hubert_xtralarge_ll60k_finetune_ls960.pt
+        location_type: online
+        location_set_from: readme file
+        size: 11021.58 MB
+        comment: In the readme file the https://github.com/facebookresearch/fairseq/blob/main/examples/hubert/README.md url was provided to get the pre-trained models. Found this model from the url page.
+    - model:
+        self_trained: unknown
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: vits/utils.py
+            line_no:
+              - 23
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: method parameter
+        size: null
+        comment: The path for the checkpoint provided through method parameter, however, couldn't find the method call.
+  training:
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 113
+              - 85
+          - file_path: vits/light/vcvits.py
+            line_no:
+              - 81
+              - 62
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 82
+              - 66
+              - 59
+              - 31
+              - 37
+              - 36
+              - 34
+              - 33
+              - 32
+              - 52
+          - file_path: configs/48k_base.json
+            line_no:
+              - 26
+              - 27
+          - file_path: filelists/example_audio_filelist_train.txt
+            line_no:
+              - 1
+              - 2
+              - 3
+        location: dataset/example/<folder_name>/<file_name>.wav
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: vits/light/vits.py
+            line_no:
+              - 48
+          - file_path: vits/model/synthesizers/synthesizer_tts.py
+            line_no:
+              - 131
+              - 133
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: vits/light/vits.py
+            line_no:
+              - 39
+              - 38
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The dataset passed through method parameter, however, couldn't find the method call.

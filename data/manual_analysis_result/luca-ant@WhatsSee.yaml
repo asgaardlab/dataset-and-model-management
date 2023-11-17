@@ -1,0 +1,198 @@
+repository_name: luca-ant/WhatsSee
+last_commit_date: 2022-09-23 22:28
+description: A simple and humble image captioning application, based on a neural network
+  built with Keras
+analyzing_commit_hash: 947bebf4a05e222f746590bac69761546bee3047
+comment: ''
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 93
+        location: https://github.com/luca-ant/WhatsSee/releases/latest
+        location_type: online
+        location_set_from: readme file
+        size: 13.9 MB
+        comment: Provided their trained model through the url
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 188
+        model_load_purpose_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 197
+              - 327
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 214
+              - 90
+              - 87
+              - 82
+              - 76
+              - 620
+              - 619
+        location: <working_dir>/data/training/model.h5
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 238
+              - 254
+        model_load_purpose_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 344
+              - 354
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 287
+              - 89
+              - 86
+              - 82
+              - 76
+              - 620
+              - 619
+        location: <working_dir>/data/weights/weights.h5
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 238
+              - 254
+        model_load_purpose_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 427
+              - 429
+              - 292
+              - 310
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 287
+              - 89
+              - 86
+              - 82
+              - 76
+              - 620
+              - 619
+        location: <working_dir>/data/weights/weights.h5
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and hard coded
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 253
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 188
+              - 90
+              - 87
+              - 82
+              - 76
+              - 620
+              - 619
+        save_location: <working_dir>/data/training/model.h5
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 248
+              - 95
+              - 76
+              - 82
+              - 620
+              - 493
+              - 626
+              - 332
+              - 336
+              - 143
+              - 144
+          - file_path: dataset.py
+            line_no:
+              - 29
+              - 32
+              - 50
+              - 56
+          - file_path: README.md
+            line_no:
+              - 95
+        location: https://github.com/luca-ant/WhatsSee_dataset # for flickr dataset
+        location_type: online
+        location_set_from: program variable and readme file
+        size: 1063 MB
+        comment: A github repository of dataset
+    - model:
+        training_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 253
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 188
+              - 90
+              - 87
+              - 82
+              - 76
+              - 620
+              - 619
+        save_location: <working_dir>/data/training/model.h5
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: whats_see.py
+            line_no:
+              - 248
+              - 95
+              - 76
+              - 82
+              - 620
+              - 493
+              - 513
+              - 626
+              - 332
+              - 336
+              - 143
+              - 144
+          - file_path: dataset.py
+            line_no:
+              - 29
+              - 30
+              - 31
+              - 215
+              - 221
+        location: http://images.cocodataset.org/annotations/annotations_trainval2017.zip # for coco dataset
+        location_type: online
+        location_set_from: program variable and readme file
+        size: 241 MB

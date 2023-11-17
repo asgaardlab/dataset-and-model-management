@@ -1,0 +1,53 @@
+repository_name: lanl/PYSEQM
+last_commit_date: 2023-02-06 5:47
+description: an interface to semi-empirical quantum chemistry methods implemented
+  with pytorch
+analyzing_commit_hash: 029b2989a2414468e70541eda6863975a72a5afb
+comment: ''
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: examples/opt.py
+            line_no:
+              - 39
+              - 40
+              - 49
+              - 50
+              - 57
+              - 59
+              - 60
+              - 56
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: examples/opt.py
+            line_no:
+              - 39
+        location: examples/model/model.pt
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 1.84 MB
+        comment: Found the model one step inside the file structure
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: examples/test.py
+            line_no:
+              - 27
+              - 31
+              - 32
+              - 35
+              - 36
+              - 37
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: examples/test.py
+            line_no:
+              - 26
+        location: examples/model/model.pt
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 1.84 MB
+        comment: Found the model one step inside the file structure

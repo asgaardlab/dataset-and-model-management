@@ -1,0 +1,46 @@
+repository_name: OpenStackweb/openstack-org
+last_commit_date: 2023-01-27 18:46
+description: '57b48219c7f0d9b76986c9f16300dc06d7307458 '
+analyzing_commit_hash: ae7789f610ad0121ded556ee3f6b763a4057a74e
+comment: ''
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: survey_builder/code/model/extract_tags/bayesian_model_builder.py
+            line_no:
+              - 47
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: survey_builder/code/model/extract_tags/bayesian_model_builder.py
+            line_no:
+              - 51
+              - 50
+              - 35
+              - 60
+        save_location: <folder>/key.pickle
+        save_location_set_from: argument
+      dataset:
+        location_trace:
+          - file_path: survey_builder/code/model/extract_tags/bayesian_model_builder.py
+            line_no:
+              - 36
+              - 33
+              - 119
+              - 116
+              - 86
+              - 96
+              - 99
+              - 68
+              - 104
+              - 87
+              - 77
+              - 75
+              - 71
+              - 59
+        location: mysql database
+        location_type: database (not saved in VCS)
+        location_set_from: argument and config file
+        size: null
+        comment: Although the path is set from argument, no database file found in the repository. A template for the db config file is available at db.ini.template

@@ -1,0 +1,236 @@
+repository_name: qianxunclub/ticket
+last_commit_date: 2022-08-30 11:00
+description: 12306 ticket purchase assistance This is an awesome automatic ticket purchase system. The system is a back-end service written by Spring Boot, so you don’t need to stare at the 12306 official website every day to check the remaining tickets. It’s very cool to use, and it’s guaranteed not to be collected Any sensitive information, really. QQ group
+analyzing_commit_hash: 04e18365a6e7424f6b763223502845cc61f910a1
+comment: They incrementally train the text model with different datasets and changed model architecture and saved the model with different name in each training to keep track. However, only one model is saved in the VCS system.
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 64
+        model_load_purpose_trace:
+          - file_path: python/main.py
+            line_no:
+              - 30
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: python/main.py
+            line_no:
+              - 29
+        location: python/model.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.64 MB
+        comment: The saved model's name is little different in the code.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: python/mlearn_for_image.py
+            line_no:
+              - 69
+        model_load_purpose_trace:
+          - file_path: python/main.py
+            line_no:
+              - 53
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: python/main.py
+            line_no:
+              - 52
+        location: python/12306.image.model.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 57.37 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 64
+        model_load_purpose_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 92
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 87
+        location: python/model.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.64 MB
+        comment: The model file name is model.v1.0.h5. A file with similar name found and measured size.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 132
+              - 96
+              - 64
+        model_load_purpose_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 140
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 136
+        location: python/model.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.64 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: python/mlearn_for_image.py
+            line_no:
+              - 69
+        model_load_purpose_trace:
+          - file_path: python/mlearn_for_image.py
+            line_no:
+              - 75
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: python/mlearn_for_image.py
+            line_no:
+              - 74
+        location: python/12306.image.model.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 57.37 MB
+  training:
+    - model:
+        training_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 60
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 64
+        save_location: python/model.v1.0.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 41
+              - 14
+              - 23
+              - 16
+              - 15
+              - 14
+        location: python/texts.txt # texts.npz
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.0 MB
+        comment: The loaded file in code is an .npz file which is not in the VCS, however, a .txt file with the same name found in the same location. Measured the size of the file.
+    - model:
+        training_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 92
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (saved in VCS)
+        save_location_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 64
+        save_location: python/model.v1.0.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 86
+              - 67
+              - 76
+              - 72
+              - 68
+              - 70
+        location: python/texts.v2.npz
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 120
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 100
+              - 14
+              - 23
+              - 16
+              - 15
+              - 14
+        location: python/texts.txt # texts.npz
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.0 MB
+        comment: The loaded file in code is an .npz file which is not in the VCS, however, a .txt file with the same name found in the same location. Measured the size of the file.
+    - model:
+        training_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 127
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 132
+        save_location: python/model.v2.0.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: python/mlearn.py
+            line_no:
+              - 122
+              - 67
+              - 76
+              - 72
+              - 68
+              - 70
+        location: python/texts.v2.npz
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: python/mlearn_for_image.py
+            line_no:
+              - 63
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: python/mlearn_for_image.py
+            line_no:
+              - 69
+        save_location: python/12306.image.model.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: python/mlearn_for_image.py
+            line_no:
+              - 43
+              - 40
+              - 22
+              - 36
+              - 25
+              - 24
+        location: python/captcha.npz
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null

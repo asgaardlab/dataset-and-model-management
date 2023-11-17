@@ -1,0 +1,839 @@
+repository_name: hukaixuan19970627/yolov5_obb
+last_commit_date: 2023-02-11 4:09
+description: "yolov5 + csl_label.(Oriented Object Detection)\uFF08Rotation Detection\uFF09\
+  \uFF08Rotated BBox\uFF09\u57FA\u4E8Eyolov5\u7684\u65CB\u8F6C\u76EE\u6807\u68C0\u6D4B"
+analyzing_commit_hash: b00c3f245e50e7a80460a1b949d22ea7dfeb27a0
+comment: ''
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 13
+        location: https://drive.google.com/file/d/1NMgxcN98cmBg9_nVK4axxqfiq4pYh-as/view
+        location_type: online
+        location_set_from: readme file
+        size: 96 MB
+    - model:
+        self_trained: yes
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 14
+        location: https://pan.baidu.com/s/1Lqw42xlSZxZn-2gNniBpmw?pwd=yolo
+        location_type: online
+        location_set_from: readme file
+        size: null
+        comment: Couldn't download the file
+    - model:
+        self_trained: yes
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 15
+        location: https://pan.baidu.com/s/1Lqw42xlSZxZn-2gNniBpmw?pwd=yolo
+        location_type: online
+        location_set_from: readme file
+        size: null
+        comment: Couldn't download the file
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: detect.py
+            line_no:
+              - 115
+              - 113
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: detect.py
+            line_no:
+              - 80
+          - file_path: models/common.py
+            line_no:
+              - 279
+              - 293
+              - 299
+          - file_path: utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 14.1 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: export.py
+            line_no:
+              - 396
+              - 398
+              - 400
+              - 402
+              - 404
+              - 410
+              - 414
+              - 416
+              - 418
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: models/experimental.py
+            line_no:
+              - 96
+              - 95
+              - 90
+          - file_path: utils/downloads.py
+            line_no:
+              - 43
+              - 75
+          - file_path: export.py
+            line_no:
+              - 369
+              - 335
+              - 459
+              - 457
+              - 464
+              - 463
+              - 429
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 14.1 MB
+        comment: The model is loaded to export to different formats. The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 73
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 52
+              - 41
+              - 40
+              - 14
+              - 75
+          - file_path: utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5n.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 3.9 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 78
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 52
+              - 41
+              - 40
+              - 14
+              - 80
+          - file_path: utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 14.1 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 83
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 52
+              - 41
+              - 40
+              - 14
+              - 85
+          - file_path: utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5m.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 40.8 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 88
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 52
+              - 41
+              - 40
+              - 14
+              - 90
+          - file_path: utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5l.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 89.3 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 93
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 52
+              - 41
+              - 40
+              - 14
+              - 95
+          - file_path: utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5x.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 166 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 98
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 52
+              - 41
+              - 40
+              - 14
+              - 100
+          - file_path: utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5n6.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 6.9 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 103
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 52
+              - 41
+              - 40
+              - 14
+              - 105
+          - file_path: utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s6.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 24.8 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 108
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 52
+              - 41
+              - 40
+              - 14
+              - 110
+          - file_path: utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5m6.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 69.0 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 113
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 52
+              - 41
+              - 40
+              - 14
+              - 115
+          - file_path: utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5l6.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 147.36 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 118
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 52
+              - 41
+              - 40
+              - 14
+              - 120
+          - file_path: utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5x6.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 269.62 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 141
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: hubconf.py
+            line_no:
+              - 52
+              - 41
+              - 40
+              - 14
+              - 124
+          - file_path: utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 14.1 MB
+        comment: The url is defined after a request for the latest tag for assets. Thus always download the latest asset.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: train.py
+            line_no:
+              - 394
+              - 69
+              - 67
+        model_load_purpose_trace:
+          - file_path: utils/general.py
+            line_no:
+              - 870
+              - 875
+              - 877
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: utils/general.py
+            line_no:
+              - 866
+              - 864
+          - file_path: train.py
+            line_no:
+              - 422
+              - 420
+              - 69
+              - 67
+              - 62
+        location: <save_dir>/weights/last.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: method parameter, hard coded and program variable
+        size: null
+        comment: Model load purpose is to strip optimizer from saved model
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: train.py
+            line_no:
+              - 396
+              - 69
+              - 67
+        model_load_purpose_trace:
+          - file_path: utils/general.py
+            line_no:
+              - 870
+              - 875
+              - 877
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: utils/general.py
+            line_no:
+              - 866
+              - 864
+          - file_path: train.py
+            line_no:
+              - 422
+              - 420
+              - 69
+              - 67
+              - 62
+        location: <save_dir>/weights/best.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: method parameter, hard coded and program variable
+        size: null
+        comment: Model load purpose is to strip optimizer from saved model
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/tf.py
+            line_no:
+              - 431
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/experimental.py
+            line_no:
+              - 96
+              - 95
+              - 90
+          - file_path: utils/downloads.py
+            line_no:
+              - 43
+              - 75
+          - file_path: models/tf.py
+            line_no:
+              - 430
+              - 423
+              - 460
+              - 449
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 14.1 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: val.py
+            line_no:
+              - 194
+              - 237
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: val.py
+            line_no:
+              - 137
+              - 95
+              - 374
+              - 401
+              - 400
+              - 339
+        location: runs/train/yolov5n_DroneVehicle/weights/best.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: argument
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 325
+              - 275
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: train.py
+            line_no:
+              - 394
+              - 396
+              - 398
+              - 69
+              - 67
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 297
+              - 291
+              - 213
+              - 103
+              - 102
+              - 62
+              - 58
+              - 530
+              - 611
+              - 509
+              - 493
+              - 628
+              - 625
+              - 633
+              - 632
+              - 448
+              - 452
+              - 29
+              - 28
+          - file_path: utils/general.py
+            line_no:
+              - 346
+              - 351
+              - 352
+              - 361
+          - file_path: data/DroneVehicle_poly.yaml
+            line_no:
+              - 5
+              - 4
+        location: /media/test/4d846cae-2315-4928-8d1b-ca6d3a61a3c6/DroneVehicle/train/raw/images
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: argument and config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 325
+              - 275
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: train.py
+            line_no:
+              - 394
+              - 396
+              - 398
+              - 69
+              - 67
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 297
+              - 291
+              - 213
+              - 103
+              - 102
+              - 62
+              - 58
+              - 530
+              - 611
+              - 509
+              - 493
+              - 628
+              - 625
+              - 633
+              - 632
+              - 448
+              - 452
+              - 29
+              - 28
+          - file_path: utils/general.py
+            line_no:
+              - 346
+              - 351
+              - 352
+              - 361
+          - file_path: data/dotav1_poly.yaml
+            line_no:
+              - 5
+              - 4
+        location: /media/test/4d846cae-2315-4928-8d1b-ca6d3a61a3c6/DOTA/DOTAv1.5/train_split_1024_gap200/images
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: argument and config file
+        size: null
+        comment: Found the config file in the same directory of the default config file
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 325
+              - 275
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: train.py
+            line_no:
+              - 394
+              - 396
+              - 398
+              - 69
+              - 67
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 297
+              - 291
+              - 213
+              - 103
+              - 102
+              - 62
+              - 58
+              - 530
+              - 611
+              - 509
+              - 493
+              - 628
+              - 625
+              - 633
+              - 632
+              - 448
+              - 452
+              - 29
+              - 28
+          - file_path: utils/general.py
+            line_no:
+              - 346
+              - 351
+              - 352
+              - 361
+          - file_path: data/dotav15_poly.yaml
+            line_no:
+              - 5
+              - 4
+        location: /media/test/4d846cae-2315-4928-8d1b-ca6d3a61a3c6/DOTA/DOTAv1.5/train_split_1024_gap200/images
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: argument and config file
+        size: null
+        comment: Found the config file in the same directory of the default config file
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 325
+              - 275
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: train.py
+            line_no:
+              - 394
+              - 396
+              - 398
+              - 69
+              - 67
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 297
+              - 291
+              - 213
+              - 103
+              - 102
+              - 62
+              - 58
+              - 530
+              - 611
+              - 509
+              - 493
+              - 628
+              - 625
+              - 633
+              - 632
+              - 448
+              - 452
+              - 29
+              - 28
+          - file_path: utils/general.py
+            line_no:
+              - 346
+              - 351
+              - 352
+              - 361
+          - file_path: data/yolov5obb_demo.yaml
+            line_no:
+              - 5
+              - 4
+        location: dataset/dataset_demo/images
+        location_type: file system (saved in VCS)
+        location_set_from: argument and config file
+        size: 5.3 MB
+        comment: Found the config file in the same directory of the default config file. Only a sample image is stored in the directory.
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 325
+              - 275
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: train.py
+            line_no:
+              - 394
+              - 396
+              - 398
+              - 69
+              - 67
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 297
+              - 291
+              - 213
+              - 103
+              - 102
+              - 62
+              - 58
+              - 530
+              - 611
+              - 509
+              - 493
+              - 628
+              - 625
+              - 633
+              - 632
+              - 448
+              - 452
+              - 29
+              - 28
+          - file_path: utils/general.py
+            line_no:
+              - 346
+              - 351
+              - 352
+              - 361
+          - file_path: data/yolov5obb_demo_split.yaml
+            line_no:
+              - 5
+              - 4
+        location: dataset/dataset_demo_rate1.0_split1024_gap200/images
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and config file
+        size: null
+        comment: Found the config file in the same directory of the default config file
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 325
+              - 275
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: train.py
+            line_no:
+              - 394
+              - 396
+              - 398
+              - 69
+              - 67
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 297
+              - 291
+              - 213
+              - 103
+              - 102
+              - 62
+              - 58
+              - 530
+              - 611
+              - 509
+              - 493
+              - 628
+              - 625
+              - 633
+              - 632
+              - 448
+              - 452
+          - file_path: utils/general.py
+            line_no:
+              - 346
+              - 351
+              - 352
+              - 361
+          - file_path: tutorial.ipynb
+            line_no:
+              - In[9]:2
+          - file_path: coco128.yaml
+            line_no: null
+        location: unknown
+        location_type: unknown
+        location_set_from: argument and config file
+        size: null
+        comment: Couldn't find the config file sent through argument for the dataset path.

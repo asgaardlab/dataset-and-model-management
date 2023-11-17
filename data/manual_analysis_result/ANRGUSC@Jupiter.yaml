@@ -1,0 +1,32 @@
+repository_name: ANRGUSC/Jupiter
+last_commit_date: 2023-01-24 3:07
+description: Jupiter is an orchestrator for Dispersed (Networked) Computing that uses Docker containers and Kubernetes.
+analyzing_commit_hash: c413c7f538b4f3db5207d6ed20f938652ca80898
+comment: ''
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: app_specific_files/demo/ccdag_utils.py
+            line_no:
+              - 445
+              - 442
+        location: weights/best.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: program variable
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose: testing
+        location_trace:
+          - file_path: app_specific_files/demo/collage.py
+            line_no:
+              - 186
+              - 184
+        location: app_specific_files/demo/best.pt
+        location_type: file system (saved in VCS)
+        location_set_from: program variable and hard coded
+        size: 60.3 MB

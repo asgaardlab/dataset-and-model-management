@@ -1,0 +1,40 @@
+repository_name: SoloTodo/solotodo_core
+last_commit_date: 2023-02-15 17:36
+description: .nan
+analyzing_commit_hash: edc8a67c868b827b181446dc45f249f98de0764b
+comment: ''
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: solotodo/models/product.py
+            line_no:
+              - 382
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: solotodo/models/product.py
+            line_no:
+              - 374
+              - 357
+              - 372
+              - 370
+              - 362
+              - 361
+              - 296
+              - 315
+              - 310
+              - 309
+              - 287
+              - 285
+          - file_path: solotodo/models/entity.py
+            line_no:
+              - 188
+              - 7
+        location: django.db
+        location_type: database (not saved in VCS)
+        location_set_from: program method
+        size: null
+        comment: Extended django.db.models for database query and filtering

@@ -1,0 +1,176 @@
+repository_name: boxkite-ml/boxkite
+last_commit_date: 2023-02-20 7:00
+description: Concept drift monitoring for HA model servers.
+analyzing_commit_hash: da6d3fba5fd7d328695f202bdb731125165c9201
+comment: Boxkite is an instrumentation library
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: examples/grafana-prometheus/train.py
+            line_no:
+              - 15
+          - file_path: examples/grafana-prometheus/train_classification.py
+            line_no:
+              - 22
+          - file_path: examples/grafana-prometheus/train_completed.py
+            line_no:
+              - 18
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: examples/grafana-prometheus/app/serve.py
+            line_no:
+              - 6
+              - 5
+        location: examples/grafana-prometheus/model.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 1 KB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: examples/grafana-prometheus/train.py
+            line_no:
+              - 15
+          - file_path: examples/grafana-prometheus/train_classification.py
+            line_no:
+              - 22
+          - file_path: examples/grafana-prometheus/train_completed.py
+            line_no:
+              - 18
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: examples/kubeflow-mlflow/app/serve.py
+            line_no:
+              - 6
+              - 5
+        location: examples/grafana-prometheus/model.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 1 KB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: examples/grafana-prometheus/train.py
+            line_no:
+              - 15
+          - file_path: examples/grafana-prometheus/train_classification.py
+            line_no:
+              - 22
+          - file_path: examples/grafana-prometheus/train_completed.py
+            line_no:
+              - 18
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: examples/grafana-prometheus/app/serve_completed.py
+            line_no:
+              - 8
+              - 7
+        location: examples/grafana-prometheus/model.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 1 KB
+  training:
+    - model:
+        training_trace:
+          file_path: examples/grafana-prometheus/train.py
+          line_no: 12
+        is_resume_from_checkpoint: no
+        model_save_code:
+          file_path: examples/grafana-prometheus/train.py
+          line_no: 16
+        save_location: examples/grafana-prometheus/model.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: examples/grafana-prometheus/train.py
+            line_no:
+              - 10
+              - 9
+        location: load_diabetes()
+        location_type: library dataset
+        location_set_from: library api
+        size: null
+    - model:
+        training_trace:
+          - file_path: examples/grafana-prometheus/train_classification.py
+            line_no:
+              - 18
+        model_save_code:
+          - file_path: examples/grafana-prometheus/train_classification.py
+            line_no:
+              - 23
+        save_location: examples/grafana-prometheus/model.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: examples/grafana-prometheus/train_classification.py
+            line_no:
+              - 12
+              - 11
+        location: load_iris()
+        location_type: library dataset
+        location_set_from: library api
+        size: null
+    - model:
+        training_trace:
+          - file_path: examples/grafana-prometheus/train_completed.py
+            line_no:
+              - 14
+        model_save_code:
+          - file_path: examples/grafana-prometheus/train_completed.py
+            line_no:
+              - 19
+        save_location: examples/grafana-prometheus/model.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: examples/grafana-prometheus/train_completed.py
+            line_no:
+              - 12
+              - 11
+        location: load_diabetes()
+        location_type: library dataset
+        location_set_from: library api
+        size: null
+    - model:
+        training_trace:
+          - file_path: examples/kubeflow-mlflow/demo.ipynb
+            line_no:
+              - In[2]:8
+        model_save_code:
+          - file_path: examples/kubeflow-mlflow/demo.ipynb
+            line_no:
+              - In[2]:12
+              - In[2]:11
+        save_location: model.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: examples/kubeflow-mlflow/demo.ipynb
+            line_no:
+              - In[2]:4
+              - In[2]:5
+              - In[2]:3
+        location: load_diabetes()
+        location_type: library dataset
+        location_set_from: library api
+        size: null
+    - model:
+        training_trace:
+          - file_path: notebooks/sample_model_monitoring.ipynb
+            line_no:
+              - In[7]:17
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: notebooks/sample_model_monitoring.ipynb
+            line_no:
+              - In[7]:15
+        location: pd.DataFrame({...})
+        location_type: runtime memory
+        location_set_from: program method
+        size: null
+        comment: Used demo code to load some fixed values as data. Developer commentted 'User code to load training data'.

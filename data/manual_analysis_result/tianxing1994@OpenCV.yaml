@@ -1,0 +1,594 @@
+repository_name: tianxing1994/OpenCV
+last_commit_date: 2022-12-08 6:06
+description: pip install opencv-contrib-python
+analyzing_commit_hash: 69c97b5e1e9694a4a1d418f7fcbfd4e2cf92c943
+comment: ''
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: opencv 高阶应用/高斯贝叶斯聚合图像.py
+            line_no:
+              - 31
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: opencv 高阶应用/高斯贝叶斯聚合图像.py
+            line_no:
+              - 19
+              - 16
+              - 17
+              - 15
+              - 12
+        location: np.array(np.linspace(0, 100, 20, endpoint=False), np.int)
+        location_type: runtime memory
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 练习实例/SIFT_SURF 图像特征作目标检测(在图片中检测出 QQ 图标的位置)/template_match/template_descriptors.py
+            line_no:
+              - 41
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 练习实例/SIFT_SURF 图像特征作目标检测(在图片中检测出 QQ 图标的位置)/template_match/template_descriptors.py
+            line_no:
+              - 39
+              - 32
+              - 36
+              - 35
+              - 19
+              - 29
+              - 28
+              - 27
+              - 26
+              - 23
+              - 22
+              - 6
+              - 21
+              - 20
+              - 11
+              - 10
+          - file_path: 练习实例/SIFT_SURF 图像特征作目标检测(在图片中检测出 QQ 图标的位置)/template_match/config.py
+            line_no: 4
+        location: 练习实例/SIFT_SURF 图像特征作目标检测(在图片中检测出 QQ 图标的位置)/template_match/dataset/image
+        location_type: file system (saved in VCS)
+        location_set_from: program variable
+        size: 16.3 MB
+        comment: Although the full path is not understandable from the code, found the dataset folder and images in the location.
+    - model:
+        training_trace:
+          - file_path: 算法实现/GBDT 分类.py
+            line_no:
+              - 308
+              - 277
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/GBDT 分类.py
+            line_no:
+              - 306
+              - 303
+              - 302
+        location: load_breast_cancer()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/KMeans 聚类算法实现.py
+            line_no:
+              - 100
+              - 86
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/KMeans 聚类算法实现.py
+            line_no:
+              - 97
+              - 96
+        location: load_iris()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/KNN 算法实现.py
+            line_no:
+              - 94
+              - 80
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/KNN 算法实现.py
+            line_no:
+              - 91
+              - 90
+        location: load_iris()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/LDA 降维 (Python 实现).py
+            line_no:
+              - 94
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/LDA 降维 (Python 实现).py
+            line_no:
+              - 90
+              - 89
+        location: load_iris()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/MeanShift 聚类算法.py
+            line_no:
+              - 217
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/MeanShift 聚类算法.py
+            line_no:
+              - 214
+        location: make_blobs(n_samples=500, centers=5, cluster_std=1.2, random_state=None)
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/RANSAC 算法.py
+            line_no:
+              - 37
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/RANSAC 算法.py
+            line_no:
+              - 35
+              - 19
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data passed through a method parameter, however, couldn't find the method call.
+    - model:
+        training_trace:
+          - file_path: 算法实现/RANSAC 算法.py
+            line_no:
+              - 43
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/RANSAC 算法.py
+            line_no:
+              - 42
+              - 35
+              - 40
+              - 19
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data passed through a method parameter, however, couldn't find the method call.
+    - model:
+        training_trace:
+          - file_path: 算法实现/SMOTE 过采样算法.py
+            line_no:
+              - 69
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/SMOTE 过采样算法.py
+            line_no:
+              - 58
+              - 98
+              - 96
+              - 88
+              - 127
+              - 121
+        location: make_classification(...)
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/SMOTE 过采样算法.py
+            line_no:
+              - 69
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/SMOTE 过采样算法.py
+            line_no:
+              - 58
+              - 98
+              - 96
+              - 88
+              - 141
+              - 135
+        location: make_classification(...)
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/TF-IDF 逆文本频率指数.py
+            line_no:
+              - 119
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/TF-IDF 逆文本频率指数.py
+            line_no:
+              - 110
+        location: fixed list of chinese string
+        location_type: runtime memory
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/回归树算法.py
+            line_no:
+              - 172
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/回归树算法.py
+            line_no:
+              - 169
+              - 166
+              - 165
+        location: load_boston()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/图像无参考评价模型BRISQUE.py
+            line_no:
+              - 124
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/图像无参考评价模型BRISQUE.py
+            line_no:
+              - 116
+              - 111
+              - 110
+              - 109
+        location: dataset/data/image_sample/lena.png
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: 算法实现/朴素贝叶斯算法 (Python 实现).py
+            line_no:
+              - 121
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/朴素贝叶斯算法 (Python 实现).py
+            line_no:
+              - 115
+              - 101
+        location: fixed list of english string
+        location_type: runtime memory
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/GMM 高斯混合模型/GMM 高斯混合模型一.py
+            line_no:
+              - 91
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/GMM 高斯混合模型/GMM 高斯混合模型一.py
+            line_no:
+              - 174
+              - 173
+              - 201
+              - 198
+              - 197
+        location: load_iris()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/GMM 高斯混合模型/GMM 高斯混合模型一.py
+            line_no:
+              - 189
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/GMM 高斯混合模型/GMM 高斯混合模型一.py
+            line_no:
+              - 186
+              - 185
+        location: load_iris()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/GMM 高斯混合模型/GMM 高斯混合模型三.py
+            line_no:
+              - 129
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/GMM 高斯混合模型/GMM 高斯混合模型三.py
+            line_no:
+              - 125
+              - 123
+        location: load_iris()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/GMM 高斯混合模型/GMM 高斯混合模型二.py
+            line_no:
+              - 44
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/GMM 高斯混合模型/GMM 高斯混合模型二.py
+            line_no:
+              - 34
+              - 116
+              - 115
+              - 209
+              - 205
+              - 204
+        location: load_iris()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/GMM 高斯混合模型/GMM 高斯混合模型二.py
+            line_no:
+              - 44
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/GMM 高斯混合模型/GMM 高斯混合模型二.py
+            line_no:
+              - 34
+              - 116
+              - 115
+              - 224
+              - 220
+              - 219
+        location: load_iris()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/GMM 高斯混合模型/GMM 高斯混合模型二.py
+            line_no:
+              - 44
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/GMM 高斯混合模型/GMM 高斯混合模型二.py
+            line_no:
+              - 34
+              - 116
+              - 115
+              - 240
+              - 237
+              - 236
+        location: load_iris()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 算法实现/图像显著性分析/HC 算法.py
+            line_no:
+              - 29
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/图像显著性分析/HC 算法.py
+            line_no:
+              - 27
+              - 26
+              - 23
+              - 66
+              - 64
+              - 63
+              - 62
+        location: dataset/data/image_sample/bird.jpg
+        location_type: file system (saved in VCS)
+        location_set_from: program method
+        size: 0.43 MB
+    - model:
+        training_trace:
+          - file_path: 算法实现/图像显著性分析/HC 算法.py
+            line_no:
+              - 80
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 算法实现/图像显著性分析/HC 算法.py
+            line_no:
+              - 78
+              - 77
+              - 76
+              - 75
+        location: dataset/data/image_sample/bird.jpg
+        location_type: file system (saved in VCS)
+        location_set_from: program method
+        size: 0.43 MB
+    - model:
+        training_trace:
+          - file_path: 练习实例/KNN 实现手写字体识别.py
+            line_no:
+              - 41
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 练习实例/KNN 实现手写字体识别.py
+            line_no:
+              - 38
+              - 37
+        location: dataset/nlp/data_digits
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 11.2 MB
+    - model:
+        training_trace:
+          - file_path: 练习实例/基于监督学习的隐马尔科夫模型 HMM 实现中文分词.py
+            line_no:
+              - 198
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 练习实例/基于监督学习的隐马尔科夫模型 HMM 实现中文分词.py
+            line_no:
+              - 190
+              - 189
+              - 187
+        location: dataset/nlp/hmm_corpus/pku_training.utf8
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 7.37 MB
+    - model:
+        training_trace:
+          - file_path: 练习实例/支持向量机的人脸识别.py
+            line_no:
+              - 51
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 练习实例/支持向量机的人脸识别.py
+            line_no:
+              - 43
+              - 35
+        location: fetch_lfw_people(min_faces_per_person=60)
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: 练习实例/汽车位置检测.py练习实例/汽车位置检测.py
+            line_no:
+              - 128
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 练习实例/汽车位置检测.py
+            line_no:
+              - 123
+              - 125
+              - 126
+              - 108
+              - 112
+              - 111
+              - 90
+              - 105
+              - 100
+              - 97
+              - 96
+              - 95
+              - 34
+              - 26
+              - 297
+              - 296
+        location: dataset/data/car_data/TrainImages
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.10 MB
+    - model:
+        training_trace:
+          - file_path: 练习实例/汽车检测 (是否包含汽车).py
+            line_no:
+              - 114
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 练习实例/汽车检测 (是否包含汽车).py
+            line_no:
+              - 109
+              - 11
+              - 112
+              - 94
+              - 98
+              - 97
+              - 74
+              - 91
+              - 86
+              - 83
+              - 81
+              - 80
+              - 42
+              - 33
+              - 145
+              - 144
+        location: dataset/data/car_data/TrainImages
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.10 MB
+    - model:
+        training_trace:
+          - file_path: 练习实例/汽车检测 (是否包含汽车).py
+            line_no:
+              - 199
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: 练习实例/汽车检测 (是否包含汽车).py
+            line_no:
+              - 196
+              - 180
+              - 190
+              - 187
+              - 185
+              - 184
+              - 164
+        location: dataset/data/car_data/TrainImages
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.10 MB

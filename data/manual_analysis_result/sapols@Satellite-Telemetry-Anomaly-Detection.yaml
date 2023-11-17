@@ -1,0 +1,332 @@
+repository_name: sapols/Satellite-Telemetry-Anomaly-Detection
+last_commit_date: 2022-10-14 7:26
+description: Unsupervised machine learning techniques for detecting anomalies in LASP
+  spacecraft telemetry
+analyzing_commit_hash: 83293fca2c25a9a3c8bea64bcaf97700d20f0c88
+comment: ''
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: model_with_arima.py
+            line_no:
+              - 114
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: model_with_arima.py
+            line_no:
+              - 109
+              - 32
+          - file_path: demo/Algorithm Modeling.ipynb
+            line_no:
+              - In[6]:41
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: method parameter
+        size: null
+        comment: The default path is set to none and no value set during calling the method.
+  training:
+    - model:
+        training_trace:
+          - file_path: model_with_arima.py
+            line_no:
+              - 114
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: demo/Algorithm Modeling.ipynb
+            line_no:
+              - In[7]:19
+              - In[7]:13
+              - In[7]:3
+              - In[3]:1
+          - file_path: model_with_arima.py
+            line_no:
+              - 34
+              - 239
+              - 236
+              - 233
+              - 223
+              - 222
+              - 209
+        location: Data/BusVoltage.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 1.94 MB
+    - model:
+        training_trace:
+          - file_path: model_with_arima.py
+            line_no:
+              - 114
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: demo/Algorithm Modeling.ipynb
+            line_no:
+              - In[7]:19
+              - In[7]:13
+              - In[7]:3
+              - In[3]:1
+          - file_path: model_with_arima.py
+            line_no:
+              - 34
+              - 239
+              - 236
+              - 233
+              - 223
+              - 222
+              - 209
+        location: Data/TotalBusCurrent.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.16 MB
+    - model:
+        training_trace:
+          - file_path: model_with_arima.py
+            line_no:
+              - 114
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: demo/Algorithm Modeling.ipynb
+            line_no:
+              - In[7]:19
+              - In[7]:13
+              - In[7]:3
+              - In[3]:1
+          - file_path: model_with_arima.py
+            line_no:
+              - 34
+              - 239
+              - 236
+              - 233
+              - 223
+              - 222
+              - 209
+        location: Data/BatteryTemperature.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.83 MB
+    - model:
+        training_trace:
+          - file_path: model_with_arima.py
+            line_no:
+              - 114
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: demo/Algorithm Modeling.ipynb
+            line_no:
+              - In[7]:19
+              - In[7]:13
+              - In[7]:3
+              - In[3]:1
+          - file_path: model_with_arima.py
+            line_no:
+              - 34
+              - 239
+              - 236
+              - 233
+              - 223
+              - 222
+              - 209
+        location: Data/WheelTemperature.csv.zip
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 2.93 MB
+        comment: Data is loaded in csv format
+    - model:
+        training_trace:
+          - file_path: model_with_arima.py
+            line_no:
+              - 114
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: demo/Algorithm Modeling.ipynb
+            line_no:
+              - In[7]:19
+              - In[7]:13
+              - In[7]:3
+              - In[3]:1
+          - file_path: model_with_arima.py
+            line_no:
+              - 34
+              - 239
+              - 236
+              - 233
+              - 223
+              - 222
+              - 209
+        location: Data/WheelRPM.csv.zip
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 3.67 MB
+        comment: Data is loaded in csv format
+    - model:
+        training_trace:
+          - file_path: model_with_autoencoder.py
+            line_no:
+              - 124
+        is_resume_from_checkpoint: no
+        save_location: weights/ae_weights.h5
+      dataset:
+        location_trace:
+          - file_path: model_with_autoencoder.py
+            line_no:
+              - 82
+              - 77
+              - 199
+              - 190
+              - 186
+              - 174
+              - 173
+              - 172
+              - 170
+              - 167
+              - 139
+          - file_path: demo/Algorithm Modeling.ipynb
+            line_no:
+              - In[4]:8
+              - In[4]:3
+              - In[3]:1
+        location: Data/BusVoltage.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 1.94 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: model_with_autoencoder.py
+            line_no:
+              - 124
+        is_resume_from_checkpoint: no
+        save_location: weights/ae_weights.h5
+      dataset:
+        location_trace:
+          - file_path: model_with_autoencoder.py
+            line_no:
+              - 82
+              - 77
+              - 199
+              - 190
+              - 186
+              - 174
+              - 173
+              - 172
+              - 170
+              - 167
+              - 139
+          - file_path: demo/Algorithm Modeling.ipynb
+            line_no:
+              - In[4]:8
+              - In[4]:3
+              - In[3]:1
+        location: Data/TotalBusCurrent.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.16 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: model_with_autoencoder.py
+            line_no:
+              - 124
+        is_resume_from_checkpoint: no
+        save_location: weights/ae_weights.h5
+      dataset:
+        location_trace:
+          - file_path: model_with_autoencoder.py
+            line_no:
+              - 82
+              - 77
+              - 199
+              - 190
+              - 186
+              - 174
+              - 173
+              - 172
+              - 170
+              - 167
+              - 139
+          - file_path: demo/Algorithm Modeling.ipynb
+            line_no:
+              - In[4]:8
+              - In[4]:3
+              - In[3]:1
+        location: Data/BatteryTemperature.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.83 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: model_with_autoencoder.py
+            line_no:
+              - 124
+        is_resume_from_checkpoint: no
+        save_location: weights/ae_weights.h5
+      dataset:
+        location_trace:
+          - file_path: model_with_autoencoder.py
+            line_no:
+              - 82
+              - 77
+              - 199
+              - 190
+              - 186
+              - 174
+              - 173
+              - 172
+              - 170
+              - 167
+              - 139
+          - file_path: demo/Algorithm Modeling.ipynb
+            line_no:
+              - In[4]:8
+              - In[4]:3
+              - In[3]:1
+        location: Data/WheelTemperature.csv.zip
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 2.93 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: model_with_autoencoder.py
+            line_no:
+              - 124
+        is_resume_from_checkpoint: no
+        save_location: weights/ae_weights.h5
+      dataset:
+        location_trace:
+          - file_path: model_with_autoencoder.py
+            line_no:
+              - 82
+              - 77
+              - 199
+              - 190
+              - 186
+              - 174
+              - 173
+              - 172
+              - 170
+              - 167
+              - 139
+          - file_path: demo/Algorithm Modeling.ipynb
+            line_no:
+              - In[4]:8
+              - In[4]:3
+              - In[3]:1
+        location: Data/WheelRPM.csv.zip
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 3.67 MB
+        comment: Used multiple dataset for the training

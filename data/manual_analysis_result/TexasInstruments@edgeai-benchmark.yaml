@@ -1,0 +1,159 @@
+repository_name: TexasInstruments/edgeai-benchmark
+last_commit_date: 2023-02-21 12:41
+description: EdgeAI Deep Neural Network Models Benchmarking
+analyzing_commit_hash: fcf7828e62069fa635503cdb0005f4548c7abf4d
+comment: This repository provides a collection of scripts for various image recognition tasks such as classification, segmentation, detection and keypoint detection.
+has_instruction_in_readme: yes
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: docs/datasets.md
+            line_no:
+              - 5
+              - 11
+        location: http://www.image-net.org/
+        location_type: online
+        location_set_from: readme file
+        size: 6451.2 MB
+        comment: A detail instruction has been given on how to download the dataset
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: docs/datasets.md
+            line_no:
+              - 30
+          - file_path: edgeai_benchmark/datasets/coco_det.py
+            line_no:
+              - 213
+              - 214
+        location: http://images.cocodataset.org/zips/val2017.zip
+        location_type: online
+        location_set_from: readme file
+        size: 778 MB
+        comment: A detail instruction has been given on how to download the dataset. Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: docs/datasets.md
+            line_no:
+              - 30
+          - file_path: edgeai_benchmark/datasets/coco_det.py
+            line_no:
+              - 213
+              - 214
+        location: http://images.cocodataset.org/annotations/annotations_trainval2017.zip
+        location_type: online
+        location_set_from: readme file
+        size: 241 MB
+        comment: A detail instruction has been given on how to download the dataset. Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: docs/datasets.md
+            line_no:
+              - 39
+          - file_path: edgeai_benchmark/datasets/ade20k.py
+            line_no:
+              - 117
+        location: http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip
+        location_type: online
+        location_set_from: readme file
+        size: 923 MB
+        comment: A detail instruction has been given on how to download the dataset
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: docs/datasets.md
+            line_no:
+              - 50
+              - 52
+          - file_path: edgeai_benchmark/datasets/voc_seg.py
+            line_no:
+              - 115
+              - 116
+        location: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
+        location_type: online
+        location_set_from: readme file
+        size: 1945.6 MB
+        comment: A detail instruction has been given on how to download the dataset. Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: docs/datasets.md
+            line_no:
+              - 50
+              - 52
+          - file_path: edgeai_benchmark/datasets/voc_seg.py
+            line_no:
+              - 115
+              - 116
+        location: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCdevkit_18-May-2011.tar
+        location_type: online
+        location_set_from: readme file
+        size: 0.49 MB
+        comment: A detail instruction has been given on how to download the dataset. Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: docs/datasets.md
+            line_no:
+              - 59
+        location: https://www.cityscapes-dataset.com/
+        location_type: online
+        location_set_from: readme file
+        size: null
+        comment: A detail instruction has been given on how to download the dataset. The dataset  is not freely available for download.
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: docs/datasets.md
+            line_no:
+              - 65
+              - 67
+        location: https://www.cvlibs.net/datasets/kitti/
+        location_type: online
+        location_set_from: readme file
+        size: null
+        comment: A detail instruction has been given on how to download the dataset. Needs to login to download the dataset.

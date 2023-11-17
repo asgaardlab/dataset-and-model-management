@@ -1,0 +1,118 @@
+repository_name: name of the repository
+last_commit_date: date of the last commit
+description: github description of the repository
+analyzing_commit_hash: commit hash of the version of the repository we are analysing
+comment: any overall comment of the repository we want to save
+has_instruction_in_readme: yes/no whether there is any instruction regarding the model or dataset in the readme file
+models:
+  pre_trained:
+    - model:
+        self_trained:
+          - yes: the code to train the model exists in the repository
+          - no: the code to train the model doesn't exists in the repository
+        train_save_trace:
+          - file_path: path to file
+            line_no: line numbers
+        model_load_purpose: purpose of loading the model
+          - resume training
+          - testing
+          - prediction
+        location_trace:
+          - file_path: first file path where the location of the pre-trained model traced
+            line_no:
+              - first line no of the first file where the location of the pre-trained model traced
+              - second line no of the first file where the location of the pre-trained model traced next
+          - file_path: second file path where the location of the model traced
+            line_no:
+              - first line no of the second file where the location of the pre-trained model traced
+              - second line no of the second file where the location of the pre-trained model traced next
+        location: location of the pre-trained model
+          - code file
+          - library datasets
+        location_type: type of the location
+          - online
+          - file system (not saved in VCS)
+          - file system (not saved in VCS - outside of the repository)
+          - file system (saved in VCS)
+          - file system (save status is unknown)
+          - runtime memory
+          - library datasets
+        location_set_from: the place from where the location has been set
+          - readme file
+          - argument
+          - hard coded
+          - program variable
+          - program method
+          - argument and program variable
+        size: size of the model
+        comment: any comment regarding the model
+    - model:
+        self_trained: null
+        train_save_trace:
+          - file_path: null
+            line_no: null
+        model_load_purpose_trace:
+          - file_path: null
+            line_no: null
+        model_load_purpose: null
+        location_trace:
+          - file_path: null
+            line_no: null
+        location: null
+        location_type: null
+        location_set_from: null
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: file path where the model has been trained
+            line_no: line no of the file where the model has been trained
+        is_resume_from_checkpoint: whether the training starts from a checkpoint
+                                     - yes
+                                     - conditional yes: yes with an if condition
+                                     - no
+        resume_from_checkpoint_location_type: location type of the checkpoint from where the training resumes
+          - file_system set from a config file
+        save_location_trace:
+          - file_path: same as other location trace
+            line_no: same as other location trace
+        save_location: location of the saved model
+        save_location_set_from: place from where the location has been set
+          - config file passed through cli
+        comment: any comment regarding the model
+      dataset:
+        location_trace:
+          - file_path: first file path where the location of the dataset traced
+            line_no:
+              - first line no of the first file where the location of the dataset traced
+              - second line no of the first file where the location of the dataset traced next
+          - file_path: second file path where the location of the dataset traced
+            line_no:
+              - first line no of the second file where the location of the dataset traced
+              - second line no of the second file where the location of the dataset traced next
+        location: location of the dataset
+        location_type: type of the location
+          - online
+          - file system (not saved in VCS)
+        location_set_from: the place from where the location has been set
+        size: size of the dataset
+        comment: any comment regarding the dataset
+    - model:
+        training_trace:
+        - file_path: null
+          line_no: null
+        is_resume_from_checkpoint: null
+        resume_from_checkpoint_location_type: null
+        save_location_trace:
+        - file_path: null
+          line_no: null
+        save_location: null
+        save_location_set_from: null
+      dataset:
+        location_trace:
+        - file_path: null
+          line_no: null
+        location: null
+        location_type: null
+        location_set_from: null
+        size: null

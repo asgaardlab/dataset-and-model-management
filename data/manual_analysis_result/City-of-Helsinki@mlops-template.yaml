@@ -1,0 +1,60 @@
+repository_name: City-of-Helsinki/mlops-template
+last_commit_date: 2023-01-26 13:08
+description: Generic repository template for small scale MLOps
+analyzing_commit_hash: 97010530e85f320487d1e695f889ba0d33205204
+comment: nothing found by the detector
+has_instruction_in_readme: ''
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: examples/_model_store_mlflow.ipynb
+            line_no:
+              - In[4]:12
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: examples/_model_store_mlflow.ipynb
+            line_no:
+              - In[4]:37
+              - In[4]:38
+              - In[2]:1
+        save_location: examples/model
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: examples/_model_store_mlflow.ipynb
+            line_no:
+              - In[3]:7
+              - In[3]:4
+              - In[3]:2
+        location: examples/iris_dataset.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.0 MB
+    - model:
+        training_trace:
+          - file_path: examples/_model_store_pickle.ipynb
+            line_no:
+              - In[112]:5
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: examples/_model_store_pickle.ipynb
+            line_no:
+              - In[116]:12
+              - In[116]:13
+              - In[116]:7
+              - In[110]:2
+              - In[110]:1
+        save_location: examples/local_data/pickle_store/bundle_latest.pickle
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: examples/_model_store_pickle.ipynb
+            line_no:
+              - In[111]:7
+              - In[111]:4
+              - In[111]:2
+        location: examples/iris_dataset.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.0 MB

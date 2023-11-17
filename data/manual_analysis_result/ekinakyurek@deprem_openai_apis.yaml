@@ -1,0 +1,56 @@
+repository_name: ekinakyurek/deprem_openai_apis
+last_commit_date: 2023-02-17 22:40
+description: Extract addresses and intents from tweet texts
+analyzing_commit_hash: 53aeaa4984b8616cbf7faef2d7c946de451c9e6e
+comment: ''
+has_instruction_in_readme: yes
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: eval.py
+            line_no:
+              - 36
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: eval.py
+            line_no:
+              - 30
+              - 24
+              - 23
+              - 22
+              - 19
+              - 8
+              - 11
+          - file_path: run_intent.sh
+            line_no:
+              - 30
+              - 8
+              - 4
+              - 3
+        location: /home/akyurek/git/deprem//exps/new_labels_code_davinci_v4/merged.jsonl
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded and program variable
+        size: null
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 26
+          - file_path: run_address.sh
+            line_no:
+              - 14
+              - 4
+        location: data/test.jsonl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.003 MB
+        comment: The file is a test file to show how to save the data

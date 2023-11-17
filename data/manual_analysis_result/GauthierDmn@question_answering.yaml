@@ -1,0 +1,114 @@
+repository_name: GauthierDmn/question_answering
+last_commit_date: 2022-12-08 4:52
+description: Question Answering task using Deep Learning on SQuAD dataset
+analyzing_commit_hash: 2f7043df96f6d22d29ee9eedfd07b3caa779e6bb
+comment: ''
+has_instruction_in_readme: ''
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: train.py
+            line_no:
+              - 201
+        model_load_purpose_trace:
+          - file_path: eval.py
+            line_no:
+              - 95
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: eval.py
+            line_no:
+              - 79
+              - 81
+          - file_path: config.py
+            line_no:
+              - 12
+              - 2
+        location: output/exp-1/model_final.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: A model with "model.pkl" name is saved after training in the repository. pytorch weight file
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: train.py
+            line_no:
+              - 201
+        model_load_purpose_trace:
+          - file_path: test.py
+            line_no:
+              - 118
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: test.py
+            line_no:
+              - 95
+              - 97
+        location: output/exp-1/model_final.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: A model with "model.pkl" name is saved after training in the repository. pytorch weight file
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: train.py
+            line_no:
+              - 201
+        model_load_purpose_trace:
+          - file_path: train.py
+            line_no:
+              - 133
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 113
+              - 47
+          - file_path: config.py
+            line_no:
+              - 2
+        location: output/exp-1/model.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: pytorch weight file
+  training:
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 143
+              - 133
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: null
+        save_location_trace:
+          - file_path: train.py
+            line_no:
+              - 197
+        save_location: output/exp-1/model.pkl
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 135
+              - 94
+              - 90
+              - 60
+              - 59
+          - file_path: config.py
+            line_no:
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 48
+        location: https://rajpurkar.github.io/SQuAD-explorer/dataset # /Users/gdamien/Data/squad/train/train_features.npz
+        location_type: online
+        location_set_from: hard coded
+        size: null
+        comment: Got 404

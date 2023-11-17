@@ -1,0 +1,858 @@
+repository_name: MaximIntegratedAI/ai8x-synthesis
+last_commit_date: 2023-02-15 23:01
+description: Quantization and Synthesis (Device Specific Code Generation) for ADI's
+  MAX78000 and MAX78002 AI Devices
+analyzing_commit_hash: c53d34f0731d7f06a5596f36c616966dd5def0e3
+comment: The repository is used to *convert a trained model into C code* using the “izer” tool
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: izer/add_fake_passthrough.py
+            line_no:
+              - 53
+              - 59
+              - 61
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: izer/add_fake_passthrough.py
+            line_no:
+              - 50
+              - 47
+              - 18
+              - 21
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+        comment: The model is loaded to remove `module.` prefix from the state dictionary keys if model is trained with GPU and add passthrough layer.
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: izer/add_fake_passthrough.py
+            line_no:
+              - 42
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: izer/checkpoint.py
+            line_no:
+              - 60
+              - 22
+          - file_path: izer/izer.py
+            line_no:
+              - 100
+              - 101
+              - 38
+          - file_path: izer/commandline.py
+            line_no:
+              - 18
+              - 71
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+        comment: The model is loaded to load weights and biases and configures the network output channels and the number of layers
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: izer/quantize.py
+            line_no:
+              - 36
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: izer/quantize.py
+            line_no:
+              - 45
+              - 34
+              - 297
+              - 287
+              - 267
+              - 268
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+        comment: The model is loaded to convert for C code
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-svhn-tinierssd-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 3.96 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-aisegment-unet-large.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 3.25 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-aisegment-unet-large-fakept-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 3.25 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-aisegment-unet-large-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 3.24 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-camvid-unet-large.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 3.28 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-camvid-unet-large-fakept-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 3.28 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-camvid-unet-large-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 3.26 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-catsdogs-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.69 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-catsdogs-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.68 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-cifar10-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 3.52 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-cifar10-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 3.51 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-cifar100-noqat.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.48 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-cifar100-noqat-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.47 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-cifar100-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.04 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-cifar100-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.03 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-cifar100-qat-mixed.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.48 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-cifar100-qat-mixed-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.47 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-cifar100-residual-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.42 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-cifar100-residual-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.41 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-cifar100-simplenetwide2x-qat-mixed.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 8.42 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-cifar100-simplenetwide2x-qat-mixed-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 8.41 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-faceid-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 2.05 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-faceid-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 2.04 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-kws20-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 1.48 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-kws20-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 1.48 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-kws20_v2-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.25 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-kws20_v2-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.25 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-kws20_v3-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 2.00 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-kws20_v3-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 1.96 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-mnist-extrasmall-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.03 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-mnist-extrasmall-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.03 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-mnist-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.56 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-mnist-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.56 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai85-svhn-tinierssd-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.00 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai87-cifar100-effnet2-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 8.93 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai87-cifar100-effnet2-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 8.90 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai87-cifar100-mobilenet-v2-0.5-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 5.18 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai87-cifar100-mobilenet-v2-0.5-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 5.13 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai87-cifar100-mobilenet-v2-0.75-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 10.59 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai87-cifar100-mobilenet-v2-0.75-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 10.53 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai87-imagenet-effnet2.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 19.61 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai87-imagenet-effnet2-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 19.58 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai87-kws20_v2-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.22 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai87-kws20_v2-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 4.21 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai87-kws20_v3-qat8.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 1.74 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+              - In[10]:1
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: notebooks/Parse_sampleout_and_compare_SVHN.ipynb
+            line_no:
+              - In[8]:17
+              - In[8]:18
+              - In[8]:5
+        location: trained/ai87-kws20_v3-qat8-q.pth.tar
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 1.73 MB
+        comment: Found the file in the same directory and same name pattern, just a little change in the file name.

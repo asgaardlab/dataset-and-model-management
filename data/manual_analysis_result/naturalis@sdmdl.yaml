@@ -1,0 +1,83 @@
+repository_name: naturalis/sdmdl
+last_commit_date: 2023-02-14 2:01
+description: Species Distribution Modelling using Deep Learning
+analyzing_commit_hash: 034ce4e807f7a83d31bf7b46435275ba91cfcb00
+comment: ''
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: null
+        train_save_trace:
+          - file_path: sdmdl/sdmdl/predictor.py
+            line_no: null
+        model_load_purpose_trace:
+          - file_path: sdmdl/sdmdl/predictor.py
+            line_no: null
+        model_load_purpose: null
+        location_trace:
+          - file_path: sdmdl/sdmdl/predictor.py
+            line_no:
+              - 104
+              - 34
+              - 92
+              - 78
+              - 136
+              - 133
+          - file_path: sdmdl/sdmdl_main.py
+            line_no:
+              - 110
+              - 54
+              - 43
+          - file_path: sdmdl/sdmdl/config.py
+            line_no:
+              - 31
+              - 44
+              - 147
+              - 129
+              - 128
+              - 37
+              - 75
+              - 71
+              - 74
+              - 72
+        location: <self.ch.result_path>/{}/{}_model.h5
+        location_type: file system (not saved in VCS)
+        location_set_from: program variable
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: sdmdl/sdmdl/trainer.py
+            line_no:
+              - 174
+              - 292
+              - 291
+              - 131
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: sdmdl/sdmdl/trainer.py
+            line_no:
+              - 172
+              - 155
+              - 292
+              - 282
+              - 77
+              - 129
+              - 120
+              - 112
+              - 116
+              - 115
+              - 108
+              - 101
+              - 107
+              - 104
+              - 103
+              - 97
+              - 40
+        location: <self.gh.spec_ppa_env>/<self.spec>_env_dataframe.csv
+        location_type: file system (not saved in VCS)
+        location_set_from: program variable and hard coded
+        size: null

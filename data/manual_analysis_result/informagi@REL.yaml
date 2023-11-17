@@ -1,0 +1,283 @@
+repository_name: informagi/REL
+last_commit_date: 2023-02-20 7:05
+description: 'REL: Radboud Entity Linker'
+analyzing_commit_hash: a61bfc02d7aa713b470f0ed3f83af1c6c72eef8c
+comment: Loaded pre-trained NER model using Flair in scripts/code_tutorials/batch_EL.py@37, src/REL/ner/flair_wrapper.py@9 and tests/test_flair_md.py@13 for prediction. Loaded pre-trained bert model using transformers in src/REL/crel/s2e_pe/modeling.py
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: src/REL/entity_disambiguation.py
+            line_no:
+              - 1112
+              - 1106
+              - 367
+              - 39
+          - file_path: scripts/code_tutorials/train_eval_ED.py
+            line_no:
+              - 15
+              - 13
+              - 4
+              - 5
+        model_load_purpose_trace:
+          - file_path: scripts/code_tutorials/train_eval_ED.py
+            line_no:
+              - 23
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: src/REL/entity_disambiguation.py
+            line_no:
+              - 1142
+              - 1149
+              - 74
+              - 72
+          - file_path: scripts/code_tutorials/train_eval_ED.py
+            line_no:
+              - 15
+              - 13
+          - file_path: README.md
+            line_no:
+              - 113
+        location: http://gem.cs.ru.nl/ed-wiki-2014.tar.gz # /wiki_2014/generated/model.state_dict
+        location_type: online
+        location_set_from: readme file
+        size: 0.97 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: src/REL/entity_disambiguation.py
+            line_no:
+              - 463
+              - 461
+              - 423
+          - file_path: scripts/code_tutorials/train_LR.py
+            line_no:
+              - 21
+              - 19
+              - 4
+              - 5
+        model_load_purpose_trace:
+          - file_path: src/REL/entity_disambiguation.py
+            line_no:
+              - 512
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/REL/entity_disambiguation.py
+            line_no:
+              - 67
+              - 64
+          - file_path: README.md
+            line_no:
+              - 115
+        location: /wiki_2019/generated/lr_model.pkl
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded and program variable
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: src/REL/entity_disambiguation.py
+            line_no:
+              - 1112
+              - 1106
+              - 367
+              - 39
+          - file_path: scripts/code_tutorials/train_eval_ED.py
+            line_no:
+              - 15
+              - 13
+              - 4
+              - 5
+        model_load_purpose_trace:
+          - file_path: scripts/efficiency_test.py
+            line_no:
+              - 84
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/REL/entity_disambiguation.py
+            line_no:
+              - 1142
+              - 1149
+              - 74
+              - 72
+          - file_path: scripts/efficiency_test.py
+            line_no:
+              - 80
+              - 78
+              - 62
+              - 10
+          - file_path: README.md
+            line_no:
+              - 113
+        location: http://gem.cs.ru.nl/ed-wiki-2019.tar.gz # C:/Users/mickv/desktop/data_back/wiki_2019/generated/model.state_dict
+        location_type: online
+        location_set_from: readme file
+        size: 0.97 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: src/REL/entity_disambiguation.py
+            line_no:
+              - 1112
+              - 1106
+              - 367
+              - 39
+          - file_path: scripts/code_tutorials/train_eval_ED.py
+            line_no:
+              - 15
+              - 13
+              - 4
+              - 5
+        model_load_purpose_trace:
+          - file_path: src/REL/server.py
+            line_no:
+              - 71
+              - 28
+          - file_path: src/REL/response_model.py
+            line_no:
+              - 21
+              - 49
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/REL/server.py
+            line_no:
+              - 67
+              - 60
+              - 56
+          - file_path: README.md
+            line_no:
+              - 113
+        location: http://gem.cs.ru.nl/ed-wiki-2019.tar.gz # C:/Users/mickv/desktop/data_back/wiki_2019/generated/model.state_dict
+        location_type: online
+        location_set_from: readme file
+        size: 0.97 MB
+  training:
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 111
+        location: http://gem.cs.ru.nl/generic.tar.gz
+        location_type: online
+        location_set_from: readme file
+        size: 2969.6 MB
+    - model:
+        training_trace:
+          - file_path: src/REL/entity_disambiguation.py
+            line_no:
+              - 446
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/REL/entity_disambiguation.py
+            line_no:
+              - 463
+              - 461
+              - 423
+          - file_path: scripts/code_tutorials/train_LR.py
+            line_no:
+              - 21
+              - 19
+              - 4
+              - 5
+        save_location: /wiki_2019/generated/lr_model.pkl
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: scripts/code_tutorials/train_LR.py
+            line_no:
+              - 445
+              - 399
+              - 421
+              - 400
+              - 414
+              - 406
+              - 405
+              - 403
+              - 444
+              - 432
+              - 433
+              - 423
+          - file_path: scripts/code_tutorials/train_LR.py
+            line_no:
+              - 21
+              - 8
+              - 4
+              - 5
+          - file_path: src/REL/training_datasets.py
+            line_no:
+              - 18
+              - 49
+              - 37
+              - 38
+              - 16
+              - 12
+          - file_path: README.md
+            line_no:
+              - 114
+        location: http://gem.cs.ru.nl/wiki_2019.tar.gz
+        location_type: online
+        location_set_from: readme file
+        size: 17715.2 MB
+    - model:
+        training_trace:
+          - file_path: src/REL/entity_disambiguation.py
+            line_no:
+              - 301
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/REL/entity_disambiguation.py
+            line_no:
+              - 1112
+              - 1106
+              - 367
+              - 39
+          - file_path: scripts/code_tutorials/train_eval_ED.py
+            line_no:
+              - 15
+              - 13
+              - 4
+              - 5
+        save_location: /wiki_2014/generated/model.state_dict
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: src/REL/entity_disambiguation.py
+            line_no:
+              - 302
+              - 303
+              - 304
+              - 305
+              - 232
+              - 242
+              - 227
+              - 209
+              - 202
+          - file_path: scripts/code_tutorials/train_eval_ED.py
+            line_no:
+              - 19
+              - 8
+              - 4
+              - 5
+          - file_path: src/REL/training_datasets.py
+            line_no:
+              - 18
+              - 49
+              - 37
+              - 38
+              - 16
+              - 12
+          - file_path: README.md
+            line_no:
+              - 112
+        location: http://gem.cs.ru.nl/wiki_2014.tar.gz
+        location_type: online
+        location_set_from: readme file
+        size: 7884.8 MB

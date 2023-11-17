@@ -1,0 +1,92 @@
+repository_name: manthan89-py/Plant-Disease-Detection
+last_commit_date: 2023-01-14 4:03
+description: Bases on Leaf images we are trying to predict plant disease using convolutional
+  neural network. PyTorch implementation
+analyzing_commit_hash: 472ddb5094594a0f8dbbf529123025571993d5a9
+comment: ''
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        model_load_purpose_trace:
+          - file_path: Flask Deployed App/app.py
+            line_no:
+              - 23
+              - 18
+              - 55
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: Flask Deployed App/app.py
+            line_no:
+              - 15
+          - file_path: README.md
+            line_no:
+              - 10
+              - 11
+        location: https://drive.google.com/drive/folders/1ewJWAiduGuld_9oGSrTuLumg9y62qS6A?usp=share_link
+        location_type: online
+        location_set_from: readme file
+        size: 200.7 MB
+    - model:
+        self_trained: yes
+        model_load_purpose_trace:
+          - file_path: Model/Plant Disease Detection Code.ipynb
+            line_no:
+              - In[35]:8
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: Model/Plant Disease Detection Code.ipynb
+            line_no:
+              - In[5]:3
+          - file_path: README.md
+            line_no:
+              - 10
+              - 11
+        location: https://drive.google.com/drive/folders/1ewJWAiduGuld_9oGSrTuLumg9y62qS6A?usp=share_link
+        location_type: online
+        location_set_from: readme file
+        size: 200.7 MB
+        comment: Although couldn't find the exact file with the exact name, the name was just appended with a word.
+  training:
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 27
+        location: test_images/
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 1.11 MB
+    - model:
+        training_trace:
+        - file_path: Model/Plant Disease Detection Code.ipynb
+          line_no:
+            - In[31]:13
+        is_resume_from_checkpoint: no
+        save_location_trace:
+        - file_path: Model/Plant Disease Detection Code.ipynb
+          line_no:
+            - In[34]:1
+        save_location: Model/plant_disease_model_1.pt
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+        - file_path: Model/Plant Disease Detection Code.ipynb
+          line_no:
+            - In[31]:9
+            - In[31]:1
+            - In[32]:2
+            - In[33]:2
+            - In[33]:3
+            - In[5]:1
+        location: Model/Dataset
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null

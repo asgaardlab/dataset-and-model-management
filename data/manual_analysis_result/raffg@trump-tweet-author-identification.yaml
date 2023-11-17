@@ -1,0 +1,719 @@
+repository_name: raffg/trump-tweet-author-identification
+last_commit_date: 2022-11-22 2:15
+description: Project to classify tweets on @realDonaldTrump as either written by Trump
+  or by his staff
+analyzing_commit_hash: 4ce1d747ad90f25e29687988eff6438b8fb092a0
+comment: ''
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 38
+        model_load_purpose_trace:
+          - file_path: twitterbot.py
+            line_no:
+              - 88
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot.py
+            line_no:
+              - 25
+              - 23
+        location: twitterbot_pickles/trump.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: twitterbot_knn.py
+            line_no:
+              - 119
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot_knn.py
+            line_no:
+              - 23
+        location: pickle/ensemble_knn.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: A knn model saved in a different directory with a different name in TweetAuthorshipPredictor.py@415. self_trained set to no as neither the directory nor the file name matches.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 551
+        model_load_purpose_trace:
+          - file_path: twitterbot_knn.py
+            line_no:
+              - 149
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot_knn.py
+            line_no:
+              - 54
+        location: twitterbot_pickles/tfidf_pos.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 536
+        model_load_purpose_trace:
+          - file_path: twitterbot_knn.py
+            line_no:
+              - 145
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot_knn.py
+            line_no:
+              - 55
+        location: twitterbot_pickles/tfidf_ner.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 521
+        model_load_purpose_trace:
+          - file_path: twitterbot_knn.py
+            line_no:
+              - 141
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot_knn.py
+            line_no:
+              - 56
+        location: twitterbot_pickles/tfidf_text.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 376
+        model_load_purpose_trace:
+          - file_path: twitterbot_mini_ensemble.py
+            line_no:
+              - 122
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot_mini_ensemble.py
+            line_no:
+              - 50
+        location: twitterbot_pickles/rf.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 404
+        model_load_purpose_trace:
+          - file_path: twitterbot_mini_ensemble.py
+            line_no:
+              - 123
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot_mini_ensemble.py
+            line_no:
+              - 51
+        location: twitterbot_pickles/gb.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 415
+        model_load_purpose_trace:
+          - file_path: twitterbot_mini_ensemble.py
+            line_no:
+              - 124
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot_mini_ensemble.py
+            line_no:
+              - 52
+        location: twitterbot_pickles/knn.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 551
+        model_load_purpose_trace:
+          - file_path: twitterbot_mini_ensemble.py
+            line_no:
+              - 173
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot_mini_ensemble.py
+            line_no:
+              - 54
+        location: twitterbot_pickles/tfidf_pos.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 536
+        model_load_purpose_trace:
+          - file_path: twitterbot_mini_ensemble.py
+            line_no:
+              - 169
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot_mini_ensemble.py
+            line_no:
+              - 55
+        location: twitterbot_pickles/tfidf_ner.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 521
+        model_load_purpose_trace:
+          - file_path: twitterbot_mini_ensemble.py
+            line_no:
+              - 165
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot_mini_ensemble.py
+            line_no:
+              - 56
+        location: twitterbot_pickles/tfidf_text.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 376
+        model_load_purpose_trace:
+          - file_path: twitterbot_rf.py
+            line_no:
+              - 118
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot_rf.py
+            line_no:
+              - 23
+        location: twitterbot_pickles/rf.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 551
+        model_load_purpose_trace:
+          - file_path: twitterbot_rf.py
+            line_no:
+              - 148
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot_rf.py
+            line_no:
+              - 53
+        location: twitterbot_pickles/tfidf_pos.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 536
+        model_load_purpose_trace:
+          - file_path: twitterbot_rf.py
+            line_no:
+              - 144
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot_rf.py
+            line_no:
+              - 54
+        location: twitterbot_pickles/tfidf_ner.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 521
+        model_load_purpose_trace:
+          - file_path: twitterbot_rf.py
+            line_no:
+              - 140
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: twitterbot_rf.py
+            line_no:
+              - 55
+        location: twitterbot_pickles/tfidf_text.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: Only the name of the model file matched with the saved model file. The model saved in a different directory than the loaded model.
+  training:
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 44
+        location: https://github.com/bpb27/trump_tweet_data_archive
+        location_type: online
+        location_set_from: readme file
+        size: 9.4 MB
+    - model:
+        training_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 369
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 376
+        save_location: ensemble/rf.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 375
+              - 367
+              - 281
+              - 268
+              - 181
+              - 161
+              - 143
+              - 127
+              - 35
+              - 36
+              - 32
+              - 29
+              - 26
+        location: labeled_data_through_mar_11.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 385
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 387
+        save_location: ensemble/ab.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 383
+              - 282
+              - 268
+              - 181
+              - 162
+              - 143
+              - 127
+              - 35
+              - 36
+              - 32
+              - 29
+              - 26
+        location: labeled_data_through_mar_11.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 396
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 404
+        save_location: ensemble/gb.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 403
+              - 394
+              - 283
+              - 268
+              - 181
+              - 162
+              - 143
+              - 127
+              - 35
+              - 36
+              - 32
+              - 29
+              - 26
+        location: labeled_data_through_mar_11.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 414
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 415
+        save_location: ensemble/knn.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 413
+              - 411
+              - 284
+              - 268
+              - 181
+              - 162
+              - 143
+              - 127
+              - 35
+              - 36
+              - 32
+              - 29
+              - 26
+        location: labeled_data_through_mar_11.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 431
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 432
+        save_location: ensemble/nb.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 429
+              - 285
+              - 268
+              - 181
+              - 162
+              - 143
+              - 127
+              - 35
+              - 36
+              - 32
+              - 29
+              - 26
+        location: labeled_data_through_mar_11.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 442
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 443
+        save_location: ensemble/gnb.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 441
+              - 439
+              - 286
+              - 268
+              - 181
+              - 162
+              - 143
+              - 127
+              - 35
+              - 36
+              - 32
+              - 29
+              - 26
+        location: labeled_data_through_mar_11.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 459
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 466
+        save_location: ensemble/svc.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 465
+              - 457
+              - 288
+              - 268
+              - 181
+              - 162
+              - 143
+              - 127
+              - 35
+              - 36
+              - 32
+              - 29
+              - 26
+        location: labeled_data_through_mar_11.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 475
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 477
+        save_location: ensemble/svm.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 476
+              - 473
+              - 289
+              - 268
+              - 181
+              - 162
+              - 143
+              - 127
+              - 35
+              - 36
+              - 32
+              - 29
+              - 26
+        location: labeled_data_through_mar_11.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 486
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 487
+        save_location: ensemble/lr.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 486
+              - 484
+              - 290
+              - 268
+              - 181
+              - 162
+              - 143
+              - 127
+              - 35
+              - 36
+              - 32
+              - 29
+              - 26
+        location: labeled_data_through_mar_11.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 515
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 521
+        save_location: ensemble/tfidf_text.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 503
+              - 252
+              - 250
+              - 249
+        location: X.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 531
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 536
+        save_location: ensemble/tfidf_ner.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 503
+              - 252
+              - 250
+              - 249
+        location: X.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 546
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 551
+        save_location: ensemble/tfidf_pos.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 503
+              - 252
+              - 250
+              - 249
+        location: X.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: src/ridge_grid_scan.py
+            line_no:
+              - 86
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/ridge_grid_scan.py
+            line_no:
+              - 23
+              - 22
+              - 12
+              - 4
+          - file_path: TweetAuthorshipPredictor.py
+            line_no:
+              - 165
+              - 161
+              - 143
+              - 127
+              - 35
+              - 36
+              - 32
+              - 29
+              - 26
+        location: labeled_data_through_mar_11.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null

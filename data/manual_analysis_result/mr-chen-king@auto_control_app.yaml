@@ -1,0 +1,28 @@
+repository_name: mr-chen-king/auto_control_app
+last_commit_date: 2022-11-22 2:10
+description: "python control app \u7FA4\u63A7\u624B\u673Apython\u811A\u672C"
+analyzing_commit_hash: 23b3d342b339bb37a47caea93b5486ba675e2a58
+comment: ''
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: common/ai.py
+            line_no:
+              - 12
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: common/ai.py
+            line_no:
+              - 18
+              - 25
+              - 55
+              - 56
+              - 60
+        location: jump_range.csv
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null

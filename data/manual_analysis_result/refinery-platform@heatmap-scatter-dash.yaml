@@ -1,0 +1,31 @@
+repository_name: refinery-platform/heatmap-scatter-dash
+last_commit_date: 2022-12-08 2:17
+description: Interactive visualizations for differential expression
+analyzing_commit_hash: f5b3e466e036677d6d5414d3d369300fdfcd3fff
+comment: ''
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: context/app/utils/pca.py
+            line_no:
+              - 19
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: context/app/utils/pca.py
+            line_no:
+              - 14
+              - 5
+          - file_path: context/app/vis/base.py
+            line_no:
+              - 28
+              - 25
+              - 12
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The dataset passed through a method parameter. However, didn't find any call of the method.

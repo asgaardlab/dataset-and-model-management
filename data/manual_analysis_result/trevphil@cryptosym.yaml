@@ -1,0 +1,66 @@
+repository_name: trevphil/cryptosym
+last_commit_date: 2022-12-08 10:55
+description: SAT-based, MILP, and belief propagation preimage attacks on SHA-256 and
+  other cryptographic hash functions
+analyzing_commit_hash: c6d7e9126358e3c09d8ac8a2a95c439bdab95540
+comment: ''
+has_instruction_in_readme: yes
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: deep_learning/supervised_learning.py
+            line_no:
+              - 63
+              - 46
+              - 54
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: deep_learning/supervised_learning.py
+            line_no:
+              - 103
+              - 100
+              - 98
+              - 18
+          - file_path: deep_learning/main.py
+            line_no:
+              - 55
+              - 52
+              - 51
+        save_location: learning_output/learning_<now_time>/model.pt
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: deep_learning/supervised_learning.py
+            line_no:
+              - 48
+              - 47
+              - 46
+              - 68
+              - 66
+              - 21
+              - 17
+          - file_path: deep_learning/main.py
+            line_no:
+              - 55
+              - 44
+              - 45
+              - 33
+              - 73
+          - file_path: deep_learning/dataset.py
+            line_no:
+              - 9
+              - 13
+          - file_path: dataset_generation/generate.py
+            line_no:
+              - 88
+              - 81
+              - 80
+              - 42
+              - 48
+              - 51
+        location: data/<hash_algo>_d<difficulty>/train.hdf5
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and hard coded
+        size: null
+        comment: A script is provided for dataset generation in dataset_generation/generate.py

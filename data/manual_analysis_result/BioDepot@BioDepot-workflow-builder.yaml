@@ -1,0 +1,158 @@
+repository_name: BioDepot/BioDepot-workflow-builder
+last_commit_date: 2023-02-22 6:54
+description: ':computer:  GUI for creating bioinformatics workflows from :whale: Docker containers:'
+analyzing_commit_hash: 0d27995a275a88595d384d3bbf1c764155ed7e6e
+comment: The Bwb GUI is designed for non-programmers who want to use a workflow on their own data without worrying about installation and reproducibility. The instruction has given in readme file to download data by ownself to run examples. The data is not provided to maximizes the portability of the docker containers for different workflows.
+has_instruction_in_readme: yes
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: orange3/Orange/projection/lda.py
+            line_no:
+              - 24
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: orange3/Orange/projection/lda.py
+            line_no:
+              - 20
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data paased through method parameter, however, couldn't find any call of the method.
+    - model:
+        training_trace:
+          - file_path: orange3/Orange/regression/linear.py
+            line_no:
+              - 183
+              - 185
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: orange3/Orange/regression/linear.py
+            line_no:
+              - 180
+              - 178
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data paased through method parameter, however, couldn't find any call of the method.
+    - model:
+        training_trace:
+          - file_path: orange3/Orange/widgets/visualize/owlinearprojection.py
+            line_no:
+              - 146
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: orange3/Orange/widgets/visualize/owlinearprojection.py
+            line_no:
+              - 141
+              - 139
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data paased through method parameter, however, couldn't find the call of the method.
+    - model:
+        training_trace:
+          - file_path: orange3/Orange/widgets/visualize/owlinearprojection.py
+            line_no:
+              - 838
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: orange3/Orange/widgets/visualize/owlinearprojection.py
+            line_no:
+              - 836
+              - 835
+              - 834
+              - 739
+              - 309
+              - 637
+              - 626
+              - 572
+              - 1083
+              - 1079
+              - 1075
+              - 1077
+              - 1073
+        location: unknown
+        location_type: unknown
+        location_set_from: argument
+        size: null
+        comment: The data passed through argument and the value is not set
+    - model:
+        training_trace:
+          - file_path: orange3/Orange/widgets/visualize/owradviz.py
+            line_no:
+              - 142
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: orange3/Orange/widgets/visualize/owradviz.py
+            line_no:
+              - 134
+              - 118
+              - 210
+              - 208
+              - 207
+              - 206
+              - 205
+              - 204
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data paased through method parameter, however, couldn't find the call of the method.
+    - model:
+        training_trace:
+          - file_path: orange3/Orange/widgets/visualize/owscatterplot.py
+            line_no:
+              - 75
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: orange3/Orange/widgets/visualize/owscatterplot.py
+            line_no:
+              - 70
+              - 68
+              - 67
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data paased through method parameter, however, couldn't find the call of the method.
+    - model:
+        training_trace:
+          - file_path: orange3/Orange/widgets/visualize/utils/lac.py
+            line_no:
+              - 63
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: orange3/Orange/widgets/visualize/utils/lac.py
+            line_no:
+              - 58
+              - 43
+              - 49
+              - 55
+              - 48
+              - 52
+              - 45
+              - 42
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data paased through method parameter, however, couldn't find the call of the method.

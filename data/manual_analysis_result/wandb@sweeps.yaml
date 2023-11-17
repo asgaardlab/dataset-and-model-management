@@ -1,0 +1,57 @@
+repository_name: wandb/sweeps
+last_commit_date: 2023-02-23 19:27
+description: 'W&B Hyperparameter Sweep Engine. File sweeps related issues at the W&B
+  client: https://github.com/wandb/client'
+analyzing_commit_hash: a73ecc61fd38d52f506a1b1e14c2668b47d16def
+comment: ''
+has_instruction_in_readme: no
+models:
+  training:
+  - model:
+      training_trace:
+      - file_path: src/sweeps/bayes_search.py
+        line_no:
+          - 58
+      is_resume_from_checkpoint: no
+      save_location: null
+    dataset:
+      location_trace:
+      - file_path: src/sweeps/bayes_search.py
+        line_no:
+          - 40
+          - 146
+          - 141
+          - 83
+          - 266
+          - 241
+          - 218
+          - 166
+          - 528
+          - 529
+          - 516
+          - 393
+          - 482
+          - 464
+          - 404
+          - 432
+          - 439
+          - 446
+          - 428
+          - 408
+          - 394
+          - 517
+          - 486
+          - 564
+          - 556
+      - file_path: src/sweeps/run.py
+        line_no:
+          - 212
+          - 213
+          - 156
+          - 151
+          - 147
+      location: unknown
+      location_type: unknown
+      location_set_from: method parameter
+      size: null
+      comment: The dataset passed through method paramter, however, didn't find the method call

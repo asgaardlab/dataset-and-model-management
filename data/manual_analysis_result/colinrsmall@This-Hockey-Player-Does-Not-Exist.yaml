@@ -1,0 +1,139 @@
+repository_name: colinrsmall/This-Hockey-Player-Does-Not-Exist
+last_commit_date: 2022-11-22 4:40
+description: .nan
+analyzing_commit_hash: fe1a84997eee9ca3655466c5c8969e6d6a447089
+comment: From the readme file, it seems that the pre-trained models are trained by them and hosted in the urls. However, no such instruction is given in the file.
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: final_tool/facepic_generator.py
+            line_no:
+              - 47
+              - 44
+              - 22
+        location: models/jr_model.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: final_tool/facepic_generator.py
+            line_no:
+              - 48
+              - 45
+              - 21
+        location: models/sr_model.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stylegan-master/generate_figures.py
+            line_no:
+              - 34
+              - 33
+              - 31
+              - 147
+              - 148
+              - 149
+              - 150
+              - 151
+              - 21
+        location:
+          https://drive.google.com/uc?id=1MEGjdvVpUsu1jB4zrXZN7Y4kBBOzizDQ # karras2019stylegan-ffhq-1024x1024.pkl
+        location_type: online
+        location_set_from: hard coded
+        size: 310 MB
+    - model:
+        self_trained: no
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stylegan-master/generate_figures.py
+            line_no:
+              - 34
+              - 33
+              - 31
+              - 152
+              - 23
+        location:
+          https://drive.google.com/uc?id=1MOSKeGF0FJcivpBI7s63V9YHloUTORiF # karras2019stylegan-bedrooms-256x256.pkl
+        location_type: online
+        location_set_from: hard coded
+        size: 289 MB
+    - model:
+        self_trained: no
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stylegan-master/generate_figures.py
+            line_no:
+              - 34
+              - 33
+              - 31
+              - 153
+              - 24
+        location:
+          https://drive.google.com/uc?id=1MJ6iCfNtMIRicihwRorsM3b7mmtmK9c3 # karras2019stylegan-cars-512x384.pkl
+        location_type: online
+        location_set_from: hard coded
+        size: 293 MB
+    - model:
+        self_trained: no
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stylegan-master/generate_figures.py
+            line_no:
+              - 34
+              - 33
+              - 31
+              - 154
+              - 25
+        location:
+          https://drive.google.com/uc?id=1MQywl0FNt6lHu8E_EUqnRbviagS7fbiJ # karras2019stylegan-cats-256x256.pkl
+        location_type: online
+        location_set_from: hard coded
+        size: 289 MB
+    - model:
+        self_trained: no
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stylegan-master/pretrained_example.py
+            line_no:
+              - 25
+              - 24
+              - 23
+        location: https://drive.google.com/uc?id=1MEGjdvVpUsu1jB4zrXZN7Y4kBBOzizDQ # karras2019stylegan-ffhq-1024x1024.pkl
+        location_type: online
+        location_set_from: hard coded
+        size: 310 MB
+        comment: This is an example file, as the name suggests
+  training:
+    - model:
+        training_trace:
+          - file_path: stylegan-master/metrics/linear_separability.py
+            line_no:
+              - 162
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: stylegan-master/metrics/linear_separability.py
+            line_no:
+              - 159
+              - 146
+              - 145
+              - 140
+              - 134
+              - 123
+        location: tf.random_normal([self.minibatch_per_gpu] + Gs_clone.input_shape[1:])
+        location_type: runtime memory
+        location_set_from: program method
+        size: null
+        comment: Dataset of random values

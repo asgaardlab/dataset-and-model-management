@@ -1,0 +1,413 @@
+repository_name: AshuKulu/HacktoberFest2022
+last_commit_date: 2022-10-31 10:24
+description: For beginners this is the great opportunity to dive in the pool of open source.
+analyzing_commit_hash: 0b0047f5caaee69f9fcb7e87f28b1895206bd5ec
+comment: the repository is for open contribution for all. However, the type of contribution is not clear from README.md file.
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[530]:3
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: Python/Email Spam Classifier/app.py
+            line_no:
+              - 36
+        location: Python/Email Spam Classifier/model.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.1 MB
+  training:
+    - model:
+        training_trace:
+        - file_path: Python/ElectricalUsagePrediction/power_energy_usage_prediction_time_series.ipynb
+          line_no:
+            - In[29]:1
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+        - file_path: Python/ElectricalUsagePrediction/power_energy_usage_prediction_time_series.ipynb
+          line_no:
+            - In[22]:9
+            - In[14]:2
+            - In[10]:1
+        location: Python/ElectricalUsagePrediction/energydata_complete.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 11.43 MB
+        comment: Although the data is loaded from /content/gdrive/MyDrive/Dataset_Time_Series/energydata_complete.csv, a location outsode of the repository, a file with the same name found in the repository too. Noted down the saved file and its size.
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[490]:1
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[492]:1
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:2
+              - In[498]:6
+              - In[498]:4
+              - In[496]:1
+              - In[496]:2
+              - In[495]:1
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:1
+              - In[498]:6
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:2
+              - In[498]:6
+              - In[498]:4
+              - In[496]:1
+              - In[496]:3
+              - In[495]:2
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:1
+              - In[498]:6
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:2
+              - In[498]:6
+              - In[498]:4
+              - In[496]:1
+              - In[496]:4
+              - In[495]:3
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:1
+              - In[498]:6
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:2
+              - In[498]:6
+              - In[498]:4
+              - In[496]:1
+              - In[496]:5
+              - In[495]:4
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:1
+              - In[498]:6
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:2
+              - In[498]:6
+              - In[498]:4
+              - In[496]:1
+              - In[496]:6
+              - In[495]:5
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:1
+              - In[498]:6
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:2
+              - In[498]:6
+              - In[498]:4
+              - In[496]:1
+              - In[496]:7
+              - In[495]:6
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:1
+              - In[498]:6
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:2
+              - In[498]:6
+              - In[498]:4
+              - In[496]:1
+              - In[496]:8
+              - In[495]:7
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:1
+              - In[498]:6
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:2
+              - In[498]:6
+              - In[498]:4
+              - In[496]:1
+              - In[496]:9
+              - In[495]:8
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:1
+              - In[498]:6
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:2
+              - In[498]:6
+              - In[498]:4
+              - In[496]:1
+              - In[496]:10
+              - In[495]:9
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:1
+              - In[498]:6
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:2
+              - In[498]:6
+              - In[498]:4
+              - In[496]:1
+              - In[496]:11
+              - In[495]:10
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:1
+              - In[498]:6
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:2
+              - In[498]:6
+              - In[498]:4
+              - In[496]:1
+              - In[496]:12
+              - In[495]:11
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[497]:1
+              - In[498]:6
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[516]:1
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[521]:1
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB
+    - model:
+        training_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[529]:1
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[530]:3
+        save_location: Python/Email Spam Classifier/model.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: Python/Email Spam Classifier/sms-spam-detection.ipynb
+            line_no:
+              - In[527]:1
+              - In[523]:1
+              - In[2]:1
+        location: Python/Email Spam Classifier/spam.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.5 MB

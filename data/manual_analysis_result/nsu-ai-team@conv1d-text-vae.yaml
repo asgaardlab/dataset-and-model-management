@@ -1,0 +1,89 @@
+repository_name: nsu-ai-team/conv1d-text-vae
+last_commit_date: 2022-12-11 3:30
+description: A variational autoencoder for text processing using 1D convolutions and
+  the FastText word embeddings
+analyzing_commit_hash: 13528922c860031bd6abaf2d1aba58b24ffffc6d
+comment: Used tests/test_conv1d_text_vae.py file for testing models from software testing perspective. Loaded model from url using gensim.models.
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: demo/conv1d_text_vae_demo.py
+            line_no:
+              - 321
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: demo/conv1d_text_vae_demo.py
+            line_no:
+              - 301
+              - 300
+              - 237
+              - 219
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+        comment: Default value of the model path is set to None.
+  training:
+    - model:
+        training_trace:
+          - file_path: conv1d_text_vae/conv1d_text_vae.py
+            line_no:
+              - 323
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: conv1d_text_vae/conv1d_text_vae.py
+            line_no:
+              - 296
+              - 297
+              - 237
+              - 216
+              - 214
+              - 188
+          - file_path: demo/conv1d_text_vae_demo.py
+            line_no:
+              - 313
+              - 265
+              - 268
+              - 246
+              - 234
+              - 221
+              - 222
+        location: data/eng_rus_for_training.txt
+        location_type: file system (saved in VCS)
+        location_set_from: argument
+        size: 22.47 MB
+    - model:
+        training_trace:
+          - file_path: conv1d_text_vae/conv1d_text_vae.py
+            line_no:
+              - 369
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: conv1d_text_vae/conv1d_text_vae.py
+            line_no:
+              - 370
+              - 342
+              - 237
+              - 216
+              - 214
+              - 188
+          - file_path: demo/conv1d_text_vae_demo.py
+            line_no:
+              - 313
+              - 265
+              - 268
+              - 246
+              - 234
+              - 221
+              - 222
+        location: data/eng_rus_for_training.txt
+        location_type: file system (saved in VCS)
+        location_set_from: argument
+        size: 22.47 MB

@@ -1,0 +1,421 @@
+repository_name: harshareddy794/HACKTOBERFEST2020
+last_commit_date: 2022-12-08 10:20
+description: Repository for hacktoberfest 2020
+analyzing_commit_hash: 01ebafdf6de908786dbd5f6b79485c2c9445cc5b
+comment: ''
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: Python/digit-recognition-master/performRecognition.py
+            line_no:
+              - 51
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: Python/digit-recognition-master/performRecognition.py
+            line_no:
+              - 17
+              - 14
+              - 12
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: Python/flight delay/project_RSIP.ipynb
+            line_no:
+              - In[108]:2
+        model_load_purpose_trace:
+          - file_path: Python/flight delay/app.py
+            line_no:
+              - 33
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: Python/flight delay/app.py
+            line_no:
+              - 4
+        location: Python/flight delay/res.pkl
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.03 MB
+  training:
+    - model:
+        training_trace:
+          - file_path: Python/flight delay/project_RSIP.ipynb
+            line_no:
+              - In[104]:3
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: Python/flight delay/project_RSIP.ipynb
+            line_no:
+              - In[108]:2
+        save_location: Python/flight delay/res.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: Python/flight delay/project_RSIP.ipynb
+            line_no:
+              - In[102]:2
+              - In[101]:1
+              - In[2]:1
+        location: Python/flight delay/flightss.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 9.62 MB
+    - model:
+        training_trace:
+          - file_path: Python/flight delay/project_RSIP.ipynb
+            line_no:
+              - In[36]:3
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/flight delay/project_RSIP.ipynb
+            line_no:
+              - In[102]:2
+              - In[101]:1
+              - In[2]:1
+        location: Python/flight delay/flightss.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 9.62 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 41
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 22
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 55
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 22
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 69
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 22
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 99
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 110
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 103
+              - 100
+              - 99
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 124
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 135
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 128
+              - 125
+              - 124
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 149
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 159
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 152
+              - 150
+              - 149
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 210
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 221
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 214
+              - 211
+              - 210
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 236
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 247
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 240
+              - 237
+              - 236
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 261
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 272
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/mfile.py
+            line_no:
+              - 265
+              - 262
+              - 261
+              - 10
+              - 5
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/Sports Avalytics/nn.py
+            line_no:
+              - 30
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/Sports Avalytics/nn.py
+            line_no:
+              - 13
+              - 9
+              - 8
+        location: Python/Sports Avalytics/sample_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.02 MB
+    - model:
+        training_trace:
+          - file_path: Python/flight delay/project_RSIP.ipynb
+            line_no:
+              - In[104]:3
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: Python/flight delay/project_RSIP.ipynb
+            line_no:
+              - In[108]:2
+        save_location: Python/flight delay/res.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: Python/flight delay/project_RSIP.ipynb
+            line_no:
+              - In[102]:2
+              - In[101]:1
+              - In[2]:1
+        location: Python/flight delay/flightss.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 9.62 MB
+    - model:
+        training_trace:
+          - file_path: Python/flight delay/project_RSIP.ipynb
+            line_no:
+              - In[36]:3
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: Python/flight delay/project_RSIP.ipynb
+            line_no:
+              - In[102]:2
+              - In[101]:1
+              - In[2]:1
+        location: Python/flight delay/flightss.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 9.62 MB

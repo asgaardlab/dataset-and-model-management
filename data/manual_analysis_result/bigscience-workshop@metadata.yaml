@@ -1,0 +1,23 @@
+repository_name: bigscience-workshop/metadata
+last_commit_date: 2023-02-12 8:09
+description: Experiments on including metadata such as URLs, timestamps, website descriptions and HTML tags during pretraining.
+analyzing_commit_hash: 56a48cfe6f50e754052ecaeaf4433ce465ab1ab1
+comment: ''
+has_instruction_in_readme:
+models:
+  pre_trained:
+    - model:
+        self_trained:
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: experiments/jz/utils/convert_checkpoint_to_hf_format.py
+            line_no:
+              - 154
+              - 152
+              - 135
+              - 131
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+        comment: Model load purpose is to convert model format from pt to hf (according to the file name and code). the values are passed through cli.

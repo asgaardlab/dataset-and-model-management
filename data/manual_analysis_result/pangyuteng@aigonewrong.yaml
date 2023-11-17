@@ -1,0 +1,983 @@
+repository_name: pangyuteng/aigonewrong
+last_commit_date: 2023-02-21 21:16
+description: .nan
+analyzing_commit_hash: 483ec0e36a5f93bafaa303e2939278ffe269db02
+comment: ''
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: finance/transformer/train.py
+            line_no:
+              - 103
+              - 104
+              - 105
+              - 108
+              - 112
+              - 121
+        model_load_purpose_trace:
+          - file_path: finance/transformer/evaluate.py
+            line_no:
+              - 22
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: finance/transformer/evaluate.py
+            line_no:
+              - 16
+          - file_path: finance/transformer/train.py
+            line_no:
+              - 61
+        location: finance/transformer/model.h5
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: finance/transformer/train.py
+            line_no:
+              - 103
+              - 104
+              - 105
+              - 108
+              - 112
+              - 121
+        model_load_purpose_trace:
+          - file_path: finance/transformer/predict.py
+            line_no:
+              - 13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: finance/transformer/predict.py
+            line_no:
+              - 12
+          - file_path: finance/transformer/train.py
+            line_no:
+              - 61
+        location: finance/transformer/model.h5
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: finance/transformer-volatility/train.py
+            line_no:
+              - 105
+              - 104
+              - 115
+              - 111
+              - 124
+        model_load_purpose_trace:
+          - file_path: finance/transformer-volatility/evaluate.py
+            line_no:
+              - 27
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: finance/transformer-volatility/evaluate.py
+            line_no:
+              - 20
+          - file_path: finance/transformer-volatility/train.py
+            line_no:
+              - 62
+        location: finance/transformer-volatility/model.h5
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: finance/transformer-volatility/train.py
+            line_no:
+              - 105
+              - 104
+              - 115
+              - 111
+              - 124
+        model_load_purpose_trace:
+          - file_path: finance/transformer-volatility/predict.py
+            line_no:
+              - 13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: finance/transformer-volatility/predict.py
+            line_no:
+              - 12
+          - file_path: finance/transformer-volatility/train.py
+            line_no:
+              - 62
+        location: finance/transformer-volatility/model.h5
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/ct/vqvae.py
+            line_no:
+              - 257
+              - 265
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/ct/diffusion_image.py
+            line_no:
+              - 428
+              - 429
+              - 434
+              - 436
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stable-diffusion/ct/diffusion_image.py
+            line_no:
+              - 426
+              - 425
+              - 27
+        location: tmp/vqvae.h5
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/ct/diffusion_image.py
+            line_no:
+              - 482
+              - 481
+              - 504
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/ct/diffusion_image.py
+            line_no:
+              - 496
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: stable-diffusion/ct/diffusion_image.py
+            line_no:
+              - 493
+              - 28
+        location: checkpoints/diffusion_model_image
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/ct/diffusion_image.py
+            line_no:
+              - 482
+              - 481
+              - 504
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/ct/diffusion_image.py
+            line_no:
+              - 514
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stable-diffusion/ct/diffusion_image.py
+            line_no:
+              - 513
+              - 28
+        location: checkpoints/diffusion_model_image
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/ct/diffusion_mask.py
+            line_no:
+              - 448
+              - 447
+              - 470
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/ct/diffusion_image.py
+            line_no:
+              - 462
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: stable-diffusion/ct/diffusion_mask.py
+            line_no:
+              - 459
+              - 28
+        location: checkpoints/diffusion_model_mask
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/ct/diffusion_mask.py
+            line_no:
+              - 448
+              - 447
+              - 470
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/ct/diffusion_image.py
+            line_no:
+              - 480
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stable-diffusion/ct/diffusion_image.py
+            line_no:
+              - 479
+              - 28
+        location: checkpoints/diffusion_model_mask
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/ct/vqvae.py
+            line_no:
+              - 265
+              - 257
+              - 15
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/ct/vqvae.py
+            line_no:
+              - 307
+              - 308
+              - 310
+              - 312
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stable-diffusion/ct/vqvae.py
+            line_no:
+              - 267
+              - 257
+              - 15
+        location: tmp/vqvae.h5
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/ct/vqvae.py
+            line_no:
+              - 455
+              - 447
+              - 15
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/ct/vqvae.py
+            line_no:
+              - 461
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stable-diffusion/ct/vqvae.py
+            line_no:
+              - 457
+              - 447
+              - 15
+        location: tmp/pixel_cnn.h5
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/ddim/celeba.py
+            line_no:
+              - 446
+              - 445
+              - 465
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/ddim/celeba.py
+            line_no:
+              - 475
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stable-diffusion/ddim/celeba.py
+            line_no:
+              - 474
+              - 444
+        location: checkpoints-celeba/diffusion_model
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/ddim/cityscapes.py
+            line_no:
+              - 471
+              - 470
+              - 490
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/ddim/cityscapes.py
+            line_no:
+              - 500
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stable-diffusion/ddim/cityscapes.py
+            line_no:
+              - 499
+              - 469
+        location: checkpoints/diffusion_model
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/ddim/ddim.py
+            line_no:
+              - 621
+              - 623
+              - 622
+              - 642
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/ddim/ddim.py
+            line_no:
+              - 652
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stable-diffusion/ddim/ddim.py
+            line_no:
+              - 651
+              - 621
+        location: checkpoints/diffusion_model
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/ddim/deeplesion.py
+            line_no:
+              - 469
+              - 468
+              - 488
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/ddim/deeplesion.py
+            line_no:
+              - 498
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stable-diffusion/ddim/deeplesion.py
+            line_no:
+              - 497
+              - 467
+        location: checkpoints-deeplesion/diffusion_model
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/semantic-synthesis/totalseg.py
+            line_no:
+              - 621
+              - 620
+              - 643
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/semantic-synthesis/inference.py
+            line_no:
+              - 38
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stable-diffusion/semantic-synthesis/inference.py
+            line_no:
+              - 30
+          - file_path: stable-diffusion/semantic-synthesis/totalseg.py
+            line_no:
+              - 26
+        location: checkpoints/diffusion_model
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/semantic-synthesis/totalseg.py
+            line_no:
+              - 621
+              - 620
+              - 643
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/semantic-synthesis/totalseg.py
+            line_no:
+              - 635
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: stable-diffusion/semantic-synthesis/totalseg.py
+            line_no:
+              - 632
+              - 26
+        location: checkpoints/diffusion_model
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/semantic-synthesis/totalseg.py
+            line_no:
+              - 621
+              - 620
+              - 643
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/semantic-synthesis/totalseg.py
+            line_no:
+              - 653
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stable-diffusion/semantic-synthesis/totalseg.py
+            line_no:
+              - 652
+              - 26
+        location: checkpoints/diffusion_model
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/semantic-synthesis/cityscapes/ddim.py
+            line_no:
+              - 481
+              - 480
+              - 500
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/semantic-synthesis/cityscapes/ddim.py
+            line_no:
+              - 510
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stable-diffusion/semantic-synthesis/cityscapes/ddim.py
+            line_no:
+              - 509
+              - 479
+        location: checkpoints/diffusion_model
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/semantic-synthesis/highres/totalseg.py
+            line_no:
+              - 619
+              - 618
+              - 641
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/semantic-synthesis/highres/totalseg.py
+            line_no:
+              - 633
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: stable-diffusion/semantic-synthesis/highres/totalseg.py
+            line_no:
+              - 630
+              - 26
+        location: checkpoints/diffusion_model
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: stable-diffusion/semantic-synthesis/highres/totalseg.py
+            line_no:
+              - 619
+              - 618
+              - 641
+        model_load_purpose_trace:
+          - file_path: stable-diffusion/semantic-synthesis/highres/totalseg.py
+            line_no:
+              - 651
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: stable-diffusion/semantic-synthesis/highres/totalseg.py
+            line_no:
+              - 650
+              - 26
+        location: checkpoints/diffusion_model
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: finance/transformer/train.py
+            line_no:
+              - 115
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: finance/transformer/train.py
+            line_no:
+              - 121
+              - 110
+              - 112
+              - 103
+              - 104
+              - 105
+              - 108
+              - 61
+        save_location: finance/transformer/model.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: finance/transformer/train.py
+            line_no:
+              - 116
+              - 81
+              - 79
+        location: finance/transformer/X.npy
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: finance/transformer-volatility/train.py
+            line_no:
+              - 118
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: finance/transformer-volatility/train.py
+            line_no:
+              - 124
+              - 111
+              - 115
+              - 104
+              - 105
+              - 62
+        save_location: finance/transformer-volatility/model.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: finance/transformer-volatility/train.py
+            line_no:
+              - 119
+              - 82
+              - 80
+        location: finance/transformer-volatility/X.npy
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: stable-diffusion/ct/diffusion_image.py
+            line_no:
+              - 496
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: stable-diffusion/ct/diffusion_image.py
+            line_no:
+              - 513
+              - 481
+              - 482
+              - 28
+        save_location: checkpoints/diffusion_model_image
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: stable-diffusion/ct/diffusion_image.py
+            line_no:
+              - 497
+              - 444
+          - file_path: stable-diffusion/ct/gen_totalseg.py
+            line_no:
+              - 193
+              - 217
+              - 206
+              - 205
+              - 197
+              - 196
+              - 18
+              - 16
+        location: /mnt/hd1/aigonewrong/stable-diffusion/ct/niftis.csv
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: stable-diffusion/ct/diffusion_mask.py
+            line_no:
+              - 462
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: stable-diffusion/ct/diffusion_mask.py
+            line_no:
+              - 479
+              - 447
+              - 448
+              - 28
+        save_location: checkpoints/diffusion_model_mask
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: stable-diffusion/ct/diffusion_mask.py
+            line_no:
+              - 463
+              - 417
+          - file_path: stable-diffusion/ct/gen_totalseg.py
+            line_no:
+              - 219
+              - 243
+              - 232
+              - 231
+              - 223
+              - 222
+              - 18
+              - 16
+              - 221
+              - 147
+              - 191
+              - 190
+              - 183
+              - 169
+              - 152
+              - 150
+              - 148
+        location: /mnt/scratch/data/Totalsegmentator_dataset/*/ct.nii.gz
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: stable-diffusion/ct/vqvae.py
+            line_no:
+              - 259
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: stable-diffusion/ct/vqvae.py
+            line_no:
+              - 265
+              - 257
+              - 15
+        save_location: tmp/vqvae.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: stable-diffusion/ct/vqvae.py
+            line_no:
+              - 260
+              - 98
+          - file_path: stable-diffusion/ct/gen_deeplesion.py
+            line_no:
+              - 57
+              - 82
+              - 71
+              - 70
+              - 61
+              - 60
+              - 59
+              - 51
+              - 55
+              - 54
+              - 53
+              - 52
+        location: /mnt/scratch/data/DeepLesion/Images_png/*.png
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: stable-diffusion/ct/vqvae.py
+            line_no:
+              - 449
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: stable-diffusion/ct/vqvae.py
+            line_no:
+              - 455
+              - 447
+              - 15
+        save_location: tmp/pixel_cnn.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: stable-diffusion/ct/vqvae.py
+            line_no:
+              - 450
+              - 426
+              - 98
+          - file_path: stable-diffusion/ct/gen_deeplesion.py
+            line_no:
+              - 57
+              - 82
+              - 71
+              - 70
+              - 61
+              - 60
+              - 59
+              - 51
+              - 55
+              - 54
+              - 53
+              - 52
+        location: /mnt/scratch/data/DeepLesion/Images_png/*.png
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: stable-diffusion/ct/vq_vae.py
+            line_no:
+              - 279
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: stable-diffusion/ct/vq_vae.py
+            line_no:
+              - 268
+              - 266
+              - 264
+        location: keras.datasets.mnist.load_data()
+        location_type: library dataset
+        location_set_from: keras api
+        size: null
+    - model:
+        training_trace:
+          - file_path: stable-diffusion/ct/vq_vae.py
+            line_no:
+              - 513
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: stable-diffusion/ct/vq_vae.py
+            line_no:
+              - 494
+              - 493
+              - 491
+              - 268
+              - 266
+              - 264
+        location: keras.datasets.mnist.load_data()
+        location_type: library dataset
+        location_set_from: keras api
+        size: null
+    - model:
+        training_trace:
+          - file_path: stable-diffusion/ddim/celeba.py
+            line_no:
+              - 457
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: stable-diffusion/ddim/celeba.py
+            line_no:
+              - 465
+              - 445
+              - 446
+              - 444
+        save_location: checkpoints-celeba/diffusion_model
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: stable-diffusion/ddim/celeba.py
+            line_no:
+              - 458
+              - 78
+              - 59
+              - 76
+              - 65
+              - 64
+              - 61
+        location: /mnt/hd2/data/celeba_gan/img_align_celeba/*.jpg
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: stable-diffusion/ddim/cityscapes.py
+            line_no:
+              - 482
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: stable-diffusion/ddim/cityscapes.py
+            line_no:
+              - 490
+              - 470
+              - 471
+              - 469
+        save_location: checkpoints/diffusion_model
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: stable-diffusion/ddim/cityscapes.py
+            line_no:
+              - 483
+              - 97
+              - 82
+              - 86
+        location: tfds.load(dataset_name, split=split, shuffle_files=True)
+        location_type: library dataset
+        location_set_from: library api
+        size: null
+    - model:
+        training_trace:
+          - file_path: stable-diffusion/ddim/ddim.py
+            line_no:
+              - 634
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: stable-diffusion/ddim/ddim.py
+            line_no:
+              - 642
+              - 622
+              - 623
+              - 621
+        save_location: checkpoints/diffusion_model
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: stable-diffusion/ddim/ddim.py
+            line_no:
+              - 635
+              - 119
+              - 81
+              - 85
+        location: tfds.load(dataset_name, split=split, shuffle_files=True)
+        location_type: library dataset
+        location_set_from: library api
+        size: null
+    - model:
+        training_trace:
+          - file_path: stable-diffusion/ddim/deeplesion.py
+            line_no:
+              - 480
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: stable-diffusion/ddim/deeplesion.py
+            line_no:
+              - 488
+              - 468
+              - 469
+              - 467
+        save_location: checkpoints-deeplesion/diffusion_model
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: stable-diffusion/ddim/deeplesion.py
+            line_no:
+              - 481
+              - 102
+              - 82
+              - 100
+              - 89
+              - 88
+              - 86
+              - 85
+              - 84
+              - 76
+              - 80
+              - 79
+              - 78
+              - 77
+        location: /mnt/scratch/data/DeepLesion/Images_png/*.png
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: stable-diffusion/semantic-synthesis/totalseg.py
+            line_no:
+              - 635
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: stable-diffusion/semantic-synthesis/totalseg.py
+            line_no:
+              - 643
+              - 620
+              - 621
+              - 26
+        save_location: checkpoints/diffusion_model
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: stable-diffusion/semantic-synthesis/totalseg.py
+            line_no:
+              - 636
+              - 589
+              - 202
+              - 226
+              - 215
+              - 214
+              - 206
+              - 205
+              - 204
+              - 156
+              - 200
+              - 178
+              - 157
+        location: /mnt/scratch/data/Totalsegmentator_dataset/*/ct.nii.gz
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: stable-diffusion/semantic-synthesis/cityscapes/ddim.py
+            line_no:
+              - 492
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: stable-diffusion/semantic-synthesis/cityscapes/ddim.py
+            line_no:
+              - 500
+              - 480
+              - 481
+              - 479
+        save_location: checkpoints/diffusion_model
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: stable-diffusion/semantic-synthesis/cityscapes/ddim.py
+            line_no:
+              - 493
+              - 97
+              - 82
+              - 86
+        location: tfds.load(dataset_name, split=split, shuffle_files=True)
+        location_type: library dataset
+        location_set_from: library api
+        size: null
+    - model:
+        training_trace:
+          - file_path: stable-diffusion/semantic-synthesis/highres/totalseg.py
+            line_no:
+              - 633
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: stable-diffusion/semantic-synthesis/highres/totalseg.py
+            line_no:
+              - 641
+              - 618
+              - 619
+              - 26
+        save_location: checkpoints/diffusion_model
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: stable-diffusion/semantic-synthesis/highres/totalseg.py
+            line_no:
+              - 634
+              - 587
+              - 203
+              - 227
+              - 216
+              - 215
+              - 207
+              - 206
+              - 205
+              - 157
+              - 201
+              - 200
+              - 193
+              - 179
+              - 162
+              - 160
+              - 158
+        location: /mnt/scratch/data/Totalsegmentator_dataset/*/ct.nii.gz
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null

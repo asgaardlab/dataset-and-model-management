@@ -1,0 +1,39 @@
+repository_name: marcusturewicz/dotnet-twitter-bot
+last_commit_date: 2023-02-20 18:56
+description: ':bird: :robot: I am a bot that retweets .NET related tweets.'
+analyzing_commit_hash: a5e08610c5f300ef48dc6b744e8685d4367d0b46
+comment: There are no python files in the repository. A notebook used to train the model and save it in onnx format. Rest of the code is written in C#.
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: src/spam_filter/spam_filter.ipynb
+            line_no:
+              - In[71]:1
+              - In[72]:1
+              - In[72]:2
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/spam_filter/spam_filter.ipynb
+            line_no:
+              - In[76]:1
+              - In[77]:1
+              - In[77]:2
+        save_location: src/DotNetTwitterBot/spam_filter.onnx
+        save_location_set_from: hard coded
+        model_size: 11.36 MB
+      dataset:
+        location_trace:
+          - file_path: src/spam_filter/spam_filter.ipynb
+            line_no:
+              - In[69]:1
+              - In[67]:1
+              - In[67]:2
+              - In[49]:4
+              - In[49]:1
+        location: /Users/marcusturewicz/Documents/tweets.xlsx
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null
+        comment: Loaded the model from C# code

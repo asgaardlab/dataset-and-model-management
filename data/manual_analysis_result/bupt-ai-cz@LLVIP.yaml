@@ -1,0 +1,2493 @@
+repository_name: bupt-ai-cz/LLVIP
+last_commit_date: 2023-02-23 7:13
+description: 'LLVIP: A Visible-infrared Paired Dataset for Low-light Vision'
+analyzing_commit_hash: 278d1ce0beb6d9627f3181684e9f07c06711634c
+comment: a repository of dataset
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 176
+              - 88
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 34
+              - 38
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 192
+              - 185
+              - 36
+              - 184
+        location: <checkpoints_dir>/<name>/<epoch>_net_<name>.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: method parameter and hard coded
+        size: null
+        comment: no saved .pth file found in the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 176
+              - 88
+          - file_path: pix2pixGAN/test.py
+            line_no:
+              - 47
+              - 38
+        model_load_purpose: testing
+        location_trace:
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 192
+              - 185
+              - 36
+              - 184
+        location: <checkpoints_dir>/<name>/<epoch>_net_<name>.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: method parameter and hard coded
+        size: null
+        comment: no saved .pth file found in the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/detect.py
+            line_no:
+              - 133
+              - 131
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: yolov5/detect.py
+            line_no:
+              - 82
+              - 111
+              - 76
+              - 35
+              - 23
+              - 20
+              - 19
+        location: yolov5/yolov5s.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/detect.py
+            line_no:
+              - 188
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: yolov5/detect.py
+            line_no:
+              - 89
+        location: yolov5/resnet50.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/export.py
+            line_no:
+              - 304
+              - 306
+              - 308
+              - 314
+              - 318
+              - 320
+              - 322
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: yolov5/models/experimental.py
+            line_no:
+              - 94
+              - 93
+              - 88
+          - file_path: yolov5/utils/downloads.py
+            line_no:
+              - 43
+              - 75
+          - file_path: yolov5/export.py
+            line_no:
+              - 277
+              - 250
+              - 359
+              - 364
+              - 333
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 14.1 MB
+        comment: The model is loaded to export to different formats. The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 73
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 51
+              - 41
+              - 40
+              - 13
+              - 75
+          - file_path: yolov5/utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5n.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 3.9 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 78
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 51
+              - 41
+              - 40
+              - 13
+              - 80
+          - file_path: yolov5/utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 14.1 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 83
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 51
+              - 41
+              - 40
+              - 13
+              - 85
+          - file_path: yolov5/utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5m.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 40.8 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 88
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 51
+              - 41
+              - 40
+              - 13
+              - 90
+          - file_path: yolov5/utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5l.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 89.3 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 93
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 51
+              - 41
+              - 40
+              - 13
+              - 95
+          - file_path: yolov5/utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5x.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 166 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 98
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 51
+              - 41
+              - 40
+              - 13
+              - 100
+          - file_path: yolov5/utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5n6.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 6.9 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/yolov5/hubconf.py
+            line_no:
+              - 103
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 51
+              - 41
+              - 40
+              - 13
+              - 105
+          - file_path: yolov5/utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s6.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 24.8 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 108
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 51
+              - 41
+              - 40
+              - 13
+              - 110
+          - file_path: yolov5/utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5m6.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 69.0 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 113
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 51
+              - 41
+              - 40
+              - 13
+              - 115
+          - file_path: yolov5/utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5l6.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 147.36 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 118
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 51
+              - 41
+              - 40
+              - 13
+              - 120
+          - file_path: yolov5/utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5x6.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 269.62 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 140
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: yolov5/hubconf.py
+            line_no:
+              - 51
+              - 41
+              - 40
+              - 13
+              - 124
+          - file_path: yolov5/utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 14.1 MB
+        comment: The url is defined after a request for the latest tag for assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/models/tf.py
+            line_no:
+              - 433
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: yolov5/models/experimental.py
+            line_no:
+              - 94
+              - 93
+              - 88
+          - file_path: yolov5/utils/downloads.py
+            line_no:
+              - 43
+              - 75
+          - file_path: yolov5/models/tf.py
+            line_no:
+              - 432
+              - 425
+              - 461
+              - 449
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 14.1 MB
+        comment: The url is defined after a request for the latest assets. Thus always download the latest asset.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 270
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 116
+              - 115
+              - 92
+              - 64
+              - 519
+              - 436
+              - 438
+          - file_path: yolov5/utils/downloads.py
+            line_no:
+              - 43
+              - 75
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 14.1 MB
+        comment: the tag is resolved from https://api.github.com/repos/ultralytics/yolov5/releases/latest, which indicates that they are always downloading the latest checkpoint. The model loaded for training in yolov5/train.py, line no 315
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 382
+              - 71
+              - 69
+              - 64
+        model_load_purpose_trace:
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 709
+              - 714
+              - 716
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 705
+              - 703
+          - file_path: yolov5/train.py
+            line_no:
+              - 410
+              - 408
+              - 71
+              - 69
+              - 64
+        location: <save_dir>/weights/last.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: method parameter, hard coded and program variable
+        size: null
+        comment: Model load purpose is to strip optimizer from saved model
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 384
+              - 71
+              - 69
+              - 64
+        model_load_purpose_trace:
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 709
+              - 714
+              - 716
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 705
+              - 703
+          - file_path: yolov5/train.py
+            line_no:
+              - 410
+              - 408
+              - 71
+              - 69
+              - 64
+        location: <save_dir>/weights/best.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: method parameter, hard coded and program variable
+        size: null
+        comment: Model load purpose is to strip optimizer from saved model
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolov5/val.py
+            line_no:
+              - 194
+              - 237
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: yolov5/val.py
+            line_no:
+              - 124
+              - 85
+              - 334
+              - 329
+              - 360
+              - 300
+              - 303
+          - file_path: yolov5/models/experimental.py
+            line_no:
+              - 88
+              - 94
+        location: https://github.com/ultralytics/yolov5/releases/download/<tag>/yolov5s.pt
+        location_type: online
+        location_set_from: derived from api
+        size: 14.1 MB
+        comment: The url is defined after a request for the latest tag for assets. Thus always download the latest asset.
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: yolov3/from_darknet_weights_to_pb.py
+            line_no:
+              - 17
+              - 23
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: yolov3/from_darknet_weights_to_pb.py
+            line_no:
+              - 13
+              - 6
+        location: <your darknet weights file path>
+        location_type: file system (source unknown)
+        location_set_from: hard coded
+        size: null
+        comment: The model is loaded to convert file format of the model. Model loaded from the path defined by a program variable. However, in the code, the path is not set.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/apple2orange.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/orange2apple.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/summer2winter_yosemite.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/winter2summer_yosemite.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/horse2zebra.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/zebra2horse.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/monet2photo.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/style_monet.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/style_cezanne.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/style_ukiyoe.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/style_vangogh.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/sat2map.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/map2sat.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/cityscapes_photo2label.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/cityscapes_label2photo.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/facades_photo2label.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/facades_label2photo.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_cyclegan_model.sh
+            line_no:
+              - 9
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/pretrained_models/iphone2dslr_flower.pth
+        location_type: online
+        location_set_from: script file
+        size: 43.46 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/pix2pix.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_pix2pix_model.sh
+            line_no:
+              - 8
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/pix2pix/models-pytorch/edges2shoes.pth
+        location_type: online
+        location_set_from: script file
+        size: 207.62 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/pix2pix.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_pix2pix_model.sh
+            line_no:
+              - 8
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/pix2pix/models-pytorch/sat2map.pth
+        location_type: online
+        location_set_from: script file
+        size: 207.62 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/pix2pix.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_pix2pix_model.sh
+            line_no:
+              - 8
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/pix2pix/models-pytorch/map2sat.pth
+        location_type: online
+        location_set_from: script file
+        size: 207.63 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/pix2pix.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_pix2pix_model.sh
+            line_no:
+              - 8
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/pix2pix/models-pytorch/facades_label2photo.pth
+        location_type: online
+        location_set_from: script file
+        size: 207.62 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+    - model:
+        self_trained: unknown
+        model_load_purpose: null
+        location_trace:
+          - file_path: pix2pixGAN/pix2pix.ipynb
+            line_no:
+              - In[5]:1
+          - file_path: pix2pixGAN/scripts/download_pix2pix_model.sh
+            line_no:
+              - 8
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/pix2pix/models-pytorch/day2night.pth
+        location_type: online
+        location_set_from: script file
+        size: 207.63 MB
+        comment: Noted the checkpoint file from the text block above the code block of the notebook.
+  training:
+    - model:
+        training_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 315
+              - 270
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 382
+              - 384
+              - 386
+              - 71
+              - 69
+              - 64
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 290
+              - 285
+              - 210
+              - 104
+              - 103
+              - 64
+              - 65
+              - 60
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 333
+              - 382
+              - 353
+              - 347
+              - 340
+              - 392
+              - 404
+          - file_path: yolov5/tutorial.ipynb
+            line_no:
+              - In[9]:2
+          - file_path: yolov5/data/Argoverse.yaml
+            line_no:
+              - 60
+        location: https://argoverse-hd.s3.us-east-2.amazonaws.com/Argoverse-HD-Full.zip
+        location_type: online
+        location_set_from: config file
+        size: null
+        comment: Got 404. Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook.
+    - model:
+        training_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 315
+              - 270
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 382
+              - 384
+              - 386
+              - 71
+              - 69
+              - 64
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 290
+              - 285
+              - 210
+              - 104
+              - 103
+              - 64
+              - 65
+              - 60
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 333
+              - 382
+              - 353
+              - 347
+              - 340
+              - 392
+              - 404
+          - file_path: yolov5/tutorial.ipynb
+            line_no:
+              - In[9]:2
+          - file_path: yolov5/data/coco.yaml
+            line_no:
+              - 41
+        location: http://images.cocodataset.org/zips/train2017.zip
+        location_type: online
+        location_set_from: script file
+        size: 18441.07 MB
+        comment: Downloaded the data if not exists in the file system using a script. The config file doesn't exists in the exact directory, found inside one level.
+    - model:
+        training_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 315
+              - 270
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 382
+              - 384
+              - 386
+              - 71
+              - 69
+              - 64
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 290
+              - 285
+              - 210
+              - 104
+              - 103
+              - 64
+              - 65
+              - 60
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 333
+              - 382
+              - 353
+              - 347
+              - 340
+              - 392
+              - 404
+          - file_path: yolov5/tutorial.ipynb
+            line_no:
+              - In[9]:2
+          - file_path: yolov5/data/coco128.yaml
+            line_no:
+              - 30
+        location: http://images.cocodataset.org/zips/train2017.zip
+        location_type: online
+        location_set_from: script file
+        size: 18441.07 MB
+        comment: Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook.
+    - model:
+        training_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 315
+              - 270
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 382
+              - 384
+              - 386
+              - 71
+              - 69
+              - 64
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 290
+              - 285
+              - 210
+              - 104
+              - 103
+              - 64
+              - 65
+              - 60
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 333
+              - 382
+              - 353
+              - 347
+              - 340
+              - 392
+              - 404
+          - file_path: yolov5/tutorial.ipynb
+            line_no:
+              - In[9]:2
+          - file_path: yolov5/data/GlobalWheat2020.yaml
+            line_no:
+              - 30
+        location: https://zenodo.org/record/4298502/files/global-wheat-codalab-official.zip
+        location_type: online
+        location_set_from: script file
+        size: 6607.23 MB
+        comment: Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook.
+    - model:
+        training_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 315
+              - 270
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 382
+              - 384
+              - 386
+              - 71
+              - 69
+              - 64
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 290
+              - 285
+              - 210
+              - 104
+              - 103
+              - 64
+              - 65
+              - 60
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 333
+              - 382
+              - 353
+              - 347
+              - 340
+              - 392
+              - 404
+          - file_path: yolov5/tutorial.ipynb
+            line_no:
+              - In[9]:2
+          - file_path: yolov5/data/LLVIP.yaml
+            line_no:
+              - 6
+        location: LLVIP/images/train
+        location_type: file system (not saved in VCS)
+        location_set_from: script file
+        size: null
+    - model:
+        training_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 315
+              - 270
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 382
+              - 384
+              - 386
+              - 71
+              - 69
+              - 64
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 290
+              - 285
+              - 210
+              - 104
+              - 103
+              - 64
+              - 65
+              - 60
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 333
+              - 382
+              - 353
+              - 347
+              - 340
+              - 392
+              - 404
+          - file_path: yolov5/tutorial.ipynb
+            line_no:
+              - In[9]:2
+          - file_path: yolov5/data/GlobalWheat2020.yaml
+            line_no:
+              - 81
+        location: https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/
+        location_type: online
+        location_set_from: script file
+        size: null
+        comment: Got 403. Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook.
+    - model:
+        training_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 315
+              - 270
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 382
+              - 384
+              - 386
+              - 71
+              - 69
+              - 64
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 290
+              - 285
+              - 210
+              - 104
+              - 103
+              - 64
+              - 65
+              - 60
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 333
+              - 382
+              - 353
+              - 347
+              - 340
+              - 392
+              - 404
+          - file_path: yolov5/tutorial.ipynb
+            line_no:
+              - In[9]:2
+          - file_path: yolov5/data/SKU-110K.yaml
+            line_no:
+              - 30
+        location: http://trax-geometry.s3.amazonaws.com/cvpr_challenge/SKU110K_fixed.tar.gz
+        location_type: online
+        location_set_from: script file
+        size: 11631.16 MB
+        comment: Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook.
+    - model:
+        training_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 315
+              - 270
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 382
+              - 384
+              - 386
+              - 71
+              - 69
+              - 64
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 290
+              - 285
+              - 210
+              - 104
+              - 103
+              - 64
+              - 65
+              - 60
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 333
+              - 382
+              - 353
+              - 347
+              - 340
+              - 392
+              - 404
+          - file_path: yolov5/tutorial.ipynb
+            line_no:
+              - In[9]:2
+          - file_path: yolov5/data/VisDrone.yaml
+            line_no:
+              - 53
+        location: https://github.com/ultralytics/yolov5/releases/download/v1.0/VisDrone2019-DET-train.zip
+        location_type: online
+        location_set_from: script file
+        size: 1478.08 MB
+        comment: Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook.
+    - model:
+        training_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 315
+              - 270
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 382
+              - 384
+              - 386
+              - 71
+              - 69
+              - 64
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 290
+              - 285
+              - 210
+              - 104
+              - 103
+              - 64
+              - 65
+              - 60
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 333
+              - 382
+              - 353
+              - 347
+              - 340
+              - 392
+              - 404
+          - file_path: yolov5/tutorial.ipynb
+            line_no:
+              - In[9]:2
+          - file_path: yolov5/data/VOC.yaml
+            line_no:
+              - 61
+        location: https://github.com/ultralytics/yolov5/releases/download/v1.0/VOCtrainval_06-Nov-2007.zip
+        location_type: online
+        location_set_from: script file
+        size: 425 MB
+        comment: Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 315
+              - 270
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 382
+              - 384
+              - 386
+              - 71
+              - 69
+              - 64
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 290
+              - 285
+              - 210
+              - 104
+              - 103
+              - 64
+              - 65
+              - 60
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 333
+              - 382
+              - 353
+              - 347
+              - 340
+              - 392
+              - 404
+          - file_path: yolov5/tutorial.ipynb
+            line_no:
+              - In[9]:2
+          - file_path: yolov5/data/VOC.yaml
+            line_no:
+              - 61
+        location: https://github.com/ultralytics/yolov5/releases/download/v1.0/VOCtrainval_11-May-2012.zip
+        location_type: online
+        location_set_from: script file
+        size: 1860.09 MB
+        comment: Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 315
+              - 270
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: online if not found locally
+        save_location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 382
+              - 384
+              - 386
+              - 71
+              - 69
+              - 64
+        save_location:
+          - <save_dir>/weights/last.pt
+          - <save_dir>/weights/best.pt
+          - <save_dir>/weights/epoch<epoch>.pt
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: yolov5/train.py
+            line_no:
+              - 290
+              - 285
+              - 210
+              - 104
+              - 103
+              - 64
+              - 65
+              - 60
+          - file_path: yolov5/utils/general.py
+            line_no:
+              - 333
+              - 382
+              - 353
+              - 347
+              - 340
+              - 392
+              - 404
+          - file_path: yolov5/tutorial.ipynb
+            line_no:
+              - In[9]:2
+          - file_path: yolov5/data/xView.yaml
+            line_no:
+              - 85
+        location: https://challenge.xviewdataset.org
+        location_type: online
+        location_set_from: script file
+        size: null
+        comment: Need to login to access data. Also, the path is not refering to any exact data file. Downloaded the data if not exists in the file system using a script. Found the config file in the same directory and same structure of the example config file used in notebook.
+
+    - model:
+        training_trace:
+          - file_path: FusionGAN/model.py
+            line_no:
+              - 154
+              - 156
+              - 141
+        is_resume_from_checkpoint: null
+        resume_from_checkpoint_location_type: null
+        save_location_trace:
+          - file_path: FusionGAN/model.py
+            line_no:
+              - 165
+              - 38
+              - 27
+              - 251
+              - 259
+              - 254
+              - 253
+              - 33
+              - 24
+              - 252
+          - file_path: FusionGAN/main.py
+            line_no:
+              - 42
+              - 39
+              - 24
+              - 20
+              - 15
+        save_location: checkpoint_20/CGAN_120/CGAN.model
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: FusionGAN/model.py
+            line_no:
+              - 147
+              - 149
+              - 103
+              - 104
+              - 97
+              - 98
+              - 38
+              - 27
+          - file_path: FusionGAN/main.py
+            line_no:
+              - 42
+              - 24
+              - 20
+        location: checkpoint_20/Train_LLVIP_ir/train.h5
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and hard coded
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: FusionGAN/model.py
+            line_no:
+              - 154
+              - 156
+              - 141
+        is_resume_from_checkpoint: null
+        resume_from_checkpoint_location_type: null
+        save_location_trace:
+          - file_path: FusionGAN/model.py
+            line_no:
+              - 165
+              - 38
+              - 27
+              - 251
+              - 259
+              - 254
+              - 253
+              - 33
+              - 24
+              - 252
+          - file_path: FusionGAN/main.py
+            line_no:
+              - 42
+              - 39
+              - 24
+              - 20
+              - 15
+        save_location: checkpoint_20/CGAN_120/CGAN.model
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: FusionGAN/model.py
+            line_no:
+              - 147
+              - 149
+              - 103
+              - 104
+              - 97
+              - 98
+              - 38
+              - 27
+          - file_path: FusionGAN/main.py
+            line_no:
+              - 42
+              - 24
+              - 20
+        location: checkpoint_20/Train_LLVIP_vi/train.h5
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and hard coded
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_cyclegan_dataset.sh
+            line_no:
+              - 15
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/apple2orange.zip
+        location_type: online
+        location_set_from: script file
+        size: 74.82 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_cyclegan_dataset.sh
+            line_no:
+              - 15
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/horse2zebra.zip
+        location_type: online
+        location_set_from: script file
+        size: 111.45 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_cyclegan_dataset.sh
+            line_no:
+              - 15
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/monet2photo.zip
+        location_type: online
+        location_set_from: script file
+        size: 291.09 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_cyclegan_dataset.sh
+            line_no:
+              - 15
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/cezanne2photo.zip
+        location_type: online
+        location_set_from: script file
+        size: 266.92 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_cyclegan_dataset.sh
+            line_no:
+              - 15
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/ukiyoe2photo.zip
+        location_type: online
+        location_set_from: script file
+        size: 279.38 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_cyclegan_dataset.sh
+            line_no:
+              - 15
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/vangogh2photo.zip
+        location_type: online
+        location_set_from: script file
+        size: 292.39 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_cyclegan_dataset.sh
+            line_no:
+              - 15
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/maps.zip
+        location_type: online
+        location_set_from: script file
+        size: 1408.34 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_cyclegan_dataset.sh
+            line_no:
+              - 15
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/cityscapes.zip
+        location_type: online
+        location_set_from: script file
+        size: 57.62 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_cyclegan_dataset.sh
+            line_no:
+              - 15
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/facades.zip
+        location_type: online
+        location_set_from: script file
+        size: 33.51 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_cyclegan_dataset.sh
+            line_no:
+              - 15
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/iphone2dslr_flower.zip
+        location_type: online
+        location_set_from: script file
+        size: 324.22 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/CycleGAN.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_cyclegan_dataset.sh
+            line_no:
+              - 15
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/cyclegan/datasets/ae_photos.zip
+        location_type: online
+        location_set_from: script file
+        size: 10.18 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/pix2pix.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_pix2pix_dataset.sh
+            line_no:
+              - 16
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/cityscapes.tar.gz
+        location_type: online
+        location_set_from: script file
+        size: 98.65 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/pix2pix.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_pix2pix_dataset.sh
+            line_no:
+              - 16
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/night2day.tar.gz
+        location_type: online
+        location_set_from: script file
+        size: 1968.09 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/pix2pix.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_pix2pix_dataset.sh
+            line_no:
+              - 16
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/edges2handbags.tar.gz
+        location_type: online
+        location_set_from: script file
+        size: 8160.03 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/pix2pix.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_pix2pix_dataset.sh
+            line_no:
+              - 16
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/edges2shoes.tar.gz
+        location_type: online
+        location_set_from: script file
+        size: 2064.98 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/pix2pix.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_pix2pix_dataset.sh
+            line_no:
+              - 16
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/facades.tar.gz
+        location_type: online
+        location_set_from: script file
+        size: 28.77 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.
+    - model:
+        training_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 52
+              - 51
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 69
+              - 74
+              - 75
+          - file_path: pix2pixGAN/models/base_model.py
+            line_no:
+              - 144
+              - 157
+              - 160
+              - 153
+              - 152
+              - 36
+        save_location: <opt.checkpoints_dir>/<opt.name>/<epoch>_net_<name>.pth
+        save_location_set_from: argument and program variable and hard coded
+      dataset:
+        location_trace:
+          - file_path: pix2pixGAN/train.py
+            line_no:
+              - 44
+              - 29
+          - file_path: pix2pixGAN/data/__init__.py
+            line_no:
+              - 47
+              - 59
+              - 58
+              - 57
+              - 65
+              - 72
+              - 76
+          - file_path: pix2pixGAN/pix2pix.ipynb
+            line_no:
+              - In[6]:1
+              - In[4]:1
+          - file_path: pix2pixGAN/datasets/download_pix2pix_dataset.sh
+            line_no:
+              - 16
+              - 1
+        location: http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/maps.tar.gz
+        location_type: online
+        location_set_from: script file
+        size: 238.65 MB
+        comment: The dataset file names noted from the text block above the code block in the notebook.

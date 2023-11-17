@@ -1,0 +1,60 @@
+repository_name: louis-she/minetorch
+last_commit_date: 2022-12-08 5:01
+description: Build deep learning applications in a new and easy way.
+analyzing_commit_hash: 93c7d2bc3a5b456d9997f1f6492fa638b34d8d2c
+comment: Minetorch is a tools collection for miners, to use PyTorch in a more convenient way. This is a tool to be used to ease training models using pytorch. The paths we founds are just an example on how to use the tool.
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: minetorch/miner.py
+            line_no:
+              - 602
+        model_load_purpose_trace:
+          - file_path: minetorch/miner.py
+            line_no:
+              - 248
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: minetorch/miner.py
+            line_no:
+              - 286
+              - 277
+              - 266
+              - 264
+              - 258
+              - 610
+              - 614
+              - 612
+              - 112
+              - 71
+              - 100
+              - 75
+          - file_path: examples/mnist.py
+            line_no:
+              - 54
+              - 55
+        location: alchemistic_directory/Experiment-6/models
+        location_type: file system (not saved in VCS)
+        location_set_from: method parameter
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: examples/mnist.py
+            line_no:
+              - 70
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: examples/mnist.py
+            line_no:
+              - 58
+              - 35
+        location: datasets.MNIST('./data', train=True, download=True, ...)
+        location_type: library dataset
+        location_set_from: program method
+        size: null

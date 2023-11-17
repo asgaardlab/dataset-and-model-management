@@ -1,0 +1,178 @@
+repository_name: SamarthTMSL/HacktoberFest-Projects-and-games
+last_commit_date: 2022-10-31 18:28
+description: Make a Valid pull request for Hacktoberfest 2022. Pull Requests are reviewed
+  within 5hrs of making it.
+analyzing_commit_hash: 61ff9d079a7cc2f0d4dd1b1ff4ff1c72ec227359
+comment: ''
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: Stock Market Prediction/Stock Market Prediction.ipynb
+            line_no:
+              - In[58]:1
+        model_load_purpose_trace:
+          - file_path: Stock Market Prediction/app.py
+            line_no:
+              - 118
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: Stock Market Prediction/app.py
+            line_no:
+              - 102
+        location: Stock Market Prediction/keras_model.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 2.12 MB
+  training:
+    - model:
+        training_trace:
+          - file_path: energy-usage-prediction/power_energy_usage_prediction_time_series.ipynb
+            line_no:
+              - In[29]:1
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: energy-usage-prediction/power_energy_usage_prediction_time_series.ipynb
+            line_no:
+              - In[22]:9
+              - In[14]:2
+              - In[10]:1
+        location: energy-usage-prediction/energydata_complete.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 11.43 MB
+        comment: Although the dataset is loaded from /content/gdrive/MyDrive/Dataset_Time_Series/energydata_complete.csv, a file with the exact name found in the same level of directory in the repository.
+    - model:
+        training_trace:
+          - file_path: Stock Market Prediction/Stock Market Prediction.ipynb
+            line_no:
+              - In[57]:2
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: Stock Market Prediction/Stock Market Prediction.ipynb
+            line_no:
+              - In[58]:1
+        save_location: Stock Market Prediction/keras_model.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: Stock Market Prediction/Stock Market Prediction.ipynb
+            line_no:
+              - In[52]:9
+              - In[52]:4
+              - In[49]:1
+              - In[41]:6
+        location: data.DataReader('AAPL', 'yahoo', start, end)
+        location_type: library dataset
+        location_set_from: library api
+        size: null
+        comment: Apple Inc. stock market data from Yahoo Finance is loaded using library api
+    - model:
+        training_trace:
+          - file_path: youtube-adview-predictor/Youtube-Adview-Prediction/Youtube Adview Prediction.ipynb
+            line_no:
+              - In[17]:3
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: youtube-adview-predictor/Youtube-Adview-Prediction/Youtube Adview Prediction.ipynb
+            line_no:
+              - In[14]:1
+              - In[2]:3
+              - In[2]:2
+        location: youtube-adview-predictor/Youtube-Adview-Prediction/train.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.73 MB
+        comment: Although the data is loaded from /content/train.csv, found a same file in the same level of directory in the repository.
+    - model:
+        training_trace:
+          - file_path: youtube-adview-predictor/Youtube-Adview-Prediction/Youtube Adview Prediction.ipynb
+            line_no:
+              - In[18]:3
+        is_resume_from_checkpoint: no
+        save_location_trace:
+        - file_path: youtube-adview-predictor/Youtube-Adview-Prediction/Youtube Adview Prediction.ipynb
+          line_no:
+            - In[22]:2
+        save_location: youtube-adview-predictor/Youtube-Adview-Prediction/SVR_youtubeadview.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: youtube-adview-predictor/Youtube-Adview-Prediction/Youtube Adview Prediction.ipynb
+            line_no:
+              - In[14]:1
+              - In[2]:3
+              - In[2]:2
+        location: youtube-adview-predictor/Youtube-Adview-Prediction/train.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.73 MB
+        comment: Although the data is loaded from /content/train.csv, found a same file in the same level of directory in the repository.
+    - model:
+        training_trace:
+          - file_path: youtube-adview-predictor/Youtube-Adview-Prediction/Youtube Adview Prediction.ipynb
+            line_no:
+              - In[19]:3
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: youtube-adview-predictor/Youtube-Adview-Prediction/Youtube Adview Prediction.ipynb
+            line_no:
+              - In[14]:1
+              - In[2]:3
+              - In[2]:2
+        location: youtube-adview-predictor/Youtube-Adview-Prediction/train.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.73 MB
+        comment: Although the data is loaded from /content/train.csv, found a same file in the same level of directory in the repository.
+    - model:
+        training_trace:
+          - file_path: youtube-adview-predictor/Youtube-Adview-Prediction/Youtube Adview Prediction.ipynb
+            line_no:
+              - In[20]:7
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: youtube-adview-predictor/Youtube-Adview-Prediction/Youtube Adview Prediction.ipynb
+            line_no:
+              - In[14]:1
+              - In[2]:3
+              - In[2]:2
+        location: youtube-adview-predictor/Youtube-Adview-Prediction/train.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.73 MB
+        comment: Although the data is loaded from /content/train.csv, found a same file in the same level of directory in the repository.
+    - model:
+        training_trace:
+          - file_path: youtube-adview-predictor/Youtube-Adview-Prediction/Youtube Adview Prediction.ipynb
+            line_no:
+              - In[21]:6
+        is_resume_from_checkpoint: no
+        save_location_trace:
+        - file_path: youtube-adview-predictor/Youtube-Adview-Prediction/Youtube Adview Prediction.ipynb
+          line_no:
+            - In[22]:5
+        save_location: youtube-adview-predictor/Youtube-Adview-Prediction/ann_youtubeadview.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: youtube-adview-predictor/Youtube-Adview-Prediction/Youtube Adview Prediction.ipynb
+            line_no:
+              - In[14]:1
+              - In[2]:3
+              - In[2]:2
+        location: youtube-adview-predictor/Youtube-Adview-Prediction/train.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.73 MB
+        comment: Although the data is loaded from /content/train.csv, found a same file in the same level of directory in the repository.

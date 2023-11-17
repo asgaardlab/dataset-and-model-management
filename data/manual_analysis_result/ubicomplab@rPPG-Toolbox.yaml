@@ -1,0 +1,1873 @@
+repository_name: ubicomplab/rPPG-Toolbox
+last_commit_date: 2023-02-21 0:50
+description: .nan
+analyzing_commit_hash: be4a0ac1d918089876bb673eb7667e1f7fde8c27
+comment: ''
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 56
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 125
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 137
+              - 28
+              - 19
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/PURE_UBFC_DEEPPHYS_BASIC.yaml
+            line_no:
+              - 38
+        location: final_model_release/PURE_DeepPhys.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 8.51 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 56
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 125
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 137
+              - 28
+              - 19
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/SCAMPS_PURE_DEEPPHYS_BASIC.yaml
+            line_no:
+              - 38
+        location: final_model_release/SCAMPS_DeepPhys.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 8.51 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 56
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 125
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 137
+              - 28
+              - 19
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/SCAMPS_UBFC_DEEPPHYS_BASIC.yaml
+            line_no:
+              - 38
+        location: final_model_release/SCAMPS_DeepPhys.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 8.51 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 56
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 125
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 137
+              - 28
+              - 19
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/UBFC_PURE_DEEPPHYS_BASIC.yaml
+            line_no:
+              - 38
+        location: final_model_release/UBFC_DeepPhys.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 8.51 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 181
+              - 180
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 125
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 145
+              - 141
+              - 142
+              - 24
+              - 25
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        location: PreTrainedModels/<Data_derived_name>/_Epoch<last_epoch>.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 181
+              - 180
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 125
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 151
+              - 147
+              - 148
+              - 24
+              - 25
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        location: PreTrainedModels/<Data_derived_name>/_Epoch<best_epoch>.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null
+
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 41
+              - 56
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 140
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 152
+              - 31
+              - 19
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/PURE_UBFC_EFFICIENTPHYS.yaml
+            line_no:
+              - 40
+        location: final_model_release/PURE_EfficientPhys.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 8.26 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 41
+              - 56
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 140
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 152
+              - 31
+              - 19
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/SCAMPS_PURE_EFFICIENTPHYS.yaml
+            line_no:
+              - 40
+        location: final_model_release/SCAMPS_EfficientPhys.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 8.26 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 41
+              - 56
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 140
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 152
+              - 31
+              - 19
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/SCAMPS_UBFC_EFFICIENTPHYS.yaml
+            line_no:
+              - 40
+        location: final_model_release/SCAMPS_EfficientPhys.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 8.26 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 41
+              - 56
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 140
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 152
+              - 31
+              - 19
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/UBFC_PURE_EFFICIENTPHYS.yaml
+            line_no:
+              - 40
+        location: final_model_release/UBFC_EfficientPhys.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 8.26 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 201
+              - 199
+              - 200
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 140
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 160
+              - 156
+              - 157
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        location: PreTrainedModels/<Data_derived_name>/_Epoch<last_epoch>.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 201
+              - 199
+              - 200
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 140
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 166
+              - 162
+              - 163
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        location: PreTrainedModels/<Data_derived_name>/_Epoch<best_epoch>.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null
+
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 41
+              - 56
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 126
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 138
+              - 28
+              - 18
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/PURE_UBFC_PHYSNET_BASIC.yaml
+            line_no:
+              - 40
+        location: final_model_release/PURE_PhysNet_DiffNormalized.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 2.96 MB
+        comment: The file name in code and the saved file name didn't match exactly. Found a file little difference in the file names. The file name in code is final_model_release/PURE_PhysNet_Normalized.pth
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 41
+              - 56
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 126
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 138
+              - 28
+              - 18
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/SCAMPS_PURE_PHYSNET_BASIC.yaml
+            line_no:
+              - 40
+        location: final_model_release/SCAMPS_PhysNet_DiffNormalied.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 2.96 MB
+        comment: The file name in code and the saved file name didn't match exactly. Found a file little difference in the file names. The file name in code is final_model_release/SCAMPS_PhysNet_Normalied.pth
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 41
+              - 56
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 126
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 138
+              - 28
+              - 18
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/SCAMPS_UBFC_PHYSNET_BASIC.yaml
+            line_no:
+              - 40
+        location: final_model_release/SCAMPS_PhysNet_DiffNormalied.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 2.96 MB
+        comment: The file name in code and the saved file name didn't match exactly. Found a file little difference in the file names. The file name in code is final_model_release/SCAMPS_PhysNet_Normalied.pth
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 41
+              - 56
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 126
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 138
+              - 28
+              - 18
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/UBFC_PURE_PHYSNET_BASIC.yaml
+            line_no:
+              - 40
+        location: final_model_release/UBFC_PhysNet_DiffNormalized.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 2.96 MB
+        comment: The file name in code and the saved file name didn't match exactly. Found a file little difference in the file names. The file name in code is final_model_release/UBFC_PhysNet_Normalized.pth
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 180
+              - 178
+              - 179
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 140
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 147
+              - 143
+              - 144
+              - 23
+              - 24
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        location: PreTrainedModels/<Data_derived_name>/_Epoch<last_epoch>.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 180
+              - 178
+              - 179
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 140
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 153
+              - 149
+              - 150
+              - 23
+              - 24
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        location: PreTrainedModels/<Data_derived_name>/_Epoch<best_epoch>.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null
+
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 41
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 132
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 144
+              - 31
+              - 19
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/PURE_UBFC_TSCAN_BASIC.yaml
+            line_no:
+              - 40
+        location: final_model_release/PURE_TSCAN.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 8.51 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 41
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 132
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 144
+              - 31
+              - 19
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/SCAMPS_PURE_TSCAN_BASIC.yaml
+            line_no:
+              - 40
+        location: final_model_release/SCAMPS_TSCAN.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 8.51 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 41
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 132
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 144
+              - 31
+              - 19
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/SCAMPS_UBFC_TSCAN_BASIC.yaml
+            line_no:
+              - 40
+        location: final_model_release/SCAMPS_TSCAN.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 8.51 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: README.md
+            line_no:
+              - 41
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 132
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 144
+              - 31
+              - 19
+          - file_path: main.py
+            line_no:
+              - 73
+              - 77
+              - 64
+              - 270
+              - 89
+              - 92
+              - 80
+              - 272
+              - 124
+          - file_path: README.md
+            line_no:
+              - 23
+              - 25
+          - file_path: configs/infer_configs/UBFC_PURE_TSCAN_BASIC.yaml
+            line_no:
+              - 40
+        location: final_model_release/UBFC_TSCAN.pth
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 8.51 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 190
+              - 188
+              - 189
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 132
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 152
+              - 148
+              - 149
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        location: PreTrainedModels/<Data_derived_name>/_Epoch<last_epoch>.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 190
+              - 188
+              - 189
+        model_load_purpose_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 132
+        model_load_purpose: testing
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 158
+              - 154
+              - 155
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        location: PreTrainedModels/<Data_derived_name>/_Epoch<best_epoch>.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 70
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 181
+              - 179
+              - 180
+              - 24
+              - 25
+              - 82
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 62
+              - 61
+              - 49
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 136
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/UBFC_UBFC_PURE_DEEPPHYS_BASIC.yaml
+            line_no:
+              - 13
+        location: /gscratch/ubicomp/xliu0/data3/mnt/Datasets/UBFC/RawData
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 70
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 181
+              - 179
+              - 180
+              - 24
+              - 25
+              - 82
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 62
+              - 61
+              - 49
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 138
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/PURE_PURE_UBFC_DEEPPHYS_BASIC.yaml
+            line_no:
+              - 13
+        location: /gscratch/ubicomp/xliu0/data3/mnt/Datasets/PURE/RawData
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 70
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 181
+              - 179
+              - 180
+              - 24
+              - 25
+              - 82
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 62
+              - 61
+              - 49
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 140
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/SCAMPS_SCAMPS_PURE_DEEPPHYS_BASIC.yaml
+            line_no:
+              - 13
+        location: /gscratch/ubicomp/xliu0/data3/mnt/Datasets/SCAMPS/RawData/Train
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 70
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 181
+              - 179
+              - 180
+              - 24
+              - 25
+              - 82
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/DeepPhysTrainer.py
+            line_no:
+              - 62
+              - 61
+              - 49
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 140
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/SCAMPS_SCAMPS_UBFC_DEEPPHYS_BASIC.yaml
+            line_no:
+              - 13
+        location: /gscratch/ubicomp/xliu0/data3/mnt/Datasets/SCAMPS/RawData/Train
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 80
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 201
+              - 199
+              - 200
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 67
+              - 66
+              - 54
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 136
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/UBFC_UBFC_PURE_EFFICIENTPHYS.yaml
+            line_no:
+              - 13
+        location: /gscratch/ubicomp/xliu0/data3/mnt/Datasets/UBFC/RawData
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 80
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 201
+              - 199
+              - 200
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 67
+              - 66
+              - 54
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 138
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/PURE_PURE_UBFC_EFFICIENTPHYS.yaml
+            line_no:
+              - 13
+        location: /gscratch/ubicomp/xliu0/data3/mnt/Datasets/PURE/RawData
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 80
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 201
+              - 199
+              - 200
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/EfficientPhysTrainer.py
+            line_no:
+              - 67
+              - 66
+              - 54
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 140
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/SCAMPS_SCAMPS_UBFC_EFFICIENTPHYS.yaml
+            line_no:
+              - 13
+        location: /gscratch/ubicomp/xliu0/data3/mnt/Datasets/SCAMPS/RawData/Train
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 62
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 180
+              - 178
+              - 179
+              - 23
+              - 24
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 60
+              - 59
+              - 48
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 136
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/UBFC_UBFC_PURE_PHYSNET_BASIC.yaml
+            line_no:
+              - 13
+        location: /gscratch/ubicomp/xliu0/data3/mnt/Datasets/UBFC/RawData
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 62
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 180
+              - 178
+              - 179
+              - 23
+              - 24
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 60
+              - 59
+              - 48
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 138
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/PURE_PURE_UBFC_PHYSNET_BASIC.yaml
+            line_no:
+              - 13
+        location: /gscratch/ubicomp/xliu0/data3/mnt/Datasets/PURE/RawData
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 62
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 180
+              - 178
+              - 179
+              - 23
+              - 24
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 60
+              - 59
+              - 48
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 140
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/SCAMPS_SCAMPS_PURE_PHYSNET_BASIC.yaml
+            line_no:
+              - 13
+        location: /gscratch/ubicomp/xliu0/data3/mnt/Datasets/SCAMPS/RawData/Train
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 62
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 180
+              - 178
+              - 179
+              - 23
+              - 24
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/PhysnetTrainer.py
+            line_no:
+              - 60
+              - 59
+              - 48
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 140
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/SCAMPS_SCAMPS_UBFC_PHYSNET_BASIC.yaml
+            line_no:
+              - 13
+        location: /gscratch/ubicomp/xliu0/data3/mnt/Datasets/SCAMPS/RawData/Train
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 75
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 190
+              - 188
+              - 189
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 65
+              - 64
+              - 52
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 136
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/UBFC_UBFC_MMPD_TSCAN_BASIC.yaml
+            line_no:
+              - 13
+        location: /data1/acsp/toolbox_data/UBFC/RawData/
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 75
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 190
+              - 188
+              - 189
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 65
+              - 64
+              - 52
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 136
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/UBFC_UBFC_PURE_TSCAN_BASIC.yaml
+            line_no:
+              - 13
+        location: /gscratch/ubicomp/xliu0/data3/mnt/Datasets/UBFC/RawData
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 75
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 190
+              - 188
+              - 189
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 65
+              - 64
+              - 52
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 138
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/PURE_PURE_miniMMPD_TSCAN_BASIC.yaml
+            line_no:
+              - 13
+        location: /data1/acsp/toolbox_data/PURE/RawData
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 75
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 190
+              - 188
+              - 189
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 65
+              - 64
+              - 52
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 138
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/PURE_PURE_MMPD_TSCAN_BASIC.yaml
+            line_no:
+              - 13
+        location: /data1/acsp/toolbox_data/PURE/RawData
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 75
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 190
+              - 188
+              - 189
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 65
+              - 64
+              - 52
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 138
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/PURE_PURE_UBFC_TSCAN_BASIC.yaml
+            line_no:
+              - 13
+        location: /data1/acsp/toolbox_data/PURE/RawData
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 75
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 190
+              - 188
+              - 189
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 65
+              - 64
+              - 52
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 140
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/SCAMPS_SCAMPS_MMPD_TSCAN_BASIC.yaml
+            line_no:
+              - 13
+        location: /data1/acsp/toolbox_data/scamps/RawData/Train/
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 75
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 190
+              - 188
+              - 189
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 65
+              - 64
+              - 52
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 140
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/SCAMPS_SCAMPS_PURE_TSCAN_BASIC.yaml
+            line_no:
+              - 13
+        location: /gscratch/ubicomp/xliu0/data3/mnt/Datasets/SCAMPS/RawData/Train
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 75
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 190
+              - 188
+              - 189
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 65
+              - 64
+              - 52
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 140
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/SCAMPS_SCAMPS_UBFC_TSCAN_BASIC.yaml
+            line_no:
+              - 13
+        location: /gscratch/ubicomp/xliu0/data3/mnt/Datasets/SCAMPS/RawData/Train
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 75
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 190
+              - 188
+              - 189
+              - 25
+              - 26
+          - file_path: config.py
+            line_no:
+              - 354
+              - 163
+              - 233
+        save_location: PreTrainedModels/<Data_derived_name>/_Epoch<epoch>.pth
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: neural_methods/trainer/TscanTrainer.py
+            line_no:
+              - 65
+              - 64
+              - 52
+          - file_path: main.py
+            line_no:
+              - 76
+              - 64
+              - 270
+              - 128
+              - 171
+              - 172
+              - 167
+              - 169
+              - 142
+          - file_path: README.md
+            line_no:
+              - 31
+          - file_path: configs/train_configs/MMPD_MMPD_UBFC_TSCAN_BASIC.yaml
+            line_no:
+              - 13
+        location: /data/rPPG_dataset/mini_MMPD
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null

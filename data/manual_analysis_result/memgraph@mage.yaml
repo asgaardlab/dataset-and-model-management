@@ -1,0 +1,160 @@
+repository_name: memgraph/mage
+last_commit_date: 2023-02-17 8:19
+description: 'MAGE - Memgraph Advanced Graph Extensions :crystal_ball:'
+analyzing_commit_hash: f21446d191c28d9f0f09837b6b6ce4aa9d9e7fb4
+comment: Loaded model using gensim.models in python/mage/node2vec_online_module/w2v_learners.py. Used global variable for model and other varaibles. Considered the use in the current file only.
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: python/mage/link_prediction/link_prediction_util.py
+            line_no:
+              - 546
+        model_load_purpose_trace:
+          - file_path: python/mage/link_prediction/link_prediction_util.py
+            line_no:
+              - 580
+              - 550
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: python/link_prediction.py
+            line_no:
+              - 683
+              - 669
+              - 104
+          - file_path: python/mage/link_prediction/constants.py
+            line_no:
+              - 48
+        location: /tmp/model.pt
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded and program variable
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: python/mage/link_prediction/link_prediction_util.py
+            line_no:
+              - 547
+        model_load_purpose_trace:
+          - file_path: python/mage/link_prediction/link_prediction_util.py
+            line_no:
+              - 582
+              - 550
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: python/link_prediction.py
+            line_no:
+              - 684
+              - 669
+              - 104
+          - file_path: python/mage/link_prediction/constants.py
+            line_no:
+              - 49
+        location: /tmp/predictor.pt
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded and program variable
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: python/node_classification.py
+            line_no:
+              - 726
+              - 725
+              - 696
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: python/node_classification.py
+            line_no:
+              - 688
+              - 686
+              - 676
+              - 406
+              - 425
+              - 414
+              - 160
+        location: /tmp/torch_models/model*.pt
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded and program variable
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: python/kmeans.py
+            line_no:
+              - 24
+              - 32
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: python/kmeans.py
+            line_no:
+              - 15
+              - 63
+              - 59
+              - 36
+              - 44
+              - 40
+              - 43
+              - 49
+              - 51
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The dataset passed through a method parameter, however, the method never been called.
+    - model:
+        training_trace:
+          - file_path: python/kmeans.py
+            line_no:
+              - 24
+              - 32
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: python/kmeans.py
+            line_no:
+              - 15
+              - 93
+              - 91
+              - 36
+              - 44
+              - 40
+              - 43
+              - 80
+              - 82
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The dataset passed through a method parameter, however, the method never been called.
+    - model:
+        training_trace:
+          - file_path: python/mage/link_prediction/link_prediction_util.py
+            line_no:
+              - 415
+              - 421
+        is_resume_from_checkpoint: unknown
+        save_location_trace:
+          - file_path: python/mage/link_prediction/link_prediction_util.py
+            line_no:
+              - 546
+        save_location: /tmp/model.pt
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: python/mage/link_prediction/link_prediction_util.py
+            line_no:
+              - 417
+              - 372
+              - 373
+              - 282
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The dataset passed through a method parameter, however, the method never been called.

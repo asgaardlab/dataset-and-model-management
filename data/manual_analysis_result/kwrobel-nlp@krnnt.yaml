@@ -1,0 +1,272 @@
+repository_name: kwrobel-nlp/krnnt
+last_commit_date: 2022-11-21 21:00
+description: Polish morphological tagger.
+analyzing_commit_hash: ea7fb03340b4722f6f6c83a642d23138bb2f41c0
+comment: part of implementation of paper
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: krnnt/pipeline.py
+            line_no:
+              - 220
+              - 27
+              - 58
+              - 95
+          - file_path: krnnt_serve.py
+            line_no:
+              - 109
+              - 171
+              - 83
+              - 91
+              - 101
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: krnnt/keras_models.py
+            line_no:
+              - 44
+          - file_path: krnnt/pipeline.py
+            line_no:
+              - 220
+              - 212
+              - 201
+              - 199
+          - file_path: krnnt/keras_models.py
+            line_no:
+              - 13
+              - 14
+              - 21
+              - 20
+        location: weight_<uuid>.hdf5
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 385
+              - 380
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: krnnt/keras_models.py
+            line_no:
+              - 44
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 385
+          - file_path: krnnt/keras_models.py
+            line_no:
+              - 14
+              - 21
+              - 20
+        location: weight_<uuid>.hdf5
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 476
+              - 489
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: krnnt/keras_models.py
+            line_no:
+              - 48
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 476
+              - 473
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: program variable
+        size: null
+        comment: The path is loaded from a dictionary, however, the key value has not been assigned.
+  training:
+    - model:
+        training_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 323
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 377
+        save_location: weight_<uuid>.hdf5.final
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 325
+              - 174
+              - 170
+              - 158
+              - 156
+              - 651
+              - 650
+              - 644
+              - 642
+          - file_path: krnnt_train.py
+            line_no:
+              - 76
+              - 54
+              - 58
+        location: data/train-reanalyzed.spickle
+        location_type: file system (not saved in VCS)
+        location_set_from: hard codede
+        size: null
+    - model:
+        training_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 332
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 377
+        save_location: weight_<uuid>.hdf5.final
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 325
+              - 174
+              - 170
+              - 158
+              - 156
+              - 651
+              - 650
+              - 644
+              - 642
+          - file_path: krnnt_train.py
+            line_no:
+              - 76
+              - 54
+              - 58
+        location: data/train-reanalyzed.spickle
+        location_type: file system (not saved in VCS)
+        location_set_from: hard codede
+        size: null
+    - model:
+        training_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 432
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 491
+              - 492
+              - 473
+          - file_path: krnnt/keras_models.py
+            line_no:
+              - 14
+              - 21
+              - 20
+        save_location: weight_<uuid>.hdf5.model.final
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 434
+              - 23
+              - 22
+          - file_path: train.py
+            line_no:
+              - 110
+              - 50
+              - 16
+        location: unknown
+        location_type: unknown
+        location_set_from: argument
+        size: null
+    - model:
+        training_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 591
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 377
+        save_location: weight_<uuid>.hdf5.final
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 593
+              - 174
+              - 170
+              - 166
+              - 168
+              - 158
+              - 156
+              - 651
+              - 650
+              - 644
+              - 642
+          - file_path: krnnt_train.py
+            line_no:
+              - 76
+              - 54
+              - 58
+        location: data/train-reanalyzed.spickle
+        location_type: file system (not saved in VCS)
+        location_set_from: hard codede
+        size: null
+    - model:
+        training_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 600
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 377
+        save_location: weight_<uuid>.hdf5.final
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: krnnt/tagger_exps.py
+            line_no:
+              - 602
+              - 174
+              - 170
+              - 166
+              - 168
+              - 158
+              - 156
+              - 651
+              - 650
+              - 644
+              - 642
+          - file_path: krnnt_train.py
+            line_no:
+              - 76
+              - 54
+              - 58
+        location: data/train-reanalyzed.spickle
+        location_type: file system (not saved in VCS)
+        location_set_from: hard codede
+        size: null
+

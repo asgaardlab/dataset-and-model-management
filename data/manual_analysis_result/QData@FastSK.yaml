@@ -1,0 +1,4555 @@
+repository_name: QData/FastSK
+last_commit_date: 2022-12-08 9:37
+description: 'Bioinformatics 2020: FastSK: Fast and Accurate Sequence Classification
+  by making gkm-svm faster and scalable. https://fastsk.readthedocs.io/en/master/'
+analyzing_commit_hash: d275a232cea129299021051cd6ac94d2296e83c8
+comment: ''
+has_instruction_in_readme: yes
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/1.1.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.37 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/1.34.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.28 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/2.1.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.8 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/2.8.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.22 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/2.19.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.24 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/2.31.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.43 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/2.34.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.3 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/2.41.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.24 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/3.19.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.4 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/3.25.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.44 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/3.33.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.26 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/3.50.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.25 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/AImed.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.29 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/BioInfer.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.52 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/CC1-LLL.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.76 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/CC2-IEPA.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.66 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/CC3-HPRD50.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.77 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/CTCF.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.2 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/DrugBank.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.44 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/EP300.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.2 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/EP300_47848.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 1.28 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/Hek29.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 1.96 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/JUND.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.2 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/KAT2B.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 1.24 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/Mcf7.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 1.92 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/MedLine.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.12 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/NR2C2.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 1.85 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/Pbde.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 2.18 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/RAD21.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.2 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/sentiment.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.76 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/sentiment-train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.76 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/SIN3A.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.2 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/small.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.0 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/TP53.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 0.87 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/webkb-train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 2.3 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/ZBTB33.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 1.12 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 22
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/neural_nets/trainsize_varyresults/run_fastsk.py
+            line_no:
+              - 20
+              - 10
+              - 4
+              - 7
+              - 6
+              - 5
+          - file_path: README.md
+            line_no:
+              - 59
+        location: data/ZZZ3.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 1.96 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 139
+              - 143
+              - 36
+              - 144
+              - 114
+              - 169
+              - 168
+              - 166
+              - 165
+              - 164
+              - 1210
+              - 108
+              - 107
+              - 106
+              - 42
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/CTCF.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.2 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 139
+              - 143
+              - 36
+              - 144
+              - 114
+              - 169
+              - 168
+              - 166
+              - 165
+              - 164
+              - 1210
+              - 108
+              - 107
+              - 106
+              - 42
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/EP300.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.2 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 139
+              - 143
+              - 36
+              - 144
+              - 114
+              - 169
+              - 168
+              - 166
+              - 165
+              - 164
+              - 1210
+              - 108
+              - 107
+              - 106
+              - 42
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/JUND.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.2 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 139
+              - 143
+              - 36
+              - 144
+              - 114
+              - 169
+              - 168
+              - 166
+              - 165
+              - 164
+              - 1210
+              - 108
+              - 107
+              - 106
+              - 42
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/RAD21.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.2 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 139
+              - 143
+              - 36
+              - 144
+              - 114
+              - 169
+              - 168
+              - 166
+              - 165
+              - 164
+              - 1210
+              - 108
+              - 107
+              - 106
+              - 42
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/SIN3A.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.2 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 139
+              - 143
+              - 36
+              - 144
+              - 114
+              - 169
+              - 168
+              - 166
+              - 165
+              - 164
+              - 1210
+              - 108
+              - 107
+              - 106
+              - 42
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/Pbde.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 2.18 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 139
+              - 143
+              - 36
+              - 144
+              - 114
+              - 169
+              - 168
+              - 166
+              - 165
+              - 164
+              - 1210
+              - 108
+              - 107
+              - 106
+              - 42
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/Hek29.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 1.96 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 139
+              - 143
+              - 36
+              - 144
+              - 114
+              - 169
+              - 168
+              - 166
+              - 165
+              - 164
+              - 1210
+              - 108
+              - 107
+              - 106
+              - 42
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/Mcf7.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 1.92 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 139
+              - 143
+              - 36
+              - 144
+              - 114
+              - 169
+              - 168
+              - 166
+              - 165
+              - 164
+              - 1210
+              - 108
+              - 107
+              - 106
+              - 42
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/EP300_47848.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 1.28 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 139
+              - 143
+              - 36
+              - 144
+              - 114
+              - 169
+              - 168
+              - 166
+              - 165
+              - 164
+              - 1210
+              - 108
+              - 107
+              - 106
+              - 42
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/KAT2B.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 1.24 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 139
+              - 143
+              - 36
+              - 144
+              - 114
+              - 169
+              - 168
+              - 166
+              - 165
+              - 164
+              - 1210
+              - 108
+              - 107
+              - 106
+              - 42
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/NR2C2.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 1.85 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 139
+              - 143
+              - 36
+              - 144
+              - 114
+              - 169
+              - 168
+              - 166
+              - 165
+              - 164
+              - 1210
+              - 108
+              - 107
+              - 106
+              - 42
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/TP53.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.87 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 139
+              - 143
+              - 36
+              - 144
+              - 114
+              - 169
+              - 168
+              - 166
+              - 165
+              - 164
+              - 1210
+              - 108
+              - 107
+              - 106
+              - 42
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/ZBTB33.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 1.12 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 139
+              - 143
+              - 36
+              - 144
+              - 114
+              - 169
+              - 168
+              - 166
+              - 165
+              - 164
+              - 1210
+              - 108
+              - 107
+              - 106
+              - 42
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/ZZZ3.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 1.96 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 218
+              - 222
+              - 36
+              - 223
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/1.1.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.37 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 218
+              - 222
+              - 36
+              - 223
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/1.34.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.28 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 218
+              - 222
+              - 36
+              - 223
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.19.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.24 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 218
+              - 222
+              - 36
+              - 223
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.31.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.43 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 218
+              - 222
+              - 36
+              - 223
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.34.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.3 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 218
+              - 222
+              - 36
+              - 223
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.41.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.24 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 218
+              - 222
+              - 36
+              - 223
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.8.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.22 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 218
+              - 222
+              - 36
+              - 223
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.19.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.4 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 218
+              - 222
+              - 36
+              - 223
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.25.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.44 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 218
+              - 222
+              - 36
+              - 223
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.33.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.26 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 218
+              - 222
+              - 36
+              - 223
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.50.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.25 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 232
+              - 236
+              - 36
+              - 237
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/1.1.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.37 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 232
+              - 236
+              - 36
+              - 237
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/1.34.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.28 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 232
+              - 236
+              - 36
+              - 237
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.19.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.24 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 232
+              - 236
+              - 36
+              - 237
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.31.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.43 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 232
+              - 236
+              - 36
+              - 237
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.34.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.3 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 232
+              - 236
+              - 36
+              - 237
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.41.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.24 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 232
+              - 236
+              - 36
+              - 237
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.8.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.22 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 232
+              - 236
+              - 36
+              - 237
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.19.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.4 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 232
+              - 236
+              - 36
+              - 237
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.25.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.44 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 232
+              - 236
+              - 36
+              - 237
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.33.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.26 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 232
+              - 236
+              - 36
+              - 237
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.50.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.25 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 247
+              - 251
+              - 36
+              - 252
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/1.1.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.37 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 247
+              - 251
+              - 36
+              - 252
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/1.34.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.28 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 247
+              - 251
+              - 36
+              - 252
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.19.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.24 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 247
+              - 251
+              - 36
+              - 252
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.31.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.43 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 247
+              - 251
+              - 36
+              - 252
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.34.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.3 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 247
+              - 251
+              - 36
+              - 252
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.41.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.24 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 247
+              - 251
+              - 36
+              - 252
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.8.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.22 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 247
+              - 251
+              - 36
+              - 252
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.19.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.4 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 247
+              - 251
+              - 36
+              - 252
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.25.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.44 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 247
+              - 251
+              - 36
+              - 252
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.33.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.26 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 247
+              - 251
+              - 36
+              - 252
+              - 172
+              - 323
+              - 322
+              - 321
+              - 320
+              - 311
+              - 1212
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.50.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.25 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 375
+              - 379
+              - 36
+              - 380
+              - 326
+              - 477
+              - 1214
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/1.1.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.37 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 375
+              - 379
+              - 36
+              - 380
+              - 326
+              - 477
+              - 1214
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/1.34.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.28 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 375
+              - 379
+              - 36
+              - 380
+              - 326
+              - 477
+              - 1214
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.19.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.24 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 375
+              - 379
+              - 36
+              - 380
+              - 326
+              - 477
+              - 1214
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.31.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.43 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 375
+              - 379
+              - 36
+              - 380
+              - 326
+              - 477
+              - 1214
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.34.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.3 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 375
+              - 379
+              - 36
+              - 380
+              - 326
+              - 477
+              - 1214
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.41.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.24 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 375
+              - 379
+              - 36
+              - 380
+              - 326
+              - 477
+              - 1214
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/2.8.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.22 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 375
+              - 379
+              - 36
+              - 380
+              - 326
+              - 477
+              - 1214
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.19.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.4 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 375
+              - 379
+              - 36
+              - 380
+              - 326
+              - 477
+              - 1214
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.25.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.44 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 375
+              - 379
+              - 36
+              - 380
+              - 326
+              - 477
+              - 1214
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.33.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.26 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 375
+              - 379
+              - 36
+              - 380
+              - 326
+              - 477
+              - 1214
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/3.50.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.25 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 389
+              - 393
+              - 36
+              - 394
+              - 326
+              - 477
+              - 1214
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/1.1.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.37 MB
+        comment: The training uses 11 datasets files. For simplicity, keeping path and size of one file only. Will have to change if we analyze hoe many times a dataset file is used for trainings.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 404
+              - 408
+              - 36
+              - 409
+              - 326
+              - 477
+              - 1214
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/1.1.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.37 MB
+        comment: The training uses 11 datasets files. For simplicity, keeping path and size of one file only. Will have to change if we analyze hoe many times a dataset file is used for trainings.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+              - 30
+              - 19
+              - 20
+          - file_path: results/run_experiments.py
+            line_no:
+              - 451
+              - 326
+              - 477
+              - 1214
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/1.1.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.37 MB
+        comment: The training uses 11 datasets files. For simplicity, keeping path and size of one file only. Will have to change if we analyze hoe many times a dataset file is used for trainings.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+          - file_path: results/run_experiments.py
+            line_no:
+              - 668
+              - 647
+              - 695
+              - 684
+              - 683
+              - 682
+              - 1218
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/1.1.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.37 MB
+        comment: The training uses 25 datasets files. For simplicity, keeping path and size of one file only. Will have to change if we analyze hoe many times a dataset file is used for trainings.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+          - file_path: results/run_experiments.py
+            line_no:
+              - 709
+              - 698
+              - 736
+              - 725
+              - 734
+              - 1222
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 22
+              - 23
+              - 24
+        location: data/1.1.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.37 MB
+        comment: The training uses multiple datasets files. For simplicity, keeping path and size of one file only. Will have to change if we analyze hoe many times a dataset file is used for trainings.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+          - file_path: results/run_experiments.py
+            line_no:
+              - 1151
+              - 1107
+              - 1098
+              - 1206
+              - 1205
+              - 1195
+              - 1220
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+              - 96
+              - 98
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+              - 6
+              - 7
+              - 8
+              - 9
+              - 10
+              - 11
+        location: data/1.1.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.37 MB
+        comment: The training uses multiple datasets files. For simplicity, keeping path and size of one file only. Will have to change if we analyze hoe many times a dataset file is used for trainings.
+    - model:
+        training_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 485
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: results/utils.py
+            line_no:
+              - 481
+              - 480
+              - 448
+              - 444
+          - file_path: results/run_experiments.py
+            line_no:
+              - 1151
+              - 1107
+              - 1098
+              - 1206
+              - 1205
+              - 1195
+              - 1220
+              - 108
+              - 107
+              - 106
+              - 90
+              - 92
+              - 96
+              - 98
+          - file_path: results/spreadsheets/parameters.csv
+            line_no:
+              - 12
+              - 13
+              - 14
+              - 15
+              - 16
+              - 17
+              - 18
+              - 19
+              - 20
+              - 21
+              - 22
+              - 23
+              - 24
+              - 25
+        location: data/CTCF.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded and config file and readme file
+        size: 0.2 MB
+        comment: The training uses multiple datasets files. For simplicity, keeping path and size of one file only. Will have to change if we analyze hoe many times a dataset file is used for trainings.
+    - model:
+        training_trace:
+          - file_path: examples/run.py
+            line_no:
+              - 116
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: examples/run.py
+            line_no:
+              - 111
+              - 98
+              - 84
+              - 83
+              - 22
+              - 25
+              - 29
+        location: data/1.1.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: argument
+        size: 0.37 MB
+        comment: Didn't find the file 1.1.train.fasta in location. Found the file in data/1.1.train.fasta and calculated size from there.
+    - model:
+        training_trace:
+          - file_path: test/run_check.py
+            line_no:
+              - 56
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: test/run_check.py
+            line_no:
+              - 48
+              - 40
+              - 37
+              - 23
+        location: data/EP300.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: argument
+        size: 0.2 MB
+    - model:
+        training_trace:
+          - file_path: test/utils.py
+            line_no:
+              - 437
+              - 71
+              - 84
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: test/utils.py
+            line_no:
+              - 433
+              - 432
+              - 400
+              - 396
+        location: data/1.1.train.fasta
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.37 MB
+        comment: The training uses multiple datasets files. For simplicity, keeping path and size of one file only. Will have to change if we analyze hoe many times a dataset file is used for trainings.
+    - model:
+        training_trace:
+          - file_path: test/utils.py
+            line_no:
+              - 672
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: test/utils.py
+            line_no:
+              - 668
+              - 710
+              - 719
+              - 715
+              - 712
+              - 634
+              - 622
+              - 188
+        location: temp/kernel.txt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: test/utils.py
+            line_no:
+              - 848
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: test/utils.py
+            line_no:
+              - 845
+              - 827
+              - 839
+              - 834
+              - 832
+              - 831
+              - 829
+              - 746
+              - 731
+        location: temp/kernel.txt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null

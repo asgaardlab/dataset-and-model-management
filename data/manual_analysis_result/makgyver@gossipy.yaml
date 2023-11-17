@@ -1,0 +1,325 @@
+repository_name: makgyver/gossipy
+last_commit_date: 2023-02-22 10:04
+description: Python module for simulating gossip learning.
+analyzing_commit_hash: 3d655829805fc0dc2f01f5b0862240fca08ffe1c
+comment: ''
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: baseline.py
+            line_no:
+              - 82
+              - 86
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: baseline.py
+            line_no:
+              - 75
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The dataset passed through method parameter, however, the method never been called.
+    - model:
+        training_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 46
+        is_resume_from_checkpoint: no
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 26
+          - file_path: gossipy/data/__init__.py
+            line_no:
+              - 561
+              - 624
+              - 587
+              - 586
+        location: load_iris()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 46
+        is_resume_from_checkpoint: no
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 26
+          - file_path: gossipy/data/__init__.py
+            line_no:
+              - 561
+              - 624
+              - 590
+              - 589
+        location: load_breast_cancer()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 46
+        is_resume_from_checkpoint: no
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 26
+          - file_path: gossipy/data/__init__.py
+            line_no:
+              - 561
+              - 624
+              - 593
+              - 592
+        location: load_digits()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 46
+        is_resume_from_checkpoint: no
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 26
+          - file_path: gossipy/data/__init__.py
+            line_no:
+              - 561
+              - 624
+              - 596
+              - 595
+        location: load_wine()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 46
+        is_resume_from_checkpoint: no
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 26
+          - file_path: gossipy/data/__init__.py
+            line_no:
+              - 561
+              - 624
+              - 603
+              - 600
+              - 599
+              - 598
+        location: http://download.joachims.org/svm_light/examples/example1.tar.gz
+        location_type: online
+        location_set_from: hard coded
+        size: 1.17 MB
+    - model:
+        training_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 46
+        is_resume_from_checkpoint: no
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 26
+          - file_path: gossipy/data/__init__.py
+            line_no:
+              - 561
+              - 624
+              - 612
+              - 610
+              - 608
+              - 45
+              - 46
+              - 43
+        location: https://archive.ics.uci.edu/ml/machine-learning-databases/spambase/spambase.data
+        location_type: online
+        location_set_from: hard coded
+        size: 0.67 MB
+    - model:
+        training_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 46
+        is_resume_from_checkpoint: no
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 26
+          - file_path: gossipy/data/__init__.py
+            line_no:
+              - 561
+              - 624
+              - 612
+              - 610
+              - 608
+              - 45
+              - 47
+              - 43
+        location: https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data
+        location_type: online
+        location_set_from: hard coded
+        size: 0.08 MB
+    - model:
+        training_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 46
+        is_resume_from_checkpoint: no
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 26
+          - file_path: gossipy/data/__init__.py
+            line_no:
+              - 561
+              - 624
+              - 612
+              - 610
+              - 608
+              - 45
+              - 48
+              - 43
+        location: https://archive.ics.uci.edu/ml/machine-learning-databases/ionosphere/ionosphere.data
+        location_type: online
+        location_set_from: hard coded
+        size: 0.07 MB
+    - model:
+        training_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 46
+        is_resume_from_checkpoint: no
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 26
+          - file_path: gossipy/data/__init__.py
+            line_no:
+              - 561
+              - 624
+              - 612
+              - 610
+              - 608
+              - 45
+              - 49
+              - 43
+        location: https://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.data
+        location_type: online
+        location_set_from: hard coded
+        size: 0.18 MB
+    - model:
+        training_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 46
+        is_resume_from_checkpoint: no
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 26
+          - file_path: gossipy/data/__init__.py
+            line_no:
+              - 561
+              - 624
+              - 612
+              - 610
+              - 608
+              - 45
+              - 50
+              - 43
+        location: https://archive.ics.uci.edu/ml/machine-learning-databases/00267/data_banknote_authentication.txt
+        location_type: online
+        location_set_from: hard coded
+        size: 0.05 MB
+    - model:
+        training_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 46
+        is_resume_from_checkpoint: no
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: main_berta_2014.py
+            line_no:
+              - 26
+          - file_path: gossipy/data/__init__.py
+            line_no:
+              - 561
+              - 624
+              - 614
+        location: load_svmlight_file(name_or_path)
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: main_onoszko_2021.py
+            line_no:
+              - 124
+        is_resume_from_checkpoint: no
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: main_onoszko_2021.py
+            line_no:
+              - 79
+          - file_path: gossipy/data/__init__.py
+            line_no:
+              - 684
+              - 722
+              - 707
+              - 706
+              - 684
+        location: CIFAR10(root=path, train=True, download=download)
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+        comment: Run the training in a simulator

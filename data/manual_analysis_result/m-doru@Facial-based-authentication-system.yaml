@@ -1,0 +1,2282 @@
+repository_name: m-doru/Facial-based-authentication-system
+last_commit_date: 2023-01-07 13:11
+description: 'Proiect licenta '
+analyzing_commit_hash: 49cdddfd12475f7d35fa08781978dc32c06ec2a9
+comment: Provided the name of the datasets in the README file, however, didn't give url to download the datasets.
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 145
+              - 18
+        model_load_purpose_trace:
+          - file_path: src/faceSpoofDetection/faceSpoofValidation.py
+            line_no:
+              - 29
+          - file_path: src/faceSpoofDetection/examples_gatherer.py
+            line_no:
+              - 57
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/faceSpoofDetection/faceSpoofValidation.py
+            line_no:
+              - 15
+          - file_path: src/faceSpoofDetection/examples_gatherer.py
+            line_no:
+              - 13
+        location: classifiers/casia.pkllinear
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 121
+              - 24
+              - 23
+              - 21
+        model_load_purpose_trace:
+          - file_path: src/faceSpoofDetection/faceSpoofValidation.py
+            line_no:
+              - 29
+          - file_path: src/faceSpoofDetection/main.py
+            line_no:
+              - 106
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/faceSpoofDetection/faceSpoofValidation.py
+            line_no:
+              - 15
+          - file_path: src/faceSpoofDetection/main.py
+            line_no:
+              - 132
+        location: classifiers/classifier_tested_on1.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: src/faceSpoofDetection/faceSpoofValidation.py
+            line_no:
+              - 29
+          - file_path: src/face_auth_app.py
+            line_no:
+              - 360
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/faceSpoofDetection/faceSpoofValidation.py
+            line_no:
+              - 15
+          - file_path: src/face_auth_app.py
+            line_no:
+              - 305
+        location: faceSpoofDetection/classifiers/powerful_classifier.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 158
+              - 159
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 147
+              - 18
+        location: ../classifiers/casia.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: no
+        train_save_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 140
+        model_load_purpose_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 148
+              - 150
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 142
+              - 94
+        location: ../classifiers/idiap.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+        comment: The self trained code found commented during the analysis
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 121
+        model_load_purpose_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 133
+              - 134
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 98
+              - 24
+              - 23
+              - 21
+        location: ../classifiers/classifier_tested_on3.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 154
+        model_load_purpose_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 163
+              - 165
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 156
+              - 93
+              - 18
+              - 17
+        location: ../classifiers/msu_mfsdredchannel.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 140
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 145
+        save_location: classifiers/casia.pkllinear
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 109
+              - 28
+              - 64
+              - 61
+              - 51
+              - 42
+              - 38
+              - 52
+              - 49
+              - 45
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 83
+              - 113
+              - 90
+              - 110
+              - 107
+              - 102
+              - 99
+              - 86
+              - 8
+              - 7
+              - 97
+              - 92
+              - 94
+              - 101
+              - 116
+              - 146
+              - 123
+              - 143
+              - 140
+              - 135
+              - 132
+              - 119
+        location: src/databases/cbsr_antispoofing/train_release/*/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 135
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 114
+              - 108
+              - 15
+              - 60
+              - 47
+              - 36
+              - 37
+              - 28
+              - 34
+              - 25
+              - 31
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 40
+              - 80
+              - 57
+              - 76
+              - 72
+              - 70
+              - 55
+              - 8
+              - 7
+              - 41
+              - 47
+              - 49
+              - 66
+        location: src/databases/idiap/train/real/*/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 135
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 114
+              - 108
+              - 15
+              - 60
+              - 47
+              - 36
+              - 37
+              - 28
+              - 34
+              - 25
+              - 31
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 40
+              - 80
+              - 57
+              - 76
+              - 72
+              - 70
+              - 55
+              - 8
+              - 7
+              - 41
+              - 47
+              - 49
+              - 66
+        location: src/databases/idiap/train/attack/*/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 119
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 121
+              - 24
+              - 23
+              - 21
+        save_location: ../classifiers/classifier_tested_on3.pkl
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 108
+              - 113
+              - 110
+              - 87
+              - 88
+              - 30
+              - 32
+              - 89
+              - 45
+              - 47
+              - 90
+              - 60
+              - 62
+              - 91
+              - 80
+              - 83
+              - 82
+              - 74
+              - 75
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 15
+              - 60
+              - 47
+              - 36
+              - 37
+              - 28
+              - 34
+              - 25
+              - 31
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 40
+              - 80
+              - 57
+              - 76
+              - 72
+              - 70
+              - 55
+              - 8
+              - 7
+              - 41
+              - 47
+              - 49
+              - 66
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 28
+              - 64
+              - 61
+              - 51
+              - 42
+              - 38
+              - 52
+              - 49
+              - 45
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 83
+              - 113
+              - 90
+              - 110
+              - 107
+              - 102
+              - 99
+              - 86
+              - 8
+              - 7
+              - 97
+              - 92
+              - 94
+              - 101
+              - 116
+              - 146
+              - 123
+              - 143
+              - 140
+              - 135
+              - 132
+              - 119
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 21
+              - 54
+              - 51
+              - 42
+              - 43
+              - 34
+              - 40
+              - 31
+              - 37
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 155
+              - 177
+              - 164
+              - 174
+              - 173
+              - 168
+              - 158
+              - 160
+              - 8
+              - 7
+              - 167
+              - 166
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_ussa_classifier.py
+            line_no:
+              - 16
+              - 73
+              - 40
+              - 43
+              - 36
+              - 30
+              - 27
+              - 33
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 239
+              - 284
+              - 282
+              - 280
+              - 277
+              - 265
+              - 260
+              - 255
+              - 8
+              - 7
+              - 259
+              - 264
+              - 262
+              - 260
+        location: src/databases/idiap/train/real/*/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 119
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 121
+              - 24
+              - 23
+              - 21
+        save_location: ../classifiers/classifier_tested_on3.pkl
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 108
+              - 113
+              - 110
+              - 87
+              - 88
+              - 30
+              - 32
+              - 89
+              - 45
+              - 47
+              - 90
+              - 60
+              - 62
+              - 91
+              - 80
+              - 83
+              - 82
+              - 74
+              - 75
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 15
+              - 60
+              - 47
+              - 36
+              - 37
+              - 28
+              - 34
+              - 25
+              - 31
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 40
+              - 80
+              - 57
+              - 76
+              - 72
+              - 70
+              - 55
+              - 8
+              - 7
+              - 41
+              - 47
+              - 49
+              - 66
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 28
+              - 64
+              - 61
+              - 51
+              - 42
+              - 38
+              - 52
+              - 49
+              - 45
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 83
+              - 113
+              - 90
+              - 110
+              - 107
+              - 102
+              - 99
+              - 86
+              - 8
+              - 7
+              - 97
+              - 92
+              - 94
+              - 101
+              - 116
+              - 146
+              - 123
+              - 143
+              - 140
+              - 135
+              - 132
+              - 119
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 21
+              - 54
+              - 51
+              - 42
+              - 43
+              - 34
+              - 40
+              - 31
+              - 37
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 155
+              - 177
+              - 164
+              - 174
+              - 173
+              - 168
+              - 158
+              - 160
+              - 8
+              - 7
+              - 167
+              - 166
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_ussa_classifier.py
+            line_no:
+              - 16
+              - 73
+              - 40
+              - 43
+              - 36
+              - 30
+              - 27
+              - 33
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 239
+              - 284
+              - 282
+              - 280
+              - 277
+              - 265
+              - 260
+              - 255
+              - 8
+              - 7
+              - 259
+              - 264
+              - 262
+              - 260
+        location: src/databases/idiap/train/attack/*/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 119
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 121
+              - 24
+              - 23
+              - 21
+        save_location: ../classifiers/classifier_tested_on3.pkl
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 108
+              - 113
+              - 110
+              - 87
+              - 88
+              - 30
+              - 32
+              - 89
+              - 45
+              - 47
+              - 90
+              - 60
+              - 62
+              - 91
+              - 80
+              - 83
+              - 82
+              - 74
+              - 75
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 15
+              - 60
+              - 47
+              - 36
+              - 37
+              - 28
+              - 34
+              - 25
+              - 31
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 40
+              - 80
+              - 57
+              - 76
+              - 72
+              - 70
+              - 55
+              - 8
+              - 7
+              - 41
+              - 47
+              - 49
+              - 66
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 28
+              - 64
+              - 61
+              - 51
+              - 42
+              - 38
+              - 52
+              - 49
+              - 45
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 83
+              - 113
+              - 90
+              - 110
+              - 107
+              - 102
+              - 99
+              - 86
+              - 8
+              - 7
+              - 97
+              - 92
+              - 94
+              - 101
+              - 116
+              - 146
+              - 123
+              - 143
+              - 140
+              - 135
+              - 132
+              - 119
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 21
+              - 54
+              - 51
+              - 42
+              - 43
+              - 34
+              - 40
+              - 31
+              - 37
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 155
+              - 177
+              - 164
+              - 174
+              - 173
+              - 168
+              - 158
+              - 160
+              - 8
+              - 7
+              - 167
+              - 166
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_ussa_classifier.py
+            line_no:
+              - 16
+              - 73
+              - 40
+              - 43
+              - 36
+              - 30
+              - 27
+              - 33
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 239
+              - 284
+              - 282
+              - 280
+              - 277
+              - 265
+              - 260
+              - 255
+              - 8
+              - 7
+              - 259
+              - 264
+              - 262
+              - 260
+        location: src/databases/cbsr_antispoofing/train_release/*/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 119
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 121
+              - 24
+              - 23
+              - 21
+        save_location: ../classifiers/classifier_tested_on3.pkl
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 108
+              - 113
+              - 110
+              - 87
+              - 88
+              - 30
+              - 32
+              - 89
+              - 45
+              - 47
+              - 90
+              - 60
+              - 62
+              - 91
+              - 80
+              - 83
+              - 82
+              - 74
+              - 75
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 15
+              - 60
+              - 47
+              - 36
+              - 37
+              - 28
+              - 34
+              - 25
+              - 31
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 40
+              - 80
+              - 57
+              - 76
+              - 72
+              - 70
+              - 55
+              - 8
+              - 7
+              - 41
+              - 47
+              - 49
+              - 66
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 28
+              - 64
+              - 61
+              - 51
+              - 42
+              - 38
+              - 52
+              - 49
+              - 45
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 83
+              - 113
+              - 90
+              - 110
+              - 107
+              - 102
+              - 99
+              - 86
+              - 8
+              - 7
+              - 97
+              - 92
+              - 94
+              - 101
+              - 116
+              - 146
+              - 123
+              - 143
+              - 140
+              - 135
+              - 132
+              - 119
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 21
+              - 54
+              - 51
+              - 42
+              - 43
+              - 34
+              - 40
+              - 31
+              - 37
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 155
+              - 177
+              - 164
+              - 174
+              - 173
+              - 168
+              - 158
+              - 160
+              - 8
+              - 7
+              - 167
+              - 166
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_ussa_classifier.py
+            line_no:
+              - 16
+              - 73
+              - 40
+              - 43
+              - 36
+              - 30
+              - 27
+              - 33
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 239
+              - 284
+              - 282
+              - 280
+              - 277
+              - 265
+              - 260
+              - 255
+              - 8
+              - 7
+              - 259
+              - 264
+              - 262
+              - 260
+        location: src/databases/MSU_MFSD/MSU-MFSD/scene01/real/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 119
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 121
+              - 24
+              - 23
+              - 21
+        save_location: ../classifiers/classifier_tested_on3.pkl
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 108
+              - 113
+              - 110
+              - 87
+              - 88
+              - 30
+              - 32
+              - 89
+              - 45
+              - 47
+              - 90
+              - 60
+              - 62
+              - 91
+              - 80
+              - 83
+              - 82
+              - 74
+              - 75
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 15
+              - 60
+              - 47
+              - 36
+              - 37
+              - 28
+              - 34
+              - 25
+              - 31
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 40
+              - 80
+              - 57
+              - 76
+              - 72
+              - 70
+              - 55
+              - 8
+              - 7
+              - 41
+              - 47
+              - 49
+              - 66
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 28
+              - 64
+              - 61
+              - 51
+              - 42
+              - 38
+              - 52
+              - 49
+              - 45
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 83
+              - 113
+              - 90
+              - 110
+              - 107
+              - 102
+              - 99
+              - 86
+              - 8
+              - 7
+              - 97
+              - 92
+              - 94
+              - 101
+              - 116
+              - 146
+              - 123
+              - 143
+              - 140
+              - 135
+              - 132
+              - 119
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 21
+              - 54
+              - 51
+              - 42
+              - 43
+              - 34
+              - 40
+              - 31
+              - 37
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 155
+              - 177
+              - 164
+              - 174
+              - 173
+              - 168
+              - 158
+              - 160
+              - 8
+              - 7
+              - 167
+              - 166
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_ussa_classifier.py
+            line_no:
+              - 16
+              - 73
+              - 40
+              - 43
+              - 36
+              - 30
+              - 27
+              - 33
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 239
+              - 284
+              - 282
+              - 280
+              - 277
+              - 265
+              - 260
+              - 255
+              - 8
+              - 7
+              - 259
+              - 264
+              - 262
+              - 260
+        location: src/databases/MSU_MFSD/MSU-MFSD/scene01/attack/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 119
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 121
+              - 24
+              - 23
+              - 21
+        save_location: ../classifiers/classifier_tested_on3.pkl
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/interdbclassifier.py
+            line_no:
+              - 108
+              - 113
+              - 110
+              - 87
+              - 88
+              - 30
+              - 32
+              - 89
+              - 45
+              - 47
+              - 90
+              - 60
+              - 62
+              - 91
+              - 80
+              - 83
+              - 82
+              - 74
+              - 75
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 15
+              - 60
+              - 47
+              - 36
+              - 37
+              - 28
+              - 34
+              - 25
+              - 31
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 40
+              - 80
+              - 57
+              - 76
+              - 72
+              - 70
+              - 55
+              - 8
+              - 7
+              - 41
+              - 47
+              - 49
+              - 66
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 28
+              - 64
+              - 61
+              - 51
+              - 42
+              - 38
+              - 52
+              - 49
+              - 45
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 83
+              - 113
+              - 90
+              - 110
+              - 107
+              - 102
+              - 99
+              - 86
+              - 8
+              - 7
+              - 97
+              - 92
+              - 94
+              - 101
+              - 116
+              - 146
+              - 123
+              - 143
+              - 140
+              - 135
+              - 132
+              - 119
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 21
+              - 54
+              - 51
+              - 42
+              - 43
+              - 34
+              - 40
+              - 31
+              - 37
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 155
+              - 177
+              - 164
+              - 174
+              - 173
+              - 168
+              - 158
+              - 160
+              - 8
+              - 7
+              - 167
+              - 166
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_ussa_classifier.py
+            line_no:
+              - 16
+              - 73
+              - 40
+              - 43
+              - 36
+              - 30
+              - 27
+              - 33
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 239
+              - 284
+              - 282
+              - 280
+              - 277
+              - 265
+              - 260
+              - 255
+              - 8
+              - 7
+              - 259
+              - 264
+              - 262
+              - 260
+        location: src/databases/MSU_USSA/MSU_USSA_Public/SpoofSubjectImages/*/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 149
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 154
+              - 93
+              - 18
+              - 17
+        save_location: ../classifiers/msu_mfsdredchannel.pkl
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 108
+              - 21
+              - 54
+              - 51
+              - 42
+              - 43
+              - 34
+              - 40
+              - 31
+              - 37
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 155
+              - 177
+              - 164
+              - 174
+              - 173
+              - 168
+              - 158
+              - 160
+              - 8
+              - 7
+              - 167
+              - 166
+        location: src/databases/MSU_MFSD/MSU-MFSD/scene01/real/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 149
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 154
+              - 93
+              - 18
+              - 17
+        save_location: ../classifiers/msu_mfsdredchannel.pkl
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 108
+              - 21
+              - 54
+              - 51
+              - 42
+              - 43
+              - 34
+              - 40
+              - 31
+              - 37
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 155
+              - 177
+              - 164
+              - 174
+              - 173
+              - 168
+              - 158
+              - 160
+              - 8
+              - 7
+              - 167
+              - 166
+        location: src/databases/MSU_MFSD/MSU-MFSD/scene01/attack/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_ussa_classifier.py
+            line_no:
+              - 143
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_ussa_classifier.py
+            line_no:
+              - 124
+              - 130
+              - 95
+              - 96
+              - 99
+              - 16
+              - 73
+              - 40
+              - 43
+              - 36
+              - 30
+              - 27
+              - 33
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 239
+              - 284
+              - 282
+              - 280
+              - 277
+              - 265
+              - 260
+              - 255
+              - 8
+              - 7
+              - 259
+              - 264
+              - 262
+              - 260
+        location: src/databases/MSU_USSA/MSU_USSA_Public/SpoofSubjectImages/*/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 102
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 105
+              - 24
+              - 23
+        save_location: ../classifiers/powerful_classifier.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 75
+              - 80
+              - 85
+              - 90
+              - 95
+              - 27
+              - 29
+              - 38
+              - 40
+              - 49
+              - 51
+              - 67
+              - 71
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 15
+              - 60
+              - 47
+              - 36
+              - 37
+              - 28
+              - 34
+              - 25
+              - 31
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 40
+              - 80
+              - 57
+              - 76
+              - 72
+              - 70
+              - 55
+              - 8
+              - 7
+              - 41
+              - 47
+              - 49
+              - 66
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 28
+              - 64
+              - 61
+              - 51
+              - 42
+              - 38
+              - 52
+              - 49
+              - 45
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 83
+              - 113
+              - 90
+              - 110
+              - 107
+              - 102
+              - 99
+              - 86
+              - 8
+              - 7
+              - 97
+              - 92
+              - 94
+              - 101
+              - 116
+              - 146
+              - 123
+              - 143
+              - 140
+              - 135
+              - 132
+              - 119
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 21
+              - 54
+              - 51
+              - 42
+              - 43
+              - 34
+              - 40
+              - 31
+              - 37
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 155
+              - 177
+              - 164
+              - 174
+              - 173
+              - 168
+              - 158
+              - 160
+              - 8
+              - 7
+              - 167
+              - 166
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_ussa_classifier.py
+            line_no:
+              - 16
+              - 73
+              - 40
+              - 43
+              - 36
+              - 30
+              - 27
+              - 33
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 239
+              - 284
+              - 282
+              - 280
+              - 277
+              - 265
+              - 260
+              - 255
+              - 8
+              - 7
+              - 259
+              - 264
+              - 262
+              - 260
+        location: src/databases/idiap/train/real/*/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 102
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 105
+              - 24
+              - 23
+        save_location: ../classifiers/powerful_classifier.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 75
+              - 80
+              - 85
+              - 90
+              - 95
+              - 27
+              - 29
+              - 38
+              - 40
+              - 49
+              - 51
+              - 67
+              - 71
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 15
+              - 60
+              - 47
+              - 36
+              - 37
+              - 28
+              - 34
+              - 25
+              - 31
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 40
+              - 80
+              - 57
+              - 76
+              - 72
+              - 70
+              - 55
+              - 8
+              - 7
+              - 41
+              - 47
+              - 49
+              - 66
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 28
+              - 64
+              - 61
+              - 51
+              - 42
+              - 38
+              - 52
+              - 49
+              - 45
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 83
+              - 113
+              - 90
+              - 110
+              - 107
+              - 102
+              - 99
+              - 86
+              - 8
+              - 7
+              - 97
+              - 92
+              - 94
+              - 101
+              - 116
+              - 146
+              - 123
+              - 143
+              - 140
+              - 135
+              - 132
+              - 119
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 21
+              - 54
+              - 51
+              - 42
+              - 43
+              - 34
+              - 40
+              - 31
+              - 37
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 155
+              - 177
+              - 164
+              - 174
+              - 173
+              - 168
+              - 158
+              - 160
+              - 8
+              - 7
+              - 167
+              - 166
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_ussa_classifier.py
+            line_no:
+              - 16
+              - 73
+              - 40
+              - 43
+              - 36
+              - 30
+              - 27
+              - 33
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 239
+              - 284
+              - 282
+              - 280
+              - 277
+              - 265
+              - 260
+              - 255
+              - 8
+              - 7
+              - 259
+              - 264
+              - 262
+              - 260
+        location: src/databases/idiap/train/attack/*/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 102
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 105
+              - 24
+              - 23
+        save_location: ../classifiers/powerful_classifier.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 75
+              - 80
+              - 85
+              - 90
+              - 95
+              - 27
+              - 29
+              - 38
+              - 40
+              - 49
+              - 51
+              - 67
+              - 71
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 15
+              - 60
+              - 47
+              - 36
+              - 37
+              - 28
+              - 34
+              - 25
+              - 31
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 40
+              - 80
+              - 57
+              - 76
+              - 72
+              - 70
+              - 55
+              - 8
+              - 7
+              - 41
+              - 47
+              - 49
+              - 66
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 28
+              - 64
+              - 61
+              - 51
+              - 42
+              - 38
+              - 52
+              - 49
+              - 45
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 83
+              - 113
+              - 90
+              - 110
+              - 107
+              - 102
+              - 99
+              - 86
+              - 8
+              - 7
+              - 97
+              - 92
+              - 94
+              - 101
+              - 116
+              - 146
+              - 123
+              - 143
+              - 140
+              - 135
+              - 132
+              - 119
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 21
+              - 54
+              - 51
+              - 42
+              - 43
+              - 34
+              - 40
+              - 31
+              - 37
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 155
+              - 177
+              - 164
+              - 174
+              - 173
+              - 168
+              - 158
+              - 160
+              - 8
+              - 7
+              - 167
+              - 166
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_ussa_classifier.py
+            line_no:
+              - 16
+              - 73
+              - 40
+              - 43
+              - 36
+              - 30
+              - 27
+              - 33
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 239
+              - 284
+              - 282
+              - 280
+              - 277
+              - 265
+              - 260
+              - 255
+              - 8
+              - 7
+              - 259
+              - 264
+              - 262
+              - 260
+        location: src/databases/cbsr_antispoofing/train_release/*/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 102
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 105
+              - 24
+              - 23
+        save_location: ../classifiers/powerful_classifier.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 75
+              - 80
+              - 85
+              - 90
+              - 95
+              - 27
+              - 29
+              - 38
+              - 40
+              - 49
+              - 51
+              - 67
+              - 71
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 15
+              - 60
+              - 47
+              - 36
+              - 37
+              - 28
+              - 34
+              - 25
+              - 31
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 40
+              - 80
+              - 57
+              - 76
+              - 72
+              - 70
+              - 55
+              - 8
+              - 7
+              - 41
+              - 47
+              - 49
+              - 66
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 28
+              - 64
+              - 61
+              - 51
+              - 42
+              - 38
+              - 52
+              - 49
+              - 45
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 83
+              - 113
+              - 90
+              - 110
+              - 107
+              - 102
+              - 99
+              - 86
+              - 8
+              - 7
+              - 97
+              - 92
+              - 94
+              - 101
+              - 116
+              - 146
+              - 123
+              - 143
+              - 140
+              - 135
+              - 132
+              - 119
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 21
+              - 54
+              - 51
+              - 42
+              - 43
+              - 34
+              - 40
+              - 31
+              - 37
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 155
+              - 177
+              - 164
+              - 174
+              - 173
+              - 168
+              - 158
+              - 160
+              - 8
+              - 7
+              - 167
+              - 166
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_ussa_classifier.py
+            line_no:
+              - 16
+              - 73
+              - 40
+              - 43
+              - 36
+              - 30
+              - 27
+              - 33
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 239
+              - 284
+              - 282
+              - 280
+              - 277
+              - 265
+              - 260
+              - 255
+              - 8
+              - 7
+              - 259
+              - 264
+              - 262
+              - 260
+        location: src/databases/MSU_MFSD/MSU-MFSD/scene01/real/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 102
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 105
+              - 24
+              - 23
+        save_location: ../classifiers/powerful_classifier.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 75
+              - 80
+              - 85
+              - 90
+              - 95
+              - 27
+              - 29
+              - 38
+              - 40
+              - 49
+              - 51
+              - 67
+              - 71
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 15
+              - 60
+              - 47
+              - 36
+              - 37
+              - 28
+              - 34
+              - 25
+              - 31
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 40
+              - 80
+              - 57
+              - 76
+              - 72
+              - 70
+              - 55
+              - 8
+              - 7
+              - 41
+              - 47
+              - 49
+              - 66
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 28
+              - 64
+              - 61
+              - 51
+              - 42
+              - 38
+              - 52
+              - 49
+              - 45
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 83
+              - 113
+              - 90
+              - 110
+              - 107
+              - 102
+              - 99
+              - 86
+              - 8
+              - 7
+              - 97
+              - 92
+              - 94
+              - 101
+              - 116
+              - 146
+              - 123
+              - 143
+              - 140
+              - 135
+              - 132
+              - 119
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 21
+              - 54
+              - 51
+              - 42
+              - 43
+              - 34
+              - 40
+              - 31
+              - 37
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 155
+              - 177
+              - 164
+              - 174
+              - 173
+              - 168
+              - 158
+              - 160
+              - 8
+              - 7
+              - 167
+              - 166
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_ussa_classifier.py
+            line_no:
+              - 16
+              - 73
+              - 40
+              - 43
+              - 36
+              - 30
+              - 27
+              - 33
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 239
+              - 284
+              - 282
+              - 280
+              - 277
+              - 265
+              - 260
+              - 255
+              - 8
+              - 7
+              - 259
+              - 264
+              - 262
+              - 260
+        location: src/databases/MSU_MFSD/MSU-MFSD/scene01/attack/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 102
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 105
+              - 24
+              - 23
+        save_location: ../classifiers/powerful_classifier.pkl
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/powerful_classifier.py
+            line_no:
+              - 75
+              - 80
+              - 85
+              - 90
+              - 95
+              - 27
+              - 29
+              - 38
+              - 40
+              - 49
+              - 51
+              - 67
+              - 71
+          - file_path: src/faceSpoofDetection/SVMclassifier/idiap_classifier.py
+            line_no:
+              - 15
+              - 60
+              - 47
+              - 36
+              - 37
+              - 28
+              - 34
+              - 25
+              - 31
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 40
+              - 80
+              - 57
+              - 76
+              - 72
+              - 70
+              - 55
+              - 8
+              - 7
+              - 41
+              - 47
+              - 49
+              - 66
+          - file_path: src/faceSpoofDetection/SVMclassifier/casia_classifier.py
+            line_no:
+              - 28
+              - 64
+              - 61
+              - 51
+              - 42
+              - 38
+              - 52
+              - 49
+              - 45
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 83
+              - 113
+              - 90
+              - 110
+              - 107
+              - 102
+              - 99
+              - 86
+              - 8
+              - 7
+              - 97
+              - 92
+              - 94
+              - 101
+              - 116
+              - 146
+              - 123
+              - 143
+              - 140
+              - 135
+              - 132
+              - 119
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_mfsd_classifier.py
+            line_no:
+              - 21
+              - 54
+              - 51
+              - 42
+              - 43
+              - 34
+              - 40
+              - 31
+              - 37
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 155
+              - 177
+              - 164
+              - 174
+              - 173
+              - 168
+              - 158
+              - 160
+              - 8
+              - 7
+              - 167
+              - 166
+          - file_path: src/faceSpoofDetection/SVMclassifier/msu_ussa_classifier.py
+            line_no:
+              - 16
+              - 73
+              - 40
+              - 43
+              - 36
+              - 30
+              - 27
+              - 33
+          - file_path: src/faceSpoofDetection/SVMclassifier/dbfeatures.py
+            line_no:
+              - 239
+              - 284
+              - 282
+              - 280
+              - 277
+              - 265
+              - 260
+              - 255
+              - 8
+              - 7
+              - 259
+              - 264
+              - 262
+              - 260
+        location: src/databases/MSU_USSA/MSU_USSA_Public/SpoofSubjectImages/*/*
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/TestingSVMRbfKernel.py
+            line_no:
+              - 26
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/faceSpoofDetection/SVMclassifier/TestingSVMRbfKernel.py
+            line_no:
+              - 16
+        location: random.uniform(...)
+        location_type: runtime memory
+        location_set_from: program method
+        size: null
+        comment: Some random values generated for testing purpose

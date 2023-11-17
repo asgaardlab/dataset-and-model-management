@@ -1,0 +1,107 @@
+repository_name: Giskard-AI/giskard
+last_commit_date: 2023-02-23 16:59
+description: "Collaborative & Open-Source Quality Assurance for AI models \U0001F9D1\
+  \u200D\U0001F527\u26A1\uFE0F"
+analyzing_commit_hash: 8163ee9a0265ecb6417c7364cb36eab5651d7c67
+comment: ''
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: python-client/tests/fixtures/enron_multilabel_classification.py
+            line_no:
+              - 82
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: python-client/tests/fixtures/enron_multilabel_classification.py
+            line_no:
+              - 79
+              - 78
+              - 50
+              - 31
+              - 34
+        location: python-client/tests/test_data/enron_data.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.56 MB
+    - model:
+        training_trace:
+          - file_path: python-client/tests/fixtures/german_credit_scoring.py
+            line_no:
+              - 78
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: python-client/tests/fixtures/german_credit_scoring.py
+            line_no:
+              - 74
+              - 73
+              - 70
+              - 61
+              - 45
+              - 48
+        location: python-client/tests/test_data/german_credit_prepared.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.26 MB
+    - model:
+        training_trace:
+          - file_path: python-client/tests/fixtures/german_credit_scoring.py
+            line_no:
+              - 134
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: python-client/tests/fixtures/german_credit_scoring.py
+            line_no:
+              - 131
+              - 130
+              - 105
+              - 45
+              - 48
+        location: python-client/tests/test_data/german_credit_prepared.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.26 MB
+    - model:
+        training_trace:
+          - file_path: python-client/tests/fixtures/german_credit_scoring.py
+            line_no:
+              - 154
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: python-client/tests/fixtures/german_credit_scoring.py
+            line_no:
+              - 150
+              - 149
+              - 45
+              - 48
+        location: python-client/tests/test_data/german_credit_prepared.csv
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 0.26 MB
+    - model:
+        training_trace:
+          - file_path: python-client/tests/fixtures/regression.py
+            line_no:
+              - 30
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: python-client/tests/fixtures/regression.py
+            line_no:
+              - 19
+              - 15
+              - 13
+        location: load_diabetes()
+        location_type: library dataset
+        location_set_from: program method
+        size: null

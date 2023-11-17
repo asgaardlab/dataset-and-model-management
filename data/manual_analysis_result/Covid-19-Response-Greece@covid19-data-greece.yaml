@@ -1,0 +1,262 @@
+repository_name: Covid-19-Response-Greece/covid19-data-greece
+last_commit_date: 2023-02-24 0:45
+description: Datasets and analysis of Novel Coronavirus (COVID-19) outbreak in Greece
+analyzing_commit_hash: fda2de87e77202f3ed9af09cb60532dd86562259
+comment: This repository provides datasets regarding the COVID-19 outbreak in Greece. Data are updated 3 times a day using Github Actions.
+has_instruction_in_readme: yes
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 15
+              - 16
+              - 18
+              - 20
+              - 22
+              - 24
+        location: https://systems.jhu.edu/research/public-health/ncov
+        location_type: online
+        location_set_from: readme file
+        size: null
+        comment: The url referes to landing page, not to any data file. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 15
+              - 16
+              - 18
+              - 20
+              - 22
+              - 24
+        location: https://github.com/CSSEGISandData/COVID-19
+        location_type: online
+        location_set_from: readme file
+        size: null
+        comment: The url referes to landing page, not to any data file. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 15
+              - 16
+              - 18
+              - 20
+              - 22
+              - 24
+        location: https://www.who.int/
+        location_type: online
+        location_set_from: readme file
+        size: null
+        comment: The url referes to landing page, not to any data file. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 15
+              - 16
+              - 18
+              - 20
+              - 22
+              - 24
+        location: https://eody.gov.gr/
+        location_type: online
+        location_set_from: readme file
+        size: null
+        comment: The url referes to landing page, not to any data file. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 15
+              - 16
+              - 18
+              - 20
+              - 22
+              - 24
+        location: https://el.wikipedia.org/wiki/Χρονολόγιο_κρουσμάτων_της_πανδημίας_του_κορονοϊού_στην_Ελλάδα_το_2020
+        location_type: online
+        location_set_from: readme file
+        size: null
+        comment: The url referes to landing page, not to any data file. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 15
+              - 16
+              - 18
+              - 20
+              - 22
+              - 24
+        location: https://covid19live.ismood.com/
+        location_type: online
+        location_set_from: readme file
+        size: null
+        comment: The url referes to landing page, not to any data file. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: deprecated/analysis/SIR model.ipynb
+            line_no:
+              - In[7]:23
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: deprecated/analysis/SIR model.ipynb
+            line_no:
+              - In[7]:15
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The dataset passed through a method parameter, however, couldn't find any call of the method.
+    - model:
+        training_trace:
+          - file_path: deprecated/analysis/SIR model.ipynb
+            line_no:
+              - In[8]:42
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: deprecated/analysis/SIR model.ipynb
+            line_no:
+              - In[8]:33
+              - In[7]:1
+              - In[7]:12
+              - In[7]:6
+              - In[8]:14
+              - In[8]:6
+              - In[8]:3
+              - In[8]:4
+              - In[5]:6
+              - In[4]:1
+              - In[4]:29
+              - In[4]:5
+              - In[4]:6
+              - In[4]:7
+              - In[2]:24
+              - In[2]:25
+              - In[2]:26
+              - In[2]:19
+              - In[2]:20
+              - In[2]:21
+              - In[2]:17
+        location: https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/all_countries/JohnsHopkinsCSSE/time_series_covid19_confirmed_global.csv
+        location_type: online
+        location_set_from: hard coded
+        size: null
+        comment: Got 404. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: deprecated/analysis/SIR model.ipynb
+            line_no:
+              - In[8]:42
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: deprecated/analysis/SIR model.ipynb
+            line_no:
+              - In[8]:33
+              - In[7]:1
+              - In[7]:12
+              - In[7]:6
+              - In[8]:14
+              - In[8]:6
+              - In[8]:3
+              - In[8]:4
+              - In[5]:6
+              - In[4]:1
+              - In[4]:29
+              - In[4]:5
+              - In[4]:6
+              - In[4]:7
+              - In[2]:24
+              - In[2]:25
+              - In[2]:26
+              - In[2]:19
+              - In[2]:20
+              - In[2]:21
+              - In[2]:17
+        location: https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/all_countries/JohnsHopkinsCSSE/deaths_global.csv
+        location_type: online
+        location_set_from: hard coded
+        size: null
+        comment: Got 404. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: deprecated/analysis/SIR model.ipynb
+            line_no:
+              - In[8]:42
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: deprecated/analysis/SIR model.ipynb
+            line_no:
+              - In[8]:33
+              - In[7]:1
+              - In[7]:12
+              - In[7]:6
+              - In[8]:14
+              - In[8]:6
+              - In[8]:3
+              - In[8]:4
+              - In[5]:6
+              - In[4]:1
+              - In[4]:29
+              - In[4]:5
+              - In[4]:6
+              - In[4]:7
+              - In[2]:24
+              - In[2]:25
+              - In[2]:26
+              - In[2]:19
+              - In[2]:20
+              - In[2]:21
+              - In[2]:17
+        location: https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/all_countries/JohnsHopkinsCSSE/recovered_global.csv
+        location_type: online
+        location_set_from: hard coded
+        size: null
+        comment: Got 404. Used multiple dataset for the training.

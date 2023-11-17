@@ -1,0 +1,721 @@
+repository_name: yjh0410/PyTorch_YOWO
+last_commit_date: 2022-11-03 1:28
+description: .nan
+analyzing_commit_hash: f5073869b9d5a167403c0c8eb64666fe87fdd930
+comment: Implementation of paper.
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 74
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_ucf24_84.9.pth
+        location_type: online
+        location_set_from: readme file
+        size: 463 MB
+    - model:
+        self_trained: yes
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 75
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_nano_ucf24_81.0.pth
+        location_type: online
+        location_set_from: readme file
+        size: 278 MB
+    - model:
+        self_trained: yes
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 83
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_ava_v2.2_20.6.pth
+        location_type: online
+        location_set_from: readme file
+        size: 464 MB
+    - model:
+        self_trained: yes
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 84
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_ava_v2.2_K32_21.6.pth
+        location_type: online
+        location_set_from: readme file
+        size: 464 MB
+    - model:
+        self_trained: yes
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 85
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_nano_ava_v2.2_18.4.pth
+        location_type: online
+        location_set_from: readme file
+        size: 279.07 MB
+    - model:
+        self_trained: yes
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 86
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yowo_nano_ava_v2.2_K32_19.5.pth
+        location_type: online
+        location_set_from: readme file
+        size: 279.07 MB
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: utils/misc.py
+            line_no:
+              - 147
+              - 163
+          - file_path: test_video_ava.py
+            line_no:
+              - 180
+              - 183
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: test_video_ava.py
+            line_no:
+              - 147
+              - 16
+              - 38
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: utils/misc.py
+            line_no:
+              - 147
+              - 163
+          - file_path: demo.py
+            line_no:
+              - 252
+              - 258
+              - 147
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: demo.py
+            line_no:
+              - 214
+              - 19
+              - 47
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: utils/misc.py
+            line_no:
+              - 147
+              - 163
+          - file_path: eval.py
+            line_no:
+              - 146
+              - 149
+              - 160
+              - 168
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: eval.py
+            line_no:
+              - 146
+              - 107
+              - 15
+              - 41
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: utils/misc.py
+            line_no:
+              - 147
+              - 163
+          - file_path: test.py
+            line_no:
+              - 257
+              - 260
+              - 264
+              - 274
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: test.py
+            line_no:
+              - 192
+              - 20
+              - 42
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 16
+          - file_path: models/detector/yowo/yowo.py
+            line_no:
+              - 46
+              - 258
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/backbone/backbone_2d/yolov2.py
+            line_no:
+              - 186
+              - 168
+              - 169
+              - 9
+              - 10
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yolov2.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 195 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 19
+          - file_path: models/detector/yowo/yowo.py
+            line_no:
+              - 46
+              - 258
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/backbone/backbone_2d/yolov3.py
+            line_no:
+              - 213
+              - 195
+              - 196
+              - 9
+              - 10
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/yolov3.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 237 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/backbone/backbone_3d/resnet.py
+            line_no:
+              - 233
+              - 274
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 34
+          - file_path: models/detector/yowo/yowo.py
+            line_no:
+              - 49
+              - 259
+              - 251
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/backbone/backbone_3d/resnet.py
+            line_no:
+              - 222
+              - 208
+              - 207
+              - 206
+              - 200
+              - 199
+              - 198
+              - 14
+              - 15
+        location: https://github.com/yjh0410/YOWOF/releases/download/yowof-weight/resnet-18-kinetics.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 254 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/backbone/backbone_3d/resnet.py
+            line_no:
+              - 244
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: models/backbone/backbone_3d/resnet.py
+            line_no:
+              - 222
+              - 208
+              - 207
+              - 206
+              - 200
+              - 199
+              - 198
+              - 14
+              - 16
+        location: https://github.com/yjh0410/YOWOF/releases/download/yowof-weight/resnet-34-kinetics.pth
+        location_type: online
+        location_set_from: hard coded
+        size: null
+        comment: Got 404. No use of the loaded model found.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/backbone/backbone_3d/resnet.py
+            line_no:
+              - 255
+              - 278
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 34
+          - file_path: models/detector/yowo/yowo.py
+            line_no:
+              - 49
+              - 259
+              - 251
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/backbone/backbone_3d/resnet.py
+            line_no:
+              - 222
+              - 208
+              - 207
+              - 206
+              - 200
+              - 199
+              - 198
+              - 14
+              - 17
+        location: https://github.com/yjh0410/YOWOF/releases/download/yowof-weight/resnet-50-kinetics.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 359 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/backbone/backbone_3d/resnet.py
+            line_no:
+              - 266
+              - 282
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 34
+          - file_path: models/detector/yowo/yowo.py
+            line_no:
+              - 49
+              - 259
+              - 251
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/backbone/backbone_3d/resnet.py
+            line_no:
+              - 222
+              - 208
+              - 207
+              - 206
+              - 200
+              - 199
+              - 198
+              - 14
+              - 18
+        location: https://github.com/yjh0410/YOWOF/releases/download/yowof-weight/resnet-101-kinetics.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 657 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/backbone/backbone_3d/resnext.py
+            line_no:
+              - 208
+              - 238
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 39
+          - file_path: models/detector/yowo/yowo.py
+            line_no:
+              - 49
+              - 259
+              - 251
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/backbone/backbone_3d/resnext.py
+            line_no:
+              - 197
+              - 180
+              - 183
+              - 182
+              - 180
+              - 175
+              - 174
+              - 173
+              - 11
+              - 12
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/resnext-50-kinetics.pth
+        location_type: online
+        location_set_from: hard coded
+        size: null
+        comment: Got 404
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/backbone/backbone_3d/resnext.py
+            line_no:
+              - 219
+              - 242
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 39
+          - file_path: models/detector/yowo/yowo.py
+            line_no:
+              - 49
+              - 259
+              - 251
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/backbone/backbone_3d/resnext.py
+            line_no:
+              - 197
+              - 180
+              - 183
+              - 182
+              - 180
+              - 175
+              - 174
+              - 173
+              - 11
+              - 13
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/resnext-101-kinetics.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 369 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/backbone/backbone_3d/resnext.py
+            line_no:
+              - 230
+              - 246
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 39
+          - file_path: models/detector/yowo/yowo.py
+            line_no:
+              - 49
+              - 259
+              - 251
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/backbone/backbone_3d/resnext.py
+            line_no:
+              - 197
+              - 180
+              - 183
+              - 182
+              - 180
+              - 175
+              - 174
+              - 173
+              - 11
+              - 14
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/resnext-152-kinetics.pth
+        location_type: online
+        location_set_from: hard coded
+        size: null
+        comment: Got 404
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/backbone/backbone_3d/shufflnetv2.py
+            line_no:
+              - 210
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 44
+          - file_path: models/detector/yowo/yowo.py
+            line_no:
+              - 49
+              - 259
+              - 251
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/backbone/backbone_3d/resnext.py
+            line_no:
+              - 199
+              - 182
+              - 185
+              - 184
+              - 183
+              - 177
+              - 176
+              - 175
+              - 14
+              - 15
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/kinetics_shufflenetv2_0.25x_RGB_16_best.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 6.6 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/backbone/backbone_3d/shufflnetv2.py
+            line_no:
+              - 210
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 44
+          - file_path: models/detector/yowo/yowo.py
+            line_no:
+              - 49
+              - 259
+              - 251
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/backbone/backbone_3d/resnext.py
+            line_no:
+              - 199
+              - 182
+              - 185
+              - 184
+              - 183
+              - 177
+              - 176
+              - 175
+              - 14
+              - 16
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/kinetics_shufflenetv2_1.0x_RGB_16_best.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 14.9 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/backbone/backbone_3d/shufflnetv2.py
+            line_no:
+              - 210
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 44
+          - file_path: models/detector/yowo/yowo.py
+            line_no:
+              - 49
+              - 259
+              - 251
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/backbone/backbone_3d/resnext.py
+            line_no:
+              - 199
+              - 182
+              - 185
+              - 184
+              - 183
+              - 177
+              - 176
+              - 175
+              - 14
+              - 17
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/kinetics_shufflenetv2_1.5x_RGB_16_best.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 24.5 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: models/backbone/backbone_3d/shufflnetv2.py
+            line_no:
+              - 210
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 44
+          - file_path: models/detector/yowo/yowo.py
+            line_no:
+              - 49
+              - 259
+              - 251
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/backbone/backbone_3d/resnext.py
+            line_no:
+              - 199
+              - 182
+              - 185
+              - 184
+              - 183
+              - 177
+              - 176
+              - 175
+              - 14
+              - 18
+        location: https://github.com/yjh0410/PyTorch_YOWO/releases/download/yowo-weight/kinetics_shufflenetv2_2.0x_RGB_16_best.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 50.9 MB
+  training:
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 224
+              - 226
+        is_resume_from_checkpoint: null
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 205
+              - 134
+          - file_path: utils/misc.py
+            line_no:
+              - 109
+              - 139
+              - 122
+          - file_path: train.py
+            line_no:
+              - 130
+          - file_path: utils/misc.py
+            line_no:
+              - 18
+              - 106
+              - 41
+          - file_path: dataset/ucf_jhmdb.py
+            line_no:
+              - 17
+              - 100
+              - 25
+              - 18
+          - file_path: train.py
+            line_no:
+              - 126
+          - file_path: config/__init__.py
+            line_no:
+              - 15
+              - 21
+              - 19
+          - file_path: config/dataset_config.py
+            line_no:
+              - 4
+              - 7
+          - file_path: README.md
+            line_no:
+              - 46
+        location: https://drive.google.com/file/d/1Dwh90pRi7uGkH5qLRjQIFiEmMJrAog5J/view?usp=sharing
+        location_type: online
+        location_set_from: readme file
+        size: 2355.2 MB
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 224
+              - 226
+        is_resume_from_checkpoint: null
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 205
+              - 134
+          - file_path: utils/misc.py
+            line_no:
+              - 109
+              - 139
+              - 122
+          - file_path: train.py
+            line_no:
+              - 130
+          - file_path: utils/misc.py
+            line_no:
+              - 18
+              - 106
+              - 41
+          - file_path: dataset/ucf_jhmdb.py
+            line_no:
+              - 17
+              - 102
+              - 25
+              - 18
+          - file_path: train.py
+            line_no:
+              - 126
+          - file_path: config/__init__.py
+            line_no:
+              - 15
+              - 21
+              - 19
+          - file_path: config/dataset_config.py
+            line_no:
+              - 4
+              - 61
+          - file_path: README.md
+            line_no:
+              - 57
+        location: https://drive.google.com/file/d/15nAIGrWPD4eH3y5OTWHiUbjwsr-9VFKT/view?usp=sharing
+        location_type: online
+        location_set_from: readme file
+        size: 4300.8 MB
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 224
+              - 226
+        is_resume_from_checkpoint: null
+        resume_from_checkpoint_location_type: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 205
+              - 134
+          - file_path: utils/misc.py
+            line_no:
+              - 109
+              - 139
+              - 122
+          - file_path: train.py
+            line_no:
+              - 130
+          - file_path: utils/misc.py
+            line_no:
+              - 18
+              - 106
+              - 71
+          - file_path: dataset/ava.py
+            line_no:
+              - 20
+              - 29
+          - file_path: train.py
+            line_no:
+              - 126
+          - file_path: config/__init__.py
+            line_no:
+              - 15
+              - 21
+              - 19
+          - file_path: config/dataset_config.py
+            line_no:
+              - 4
+              - 114
+          - file_path: README.md
+            line_no:
+              - 66
+        location: https://github.com/yjh0410/AVA_Dataset/blob/main/download_trainval.txt
+        location_type: online
+        location_set_from: readme file
+        size: 159891.49 MB

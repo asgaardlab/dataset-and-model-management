@@ -1,0 +1,226 @@
+repository_name: Kitware/kwiver
+last_commit_date: 2023-02-22 18:27
+description: Pulls Together Computer Vision Algorithms into Highly-Modular Run-Time
+  Configurable Systems
+analyzing_commit_hash: f0b40a92a170ca34789e61f0208c4481914fac18
+comment: ''
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/alexnet_feature_extractor.py
+            line_no:
+              - 129
+              - 119
+          - file_path: python/kwiver/sprokit/processes/pytorch/alexnet_descriptors.py
+            line_no:
+              - 136
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/alexnet_feature_extractor.py
+            line_no:
+              - 101
+              - 95
+          - file_path: python/kwiver/sprokit/processes/pytorch/alexnet_descriptors.py
+            line_no:
+              - 106
+              - 105
+              - 62
+        location: models/alexnet_default.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/augmented_resnet_feature_extractor.py
+            line_no:
+              - 134
+              - 137
+              - 168
+              - 156
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/augmented_resnet_feature_extractor.py
+            line_no:
+              - 133
+              - 209
+              - 207
+              - 90
+              - 92
+        location: resnet/snapshot_epoch_6.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/models.py
+            line_no:
+              - 232
+              - 288
+              - 271
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/models.py
+            line_no:
+              - 231
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: method parameter
+        size: null
+        comment: The pre-trained model path passed through optional method parameter. However, the values were not passed while calling ht emethod.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/models.py
+            line_no:
+              - 241
+              - 292
+              - 271
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/models.py
+            line_no:
+              - 240
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: method parameter
+        size: null
+        comment: The pre-trained model path passed through optional method parameter. However, the values were not passed while calling ht emethod.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/models.py
+            line_no:
+              - 250
+              - 296
+              - 271
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/models.py
+            line_no:
+              - 249
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: method parameter
+        size: null
+        comment: The pre-trained model path passed through optional method parameter. However, the values were not passed while calling ht emethod.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/models.py
+            line_no:
+              - 259
+              - 300
+              - 271
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/models.py
+            line_no:
+              - 258
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: method parameter
+        size: null
+        comment: The pre-trained model path passed through optional method parameter. However, the values were not passed while calling ht emethod.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/resnet_feature_extractor.py
+            line_no:
+              - 101
+              - 133
+              - 119
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/resnet_feature_extractor.py
+            line_no:
+              - 99
+              - 92
+          - file_path: python/kwiver/sprokit/processes/pytorch/resnet_descriptors.py
+            line_no:
+              - 107
+              - 106
+              - 63
+              - 64
+        location: models/resnet50_default.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/siamese_feature_extractor.py
+            line_no:
+              - 91
+              - 125
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/siamese_feature_extractor.py
+            line_no:
+              - 82
+              - 85
+              - 75
+          - file_path: python/kwiver/sprokit/processes/pytorch/srnn_tracker.py
+            line_no:
+              - 221
+              - 220
+              - 121
+              - 122
+        location: siamese/snapshot_epoch_6.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/srnn_matching.py
+            line_no:
+              - 158
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/srnn_matching.py
+            line_no:
+              - 96
+              - 98
+              - 92
+              - 108
+              - 87
+          - file_path: python/kwiver/sprokit/processes/pytorch/srnn_tracker.py
+            line_no:
+              - 228
+              - 226
+              - 141
+        location: targetRNN_snapshot/App_LSTM_epoch_51.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/srnn_matching.py
+            line_no:
+              - 162
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: python/kwiver/sprokit/processes/pytorch/utils/srnn_matching.py
+            line_no:
+              - 96
+              - 98
+              - 92
+              - 112
+              - 87
+          - file_path: python/kwiver/sprokit/processes/pytorch/srnn_tracker.py
+            line_no:
+              - 228
+              - 229
+              - 227
+              - 146
+              - 147
+        location: targetRNN_AI/App_LSTM_epoch_51.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: argument
+        size: null

@@ -1,0 +1,130 @@
+repository_name: milvus-io/bootcamp
+last_commit_date: 2023-02-11 0:55
+description: Dealing with all unstructured data, such as reverse image search, audio
+  search, molecular search, video analysis, question and answer systems, NLP, etc.
+analyzing_commit_hash: 77f2ea28c2db9d61e0fae66ebc08758c3442a1b8
+comment: Loaded pre-trained model using facenet_pytorch in solutions/image/face_recognition_system/quick_deploy/server/src/search_face.py, solutions/image/face_recognition_system/quick_deploy/server/src/search_face_milvusv1.py and solutions/image/face_recognition_system/quick_deploy/server/src/search_face_milvusv2.py. Loaded pre-trained model using torch.hub.load in notebooks/vision/reverse_painting_search.ipynb for prediction. Loaded pre-trained model using facenet_pytorch in solutions/image/face_recognition_system/face_recognition_bootcamp.ipynb, solutions/image/face_recognition_system/face_recognition_bootcamp_milvusv1.ipynb. Loaded pre-trained model using mtcnn.mtcnn in solutions/image/face_recognition_system/mtcnn_face_detection/MTCNN_Face_Detection.ipynb.
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        train_save_trace:
+          - file_path: null
+            line_no: null
+        model_load_purpose_trace:
+          - file_path: solutions/3d/milvus3d/quick_deploy/server/src/main.py
+            line_no:
+              - 54
+              - 118
+          - file_path: solutions/3d/milvus3d/quick_deploy/server/src/operations/load.py
+            line_no:
+              - 64
+              - 67
+              - 25
+              - 40
+          - file_path: solutions/3d/milvus3d/quick_deploy/server/src/encode.py
+            line_no:
+              - 16
+              - 21
+              - 33
+          - file_path: solutions/3d/milvus3d/quick_deploy/server/src/milvus3d/transform.py
+            line_no:
+              - 11
+              - 19
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: solutions/3d/milvus3d/quick_deploy/server/src/main.py
+            line_no:
+              - 50
+              - 39
+              - 40
+          - file_path: solutions/3d/milvus3d/quick_deploy/server/src/config.py
+            line_no:
+              - 36
+        location: https://drive.google.com/uc?id=1t5jyJ4Ktmlck6GYhNTPVTFZuRP7wPUYq # solutions/3d/milvus3d/quick_deploy/server/datamodels/MeshNet_best_9192.pkl
+        location_type: online
+        location_set_from: config file
+        size: 16.3 MB
+    - model:
+        self_trained: no
+        train_save_trace:
+          - file_path: null
+            line_no: null
+        model_load_purpose_trace:
+          - file_path: solutions/3d/milvus3d/quick_deploy/server/src/main.py
+            line_no:
+              - 54
+              - 131
+          - file_path: solutions/3d/milvus3d/quick_deploy/server/src/operations/search.py
+            line_no:
+              - 13
+              - 22
+          - file_path: solutions/3d/milvus3d/quick_deploy/server/src/encode.py
+            line_no:
+              - 16
+              - 21
+              - 33
+          - file_path: solutions/3d/milvus3d/quick_deploy/server/src/milvus3d/transform.py
+            line_no:
+              - 11
+              - 19
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: solutions/3d/milvus3d/quick_deploy/server/src/main.py
+            line_no:
+              - 50
+              - 39
+              - 40
+          - file_path: solutions/3d/milvus3d/quick_deploy/server/src/config.py
+            line_no:
+              - 36
+        location: https://drive.google.com/uc?id=1t5jyJ4Ktmlck6GYhNTPVTFZuRP7wPUYq # solutions/3d/milvus3d/quick_deploy/server/data/models/MeshNet_best_9192.pkl
+        location_type: online
+        location_set_from: config file
+        size: 16.3 MB
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: solutions/medical/dna_sequence_classification/quick_deploy/server/src/utils.py
+            line_no:
+              - 19
+              - 18
+        model_load_purpose_trace:
+          - file_path: solutions/medical/dna_sequence_classification/quick_deploy/server/src/utils.py
+            line_no:
+              - 24
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: solutions/medical/dna_sequence_classification/quick_deploy/server/src/utils.py
+            line_no:
+              - 23
+          - file_path: solutions/medical/dna_sequence_classification/quick_deploy/server/src/config.py
+            line_no:
+              - 13
+        location: vectorizer.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null
+        comment: The path is set in environment variable. If the variable is not set, then this default value is used for model path.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: solutions/3d/milvus3d/jupyter_notebook/milvus3d_demo.ipynb
+            line_no:
+              - In[11]:11
+              - In[12]:1
+              - In[13]:2
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: solutions/3d/milvus3d/jupyter_notebook/milvus3d_demo.ipynb
+            line_no:
+              - In[11]:8
+              - In[10]:6
+          - file_path: solutions/3d/milvus3d/jupyter_notebook/notebook_config.py
+            line_no:
+              - 27
+        location: https://drive.google.com/uc?id=1t5jyJ4Ktmlck6GYhNTPVTFZuRP7wPUYq # models/MeshNet_best_9192.pkl
+        location_type: online
+        location_set_from: hard coded
+        size: 16.27 MB

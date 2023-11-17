@@ -1,0 +1,47 @@
+repository_name: eclipse/kura
+last_commit_date: 2023-02-23 15:46
+description: "Eclipse Kura\u2122 project"
+analyzing_commit_hash: 31ef269ef081bedd72772b8508dcc98cc960ba37
+comment: An OSGi-based Application Framework for M2M Service Gateways
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: kura/examples/scenarios/org.eclipse.kura.example.ai/training/train.py
+            line_no:
+              - 135
+              - 70
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: kura/examples/scenarios/org.eclipse.kura.example.ai/training/train.py
+            line_no:
+              - 141
+              - 107
+              - 27
+              - 49
+              - 47
+              - 40
+              - 42
+              - 29
+        save_location: saved_model/autoencoder
+      dataset:
+        location_trace:
+          - file_path: kura/examples/scenarios/org.eclipse.kura.example.ai/training/train.py
+            line_no:
+              - 117
+              - 116
+              - 114
+              - 112
+              - 107
+              - 27
+              - 49
+              - 46
+              - 36
+              - 38
+              - 28
+        location: kura/examples/scenarios/org.eclipse.kura.example.ai/training/new-train-raw.csv.zip
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 2.84 MB
+        comment: The original file is in csv format

@@ -1,0 +1,54 @@
+repository_name: atulapra/Emotion-detection
+last_commit_date: 2023-02-16 18:24
+description: Real-time Facial Emotion Detection using deep learning
+analyzing_commit_hash: 934e111b8cc0870b9505e30e912dac8aa9696326
+comment: This project aims to classify the emotion on a person's face into one of **seven categories**, using deep convolutional neural networks.
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        model_load_purpose_trace:
+          - file_path: src/emotions.py
+            line_no:
+              - 126
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/emotions.py
+            line_no:
+              - 103
+          - file_path: README.md
+            line_no:
+              - 32
+        location: https://drive.google.com/file/d/1FUn0XNOzf-nQV7QjbBPA6-8GLoHNNgv-/view?usp=sharing # model.h5
+        location_type: online
+        location_set_from: readme file
+        size: 9 MB
+  training:
+    - model:
+        training_trace:
+          - file_path: src/emotions.py
+            line_no:
+              - 92
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/emotions.py
+            line_no:
+              - 99
+        save_location: src/model.h5
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: src/emotions.py
+            line_no:
+              - 56
+              - 45
+          - file_path: README.md
+            line_no:
+              - 23
+              - 52
+        location: https://www.kaggle.com/deadskull7/fer2013 # src/data/train
+        location_type: online
+        location_set_from: readme file
+        size: 301.07 MB
+        comment: Instruction has been given to download the data and put it in the src folder.

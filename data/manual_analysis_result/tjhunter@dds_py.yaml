@@ -1,0 +1,85 @@
+repository_name: tjhunter/dds_py
+last_commit_date: 2022-12-27 14:12
+description: Data-driven software (python implementation)
+analyzing_commit_hash: 4ece29dee915ed2ff1ba6f1be979a02cfab5fead
+comment: The DDS package solves the synchronization problem between code and data.
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: dds_tests/test_sklearn.py
+            line_no:
+              - 48
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: dds_tests/test_sklearn.py
+            line_no: null
+        save_location: null
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: dds_tests/test_sklearn.py
+            line_no:
+              - 38
+              - 66
+              - 63
+              - 62
+              - 60
+              - 34
+              - 35
+              - 28
+              - 29
+        location: https://raw.githubusercontent.com/zygmuntz/wine-quality/master/winequality/winequality-red.csv
+        location_type: online
+        location_set_from: hard coded
+        size: 0.08 MB
+        comment: The code is to test their api in a scenario to download data with their app
+    - model:
+        training_trace:
+          - file_path: docs/tut_sklearn/tut_sklearn.ipynb
+            line_no:
+              - In[9]:10
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: docs/tut_sklearn/tut_sklearn.ipynb
+            line_no:
+              - In[9]:1
+              - In[9]:31
+              - In[9]:27
+              - In[9]:26
+              - In[9]:24
+              - In[6]:5
+              - In[6]:9
+              - In[6]:8
+              - In[6]:7
+        location: https://raw.githubusercontent.com/zygmuntz/wine-quality/master/winequality/winequality-red.csv
+        location_type: online
+        location_set_from: hard coded
+        size: 0.08 MB
+    - model:
+        training_trace:
+          - file_path: doc_source/tut_sklearn.ipynb
+            line_no:
+              - In[9]:10
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: doc_source/tut_sklearn.ipynb
+            line_no:
+              - In[9]:1
+              - In[9]:31
+              - In[9]:27
+              - In[9]:26
+              - In[9]:24
+              - In[6]:5
+              - In[6]:9
+              - In[6]:8
+              - In[6]:7
+        location: https://raw.githubusercontent.com/zygmuntz/wine-quality/master/winequality/winequality-red.csv
+        location_type: online
+        location_set_from: hard coded
+        size: 0.08 MB

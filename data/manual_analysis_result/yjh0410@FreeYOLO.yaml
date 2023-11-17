@@ -1,0 +1,1549 @@
+repository_name: yjh0410/FreeYOLO
+last_commit_date: 2023-02-14 4:49
+description: .nan
+analyzing_commit_hash: 30ca71424c965bb61917e1a9579dabd71b55c64e
+comment: Loaded pre-trained model in deployment/ONNXRuntime/onnx_inference.py@61 and deployment/OpenVINO/python/openvino_inference.py@51 using third party library.
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: benchmark.py
+            line_no:
+              - 117
+              - 138
+        model_load_purpose: testing
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 6
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_nano.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 1.54 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: benchmark.py
+            line_no:
+              - 117
+              - 138
+        model_load_purpose: testing
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 7
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_tiny.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 5.3 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: benchmark.py
+            line_no:
+              - 117
+              - 138
+        model_load_purpose: testing
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 8
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_large.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 55.1 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: benchmark.py
+            line_no:
+              - 117
+              - 138
+        model_load_purpose: testing
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 9
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_huge.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 101 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: benchmark.py
+            line_no:
+              - 117
+              - 138
+        model_load_purpose: testing
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 20
+          - file_path: models/backbone/shufflenetv2.py
+            line_no:
+              - 169
+              - 187
+              - 182
+              - 7
+        location: https://download.pytorch.org/models/shufflenetv2_x0.5-f707e7126e.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 5.3 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: benchmark.py
+            line_no:
+              - 117
+              - 138
+        model_load_purpose: testing
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 20
+          - file_path: models/backbone/shufflenetv2.py
+            line_no:
+              - 169
+              - 187
+              - 182
+              - 8
+        location: https://download.pytorch.org/models/shufflenetv2_x1-5666bf0f80.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 8.8 MB
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: benchmark.py
+            line_no:
+              - 117
+              - 138
+        model_load_purpose: testing
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 29
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: demo.py
+            line_no:
+              - 212
+              - 226
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 6
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_nano.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 1.54 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: demo.py
+            line_no:
+              - 212
+              - 226
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 7
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_tiny.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 5.3 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: demo.py
+            line_no:
+              - 212
+              - 226
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 8
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_large.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 55.1 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: demo.py
+            line_no:
+              - 212
+              - 226
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 9
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_huge.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 101 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: demo.py
+            line_no:
+              - 212
+              - 226
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 20
+          - file_path: models/backbone/shufflenetv2.py
+            line_no:
+              - 169
+              - 187
+              - 182
+              - 7
+        location: https://download.pytorch.org/models/shufflenetv2_x0.5-f707e7126e.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 5.3 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: demo.py
+            line_no:
+              - 212
+              - 226
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 20
+          - file_path: models/backbone/shufflenetv2.py
+            line_no:
+              - 169
+              - 187
+              - 182
+              - 8
+        location: https://download.pytorch.org/models/shufflenetv2_x1-5666bf0f80.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 8.8 MB
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: demo.py
+            line_no:
+              - 212
+              - 226
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 29
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: eval.py
+            line_no:
+              - 165
+              - 188
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 6
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_nano.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 1.54 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: eval.py
+            line_no:
+              - 165
+              - 188
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 7
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_tiny.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 5.3 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: eval.py
+            line_no:
+              - 165
+              - 188
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 8
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_large.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 55.1 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: eval.py
+            line_no:
+              - 165
+              - 188
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 9
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_huge.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 101 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: eval.py
+            line_no:
+              - 165
+              - 188
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 20
+          - file_path: models/backbone/shufflenetv2.py
+            line_no:
+              - 169
+              - 187
+              - 182
+              - 7
+        location: https://download.pytorch.org/models/shufflenetv2_x0.5-f707e7126e.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 5.3 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: eval.py
+            line_no:
+              - 165
+              - 188
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 20
+          - file_path: models/backbone/shufflenetv2.py
+            line_no:
+              - 169
+              - 187
+              - 182
+              - 8
+        location: https://download.pytorch.org/models/shufflenetv2_x1-5666bf0f80.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 8.8 MB
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: eval.py
+            line_no:
+              - 165
+              - 188
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 29
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: test.py
+            line_no:
+              - 192
+              - 227
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 6
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_nano.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 1.54 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: test.py
+            line_no:
+              - 192
+              - 227
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 7
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_tiny.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 5.3 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: test.py
+            line_no:
+              - 192
+              - 227
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 8
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_large.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 55.1 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: test.py
+            line_no:
+              - 192
+              - 227
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 9
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_huge.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 101 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: test.py
+            line_no:
+              - 192
+              - 227
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 20
+          - file_path: models/backbone/shufflenetv2.py
+            line_no:
+              - 169
+              - 187
+              - 182
+              - 7
+        location: https://download.pytorch.org/models/shufflenetv2_x0.5-f707e7126e.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 5.3 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: test.py
+            line_no:
+              - 192
+              - 227
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 20
+          - file_path: models/backbone/shufflenetv2.py
+            line_no:
+              - 169
+              - 187
+              - 182
+              - 8
+        location: https://download.pytorch.org/models/shufflenetv2_x1-5666bf0f80.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 8.8 MB
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: test.py
+            line_no:
+              - 192
+              - 227
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 29
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: tools/export_onnx.py
+            line_no:
+              - 79
+              - 102
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 6
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_nano.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 1.54 MB
+        comment: The model is loaded to export
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: tools/export_onnx.py
+            line_no:
+              - 79
+              - 102
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 7
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_tiny.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 5.3 MB
+        comment: The model is loaded to export
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: tools/export_onnx.py
+            line_no:
+              - 79
+              - 102
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 8
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_large.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 55.1 MB
+        comment: The model is loaded to export
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: tools/export_onnx.py
+            line_no:
+              - 79
+              - 102
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 9
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_huge.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 101 MB
+        comment: The model is loaded to export
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: tools/export_onnx.py
+            line_no:
+              - 79
+              - 102
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 20
+          - file_path: models/backbone/shufflenetv2.py
+            line_no:
+              - 169
+              - 187
+              - 182
+              - 7
+        location: https://download.pytorch.org/models/shufflenetv2_x0.5-f707e7126e.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 5.3 MB
+        comment: The model is loaded to export
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: tools/export_onnx.py
+            line_no:
+              - 79
+              - 102
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 20
+          - file_path: models/backbone/shufflenetv2.py
+            line_no:
+              - 169
+              - 187
+              - 182
+              - 8
+        location: https://download.pytorch.org/models/shufflenetv2_x1-5666bf0f80.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 8.8 MB
+        comment: The model is loaded to export
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: tools/export_onnx.py
+            line_no:
+              - 79
+              - 102
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 29
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+        comment: The model is loaded to export
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: train.py
+            line_no:
+              - 140
+              - 147
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 6
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_nano.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 1.54 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: train.py
+            line_no:
+              - 140
+              - 147
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 7
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_tiny.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 5.3 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: train.py
+            line_no:
+              - 140
+              - 147
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 8
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_large.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 55.1 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: train.py
+            line_no:
+              - 140
+              - 147
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 14
+          - file_path: models/backbone/elannet.py
+            line_no:
+              - 329
+              - 347
+              - 9
+        location: https://github.com/yjh0410/image_classification_pytorch/releases/download/weight/yolov7_elannet_huge.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 101 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: train.py
+            line_no:
+              - 140
+              - 147
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 20
+          - file_path: models/backbone/shufflenetv2.py
+            line_no:
+              - 169
+              - 187
+              - 182
+              - 7
+        location: https://download.pytorch.org/models/shufflenetv2_x0.5-f707e7126e.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 5.3 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: train.py
+            line_no:
+              - 140
+              - 147
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 22
+          - file_path: models/yolo_free/build.py
+            line_no:
+              - 10
+              - 17
+          - file_path: models/yolo_free/yolo_free.py
+            line_no:
+              - 13
+              - 36
+          - file_path: models/backbone/__init__.py
+            line_no:
+              - 5
+              - 20
+          - file_path: models/backbone/shufflenetv2.py
+            line_no:
+              - 169
+              - 187
+              - 182
+              - 8
+        location: https://download.pytorch.org/models/shufflenetv2_x1-5666bf0f80.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 8.8 MB
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: train.py
+            line_no:
+              - 140
+              - 147
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: models/__init__.py
+            line_no:
+              - 29
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: engine.py
+            line_no:
+              - 157
+          - file_path: train.py
+            line_no:
+              - 250
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: unknown (set through argument)
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 258
+              - 137
+              - 133
+          - file_path: utils/misc.py
+            line_no:
+              - 28
+              - 322
+              - 88
+              - 90
+              - 82
+          - file_path: README.md
+            line_no:
+              - 64
+          - file_path: dataset/scripts/COCO2017.sh
+            line_no:
+              - 4
+        location: http://images.cocodataset.org/zips/train2017.zip
+        location_type: online
+        location_set_from: readme file
+        size: 18432 MB
+    - model:
+        training_trace:
+          - file_path: engine.py
+            line_no:
+              - 157
+          - file_path: train.py
+            line_no:
+              - 250
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: unknown (set through argument)
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 258
+              - 137
+              - 133
+          - file_path: utils/misc.py
+            line_no:
+              - 28
+              - 322
+              - 114
+              - 115
+              - 108
+          - file_path: README.md
+            line_no:
+              - 98
+        location: http://shuoyang1213.me/WIDERFACE/
+        location_type: online
+        location_set_from: readme file
+        size: 4198.4 MB
+        comment: The url doesn't provide the dataset specifically. Need to understand whats to use. Measured the size of https://drive.google.com/file/d/15hGDLhsx8bLgLcIRD5DhYt5iBxnjNF1M/view?usp=sharing
+    - model:
+        training_trace:
+          - file_path: engine.py
+            line_no:
+              - 157
+          - file_path: train.py
+            line_no:
+              - 250
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: unknown (set through argument)
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 258
+              - 137
+              - 133
+          - file_path: utils/misc.py
+            line_no:
+              - 28
+              - 322
+              - 141
+              - 142
+              - 135
+          - file_path: README.md
+            line_no:
+              - 148
+        location: https://www.crowdhuman.org/
+        location_type: online
+        location_set_from: readme file
+        size: 7987.2 MB
+        comment: The url doesn't provide the dataset specifically. Need to understand what to use. Measured the size of train files from https://www.crowdhuman.org/download.html.
+    - model:
+        training_trace:
+          - file_path: engine.py
+            line_no:
+              - 157
+          - file_path: train.py
+            line_no:
+              - 250
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: unknown (set through argument)
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 258
+              - 137
+              - 133
+          - file_path: utils/misc.py
+            line_no:
+              - 28
+              - 322
+              - 168
+              - 169
+              - 162
+              - 196
+              - 197
+              - 190
+          - file_path: README.md
+            line_no:
+              - 207
+        location: https://motchallenge.net/data/MOT17.zip
+        location_type: online
+        location_set_from: readme file
+        size: 5632 MB
+        comment: The provided url in the readme file doesn't provide the dataset specifically. Need to understand what to use. Provided url in file is https://motchallenge.net/.
+    - model:
+        training_trace:
+          - file_path: engine.py
+            line_no:
+              - 157
+          - file_path: train.py
+            line_no:
+              - 250
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: unknown (set through argument)
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 258
+              - 137
+              - 133
+          - file_path: utils/misc.py
+            line_no:
+              - 28
+              - 322
+              - 231
+              - 232
+              - 225
+              - 259
+              - 260
+              - 253
+          - file_path: README.md
+            line_no:
+              - 274
+        location: https://motchallenge.net/data/MOT20.zip
+        location_type: online
+        location_set_from: readme file
+        size: 5120 MB
+        comment: The provided url in the readme file doesn't provide the dataset specifically. Need to understand what to use. Provided url in file is https://motchallenge.net/
+    - model:
+        training_trace:
+          - file_path: engine.py
+            line_no:
+              - 157
+          - file_path: train.py
+            line_no:
+              - 250
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: unknown (set through argument)
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 258
+              - 137
+              - 133
+          - file_path: utils/misc.py
+            line_no:
+              - 28
+              - 322
+              - 294
+              - 295
+              - 288
+          - file_path: README.md
+            line_no:
+              - 436
+        location: dataset/OurDataset/
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 1.64 MB
+        comment: The provided dataset is sample to explain the way to preprocess data for training.
+    - model:
+        training_trace:
+          - file_path: engine.py
+            line_no:
+              - 157
+          - file_path: train.py
+            line_no:
+              - 250
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: unknown (set through argument)
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 258
+              - 137
+              - 133
+          - file_path: utils/misc.py
+            line_no:
+              - 28
+              - 322
+              - 63
+          - file_path: dataset/voc.py
+            line_no:
+              - 280
+              - 252
+        location: D:\\python_work\\object-detection\\dataset\\COCO
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: argument and hard coded
+        size: null

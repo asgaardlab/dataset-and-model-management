@@ -1,0 +1,854 @@
+repository_name: eternagame/KaggleOpenVaccine
+last_commit_date: 2023-02-10 15:42
+description: .nan
+analyzing_commit_hash: efbee72bf9df85999296eaa1632d20c8e8a32f7b
+comment: ''
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/degscore_xgboost_inference.py
+            line_no:
+              - 166
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/degscore_xgboost_inference.py
+            line_no:
+              - 164
+        location: model_files/bt_xgb/bt_xgb.model
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded
+        size: 65.72 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 956
+              - 869
+        location: model_files/ov-v40032-wgts/model_0.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 42.26 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 956
+              - 869
+        location: model_files/ov-v40032-wgts/model_1.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 42.26 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 956
+              - 869
+        location: model_files/ov-v40032-wgts/model_2.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 42.26 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 956
+              - 869
+        location: model_files/ov-v40032-wgts/model_3.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 42.26 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 956
+              - 869
+        location: model_files/ov-v40032-wgts/model_4.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 42.26 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 957
+              - 869
+        location: model_files/ov-v40131-wgts/model_0.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 41.26 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 957
+              - 869
+        location: model_files/ov-v40131-wgts/model_1.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 41.26 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 957
+              - 869
+        location: model_files/ov-v40131-wgts/model_2.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 41.26 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 957
+              - 869
+        location: model_files/ov-v40131-wgts/model_3.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 41.26 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 957
+              - 869
+        location: model_files/ov-v40131-wgts/model_4.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 41.26 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 958
+              - 869
+        location: model_files/ov-v40237-wgts/model_0.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 52.24 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 958
+              - 869
+        location: model_files/ov-v40237-wgts/model_1.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 52.24 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 958
+              - 869
+        location: model_files/ov-v40237-wgts/model_2.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 52.24 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 958
+              - 869
+        location: model_files/ov-v40237-wgts/model_3.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 52.24 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 958
+              - 869
+        location: model_files/ov-v40237-wgts/model_4.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 52.24 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 959
+              - 869
+        location: model_files/ov-v40334-wgts/model_0.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 43.44 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 959
+              - 869
+        location: model_files/ov-v40334-wgts/model_1.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 43.44 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 959
+              - 869
+        location: model_files/ov-v40334-wgts/model_2.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 43.44 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 959
+              - 869
+        location: model_files/ov-v40334-wgts/model_3.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 43.44 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 874
+              - 875
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: scripts/nullrecurrent_inference.py
+            line_no:
+              - 870
+              - 860
+              - 856
+              - 959
+              - 869
+        location: model_files/ov-v40334-wgts/model_4.h5
+        location_type: file system (saved in VCS)
+        location_set_from: system environment variable and hard coded and program variable
+        size: 43.44 MB
+        comment: The system variable path is set to the root of the repository
+    - model:
+        self_trained: no
+        train_save_trace:
+          - file_path: notebooks/DegScore-XGBoost-inference/XGB_predictions.ipynb
+            line_no: null
+        model_load_purpose_trace:
+          - file_path: notebooks/DegScore-XGBoost-inference/XGB_predictions.ipynb
+            line_no:
+              - In[11]:4
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/DegScore-XGBoost-inference/XGB_predictions.ipynb
+            line_no:
+              - In[4]:1
+        location: model_files/bt_xgb/bt_xgb.model
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 65.73 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/DegScore-XGBoost-inference/XGB_predictions.ipynb
+            line_no:
+              - In[11]:4
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/DegScore-XGBoost-inference/XGB_predictions.ipynb
+            line_no:
+              - In[4]:1
+        location: model_files/bt_xgb/bt_xgb.model
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 65.73 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[22]:13
+              - In[22]:14
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[22]:9
+              - In[22]:4
+              - In[22]:7
+        location: model_files/ov-v40032-wgts/model_0.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 42.26 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[22]:13
+              - In[22]:14
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[22]:9
+              - In[22]:4
+              - In[22]:7
+        location: model_files/ov-v40032-wgts/model_1.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 42.26 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[22]:13
+              - In[22]:14
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[22]:9
+              - In[22]:4
+              - In[22]:7
+        location: model_files/ov-v40032-wgts/model_2.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 42.26 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[22]:13
+              - In[22]:14
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[22]:9
+              - In[22]:4
+              - In[22]:7
+        location: model_files/ov-v40032-wgts/model_3.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 42.26 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[22]:13
+              - In[22]:14
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[22]:9
+              - In[22]:4
+              - In[22]:7
+        location: model_files/ov-v40032-wgts/model_4.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 42.26 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[25]:12
+              - In[25]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[25]:8
+              - In[25]:4
+              - In[25]:7
+        location: model_files/ov-v40131-wgts/model_0.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 41.26 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[25]:12
+              - In[25]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[25]:8
+              - In[25]:4
+              - In[25]:7
+        location: model_files/ov-v40131-wgts/model_1.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 41.26 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[25]:12
+              - In[25]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[25]:8
+              - In[25]:4
+              - In[25]:7
+        location: model_files/ov-v40131-wgts/model_2.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 41.26 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[25]:12
+              - In[25]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[25]:8
+              - In[25]:4
+              - In[25]:7
+        location: model_files/ov-v40131-wgts/model_3.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 41.26 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[25]:12
+              - In[25]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[25]:8
+              - In[25]:4
+              - In[25]:7
+        location: model_files/ov-v40131-wgts/model_4.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 41.26 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[26]:12
+              - In[26]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[26]:8
+              - In[26]:4
+              - In[26]:7
+        location: model_files/ov-v40237-wgts/model_0.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 52.24 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[26]:12
+              - In[26]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[26]:8
+              - In[26]:4
+              - In[26]:7
+        location: model_files/ov-v40237-wgts/model_1.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 52.24 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[26]:12
+              - In[26]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[26]:8
+              - In[26]:4
+              - In[26]:7
+        location: model_files/ov-v40237-wgts/model_2.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 52.24 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[26]:12
+              - In[26]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[26]:8
+              - In[26]:4
+              - In[26]:7
+        location: model_files/ov-v40237-wgts/model_3.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 52.24 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[26]:12
+              - In[26]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[26]:8
+              - In[26]:4
+              - In[26]:7
+        location: model_files/ov-v40237-wgts/model_4.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 52.24 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[27]:12
+              - In[27]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[27]:8
+              - In[27]:4
+              - In[27]:7
+        location: model_files/ov-v40334-wgts/model_0.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 43.44 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[27]:12
+              - In[27]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[27]:8
+              - In[27]:4
+              - In[27]:7
+        location: model_files/ov-v40334-wgts/model_1.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 43.44 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[27]:12
+              - In[27]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[27]:8
+              - In[27]:4
+              - In[27]:7
+        location: model_files/ov-v40334-wgts/model_2.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 43.44 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[27]:12
+              - In[27]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[27]:8
+              - In[27]:4
+              - In[27]:7
+        location: model_files/ov-v40334-wgts/model_3.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 43.44 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[27]:12
+              - In[27]:13
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: notebooks/nullrecurrent-inference/NN_predictions.ipynb
+            line_no:
+              - In[27]:8
+              - In[27]:4
+              - In[27]:7
+        location: model_files/ov-v40334-wgts/model_4.h5
+        location_type: file system (saved in VCS)
+        location_set_from: hard coded
+        size: 43.44 MB
+  training:
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 32
+              - 30
+        location: data/Kaggle_RYOS_data/Kaggle_RYOS_trainset.csv
+        location_type: file system (saved in VCS)
+        location_set_from: readme file
+        size: 15.36 MB

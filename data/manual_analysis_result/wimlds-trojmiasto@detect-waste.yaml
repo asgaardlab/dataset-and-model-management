@@ -1,0 +1,4290 @@
+repository_name: wimlds-trojmiasto/detect-waste
+last_commit_date: 2022-11-22 10:13
+description: ' AI to Combat Environmental Pollution - detecting plastic waste in the
+  environment to combat environmental pollution and promote circular economy (Deep
+  Learning, PyTorch)'
+analyzing_commit_hash: 0a4367b121e4bfabdfb148b323090573ac2dadc2
+comment: Loaded model using torch.hub.load in detr/notebooks/BALOONS_finetuning_detr.ipynb@In[6]:1
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: classifier/train_resnet.py
+            line_no:
+              - 248
+              - 256
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: classifier/train_resnet.py
+            line_no:
+              - 243
+              - 246
+              - 247
+              - 222
+              - 221
+              - 19
+              - 26
+        location: <args.out>/classification_net.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and hard coded
+        size: null
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: detr/demo.py
+            line_no:
+              - 136
+              - 137
+              - 163
+              - 159
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: detr/demo.py
+            line_no:
+              - 222
+              - 219
+              - 214
+              - 136
+              - 128
+              - 262
+              - 260
+              - 259
+              - 20
+              - 36
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: detr/demo.py
+            line_no:
+              - 231
+              - 232
+              - 245
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: detr/demo.py
+            line_no:
+              - 222
+              - 219
+              - 214
+              - 231
+              - 227
+              - 264
+              - 260
+              - 259
+              - 20
+              - 36
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: detr/main.py
+            line_no:
+              - 214
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: detr/main.py
+            line_no:
+              - 213
+              - 124
+              - 313
+              - 310
+              - 308
+              - 26
+              - 66
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+        comment: The value passed through argument, however, the value was not set in the example execution
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: detr/main.py
+            line_no:
+              - 228
+              - 230
+              - 232
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: detr/main.py
+            line_no:
+              - 222
+              - 124
+              - 313
+              - 310
+              - 308
+              - 26
+              - 109
+          - file_path: detr/notebooks/BALOONS_finetuning_detr.ipynb
+            line_no:
+              - In[23]:4
+              - In[23]:8
+              - In[10]:12
+              - In[10]:13
+              - In[10]:2
+              - In[10]:3
+        location: https://dl.fbaipublicfiles.com/detr/detr-r50-e632da11.pth
+        location_type: online
+        location_set_from: argument
+        size: 158.90 MB
+
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 129
+              - 130
+              - 156
+              - 152
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 85
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/efficientdet_d0-f3276ba8.pth
+        location_type: online
+        location_set_from: config file
+        size: 15.1 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 129
+              - 130
+              - 156
+              - 152
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 97
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/efficientdet_d1-bb7e98fe.pth
+        location_type: online
+        location_set_from: config file
+        size: 25.7 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 129
+              - 130
+              - 156
+              - 152
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 157
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/resdet50_416-08676892.pth
+        location_type: online
+        location_set_from: config file
+        size: 105.67 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 129
+              - 130
+              - 156
+              - 152
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 382
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d0_34-f153e0cf.pth
+        location_type: online
+        location_set_from: config file
+        size: 15.11 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 129
+              - 130
+              - 156
+              - 152
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 392
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d1_40-a30f94af.pth
+        location_type: online
+        location_set_from: config file
+        size: 25.71 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 129
+              - 130
+              - 156
+              - 152
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 402
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d2_43-8107aa99.pth
+        location_type: online
+        location_set_from: config file
+        size: 31.37 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 129
+              - 130
+              - 156
+              - 152
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 412
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d3_47-0b525f35.pth
+        location_type: online
+        location_set_from: config file
+        size: 46.54 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 129
+              - 130
+              - 156
+              - 152
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 422
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d4_49-f56376d9.pth
+        location_type: online
+        location_set_from: config file
+        size: 79.93 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 129
+              - 130
+              - 156
+              - 152
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 432
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d5_51-c79f9be6.pth
+        location_type: online
+        location_set_from: config file
+        size: 129.51 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 129
+              - 130
+              - 156
+              - 152
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 443
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d6_52-4eda3773.pth
+        location_type: online
+        location_set_from: config file
+        size: 199.36 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 129
+              - 130
+              - 156
+              - 152
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 455
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d7_53-6d1d7a95.pth
+        location_type: online
+        location_set_from: config file
+        size: 199.36 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 129
+              - 130
+              - 156
+              - 152
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 468
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d7x-f390b87c.pth
+        location_type: online
+        location_set_from: config file
+        size: 296.24 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 129
+              - 130
+              - 156
+              - 152
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 484
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_lite0-f5f303a9.pth
+        location_type: online
+        location_set_from: config file
+        size: 12.65 MB
+
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 235
+              - 237
+              - 248
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 85
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/efficientdet_d0-f3276ba8.pth
+        location_type: online
+        location_set_from: config file
+        size: 15.1 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 235
+              - 237
+              - 248
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 97
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/efficientdet_d1-bb7e98fe.pth
+        location_type: online
+        location_set_from: config file
+        size: 25.7 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 235
+              - 237
+              - 248
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 157
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/resdet50_416-08676892.pth
+        location_type: online
+        location_set_from: config file
+        size: 105.67 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 235
+              - 237
+              - 248
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 382
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d0_34-f153e0cf.pth
+        location_type: online
+        location_set_from: config file
+        size: 15.11 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 235
+              - 237
+              - 248
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 392
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d1_40-a30f94af.pth
+        location_type: online
+        location_set_from: config file
+        size: 25.71 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 235
+              - 237
+              - 248
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 402
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d2_43-8107aa99.pth
+        location_type: online
+        location_set_from: config file
+        size: 31.37 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 235
+              - 237
+              - 248
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 412
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d3_47-0b525f35.pth
+        location_type: online
+        location_set_from: config file
+        size: 46.54 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 235
+              - 237
+              - 248
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 422
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d4_49-f56376d9.pth
+        location_type: online
+        location_set_from: config file
+        size: 79.93 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 235
+              - 237
+              - 248
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 432
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d5_51-c79f9be6.pth
+        location_type: online
+        location_set_from: config file
+        size: 129.51 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 235
+              - 237
+              - 248
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 443
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d6_52-4eda3773.pth
+        location_type: online
+        location_set_from: config file
+        size: 199.36 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 235
+              - 237
+              - 248
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 455
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d7_53-6d1d7a95.pth
+        location_type: online
+        location_set_from: config file
+        size: 199.36 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 235
+              - 237
+              - 248
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 468
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d7x-f390b87c.pth
+        location_type: online
+        location_set_from: config file
+        size: 296.24 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 235
+              - 237
+              - 248
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 484
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_lite0-f5f303a9.pth
+        location_type: online
+        location_set_from: config file
+        size: 12.65 MB
+
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 212
+          - file_path: efficientdet/pseudolabel.py
+            line_no:
+              - 57
+              - 59
+              - 103
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 85
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/efficientdet_d0-f3276ba8.pth
+        location_type: online
+        location_set_from: config file
+        size: 15.1 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 212
+          - file_path: efficientdet/pseudolabel.py
+            line_no:
+              - 57
+              - 59
+              - 103
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 97
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/efficientdet_d1-bb7e98fe.pth
+        location_type: online
+        location_set_from: config file
+        size: 25.7 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 212
+          - file_path: efficientdet/pseudolabel.py
+            line_no:
+              - 57
+              - 59
+              - 103
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 157
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/resdet50_416-08676892.pth
+        location_type: online
+        location_set_from: config file
+        size: 105.67 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 212
+          - file_path: efficientdet/pseudolabel.py
+            line_no:
+              - 57
+              - 59
+              - 103
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 382
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d0_34-f153e0cf.pth
+        location_type: online
+        location_set_from: config file
+        size: 15.11 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 212
+          - file_path: efficientdet/pseudolabel.py
+            line_no:
+              - 57
+              - 59
+              - 103
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 392
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d1_40-a30f94af.pth
+        location_type: online
+        location_set_from: config file
+        size: 25.71 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 212
+          - file_path: efficientdet/pseudolabel.py
+            line_no:
+              - 57
+              - 59
+              - 103
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 402
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d2_43-8107aa99.pth
+        location_type: online
+        location_set_from: config file
+        size: 31.37 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 212
+          - file_path: efficientdet/pseudolabel.py
+            line_no:
+              - 57
+              - 59
+              - 103
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 412
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d3_47-0b525f35.pth
+        location_type: online
+        location_set_from: config file
+        size: 46.54 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 212
+          - file_path: efficientdet/pseudolabel.py
+            line_no:
+              - 57
+              - 59
+              - 103
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 422
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d4_49-f56376d9.pth
+        location_type: online
+        location_set_from: config file
+        size: 79.93 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 212
+          - file_path: efficientdet/pseudolabel.py
+            line_no:
+              - 57
+              - 59
+              - 103
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 432
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d5_51-c79f9be6.pth
+        location_type: online
+        location_set_from: config file
+        size: 129.51 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 212
+          - file_path: efficientdet/pseudolabel.py
+            line_no:
+              - 57
+              - 59
+              - 103
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 443
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d6_52-4eda3773.pth
+        location_type: online
+        location_set_from: config file
+        size: 199.36 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 212
+          - file_path: efficientdet/pseudolabel.py
+            line_no:
+              - 57
+              - 59
+              - 103
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 455
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d7_53-6d1d7a95.pth
+        location_type: online
+        location_set_from: config file
+        size: 199.36 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 212
+          - file_path: efficientdet/pseudolabel.py
+            line_no:
+              - 57
+              - 59
+              - 103
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 468
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d7x-f390b87c.pth
+        location_type: online
+        location_set_from: config file
+        size: 296.24 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+          - file_path: efficientdet/demo.py
+            line_no:
+              - 215
+              - 227
+              - 212
+          - file_path: efficientdet/pseudolabel.py
+            line_no:
+              - 57
+              - 59
+              - 103
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 484
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_lite0-f5f303a9.pth
+        location_type: online
+        location_set_from: config file
+        size: 12.65 MB
+
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/train.py
+            line_no:
+              - 288
+              - 419
+              - 520
+              - 530
+              - 543
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 85
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/efficientdet_d0-f3276ba8.pth
+        location_type: online
+        location_set_from: config file
+        size: 15.1 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/train.py
+            line_no:
+              - 288
+              - 419
+              - 520
+              - 530
+              - 543
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 97
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/efficientdet_d1-bb7e98fe.pth
+        location_type: online
+        location_set_from: config file
+        size: 25.7 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/train.py
+            line_no:
+              - 288
+              - 419
+              - 520
+              - 530
+              - 543
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 157
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/resdet50_416-08676892.pth
+        location_type: online
+        location_set_from: config file
+        size: 105.67 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/train.py
+            line_no:
+              - 288
+              - 419
+              - 520
+              - 530
+              - 543
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 382
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d0_34-f153e0cf.pth
+        location_type: online
+        location_set_from: config file
+        size: 15.11 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/train.py
+            line_no:
+              - 288
+              - 419
+              - 520
+              - 530
+              - 543
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 392
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d1_40-a30f94af.pth
+        location_type: online
+        location_set_from: config file
+        size: 25.71 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/train.py
+            line_no:
+              - 288
+              - 419
+              - 520
+              - 530
+              - 543
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 402
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d2_43-8107aa99.pth
+        location_type: online
+        location_set_from: config file
+        size: 31.37 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/train.py
+            line_no:
+              - 288
+              - 419
+              - 520
+              - 530
+              - 543
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 412
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d3_47-0b525f35.pth
+        location_type: online
+        location_set_from: config file
+        size: 46.54 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/train.py
+            line_no:
+              - 288
+              - 419
+              - 520
+              - 530
+              - 543
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 422
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d4_49-f56376d9.pth
+        location_type: online
+        location_set_from: config file
+        size: 79.93 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/train.py
+            line_no:
+              - 288
+              - 419
+              - 520
+              - 530
+              - 543
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 432
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d5_51-c79f9be6.pth
+        location_type: online
+        location_set_from: config file
+        size: 129.51 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/train.py
+            line_no:
+              - 288
+              - 419
+              - 520
+              - 530
+              - 543
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 443
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d6_52-4eda3773.pth
+        location_type: online
+        location_set_from: config file
+        size: 199.36 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/train.py
+            line_no:
+              - 288
+              - 419
+              - 520
+              - 530
+              - 543
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 455
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d7_53-6d1d7a95.pth
+        location_type: online
+        location_set_from: config file
+        size: 199.36 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/train.py
+            line_no:
+              - 288
+              - 419
+              - 520
+              - 530
+              - 543
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 468
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d7x-f390b87c.pth
+        location_type: online
+        location_set_from: config file
+        size: 296.24 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/train.py
+            line_no:
+              - 288
+              - 419
+              - 520
+              - 530
+              - 543
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 484
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_lite0-f5f303a9.pth
+        location_type: online
+        location_set_from: config file
+        size: 12.65 MB
+
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/validate.py
+            line_no:
+              - 112
+              - 155
+              - 162
+              - 171
+        model_load_purpose: testing
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 85
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/efficientdet_d0-f3276ba8.pth
+        location_type: online
+        location_set_from: config file
+        size: 15.1 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/validate.py
+            line_no:
+              - 112
+              - 155
+              - 162
+              - 171
+        model_load_purpose: testing
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 97
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/efficientdet_d1-bb7e98fe.pth
+        location_type: online
+        location_set_from: config file
+        size: 25.7 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/validate.py
+            line_no:
+              - 112
+              - 155
+              - 162
+              - 171
+        model_load_purpose: testing
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 157
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/resdet50_416-08676892.pth
+        location_type: online
+        location_set_from: config file
+        size: 105.67 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/validate.py
+            line_no:
+              - 112
+              - 155
+              - 162
+              - 171
+        model_load_purpose: testing
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 382
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d0_34-f153e0cf.pth
+        location_type: online
+        location_set_from: config file
+        size: 15.11 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/validate.py
+            line_no:
+              - 112
+              - 155
+              - 162
+              - 171
+        model_load_purpose: testing
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 392
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d1_40-a30f94af.pth
+        location_type: online
+        location_set_from: config file
+        size: 25.71 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/validate.py
+            line_no:
+              - 112
+              - 155
+              - 162
+              - 171
+        model_load_purpose: testing
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 402
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d2_43-8107aa99.pth
+        location_type: online
+        location_set_from: config file
+        size: 31.37 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/validate.py
+            line_no:
+              - 112
+              - 155
+              - 162
+              - 171
+        model_load_purpose: testing
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 412
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d3_47-0b525f35.pth
+        location_type: online
+        location_set_from: config file
+        size: 46.54 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/validate.py
+            line_no:
+              - 112
+              - 155
+              - 162
+              - 171
+        model_load_purpose: testing
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 422
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d4_49-f56376d9.pth
+        location_type: online
+        location_set_from: config file
+        size: 79.93 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/validate.py
+            line_no:
+              - 112
+              - 155
+              - 162
+              - 171
+        model_load_purpose: testing
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 432
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d5_51-c79f9be6.pth
+        location_type: online
+        location_set_from: config file
+        size: 129.51 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/validate.py
+            line_no:
+              - 112
+              - 155
+              - 162
+              - 171
+        model_load_purpose: testing
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 443
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d6_52-4eda3773.pth
+        location_type: online
+        location_set_from: config file
+        size: 199.36 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/validate.py
+            line_no:
+              - 112
+              - 155
+              - 162
+              - 171
+        model_load_purpose: testing
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 455
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d7_53-6d1d7a95.pth
+        location_type: online
+        location_set_from: config file
+        size: 199.36 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/validate.py
+            line_no:
+              - 112
+              - 155
+              - 162
+              - 171
+        model_load_purpose: testing
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 468
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_d7x-f390b87c.pth
+        location_type: online
+        location_set_from: config file
+        size: 296.24 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 54
+              - 12
+              - 7
+          - file_path: efficientdet/validate.py
+            line_no:
+              - 112
+              - 155
+              - 162
+              - 171
+        model_load_purpose: testing
+        location_trace:
+          - file_path: efficientdet/effdet/helpers.py
+            line_no:
+              - 22
+              - 19
+              - 14
+          - file_path: efficientdet/effdet/factory.py
+            line_no:
+              - 39
+              - 18
+              - 12
+              - 13
+              - 11
+          - file_path: efficientdet/effdet/config/model_config.py
+            line_no:
+              - 533
+              - 538
+              - 535
+              - 536
+              - 73
+              - 484
+        location: https://github.com/rwightman/efficientdet-pytorch/releases/download/v0.1/tf_efficientdet_lite0-f5f303a9.pth
+        location_type: online
+        location_set_from: config file
+        size: 12.65 MB
+
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: MaskRCNN/train.py
+            line_no:
+              - 214
+          - file_path: MaskRCNN/engine.py
+            line_no:
+              - 81
+              - 87
+              - 101
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: MaskRCNN/train.py
+            line_no:
+              - 202
+              - 201
+              - 138
+              - 137
+              - 18
+              - 34
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: MaskRCNN/train.py
+            line_no:
+              - 220
+          - file_path: MaskRCNN/engine.py
+            line_no:
+              - 17
+              - 20
+              - 39
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: MaskRCNN/train.py
+            line_no:
+              - 202
+              - 201
+              - 138
+              - 137
+              - 18
+              - 34
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: detr/main.py
+            line_no:
+              - 257
+              - 268
+          - file_path: detr/notebooks/BALOONS_finetuning_detr.ipynb
+            line_no:
+              - In[23]:4
+              - In[23]:7
+        model_load_purpose_trace:
+          - file_path: detr/notebooks/BALOONS_finetuning_detr.ipynb
+            line_no:
+              - In[29]:6
+              - In[29]:7
+              - In[28]:1
+              - In[28]:6
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: detr/notebooks/BALOONS_finetuning_detr.ipynb
+            line_no:
+              - In[26]:9
+              - In[26]:6
+        location: /dih4/dih4_2/wimlds/smajchrowska/detr/outputs_ballons/checkpoint.pth
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: FastRCNN/FastRCNNPredictor.ipynb
+            line_no:
+              - In[3]:4
+              - In[15]:1
+        model_load_purpose_trace:
+          - file_path: FastRCNN/FastRCNNPredictor.ipynb
+            line_no:
+              - In[17]:4
+              - In[17]:6
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: FastRCNN/FastRCNNPredictor.ipynb
+            line_no:
+              - In[16]:2
+              - In[3]:4
+        location: ../../FastRCNN/mkortas/detect-waste/models/model
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded and program variable
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: MaskRCNN/train.py
+            line_no:
+              - 225
+              - 229
+              - 149
+              - 138
+              - 137
+              - 18
+              - 21
+              - 23
+        model_load_purpose_trace:
+          - file_path: MaskRCNN/notebooks/eval.ipynb
+            line_no:
+              - In[4]:7
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: MaskRCNN/notebooks/eval.ipynb
+            line_no:
+              - In[4]:6
+              - In[4]:5
+              - In[2]:1
+        location: /dih4/dih4_2/wimlds/smajchrowska/maskrcnn_RN50/checkpoint_20.pth
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: classifier/train_effnet.py
+            line_no:
+              - 167
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: classifier/train_effnet.py
+            line_no:
+              - 171
+              - 89
+              - 178
+              - 176
+              - 175
+              - 20
+              - 30
+              - 32
+        save_location: /dih4/dih4_2/wimlds/smajchrowska/classifier/effnet.ckpt
+        save_location_set_from: argument
+      dataset:
+        location_trace:
+          - file_path: classifier/train_effnet.py
+            line_no:
+              - 119
+              - 109
+              - 90
+              - 89
+              - 178
+              - 176
+              - 175
+              - 20
+              - 26
+              - 28
+        location: /dih4/dih4_2/wimlds/amikolajczyk/detect-waste/classifier/images_square/train
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: argument and hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: detr/engine.py
+            line_no:
+              - 33
+          - file_path: detr/main.py
+            line_no:
+              - 252
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: detr/main.py
+            line_no:
+              - 268
+              - 261
+              - 257
+              - 216
+              - 124
+              - 313
+              - 310
+              - 308
+              - 26
+              - 102
+        save_location: checkpoint.pth
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: detr/engine.py
+            line_no:
+              - 29
+              - 18
+          - file_path: detr/main.py
+            line_no:
+              - 252
+              - 253
+              - 198
+              - 182
+              - 124
+              - 313
+              - 310
+              - 308
+              - 309
+              - 26
+              - 97
+          - file_path: detr/datasets/__init__.py
+            line_no:
+              - 19
+              - 21
+          - file_path: detr/datasets/coco.py
+            line_no:
+              - 195
+              - 210
+              - 207
+              - 206
+              - 199
+              - 200
+              - 196
+              - 195
+          - file_path: detr/notebooks/BALOONS_finetuning_detr.ipynb
+            line_no:
+              - In[23]:4
+              - In[23]:6
+              - In[15]:1
+        location: /dih4/dih4_2/wimlds/smajchrowska/detr/balloon/train2017
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: argument and hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: detr/engine.py
+            line_no:
+              - 33
+          - file_path: detr/main.py
+            line_no:
+              - 252
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: detr/main.py
+            line_no:
+              - 268
+              - 261
+              - 257
+              - 216
+              - 124
+              - 313
+              - 310
+              - 308
+              - 26
+              - 102
+        save_location: checkpoint.pth
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: detr/engine.py
+            line_no:
+              - 29
+              - 18
+          - file_path: detr/main.py
+            line_no:
+              - 252
+              - 253
+              - 198
+              - 182
+              - 124
+              - 313
+              - 310
+              - 308
+              - 309
+              - 26
+              - 97
+          - file_path: detr/datasets/__init__.py
+            line_no:
+              - 19
+              - 23
+          - file_path: detr/datasets/coco.py
+            line_no:
+              - 172
+              - 192
+              - 189
+              - 188
+              - 183
+              - 177
+              - 173
+          - file_path: detr/notebooks/BALOONS_finetuning_detr.ipynb
+            line_no:
+              - In[23]:4
+              - In[23]:6
+              - In[15]:1
+        location: /dih4/dih4_2/wimlds/smajchrowska/detr/balloon/
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: argument and hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: detr/engine.py
+            line_no:
+              - 33
+          - file_path: detr/main.py
+            line_no:
+              - 252
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: detr/main.py
+            line_no:
+              - 268
+              - 261
+              - 257
+              - 216
+              - 124
+              - 313
+              - 310
+              - 308
+              - 26
+              - 102
+        save_location: checkpoint.pth
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: detr/engine.py
+            line_no:
+              - 29
+              - 18
+          - file_path: detr/main.py
+            line_no:
+              - 252
+              - 253
+              - 198
+              - 182
+              - 124
+              - 313
+              - 310
+              - 308
+              - 309
+              - 26
+              - 97
+          - file_path: detr/datasets/__init__.py
+            line_no:
+              - 19
+              - 25
+          - file_path: detr/datasets/coco.py
+            line_no:
+              - 147
+              - 169
+              - 166
+              - 165
+              - 151
+              - 157
+              - 152
+              - 158
+              - 148
+          - file_path: detr/notebooks/BALOONS_finetuning_detr.ipynb
+            line_no:
+              - In[23]:4
+              - In[23]:6
+              - In[15]:1
+        location: /dih4/dih4_2/wimlds/smajchrowska/detr/balloon/
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: argument and hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: detr/engine.py
+            line_no:
+              - 33
+          - file_path: detr/main.py
+            line_no:
+              - 252
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: detr/main.py
+            line_no:
+              - 268
+              - 261
+              - 257
+              - 216
+              - 124
+              - 313
+              - 310
+              - 308
+              - 26
+              - 102
+        save_location: checkpoint.pth
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: detr/engine.py
+            line_no:
+              - 29
+              - 18
+          - file_path: detr/main.py
+            line_no:
+              - 252
+              - 253
+              - 198
+              - 182
+              - 124
+              - 313
+              - 310
+              - 308
+              - 309
+              - 26
+              - 97
+          - file_path: detr/datasets/__init__.py
+            line_no:
+              - 19
+              - 29
+          - file_path: detr/datasets/coco_panoptic.py
+            line_no:
+              - 80
+              - 99
+              - 96
+              - 92
+              - 81
+              - 91
+              - 86
+              - 87
+          - file_path: detr/notebooks/BALOONS_finetuning_detr.ipynb
+            line_no:
+              - In[23]:4
+              - In[23]:6
+              - In[15]:1
+        location: /dih4/dih4_2/wimlds/smajchrowska/detr/balloon/train2017
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: argument and hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 530
+              - 543
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: online
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 535
+              - 521
+              - 419
+              - 420
+              - 381
+              - 464
+              - 517
+              - 475
+              - 476
+              - 467
+          - file_path: efficientdet/effdet/data/dataset_factory.py
+            line_no:
+              - 19
+              - 85
+              - 84
+              - 25
+              - 40
+              - 41
+              - 23
+              - 34
+              - 77
+              - 78
+              - 72
+          - file_path: efficientdet/effdet/data/dataset_config.py
+            line_no:
+              - 27
+              - 45
+              - 63
+              - 81
+              - 99
+              - 117
+              - 135
+              - 153
+              - 171
+              - 189
+          - file_path: README.md
+            line_no:
+              - 22
+              - 32
+              - 38
+              - 40
+              - 43
+              - 49
+              - 54
+              - 59
+              - 63
+              - 69
+              - 76
+              - 81
+              - 87
+        location: https://github.com/pedropro/TACO/blob/master/data/all_image_urls.csv
+        location_type: online
+        location_set_from: readme file
+        size: 7086.21 MB
+        comment: The csv file contains list of urls of images. Calculated size of the images from the urls. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 530
+              - 543
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: online
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 535
+              - 521
+              - 419
+              - 420
+              - 381
+              - 464
+              - 517
+              - 475
+              - 476
+              - 467
+          - file_path: efficientdet/effdet/data/dataset_factory.py
+            line_no:
+              - 19
+              - 85
+              - 84
+              - 25
+              - 40
+              - 41
+              - 23
+              - 34
+              - 77
+              - 78
+              - 72
+          - file_path: efficientdet/effdet/data/dataset_config.py
+            line_no:
+              - 27
+              - 45
+              - 63
+              - 81
+              - 99
+              - 117
+              - 135
+              - 153
+              - 171
+              - 189
+          - file_path: README.md
+            line_no:
+              - 22
+              - 32
+              - 38
+              - 40
+              - 43
+              - 49
+              - 54
+              - 59
+              - 63
+              - 69
+              - 76
+              - 81
+              - 87
+        location: https://github.com/PUTvision/UAVVaste/blob/main/annotations/flickurls.csv
+        location_type: online
+        location_set_from: readme file
+        size: 2878.15 MB
+        comment: The csv file contains list of urls of images. Calculated size of the images from the urls. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 530
+              - 543
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: online
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 535
+              - 521
+              - 419
+              - 420
+              - 381
+              - 464
+              - 517
+              - 475
+              - 476
+              - 467
+          - file_path: efficientdet/effdet/data/dataset_factory.py
+            line_no:
+              - 19
+              - 85
+              - 84
+              - 25
+              - 40
+              - 41
+              - 23
+              - 34
+              - 77
+              - 78
+              - 72
+          - file_path: efficientdet/effdet/data/dataset_config.py
+            line_no:
+              - 27
+              - 45
+              - 63
+              - 81
+              - 99
+              - 117
+              - 135
+              - 153
+              - 171
+              - 189
+          - file_path: README.md
+            line_no:
+              - 22
+              - 32
+              - 38
+              - 40
+              - 43
+              - 49
+              - 54
+              - 59
+              - 63
+              - 69
+              - 76
+              - 81
+              - 87
+        location: https://conservancy.umn.edu/bitstream/handle/11299/214865/dataset.zip?sequence=12&isAllowed=y
+        location_type: online
+        location_set_from: readme file
+        size: 527 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 530
+              - 543
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: online
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 535
+              - 521
+              - 419
+              - 420
+              - 381
+              - 464
+              - 517
+              - 475
+              - 476
+              - 467
+          - file_path: efficientdet/effdet/data/dataset_factory.py
+            line_no:
+              - 19
+              - 85
+              - 84
+              - 25
+              - 40
+              - 41
+              - 23
+              - 34
+              - 77
+              - 78
+              - 72
+          - file_path: efficientdet/effdet/data/dataset_config.py
+            line_no:
+              - 27
+              - 45
+              - 63
+              - 81
+              - 99
+              - 117
+              - 135
+              - 153
+              - 171
+              - 189
+          - file_path: README.md
+            line_no:
+              - 22
+              - 32
+              - 38
+              - 40
+              - 43
+              - 49
+              - 54
+              - 59
+              - 63
+              - 69
+              - 76
+              - 81
+              - 87
+        location: https://conservancy.umn.edu/bitstream/handle/11299/214366/trash_ICRA19.zip?sequence=12&isAllowed=y
+        location_type: online
+        location_set_from: readme file
+        size: 980 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 530
+              - 543
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: online
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 535
+              - 521
+              - 419
+              - 420
+              - 381
+              - 464
+              - 517
+              - 475
+              - 476
+              - 467
+          - file_path: efficientdet/effdet/data/dataset_factory.py
+            line_no:
+              - 19
+              - 85
+              - 84
+              - 25
+              - 40
+              - 41
+              - 23
+              - 34
+              - 77
+              - 78
+              - 72
+          - file_path: efficientdet/effdet/data/dataset_config.py
+            line_no:
+              - 27
+              - 45
+              - 63
+              - 81
+              - 99
+              - 117
+              - 135
+              - 153
+              - 171
+              - 189
+          - file_path: README.md
+            line_no:
+              - 22
+              - 32
+              - 38
+              - 40
+              - 43
+              - 49
+              - 54
+              - 59
+              - 63
+              - 69
+              - 76
+              - 81
+              - 87
+        location: https://drive.google.com/file/d/1o101UBJGeeMPpI-DSY6oh-tLk9AHXMny&export=download
+        location_type: online
+        location_set_from: readme file
+        size: null
+        comment: Got 404. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 530
+              - 543
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: online
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 535
+              - 521
+              - 419
+              - 420
+              - 381
+              - 464
+              - 517
+              - 475
+              - 476
+              - 467
+          - file_path: efficientdet/effdet/data/dataset_factory.py
+            line_no:
+              - 19
+              - 85
+              - 84
+              - 25
+              - 40
+              - 41
+              - 23
+              - 34
+              - 77
+              - 78
+              - 72
+          - file_path: efficientdet/effdet/data/dataset_config.py
+            line_no:
+              - 27
+              - 45
+              - 63
+              - 81
+              - 99
+              - 117
+              - 135
+              - 153
+              - 171
+              - 189
+          - file_path: README.md
+            line_no:
+              - 22
+              - 32
+              - 38
+              - 40
+              - 43
+              - 49
+              - 54
+              - 59
+              - 63
+              - 69
+              - 76
+              - 81
+              - 87
+        location: https://www.kaggle.com/datasets/arkadiyhacks/drinking-waste-classification/download?datasetVersionNumber=2
+        location_type: online
+        location_set_from: readme file
+        size: 1536 MB
+        comment: Need to sign in to download the dataset. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 530
+              - 543
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: online
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 535
+              - 521
+              - 419
+              - 420
+              - 381
+              - 464
+              - 517
+              - 475
+              - 476
+              - 467
+          - file_path: efficientdet/effdet/data/dataset_factory.py
+            line_no:
+              - 19
+              - 85
+              - 84
+              - 25
+              - 40
+              - 41
+              - 23
+              - 34
+              - 77
+              - 78
+              - 72
+          - file_path: efficientdet/effdet/data/dataset_config.py
+            line_no:
+              - 27
+              - 45
+              - 63
+              - 81
+              - 99
+              - 117
+              - 135
+              - 153
+              - 171
+              - 189
+          - file_path: README.md
+            line_no:
+              - 22
+              - 32
+              - 38
+              - 40
+              - 43
+              - 49
+              - 54
+              - 59
+              - 63
+              - 69
+              - 76
+              - 81
+              - 87
+        location: https://github.com/majsylw/wade-ai/tree/coco-annotation/Trash_Detection/trash/dataset
+        location_type: online
+        location_set_from: readme file
+        size: 720 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 530
+              - 543
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: online
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 535
+              - 521
+              - 419
+              - 420
+              - 381
+              - 464
+              - 517
+              - 475
+              - 476
+              - 467
+          - file_path: efficientdet/effdet/data/dataset_factory.py
+            line_no:
+              - 19
+              - 85
+              - 84
+              - 25
+              - 40
+              - 41
+              - 23
+              - 34
+              - 77
+              - 78
+              - 72
+          - file_path: efficientdet/effdet/data/dataset_config.py
+            line_no:
+              - 27
+              - 45
+              - 63
+              - 81
+              - 99
+              - 117
+              - 135
+              - 153
+              - 171
+              - 189
+          - file_path: README.md
+            line_no:
+              - 22
+              - 32
+              - 38
+              - 40
+              - 43
+              - 49
+              - 54
+              - 59
+              - 63
+              - 69
+              - 76
+              - 81
+              - 87
+        location: https://github.com/garythung/trashnet
+        location_type: online
+        location_set_from: readme file
+        size: 40.97 MB
+        comment: Url provides the landing page only. Calculated the size of the 'data' directory. Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 530
+              - 543
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: online
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: efficientdet/train.py
+            line_no:
+              - 535
+              - 521
+              - 419
+              - 420
+              - 381
+              - 464
+              - 517
+              - 475
+              - 476
+              - 467
+          - file_path: efficientdet/effdet/data/dataset_factory.py
+            line_no:
+              - 19
+              - 85
+              - 84
+              - 25
+              - 40
+              - 41
+              - 23
+              - 34
+              - 77
+              - 78
+              - 72
+          - file_path: efficientdet/effdet/data/dataset_config.py
+            line_no:
+              - 27
+              - 45
+              - 63
+              - 81
+              - 99
+              - 117
+              - 135
+              - 153
+              - 171
+              - 189
+          - file_path: README.md
+            line_no:
+              - 22
+              - 32
+              - 38
+              - 40
+              - 43
+              - 49
+              - 54
+              - 59
+              - 63
+              - 69
+              - 76
+              - 81
+              - 87
+        location: https://www.kaggle.com/datasets/wangziang/waste-pictures
+        location_type: online
+        location_set_from: readme file
+        size: 2048 MB
+        comment: Used multiple dataset for the training.
+    - model:
+        training_trace:
+          - file_path: MaskRCNN/engine.py
+            line_no:
+              - 39
+              - 20
+        is_resume_from_checkpoint: conditional yes
+        resume_from_checkpoint_location_type: unknown
+        save_location_trace:
+          - file_path: MaskRCNN/train.py
+            line_no:
+              - 225
+              - 227
+              - 229
+              - 149
+              - 138
+              - 137
+              - 18
+              - 21
+        save_location: /dih4/dih4_2/wimlds/smajchrowska/checkpoint<epoch>.pth
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: MaskRCNN/engine.py
+            line_no:
+              - 34
+              - 17
+          - file_path: MaskRCNN/train.py
+            line_no:
+              - 220
+              - 159
+              - 153
+              - 138
+              - 137
+              - 18
+              - 25
+              - 27
+          - file_path: MaskRCNN/data.py
+            line_no:
+              - 196
+              - 210
+              - 207
+              - 206
+              - 198
+              - 196
+        location: /dih4/dih4_2/wimlds/data/all_detect_images
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: argument
+        size: null
+    - model:
+        training_trace:
+          - file_path: classifier/train_resnet.py
+            line_no:
+              - 173
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: classifier/train_resnet.py
+            line_no:
+              - 215
+              - 214
+              - 152
+              - 272
+              - 222
+              - 221
+              - 19
+              - 26
+        save_location: <out>/classification_ResNet50.pth
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: classifier/train_resnet.py
+            line_no:
+              - 34
+              - 17
+          - file_path: MaskRCNN/train.py
+            line_no:
+              - 169
+              - 154
+              - 152
+              - 272
+              - 222
+              - 221
+              - 19
+              - 23
+        location: unknown
+        location_type: unknown
+        location_set_from: argument
+        size: null
+    - model:
+        training_trace:
+          - file_path: FastRCNN/FastRCNNPredictor.ipynb
+            line_no:
+              - In[14]:3
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: library api
+        save_location_trace:
+          - file_path: FastRCNN/FastRCNNPredictor.ipynb
+            line_no:
+              - In[15]:1
+              - In[3]:4
+        save_location: ../../FastRCNN/mkortas/detect-waste/models/model
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: FastRCNN/FastRCNNPredictor.ipynb
+            line_no:
+              - In[12]:9
+              - In[12]:10
+              - In[12]:1
+              - In[3]:3
+        location: ../../FastRCNN/TACO-master/data/
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded and program variable
+        size: null

@@ -1,0 +1,140 @@
+repository_name: miha-skalic/youtube8mchallenge
+last_commit_date: 2022-12-08 2:22
+description: 1st place solution to Kaggle's 2018 YouTube-8M Video Understanding Challenge
+analyzing_commit_hash: 65f20e9760ecb582e746e2a16cef6898a0ab6270
+comment: ''
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: eval_custom.py
+            line_no:
+              - 163
+              - 165
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: eval_custom.py
+            line_no:
+              - 136
+              - 105
+              - 21
+              - 25
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: train.py
+            line_no:
+              - 484
+              - 290
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: train.py
+            line_no:
+              - 554
+              - 553
+              - 402
+              - 388
+              - 756
+              - 36
+              - 40
+        save_location: /tmp/yt8m_model/model.ckpt
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: train.py
+            line_no:
+              - 291
+              - 276
+              - 274
+              - 263
+              - 147
+              - 188
+              - 183
+              - 182
+              - 179
+              - 172
+              - 203
+              - 644
+              - 43
+          - file_path: README.md
+            line_no:
+              - 59
+              - 55
+        location: data/frame/train/*.tfrecord
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: train_distill.py
+            line_no:
+              - 484
+              - 290
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: train.py
+            line_no:
+              - 554
+              - 553
+              - 402
+              - 388
+              - 756
+              - 36
+              - 40
+        save_location: /tmp/yt8m_model/model.ckpt
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: train_distill.py
+            line_no:
+              - 291
+              - 276
+              - 274
+              - 263
+              - 147
+              - 188
+              - 183
+              - 182
+              - 179
+              - 172
+              - 203
+              - 644
+              - 43
+          - file_path: README.md
+            line_no:
+              - 59
+              - 55
+        location: data/frame/train/*.tfrecord
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null
+    - model:
+        training_trace:
+          - file_path: quantize.py
+            line_no:
+              - 115
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: quantize.py
+            line_no:
+              - 67
+              - 39
+              - 55
+              - 48
+              - 45
+              - 44
+              - 28
+              - 22
+        location: unknown
+        location_type: unknown
+        location_set_from: argument
+        size: null
+        comment: The model is the dataset here. The weights of the models are used for training to do model quantization.

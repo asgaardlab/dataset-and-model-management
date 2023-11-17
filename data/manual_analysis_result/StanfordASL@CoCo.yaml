@@ -1,0 +1,689 @@
+repository_name: StanfordASL/CoCo
+last_commit_date: 2023-02-10 23:09
+description: .nan
+analyzing_commit_hash: 2f1f0a32a91c3417871308bab6918d1876d66392
+comment: Implementation of paper
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: cartpole_dev.ipynb
+            line_no:
+              - In[4]:5
+          - file_path: solvers/coco.py
+            line_no:
+              - 113
+              - 117
+              - 186
+        model_load_purpose_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 128
+              - 154
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 116
+              - 113
+          - file_path: cartpole_dev.ipynb
+            line_no:
+              - In[4]:4
+        location: models/mlopt_cartpole_20210118_1806.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: cartpole_dev.ipynb
+            line_no:
+              - In[4]:5
+          - file_path: solvers/coco.py
+            line_no:
+              - 113
+              - 117
+              - 186
+        model_load_purpose_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 128
+              - 154
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 116
+              - 113
+          - file_path: cartpole_dev.ipynb
+            line_no:
+              - In[4]:3
+        location: models/mlopt_cartpole_20200708_1029.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[9]:5
+              - In[9]:7
+          - file_path: solvers/coco_ff.py
+            line_no:
+              - 248
+              - 41
+              - 148
+        model_load_purpose_trace:
+          - file_path: solvers/coco_ff.py
+            line_no:
+              - 159
+              - 201
+              - 203
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: solvers/coco_ff.py
+            line_no:
+              - 147
+              - 144
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[9]:7
+              - In[9]:5
+        location: models/CoCoFF_free_flyer_20210125_0808.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[9]:5
+              - In[9]:7
+          - file_path: solvers/coco_ff.py
+            line_no:
+              - 248
+              - 41
+              - 148
+        model_load_purpose_trace:
+          - file_path: solvers/coco_ff.py
+            line_no:
+              - 159
+              - 201
+              - 203
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: solvers/coco_ff.py
+            line_no:
+              - 147
+              - 144
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[9]:7
+              - In[9]:4
+        location: models/mloptff_free_flyer_20200716_0708.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[9]:5
+              - In[9]:7
+          - file_path: solvers/coco_ff.py
+            line_no:
+              - 248
+              - 41
+              - 148
+        model_load_purpose_trace:
+          - file_path: solvers/coco_ff.py
+            line_no:
+              - 159
+              - 201
+              - 203
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: solvers/coco_ff.py
+            line_no:
+              - 147
+              - 144
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[9]:7
+              - In[9]:3
+        location: models/mloptff_free_flyer_20200706_0823.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: cartpole_dev.ipynb
+            line_no:
+              - In[6]:4
+              - In[6]:5
+          - file_path: solvers/regression.py
+            line_no:
+              - 103
+              - 107
+              - 175
+        model_load_purpose_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 145
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 106
+              - 103
+          - file_path: cartpole_dev.ipynb
+            line_no:
+              - In[6]:5
+              - In[6]:4
+        location: models/regression_cartpole_20210118_1832.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: cartpole_dev.ipynb
+            line_no:
+              - In[6]:3
+              - In[6]:5
+          - file_path: solvers/regression.py
+            line_no:
+              - 103
+              - 107
+              - 175
+        model_load_purpose_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 145
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 106
+              - 103
+          - file_path: cartpole_dev.ipynb
+            line_no:
+              - In[6]:5
+              - In[6]:3
+        location: models/regression_cartpole_20200708_1029.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[4]:3
+              - In[4]:4
+          - file_path: solvers/regression.py
+            line_no:
+              - 103
+              - 107
+              - 175
+        model_load_purpose_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 145
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 106
+              - 103
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[4]:4
+              - In[4]:3
+        location: models/regression_free_flyer_20200708_0809.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[6]:5
+          - file_path: solvers/coco.py
+            line_no:
+              - 113
+              - 117
+              - 186
+        model_load_purpose_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 128
+              - 154
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 116
+              - 113
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[6]:5
+              - In[6]:3
+        location: mlopt_free_flyer_20200707_1425.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: manipulation_dev.ipynb
+            line_no:
+              - In[4]:4
+          - file_path: solvers/coco.py
+            line_no:
+              - 113
+              - 117
+              - 186
+        model_load_purpose_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 128
+              - 154
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 116
+              - 113
+          - file_path: manipulation_dev.ipynb
+            line_no:
+              - In[4]:5
+              - In[4]:4
+        location: models/mlopt_manipulation_20210119_0636.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: manipulation_dev.ipynb
+            line_no:
+              - In[4]:4
+          - file_path: solvers/coco.py
+            line_no:
+              - 113
+              - 117
+              - 186
+        model_load_purpose_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 128
+              - 154
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 116
+              - 113
+          - file_path: manipulation_dev.ipynb
+            line_no:
+              - In[4]:5
+              - In[4]:3
+        location: models/mlopt_manipulation_20200710_1158.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: manipulation_dev.ipynb
+            line_no:
+              - In[6]:3
+              - In[6]:4
+          - file_path: solvers/regression.py
+            line_no:
+              - 103
+              - 107
+              - 175
+        model_load_purpose_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 145
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 106
+              - 103
+          - file_path: manipulation_dev.ipynb
+            line_no:
+              - In[6]:4
+              - In[6]:3
+        location: models/regression_manipulation_20210119_1057.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 154
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 179
+              - 186
+              - 40
+              - 117
+          - file_path: cartpole_dev.ipynb
+            line_no:
+              - In[4]:5
+              - In[4]:4
+        save_location: models/mlopt_cartpole_20210118_1806.pt
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 150
+              - 130
+              - 78
+              - 95
+              - 36
+              - 24
+          - file_path: cartpole_dev.ipynb
+            line_no:
+              - In[3]:5
+              - In[3]:8
+              - In[2]:12
+              - In[2]:11
+              - In[2]:9
+              - In[2]:8
+              - In[2]:6
+              - In[2]:5
+              - In[2]:3
+        location: cartpole/data/default/train.p
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 0.09 MB
+    - model:
+        training_trace:
+          - file_path: solvers/coco_ff.py
+            line_no:
+              - 201
+              - 203
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: solvers/coco_ff.py
+            line_no:
+              - 241
+              - 248
+              - 41
+              - 148
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[9]:7
+              - In[9]:6
+        save_location: models/CoCoFF_free_flyer_20210125_0808.pt
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: solvers/coco_ff.py
+            line_no:
+              - 188
+              - 162
+              - 82
+              - 108
+              - 37
+              - 25
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[8]:8
+              - In[2]:13
+              - In[2]:11
+              - In[2]:9
+              - In[2]:8
+              - In[2]:6
+              - In[2]:5
+              - In[2]:3
+        location: free_flyer/data/default/train.p
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 0.16 MB
+    - model:
+        training_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 145
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 168
+              - 175
+              - 38
+              - 107
+              - 103
+          - file_path: cartpole_dev.ipynb
+            line_no:
+              - In[6]:5
+              - In[6]:4
+        save_location: models/regression_cartpole_20210118_1832.pt
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 141
+              - 120
+              - 75
+              - 48
+              - 85
+              - 35
+              - 24
+          - file_path: cartpole_dev.ipynb
+            line_no:
+              - In[5]:8
+              - In[2]:12
+              - In[2]:11
+              - In[2]:9
+              - In[2]:8
+              - In[2]:6
+              - In[2]:5
+              - In[2]:3
+        location: cartpole/data/default/train.p
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 0.09 MB
+    - model:
+        training_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 145
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 168
+              - 175
+              - 38
+              - 107
+              - 103
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[4]:4
+              - In[4]:3
+        save_location: models/regression_free_flyer_20200708_0809.pt
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 141
+              - 120
+              - 75
+              - 48
+              - 85
+              - 35
+              - 24
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[3]:8
+              - In[2]:13
+              - In[2]:11
+              - In[2]:9
+              - In[2]:8
+              - In[2]:6
+              - In[2]:5
+              - In[2]:3
+        location: free_flyer/data/default/train.p
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 0.16 MB
+    - model:
+        training_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 154
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 179
+              - 186
+              - 40
+              - 117
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[6]:5
+              - In[6]:3
+        save_location: mlopt_free_flyer_20200707_1425.pt
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 150
+              - 130
+              - 78
+              - 95
+              - 36
+              - 24
+          - file_path: free_flyer_dev.ipynb
+            line_no:
+              - In[5]:8
+              - In[2]:13
+              - In[2]:11
+              - In[2]:9
+              - In[2]:8
+              - In[2]:6
+              - In[2]:5
+              - In[2]:3
+        location: free_flyer/data/default/train.p
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 0.16 MB
+    - model:
+        training_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 154
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 179
+              - 186
+              - 40
+              - 117
+          - file_path: manipulation_dev.ipynb
+            line_no:
+              - In[4]:5
+              - In[4]:4
+        save_location: models/mlopt_manipulation_20210119_0636.pt
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: solvers/coco.py
+            line_no:
+              - 150
+              - 130
+              - 78
+              - 95
+              - 36
+              - 24
+          - file_path: manipulation_dev.ipynb
+            line_no:
+              - In[3]:8
+              - In[2]:12
+              - In[2]:11
+              - In[2]:9
+              - In[2]:8
+              - In[2]:6
+              - In[2]:5
+              - In[2]:3
+        location: manipulation/data/default/train.p
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 0.04 MB
+    - model:
+        training_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 145
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 168
+              - 175
+              - 38
+              - 107
+              - 103
+          - file_path: manipulation_dev.ipynb
+            line_no:
+              - In[6]:4
+              - In[6]:3
+        save_location: models/regression_manipulation_20210119_1057.pt
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: solvers/regression.py
+            line_no:
+              - 141
+              - 120
+              - 75
+              - 48
+              - 85
+              - 35
+              - 24
+          - file_path: manipulation_dev.ipynb
+            line_no:
+              - In[5]:8
+              - In[2]:12
+              - In[2]:11
+              - In[2]:9
+              - In[2]:8
+              - In[2]:6
+              - In[2]:5
+              - In[2]:3
+        location: manipulation/data/default/train.p
+        location_type: file system (saved in VCS)
+        location_set_from: config file
+        size: 0.04 MB

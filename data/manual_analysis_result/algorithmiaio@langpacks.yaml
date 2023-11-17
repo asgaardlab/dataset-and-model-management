@@ -1,0 +1,20 @@
+repository_name: algorithmiaio/langpacks
+last_commit_date: 2022-11-22 8:16
+description: Standardized builder and runners for Algorithmia algorithms
+analyzing_commit_hash: a05460a5a0d61d922fb6b59fadfd8ddfd990bdf9
+comment: Downloaded and loaded .onnx model using nvidia deep learning inference engine (tensorrt) in templates/tensorrt-6.0-cuda10.0/src/__ALGO__.py@13,10 for prediction
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        model_load_purpose: null
+        location_trace:
+          - file_path: templates/python39-mlops-fashionmnist/src/__ALGO__.py
+            line_no:
+              - 15
+              - 14
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: user’s environment variable
+        size: null

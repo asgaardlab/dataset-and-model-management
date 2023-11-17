@@ -1,0 +1,152 @@
+repository_name: undera/chess-engine-nn
+last_commit_date: 2023-01-06 19:04
+description: Chess engine that uses neural network to decide on moves
+analyzing_commit_hash: 8e85e9def44a0b5e3b8e6e82772af2826c961c4d
+comment: Interesting repository. A program to make computer chess game with a 7 year old daughter :)
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: chessnn/nn.py
+            line_no:
+              - 56
+              - 54
+        model_load_purpose_trace:
+          - file_path: api.py
+            line_no:
+              - 89
+          - file_path: training.py
+            line_no:
+              - 32
+          - file_path: chessnn/player.py
+            line_no:
+              - 39
+              - 40
+              - 139
+              - 148
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: chessnn/nn.py
+            line_no:
+              - 42
+              - 39
+              - 37
+              - 29
+              - 36
+              - 35
+              - 34
+              - 103
+          - file_path: api.py
+            line_no:
+              - 84
+        location: nn.hdf5
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: chessnn/nn.py
+            line_no:
+              - 56
+              - 54
+        model_load_purpose_trace:
+          - file_path: training.py
+            line_no:
+              - 199
+              - 131
+              - 142
+              - 156
+          - file_path: chessnn/player.py
+            line_no:
+              - 64
+              - 71
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: chessnn/nn.py
+            line_no:
+              - 42
+              - 39
+              - 37
+              - 29
+              - 36
+              - 35
+              - 34
+              - 103
+          - file_path: training.py
+            line_no:
+              - 192
+        location: models/<str(cs)>.hdf5
+        location_type: file system (not saved in VCS)
+        location_set_from: program variable and hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: chessnn/nn.py
+            line_no:
+              - 56
+              - 54
+        model_load_purpose_trace:
+          - file_path: uci.py
+            line_no:
+              - 20
+              - 24
+          - file_path: chessnn/player.py
+            line_no:
+              - 39
+              - 40
+              - 117
+              - 139
+              - 148
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: chessnn/nn.py
+            line_no:
+              - 42
+              - 39
+              - 37
+              - 29
+              - 36
+              - 35
+              - 34
+              - 103
+          - file_path: uci.py
+            line_no:
+              - 19
+        location: nn.hdf5
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: chessnn/nn.py
+            line_no:
+              - 71
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: chessnn/nn.py
+            line_no:
+              - 56
+              - 54
+              - 37
+        save_location: <path>/<str(cs)>.hdf5
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: chessnn/nn.py
+            line_no:
+              - 66
+              - 64
+          - file_path: training.py
+            line_no:
+              - 127
+              - 113
+        location: results.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null

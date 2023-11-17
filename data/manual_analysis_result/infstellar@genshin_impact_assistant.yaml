@@ -1,0 +1,567 @@
+repository_name: infstellar/genshin_impact_assistant
+last_commit_date: 2023-02-23 16:10
+description: Genshin Assistant (CN/EN) | Automatic battle, secret realm, daily leader, semi-automatic commission
+analyzing_commit_hash: 754ca29fa8221eed2191c5081088ec5602bd694b
+comment: ''
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: yolox/utils/checkpoint.py
+            line_no:
+              - 43
+              - 42
+              - 40
+              - 39
+        model_load_purpose_trace:
+          - file_path: source/api/yolox_api.py
+            line_no:
+              - 389
+              - 412
+              - 237
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: source/api/yolox_api.py
+            line_no:
+              - 387
+              - 382
+              - 350
+              - 348
+          - file_path: yolox/exp/base_exp.py
+            line_no:
+              - 22
+        location: YOLOX_outputs/<experiment_name>/best_ckpt.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and program variable
+        size: null
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: source/api/yolox_api.py
+            line_no:
+              - 389
+              - 412
+              - 237
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: source/api/yolox_api.py
+            line_no:
+              - 387
+              - 384
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: method parameter
+        size: null
+        comment: The path passed through method paramater, however, couldn't find any call of the method.
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: yolox/utils/checkpoint.py
+            line_no:
+              - 43
+              - 42
+              - 40
+              - 39
+        model_load_purpose_trace:
+          - file_path: source/api/yolox_api.py
+            line_no:
+              - 533
+              - 546
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: source/api/yolox_api.py
+            line_no:
+              - 474
+              - 469
+              - 436
+          - file_path: yolox/exp/base_exp.py
+            line_no:
+              - 22
+        location: YOLOX_outputs/<experiment_name>/best_ckpt.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and program variable
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: yolox/utils/checkpoint.py
+            line_no:
+              - 43
+              - 42
+              - 40
+              - 39
+        model_load_purpose_trace:
+          - file_path: source/api/yolox_api.py
+            line_no:
+              - 533
+              - 546
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: source/api/yolox_api.py
+            line_no:
+              - 474
+              - 471
+              - 428
+              - 429
+              - 425
+        location: assets/YoloxModels/best_ckpt.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: yolox/utils/checkpoint.py
+            line_no:
+              - 39
+              - 36
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 364
+              - 368
+              - 353
+              - 218
+        model_load_purpose_trace:
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 284
+              - 145
+              - 129
+              - 74
+              - 73
+              - 76
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 292
+              - 288
+              - 61
+          - file_path: yolox/exp/base_exp.py
+            line_no:
+              - 22
+        location: YOLOX_outputs/<experiment_name>/latest_ckpt.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and program variable
+        size: null
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: yolox/evaluators/coco_evaluator.py
+            line_no:
+              - 158
+              - 171
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: yolox/evaluators/coco_evaluator.py
+            line_no:
+              - 154
+              - 119
+          - file_path: yolox/exp/yolox_base.py
+            line_no:
+              - 317
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: method parameter
+        size: null
+        comment: The path passed through optional method parameter and the value was not set during call.
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: yolox/evaluators/voc_evaluator.py
+            line_no:
+              - 80
+              - 91
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: yolox/evaluators/voc_evaluator.py
+            line_no:
+              - 76
+              - 42
+          - file_path: yolox/exp/yolox_base.py
+            line_no:
+              - 317
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: method parameter
+        size: null
+        comment: The path passed through optional method parameter and the value was not set during call.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 79
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 67
+              - 64
+              - 63
+              - 21
+              - 32
+              - 83
+              - 22
+              - 20
+        location: https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_nano.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 7.3 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 79
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 67
+              - 64
+              - 63
+              - 21
+              - 32
+              - 87
+              - 23
+              - 20
+        location: https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_tiny.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 38.9 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 79
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 67
+              - 64
+              - 63
+              - 21
+              - 32
+              - 91
+              - 24
+              - 20
+        location: https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_s.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 68.7 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 79
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 67
+              - 64
+              - 63
+              - 21
+              - 32
+              - 95
+              - 25
+              - 20
+        location: https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_m.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 194 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 79
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 67
+              - 64
+              - 63
+              - 21
+              - 32
+              - 99
+              - 26
+              - 20
+        location: https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_l.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 414 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 79
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 67
+              - 64
+              - 63
+              - 21
+              - 32
+              - 103
+              - 27
+              - 20
+        location: https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_x.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 757 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 79
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 67
+              - 64
+              - 63
+              - 21
+              - 32
+              - 107
+              - 28
+              - 20
+        location: https://github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_darknet.pth
+        location_type: online
+        location_set_from: hard coded
+        size: 487 MB
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 79
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolox/models/build.py
+            line_no:
+              - 73
+              - 32
+              - 111
+              - 110
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: method parameter
+        size: null
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: yolox/models/yolo_fpn.py
+            line_no:
+              - 56
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: yolox/models/yolo_fpn.py
+            line_no:
+              - 58
+              - 57
+              - 56
+        location: weights/darknet53.mix.pth
+        location_type: file system (not saved in VCS)
+        location_set_from: method parameter
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 105
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: argument and program variable
+        save_location_trace:
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 218
+              - 353
+              - 364
+              - 367
+              - 368
+              - 61
+          - file_path: yolox/exp/base_exp.py
+            line_no:
+              - 22
+          - file_path: yolox/utils/checkpoint.py
+            line_no:
+              - 39
+        save_location: YOLOX_outputs/<experiment_name>/latest_ckpt.pth
+        save_location_set_from: argument and program variable
+      dataset:
+        location_trace:
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 101
+              - 98
+              - 97
+          - file_path: yolox/data/data_prefetcher.py
+            line_no:
+              - 35
+              - 44
+              - 37
+              - 25
+              - 17
+              - 16
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 156
+              - 149
+          - file_path: yolox/exp/yolox_base.py
+            line_no:
+              - 130
+              - 194
+              - 192
+              - 172
+              - 154
+              - 143
+              - 144
+              - 40
+          - file_path: yolox/data/datasets/coco.py
+            line_no:
+              - 64
+              - 63
+          - file_path: yolox/data/dataloading.py
+            line_no:
+              - 18
+              - 29
+              - 28
+              - 27
+        location: datasets/COCO
+        location_type: file system (not saved in VCS)
+        location_set_from: program variable and hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 105
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: argument and program variable
+        save_location_trace:
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 218
+              - 353
+              - 364
+              - 367
+              - 368
+              - 61
+          - file_path: yolox/exp/base_exp.py
+            line_no:
+              - 22
+          - file_path: yolox/utils/checkpoint.py
+            line_no:
+              - 39
+        save_location: YOLOX_outputs/<experiment_name>/latest_ckpt.pth
+        save_location_set_from: argument and program variable
+      dataset:
+        location_trace:
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 101
+              - 98
+              - 97
+          - file_path: yolox/data/data_prefetcher.py
+            line_no:
+              - 35
+              - 44
+              - 37
+              - 25
+              - 17
+              - 16
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 156
+              - 149
+          - file_path: yolox/exp/yolox_base.py
+            line_no:
+              - 130
+              - 194
+              - 192
+              - 172
+              - 154
+              - 143
+              - 144
+              - 40
+          - file_path: exps/example/custom/yolox_s.py
+            line_no:
+              - 17
+        location: datasets/coco128
+        location_type: file system (not saved in VCS)
+        location_set_from: program variable and hard coded
+        size: null
+    - model:
+        training_trace:
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 105
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: argument and program variable
+        save_location_trace:
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 218
+              - 353
+              - 364
+              - 367
+              - 368
+              - 61
+          - file_path: yolox/exp/base_exp.py
+            line_no:
+              - 22
+          - file_path: yolox/utils/checkpoint.py
+            line_no:
+              - 39
+        save_location: YOLOX_outputs/<experiment_name>/latest_ckpt.pth
+        save_location_set_from: argument and program variable
+      dataset:
+        location_trace:
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 101
+              - 98
+              - 97
+          - file_path: yolox/data/data_prefetcher.py
+            line_no:
+              - 35
+              - 44
+              - 37
+              - 25
+              - 17
+              - 16
+          - file_path: yolox/core/trainer.py
+            line_no:
+              - 156
+              - 149
+          - file_path: yolox/exp/yolox_base.py
+            line_no:
+              - 130
+              - 194
+              - 192
+              - 172
+              - 154
+              - 143
+              - 144
+              - 40
+          - file_path: exps/example/custom/nano.py
+            line_no:
+              - 25
+        location: datasets/coco128
+        location_type: file system (not saved in VCS)
+        location_set_from: program variable and hard coded
+        size: null

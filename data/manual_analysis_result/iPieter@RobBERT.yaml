@@ -1,0 +1,81 @@
+repository_name: iPieter/RobBERT
+last_commit_date: 2023-02-16 6:40
+description: A Dutch RoBERTa-based language model
+analyzing_commit_hash: e44a4107d0fdaed45b30ec5c9da63eba6b03f2f6
+comment: Loaded model using transformers in src/run_lm.py to resume training. Loaded model using transformers in notebooks/demo_RobBERT_for_conll_ner.ipynb@In[2]:5 for prediction. Loaded model using transformers in notebooks/demo_RobBERT_for_masked_LM.ipynb@In[1]:7 for prediction. Loaded model using fairseq.models.roberta in notebooks/die_dat_demo.ipynb@In[2]:1 for prediction. Loaded model using fairseq.models.roberta in notebooks/evaluate_zeroshot_wordlists.ipynb@In[8]:1 for evaluation in In[10]:1. Loaded model using fairseq.models.roberta in notebooks/evaluate_zeroshot_wordlists_v2.ipynb@In[2]:1 for evaluation in In[4]:1.
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: src/run_lm.py
+            line_no:
+              - 362
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: huggingface
+        save_location_trace:
+          - file_path: src/run_lm.py
+            line_no:
+              - 407
+              - 402
+        save_location: <output_dir>/<checkpoint_prefix>-<global_step>
+        save_location_set_from: argument and program variable
+      dataset:
+        location_trace:
+          - file_path: src/run_lm.py
+            line_no:
+              - 358
+              - 351
+              - 350
+              - 255
+              - 242
+              - 758
+              - 753
+              - 156
+              - 161
+              - 90
+              - 101
+              - 497
+        location: unknown
+        location_type: unknown
+        location_set_from: argument
+        size: null
+        comment: The dataset is loaded from file system, however, the path is unknown
+    - model:
+        training_trace:
+          - file_path: src/train.py
+            line_no:
+              - 147
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: huggingface
+        save_location_trace:
+          - file_path: src/train.py
+            line_no:
+              - 201
+              - 195
+        save_location: <args.output_dir>/checkpoint-<global_step>
+        save_location_set_from: argument and program variable
+      dataset:
+        location_trace:
+          - file_path: src/train.py
+            line_no:
+              - 142
+              - 141
+              - 133
+              - 132
+              - 43
+              - 22
+          - file_path: notebooks/finetune_dbrd.ipynb
+            line_no:
+              - In[9]:1
+              - In[6]:1
+          - file_path: src/textdataset.py
+            line_no:
+              - 58
+              - 65
+              - 59
+              - 62
+        location: data/processed/dbrd/train
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null

@@ -1,0 +1,120 @@
+repository_name: ryry013/Rai
+last_commit_date: 2023-02-21 3:49
+description: Discord bot for Discord language learning servers written in Python
+analyzing_commit_hash: f86b922cf26ad837a46799dfb826232f58f37d84
+comment: ''
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: cogs/utils/helper_functions.py
+            line_no:
+              - 783
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: null
+            line_no: null
+        save_location: null
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: cogs/utils/helper_functions.py
+            line_no:
+              - 775
+              - 772
+              - 755
+              - 752
+              - 749
+              - 748
+              - 27
+              - 747
+        location: cogs/utils/principiante.csv
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Ask Ryry013 for the language files needed to make this work (comment by the developer). The model trained and returned for prediction. Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: cogs/utils/helper_functions.py
+            line_no:
+              - 783
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: null
+            line_no: null
+        save_location: null
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: cogs/utils/helper_functions.py
+            line_no:
+              - 775
+              - 772
+              - 755
+              - 752
+              - 749
+              - 748
+              - 27
+              - 747
+        location: cogs/utils/avanzado.csv
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Ask Ryry013 for the language files needed to make this work (comment by the developer). The model trained and returned for prediction. Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: cogs/utils/helper_functions.py
+            line_no:
+              - 783
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: null
+            line_no: null
+        save_location: null
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: cogs/utils/helper_functions.py
+            line_no:
+              - 775
+              - 772
+              - 755
+              - 752
+              - 749
+              - 748
+              - 27
+              - 747
+        location: cogs/utils/beginner.csv
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Ask Ryry013 for the language files needed to make this work (comment by the developer). The model trained and returned for prediction. Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: cogs/utils/helper_functions.py
+            line_no:
+              - 783
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: null
+            line_no: null
+        save_location: null
+        save_location_set_from: null
+      dataset:
+        location_trace:
+          - file_path: cogs/utils/helper_functions.py
+            line_no:
+              - 775
+              - 772
+              - 755
+              - 752
+              - 749
+              - 748
+              - 27
+              - 747
+        location: cogs/utils/advanced.csv
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded and program variable
+        size: null
+        comment: Ask Ryry013 for the language files needed to make this work (comment by the developer). The model trained and returned for prediction. Used multiple dataset for the training

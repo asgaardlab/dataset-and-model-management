@@ -1,0 +1,31 @@
+repository_name: kubeflow/kfp-tekton
+last_commit_date: 2023-02-23 15:58
+description: Kubeflow Pipelines on Tekton
+analyzing_commit_hash: 92a09f1fa5b7caea933bcf84b7c6a1b3b3f118e7
+comment: ''
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: samples/kfp-tfx/tfx-taxi-on-prem/TFX-taxi-sample-pvc.py
+            line_no:
+              - 85
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: samples/kfp-tfx/tfx-taxi-on-prem/TFX-taxi-sample-pvc.py
+            line_no:
+              - 86
+              - 79
+              - 77
+              - 62
+              - 140
+              - 141
+              - 134
+              - 43
+        location: /mnt/shared/data
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded and program variable
+        size: null

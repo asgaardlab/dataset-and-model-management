@@ -1,0 +1,96 @@
+repository_name: raphaelsty/mkb
+last_commit_date: 2022-10-02 20:18
+description: Knowledge Base Embedding By Cooperative Knowledge Distillation
+analyzing_commit_hash: 9f2c7a6de05e171074b0a27c3f8ec7d7279542c6
+comment: A library dedicated to knowledge graph embeddings. Use of models for inference found in some files where the pre-trained model loaded from huggingface in documentation example and passed through program parameter.
+has_instruction_in_readme: ''
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: mkb/utils/scores_to_csv.py
+            line_no:
+              - 128
+        model_load_purpose_trace:
+          - file_path: mkb/utils/scores_to_csv.py
+            line_no:
+              - 238
+              - 191
+          - file_path: mkb/evaluation/evaluation.py
+            line_no:
+              - 385
+              - 419
+              - 423
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: mkb/utils/scores_to_csv.py
+            line_no:
+              - 234
+              - 232
+              - 95
+              - 85
+              - 46
+              - 230
+              - 96
+              - 86
+              - 47
+              - 227
+              - 218
+              - 203
+              - 197
+              - 198
+              - 92
+              - 82
+              - 43
+        location: X_distill_X_<model>_<id>_<dataset>_<step>.pickle
+        location_type: file system (not saved in VCS)
+        location_set_from: api usage documentation example
+        size: null
+        comment: Couldn't resolve the full path, however, couldn't find any file with .pickle extension in the repository.
+  training:
+    - model:
+        training_trace:
+          - file_path: mkb/utils/dataframe_to_kg.py
+            line_no:
+              - 116
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: mkb/utils/dataframe_to_kg.py
+            line_no:
+              - 107
+              - 105
+              - 102
+              - 78
+              - 71
+        location: unknown
+        location_type: unknown
+        location_set_from: program variable
+        size: null
+        comment: The dataset has been passed through program parameter, however, couldn't find the call of the method.
+    - model:
+        training_trace:
+          - file_path: mkb/utils/dataframe_to_kg.py
+            line_no:
+              - 157
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: mkb/utils/dataframe_to_kg.py
+            line_no:
+              - 149
+              - 135
+              - 145
+              - 146
+              - 140
+              - 143
+              - 137
+              - 127
+        location: unknown
+        location_type: unknown
+        location_set_from: program variable
+        size: null
+        comment: The dataset has been passed through program parameter, however, couldn't find the call of the method.

@@ -1,0 +1,418 @@
+repository_name: PMMon/Thesis_Social_Interactions
+last_commit_date: 2022-11-22 9:59
+description: .nan
+analyzing_commit_hash: 1ee8a912fad29c620df34a98b61a6cb1ec7bbb3b
+comment: the code for the bachelor's thesis
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        model_load_purpose_trace:
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 192
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 168
+              - 167
+              - 150
+              - 51
+              - 59
+              - 50
+              - 488
+              - 481
+              - 439
+              - 428
+        location: Experiments/Saved_Models/to_be_defined/<args.model_name>
+        location_type: file system (not saved in VCS)
+        location_set_from: argument and hard coded
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 192
+          - file_path: Experiments/solver/solver.py
+            line_no:
+              - 46
+              - 103
+              - 137
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 196
+              - 150
+              - 51
+              - 59
+              - 50
+              - 488
+              - 481
+              - 439
+              - 428
+        save_location: Experiments/Saved_Models/to_be_defined/<args.model_name>
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: Experiments/solver/solver.py
+            line_no:
+              - 117
+              - 128
+              - 131
+              - 109
+              - 46
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 192
+              - 113
+              - 349
+              - 370
+              - 359
+          - file_path: Experiments/data/loader.py
+            line_no:
+              - 13
+              - 67
+              - 59
+              - 43
+              - 19
+              - 22
+          - file_path: Experiments/data/trajectories_scene.py
+            line_no:
+              - 86
+          - file_path: Experiments/data/trajectories.py
+            line_no:
+              - 71
+          - file_path: Experiments/data/trajectories.py
+            line_no:
+              - 19
+              - 60
+              - 56
+          - file_path: Experiments/data/experiments.py
+            line_no:
+              - 64
+              - 68
+              - 52
+              - 50
+              - 9
+              - 49
+          - file_path: README.md
+            line_no:
+              - 55
+        location: Experiments/datasets/eth/train
+        location_type: file system (saved in VCS)
+        location_set_from: argument and program variable
+        size: 1.26 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 192
+          - file_path: Experiments/solver/solver.py
+            line_no:
+              - 46
+              - 103
+              - 137
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 196
+              - 150
+              - 51
+              - 59
+              - 50
+              - 488
+              - 481
+              - 439
+              - 428
+        save_location: Experiments/Saved_Models/to_be_defined/<args.model_name>
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: Experiments/solver/solver.py
+            line_no:
+              - 117
+              - 128
+              - 131
+              - 109
+              - 46
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 192
+              - 113
+              - 349
+              - 370
+              - 359
+          - file_path: Experiments/data/loader.py
+            line_no:
+              - 13
+              - 67
+              - 59
+              - 43
+              - 19
+              - 22
+          - file_path: Experiments/data/trajectories_scene.py
+            line_no:
+              - 86
+          - file_path: Experiments/data/trajectories.py
+            line_no:
+              - 71
+          - file_path: Experiments/data/trajectories.py
+            line_no:
+              - 19
+              - 60
+              - 56
+          - file_path: Experiments/data/experiments.py
+            line_no:
+              - 64
+              - 68
+              - 52
+              - 50
+              - 9
+              - 49
+          - file_path: README.md
+            line_no:
+              - 55
+        location: Experiments/datasets/hotel/train
+        location_type: file system (saved in VCS)
+        location_set_from: argument and program variable
+        size: 1.07 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 192
+          - file_path: Experiments/solver/solver.py
+            line_no:
+              - 46
+              - 103
+              - 137
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 196
+              - 150
+              - 51
+              - 59
+              - 50
+              - 488
+              - 481
+              - 439
+              - 428
+        save_location: Experiments/Saved_Models/to_be_defined/<args.model_name>
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: Experiments/solver/solver.py
+            line_no:
+              - 117
+              - 128
+              - 131
+              - 109
+              - 46
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 192
+              - 113
+              - 349
+              - 370
+              - 359
+          - file_path: Experiments/data/loader.py
+            line_no:
+              - 13
+              - 67
+              - 59
+              - 43
+              - 19
+              - 22
+          - file_path: Experiments/data/trajectories_scene.py
+            line_no:
+              - 86
+          - file_path: Experiments/data/trajectories.py
+            line_no:
+              - 71
+          - file_path: Experiments/data/trajectories.py
+            line_no:
+              - 19
+              - 60
+              - 56
+          - file_path: Experiments/data/experiments.py
+            line_no:
+              - 64
+              - 68
+              - 52
+              - 50
+              - 9
+              - 49
+          - file_path: README.md
+            line_no:
+              - 55
+        location: Experiments/datasets/univ/train
+        location_type: file system (saved in VCS)
+        location_set_from: argument and program variable
+        size: 0.78 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 192
+          - file_path: Experiments/solver/solver.py
+            line_no:
+              - 46
+              - 103
+              - 137
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 196
+              - 150
+              - 51
+              - 59
+              - 50
+              - 488
+              - 481
+              - 439
+              - 428
+        save_location: Experiments/Saved_Models/to_be_defined/<args.model_name>
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: Experiments/solver/solver.py
+            line_no:
+              - 117
+              - 128
+              - 131
+              - 109
+              - 46
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 192
+              - 113
+              - 349
+              - 370
+              - 359
+          - file_path: Experiments/data/loader.py
+            line_no:
+              - 13
+              - 67
+              - 59
+              - 43
+              - 19
+              - 22
+          - file_path: Experiments/data/trajectories_scene.py
+            line_no:
+              - 86
+          - file_path: Experiments/data/trajectories.py
+            line_no:
+              - 71
+          - file_path: Experiments/data/trajectories.py
+            line_no:
+              - 19
+              - 60
+              - 56
+          - file_path: Experiments/data/experiments.py
+            line_no:
+              - 64
+              - 68
+              - 52
+              - 50
+              - 9
+              - 49
+          - file_path: README.md
+            line_no:
+              - 55
+        location: Experiments/datasets/zara1/train
+        location_type: file system (saved in VCS)
+        location_set_from: argument and program variable
+        size: 1.11 MB
+        comment: Used multiple dataset for the training
+    - model:
+        training_trace:
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 192
+          - file_path: Experiments/solver/solver.py
+            line_no:
+              - 46
+              - 103
+              - 137
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 196
+              - 150
+              - 51
+              - 59
+              - 50
+              - 488
+              - 481
+              - 439
+              - 428
+        save_location: Experiments/Saved_Models/to_be_defined/<args.model_name>
+        save_location_set_from: argument and hard coded
+      dataset:
+        location_trace:
+          - file_path: Experiments/solver/solver.py
+            line_no:
+              - 117
+              - 128
+              - 131
+              - 109
+              - 46
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 192
+              - 113
+              - 349
+              - 370
+              - 359
+          - file_path: Experiments/data/loader.py
+            line_no:
+              - 13
+              - 67
+              - 59
+              - 43
+              - 19
+              - 22
+          - file_path: Experiments/data/trajectories_scene.py
+            line_no:
+              - 86
+          - file_path: Experiments/data/trajectories.py
+            line_no:
+              - 71
+          - file_path: Experiments/data/trajectories.py
+            line_no:
+              - 19
+              - 60
+              - 56
+          - file_path: Experiments/data/experiments.py
+            line_no:
+              - 64
+              - 68
+              - 52
+              - 50
+              - 9
+              - 49
+          - file_path: README.md
+            line_no:
+              - 55
+        location: Experiments/datasets/zara2/train
+        location_type: file system (saved in VCS)
+        location_set_from: argument and program variable
+        size: 1.45 MB
+        comment: Used multiple dataset for the training

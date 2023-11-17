@@ -1,0 +1,256 @@
+repository_name: artonson/def
+last_commit_date: 2023-01-24 16:02
+description: Learning to Detect Sharp Geometric Features for 3D Shape Reconstruction
+analyzing_commit_hash: ca6ee8f240f263ef3e12f829e749982b37a6e7fa
+comment: official implementation of a paper
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        model_load_purpose: null
+        location_trace:
+          - file_path: README.md
+            line_no:
+              - 30
+          - file_path: docs/training.md
+            line_no:
+              - 28
+        location: https://www.dropbox.com/scl/fo/7qg4r7m8wraykesn6crmx/h?dl=0&rlkey=l4kv9bqeyckdeaicjknmcluga
+        location_type: online
+        location_set_from: readme file
+        size: 6553.6 MB
+        comment: All their trained models are distributed in one zip file through the url.
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: contrib/sharpness_fields/src/compute_sharpness.py
+            line_no:
+              - 22
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: contrib/sharpness_fields/src/compute_sharpness.py
+            line_no:
+              - 16
+              - 10
+              - 33
+              - 50
+              - 44
+        location: contrib/sharpness_fields/src/sharpness_model.pt
+        location_type: file system (saved in VCS)
+        location_set_from: argument
+        size: 3.1 MB
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: sharpf/neural/train_net.py
+            line_no:
+              - 42
+        model_load_purpose: resume training
+        location_trace:
+          - file_path: sharpf/neural/train_net.py
+            line_no:
+              - 38
+              - 36
+              - 21
+              - 20
+          - file_path: sharpf/neural/configs/config.yaml
+            line_no:
+              - 20
+        location: ~
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: config file
+        size: null
+        comment: ~ refers as the home directory of the current user
+    - model:
+        self_trained:
+        model_load_purpose_trace:
+          - file_path: sharpf/neural/train_net.py
+            line_no:
+              - 54
+        model_load_purpose: testing
+        location_trace:
+          - file_path: sharpf/neural/train_net.py
+            line_no:
+              - 52
+              - 50
+              - 21
+              - 20
+          - file_path: sharpf/neural/configs/config.yaml
+            line_no:
+              - 18
+        location: sharpf/neural/best
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: scripts/vectorization/topological_graph.py
+            line_no:
+              - 289
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: scripts/vectorization/topological_graph.py
+            line_no:
+              - 205
+        location: unknown
+        location_type: unknown
+        location_set_from: program variable
+        size: null
+        comment: The dataset passed through method parameter. However, the method has never been called.
+    - model:
+        training_trace:
+          - file_path: sharpf/fusion/smoothers.py
+            line_no:
+              - 111
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: sharpf/fusion/smoothers.py
+            line_no:
+              - 104
+              - 162
+              - 163
+              - 142
+              - 139
+              - 125
+              - 131
+              - 125
+              - 139
+              - 136
+              - 163
+              - 123
+              - 35
+              - 26
+        location: untraceable
+        location_type: unknown
+        location_set_from: program variable
+        size: null
+        comment: The dataset passed through parameter. However, the call of the method is untraceable due to too much cascade call
+    - model:
+        training_trace:
+          - file_path: sharpf/fusion/smoothers.py
+            line_no:
+              - 145
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: sharpf/fusion/smoothers.py
+            line_no:
+              - 104
+              - 162
+              - 163
+              - 142
+              - 139
+              - 125
+              - 131
+              - 125
+              - 139
+              - 136
+              - 163
+              - 123
+              - 35
+              - 26
+        location: untraceable
+        location_type: unknown
+        location_set_from: program variable
+        size: null
+        comment: The dataset passed through parameter. However, the call of the method is untraceable due to too much cascade call
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no: 34
+          - file_path: docs/synthetic_data.md
+            line_no: 83
+        location: https://www.dropbox.com/scl/fo/o1iwodlqs1ksd0riiymuq/h?dl=0&rlkey=37oc14dg1m5f0jzh6t1prjtbw
+        location_type: online
+        location_set_from: readme file
+        size: 87244.8 MB
+        comment: Dataset they used to train their model. Got error 'The zip file is too large' while trying to download all the data together.
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no: 34
+          - file_path: docs/synthetic_data.md
+            line_no: 104
+        location: https://www.dropbox.com/scl/fo/yizmgvuxtdblqqr6656c1/h?dl=0&rlkey=10knittkmv6v64dsmhdsbytx8
+        location_type: online
+        location_set_from: readme file
+        size: 56524.8 MB
+        comment: intended for evaluation only. Got error 'The zip file is too large' while trying to download all the data together.
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no: 35
+          - file_path: docs/real_data.md
+            line_no: 28
+        location: https://www.dropbox.com/s/5k2swrpb0vhqv15/images_align4mm_fullmesh_whole.tar.gz?dl=0
+        location_type: online
+        location_set_from: readme file
+        size: 753 MB
+    - model:
+        training_trace:
+          - file_path: null
+            line_no: null
+        is_resume_from_checkpoint: null
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: README.md
+            line_no: 35
+          - file_path: docs/real_data.md
+            line_no: 30
+        location: https://www.dropbox.com/s/ej7qzmh2153birb/points_align4mm_partmesh_whole.tar.gz?dl=0
+        location_type: online
+        location_set_from: readme file
+        size: 6348.8 MB
+    - model:
+        training_trace:
+          - file_path: notebooks/annotate_whole_images.ipynb
+            line_no:
+              - In[92]:15
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: notebooks/annotate_whole_images.ipynb
+            line_no:
+              - In[92]:8
+              - In[94]:25
+              - In[94]:26
+              - In[94]:6
+              - In[91]:1
+              - In[91]:8
+              - In[91]:7
+              - In[91]:5
+              - In[91]:4
+              - In[67]:9
+              - In[67]:1
+              - In[67]:2
+        location: /data/abc/sharp_features_whole_models/whole_images/high_res/50/abc_0050_00500166_5894bbd701b2bb0fc88a6978_007.hdf5
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null

@@ -1,0 +1,32 @@
+repository_name: SteveF92/FantasyCritic
+last_commit_date: 2023-02-22 1:01
+description: Fantasy Critic is like Fantasy Football, except for video games!
+analyzing_commit_hash: 7bc6455ee9c0afde40a28bc66cb82084e49d1709
+comment: ''
+has_instruction_in_readme: no
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: src/CriticScoreRegression/app.py
+            line_no:
+              - 33
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: src/CriticScoreRegression/app.py
+            line_no:
+              - 29
+              - 27
+              - 25
+              - 23
+              - 22
+              - 20
+              - 19
+              - 18
+        location: boto3.resource('s3')
+        location_type: library dataset
+        location_set_from: program variable
+        size: null
+        comment: Amazon S3 (Simple Storage Service)

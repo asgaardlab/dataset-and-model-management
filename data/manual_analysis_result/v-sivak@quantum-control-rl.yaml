@@ -1,0 +1,82 @@
+repository_name: v-sivak/quantum-control-rl
+last_commit_date: 2022-11-21 23:04
+description: Model-Free Quantum Control with Reinforcement Learning.
+analyzing_commit_hash: ec9a5b070215655251c7acbddba9d7e7dc5cbc95
+comment: This repo was abandoned for a long time and is being cleaned up now.
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: action_mean_evolution.py
+            line_no:
+              - 65
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: action_mean_evolution.py
+            line_no:
+              - 60
+              - 25
+              - 26
+              - 59
+        location: E:\data\gkp_sims\PPO\ECD\EXP_Vlad\sbs_pauli\run_56\policy\<epoch>
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded and program variable
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: export_ECD_sequence.py
+            line_no:
+              - 103
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: export_ECD_sequence.py
+            line_no:
+              - 97
+              - 69
+              - 70
+              - 96
+              - 71
+        location: E:\data\gkp_sims\PPO\ECD\EXP_Vlad\sbs_pauli\run_50\policy\001040
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded and program variable
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: rl_tools/agents/PPO.py
+            line_no:
+              - 285
+              - 223
+              - 225
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS - outside of the repository)
+        save_location_trace:
+          - file_path: rl_tools/agents/PPO.py
+            line_no:
+              - 313
+              - 312
+              - 131
+              - 24
+        save_location: <root_dir>/policy/<epoch>
+        save_location_set_from: hard coded and program variable
+      dataset:
+        location_trace:
+          - file_path: rl_tools/agents/PPO.py
+            line_no:
+              - 218
+              - 219
+              - 193
+              - 194
+              - 76
+          - file_path: rl_tools/agents/dynamic_episode_driver_sim_env.py
+            line_no:
+              - 76
+              - 77
+        location: untraceable
+        location_type: untraceable
+        location_set_from: program method
+        size: null
+        comment: The training is invoked from six different files. The data is loaded using a library. However, it is being untraceable to identify the data source.

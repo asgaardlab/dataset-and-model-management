@@ -1,0 +1,222 @@
+repository_name: SeanNaren/deepspeech.pytorch
+last_commit_date: 2022-12-13 15:05
+description: Speech Recognition using DeepSpeech2.
+analyzing_commit_hash: b88a631ef6b96553e16bbaa5bd6a621435bed278
+comment: ''
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: search_lm_params.py
+            line_no:
+              - 85
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: search_lm_params.py
+            line_no:
+              - 43
+              - 40
+              - 39
+              - 96
+              - 94
+              - 93
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: config file
+        size: null
+        comment: The path is set to empty in config file
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: server.py
+            line_no:
+              - 43
+              - 40
+          - file_path: deepspeech_pytorch/inference.py
+            line_no:
+              - 79
+              - 95
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: server.py
+            line_no:
+              - 63
+              - 57
+              - 55
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: config file
+        size: null
+        comment: The path is set to empty in config file
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: deepspeech_pytorch/inference.py
+            line_no:
+              - 65
+              - 62
+              - 79
+              - 95
+          - file_path: deepspeech_pytorch/utils.py
+            line_no:
+              - 32
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: deepspeech_pytorch/inference.py
+            line_no:
+              - 47
+              - 44
+          - file_path: transcribe.py
+            line_no:
+              - 13
+              - 12
+              - 11
+              - 8
+          - file_path: deepspeech_pytorch/configs/inference_config.py
+            line_no:
+              - 33
+              - 27
+              - 29
+              - 20
+              - 23
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: config file
+        size: null
+        comment: The path is set to empty in config file
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: deepspeech_pytorch/testing.py
+            line_no:
+              - 42
+          - file_path: deepspeech_pytorch/validation.py
+            line_no:
+              - 136
+              - 142
+        model_load_purpose: evaluation
+        location_trace:
+          - file_path: deepspeech_pytorch/testing.py
+            line_no:
+              - 15
+          - file_path: deepspeech_pytorch/configs/inference_config.py
+            line_no:
+              - 23
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: config file
+        size: null
+        comment: The path is set to empty in config file
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: tests/pretrained_smoke_test.py
+            line_no:
+              - 59
+          - file_path: tests/smoke_test.py
+            line_no:
+              - 124
+              - 150
+          - file_path: deepspeech_pytorch/inference.py
+            line_no:
+              - 44
+              - 62
+              - 79
+              - 95
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: tests/pretrained_smoke_test.py
+            line_no:
+              - 36
+              - 35
+              - 32
+              - 10
+              - 11
+        location: https://github.com/SeanNaren/deepspeech.pytorch/releases/download/V3.0/an4_pretrained_v3.ckpt
+        location_type: online
+        location_set_from: hard coded
+        size: 991 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: tests/pretrained_smoke_test.py
+            line_no:
+              - 59
+          - file_path: tests/smoke_test.py
+            line_no:
+              - 124
+              - 150
+          - file_path: deepspeech_pytorch/inference.py
+            line_no:
+              - 44
+              - 62
+              - 79
+              - 95
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: tests/pretrained_smoke_test.py
+            line_no:
+              - 36
+              - 35
+              - 32
+              - 10
+              - 12
+        location: https://github.com/SeanNaren/deepspeech.pytorch/releases/download/V3.0/librispeech_pretrained_v3.ckpt
+        location_type: online
+        location_set_from: hard coded
+        size: 991 MB
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: tests/pretrained_smoke_test.py
+            line_no:
+              - 59
+          - file_path: tests/smoke_test.py
+            line_no:
+              - 124
+              - 150
+          - file_path: deepspeech_pytorch/inference.py
+            line_no:
+              - 44
+              - 62
+              - 79
+              - 95
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: tests/pretrained_smoke_test.py
+            line_no:
+              - 36
+              - 35
+              - 32
+              - 10
+              - 13
+        location: https://github.com/SeanNaren/deepspeech.pytorch/releases/download/V3.0/ted_pretrained_v3.ckpt
+        location_type: online
+        location_set_from: hard coded
+        size: 991 MB
+  training:
+    - model:
+        training_trace:
+          - file_path: deepspeech_pytorch/training.py
+            line_no:
+              - 47
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: unknown
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: deepspeech_pytorch/training.py
+            line_no:
+              - 28
+              - 30
+          - file_path: deepspeech_pytorch/configs/train_config.py
+            line_no:
+              - 88
+              - 35
+              - 36
+        location: data/train_manifest.csv
+        location_type: file system (not saved in VCS)
+        location_set_from: config file
+        size: null

@@ -1,0 +1,219 @@
+repository_name: microsoft/nnfusion
+last_commit_date: 2023-02-22 7:57
+description: 'A flexible and efficient deep neural network (DNN) compiler that generates
+  high-performance executable from a DNN model description. '
+analyzing_commit_hash: bd4f6feed217a43c9ee9be16f02fa8529953579a
+comment: Loaded model from tensorflow hub in models/tensorflow/google_bert/run_classifier_with_tfhub.py@43 to resume training/fine tuning. Loaded model from tensorflow hub in models/tensorflow/google_bert/predicting_movie_reviews_with_bert_on_tf_hub.ipynb@In[47]:2 to resume training/fine tuning.
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: models/torchscript/vgg16/main.py
+            line_no:
+              - 13
+        model_load_purpose_trace:
+          - file_path: models/torchscript/vgg16/main.py
+            line_no:
+              - 19
+              - 20
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: models/torchscript/vgg16/main.py
+            line_no:
+              - 17
+        location: models/torchscript/vgg16/vgg16_trace_module.pt
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: src/python/example/bert.py
+            line_no:
+              - 210
+        model_load_purpose_trace:
+          - file_path: src/python/example/bert.py
+            line_no:
+              - 224
+              - 236
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/python/example/bert.py
+            line_no:
+              - 223
+        location: /tmp/bert.pt
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: src/python/example/mnist.py
+            line_no:
+              - 164
+        model_load_purpose_trace:
+          - file_path: src/python/example/mnist.py
+            line_no:
+              - 178
+              - 185
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/python/example/mnist.py
+            line_no:
+              - 176
+              - 175
+        location: /tmp/mnist.pt
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: yes
+        train_save_trace:
+          - file_path: src/python/example/rnn.py
+            line_no:
+              - 189
+              - 279
+        model_load_purpose_trace:
+          - file_path: src/python/example/rnn.py
+            line_no:
+              - 297
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: src/python/example/rnn.py
+            line_no:
+              - 294
+              - 295
+        location: /tmp/rnn.pt
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: models/tensorflow/google_bert/optimization_test.py
+            line_no:
+              - 37
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: models/tensorflow/google_bert/optimization_test.py
+            line_no:
+              - 32
+              - 31
+              - 27
+        location: tf.get_variable("w", shape=[3], initializer=tf.constant_initializer([0.1, -0.2, -0.1]))
+        location_type: runtime memory
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+          - file_path: models/tensorflow/google_bert/run_classifier_with_tfhub.py
+            line_no:
+              - 238
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: online through tensorflow hub
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: models/tensorflow/google_bert/run_classifier_with_tfhub.py
+            line_no:
+              - 233
+              - 234
+              - 227
+              - 203
+        location: unknown
+        location_type: unknown
+        location_set_from: argument
+        size: null
+    - model:
+        training_trace:
+          - file_path: src/python/example/bert.py
+            line_no:
+              - 205
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/python/example/bert.py
+            line_no:
+              - 210
+        save_location: /tmp/bert.pt
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: src/python/example/bert.py
+            line_no:
+              - 201
+              - 194
+              - 162
+              - 161
+              - 95
+              - 116
+              - 110
+              - 103
+              - 104
+              - 102
+              - 98
+        location: http://ai.stanford.edu/\~amaas/data/sentiment/aclImdb_v1.tar.gz
+        location_type: online
+        location_set_from: hard coded
+        size: 80.2 MB
+    - model:
+        training_trace:
+          - file_path: src/python/example/rnn.py
+            line_no:
+              - 172
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/python/example/rnn.py
+            line_no:
+              - 189
+        save_location: /tmp/rnn.pt
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: src/python/example/rnn.py
+            line_no:
+              - 170
+              - 162
+              - 145
+          - file_path: src/python/example/data_loader.py
+            line_no:
+              - 8
+              - 27
+              - 24
+              - 16
+        location: MNIST('./tmp', train=True, download=True, transform=transform)
+        location_type: library dataset
+        location_set_from: library api
+        size: null
+    - model:
+        training_trace:
+          - file_path: src/python/example/rnn.py
+            line_no:
+              - 268
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: src/python/example/rnn.py
+            line_no:
+              - 279
+        save_location: /tmp/rnn.pt
+        save_location_set_from: hard coded
+      dataset:
+        location_trace:
+          - file_path: src/python/example/rnn.py
+            line_no:
+              - 266
+              - 258
+              - 235
+          - file_path: src/python/example/data_loader.py
+            line_no:
+              - 8
+              - 27
+              - 24
+              - 16
+        location: MNIST('./tmp', train=True, download=True, transform=transform)
+        location_type: library dataset
+        location_set_from: library api
+        size: null

@@ -1,0 +1,80 @@
+repository_name: UnitTestBot/UTBotJava
+last_commit_date: 2023-02-23 6:31
+description: Automated unit test generation and precise code analysis for Java
+analyzing_commit_hash: a1ed18936e1115fe3885785135376eee74cefc1f
+comment: ''
+has_instruction_in_readme: no
+models:
+  training:
+  - model:
+      training_trace:
+      - file_path: scripts/ml/train.py
+        line_no:
+          - 192
+      is_resume_from_checkpoint: no
+      save_location_trace:
+      - file_path: scripts/ml/train.py
+        line_no:
+          - 253
+          - 194
+          - 199
+      save_location: <args.output_dir>/linear.txt
+      save_location_set_from: argument and hard coded
+    dataset:
+      location_trace:
+      - file_path: scripts/ml/train.py
+        line_no:
+          - 188
+          - 252
+          - 251
+          - 44
+          - 93
+          - 91
+          - 90
+          - 87
+          - 81
+          - 70
+          - 45
+      location: unknown
+      location_type: file system (not saved in VCS)
+      location_set_from: argument
+      size: null
+      comment: The data is read from csv file, however, no csv file found in the repository
+  - model:
+      training_trace:
+        - file_path: scripts/ml/train.py
+          line_no:
+            - 214
+            - 203
+            - 153
+      is_resume_from_checkpoint: no
+      save_location_trace:
+        - file_path: scripts/ml/train.py
+          line_no:
+            - 177
+      save_location: <args.output_dir>/nn.json
+      save_location_set_from: argument and hard coded
+    dataset:
+      location_trace:
+        - file_path: scripts/ml/train.py
+          line_no:
+            - 146
+            - 141
+            - 130
+            - 127
+            - 126
+            - 252
+            - 251
+            - 44
+            - 93
+            - 91
+            - 90
+            - 87
+            - 81
+            - 70
+            - 45
+      location: unknown
+      location_type: file system (not saved in VCS)
+      location_set_from: argument
+      size: null
+      comment: The data is read from csv file, however, no csv file found in the repository

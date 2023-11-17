@@ -1,0 +1,87 @@
+repository_name: fusion-ml/trajectory-information-rl
+last_commit_date: 2022-10-11 13:47
+description: Bayesian active RL (BARL) and trajectory information planning (TIP)
+analyzing_commit_hash: 102671364199a6824c8d19c8f067796cf6d41ff0
+comment: Run on proprietary data
+has_instruction_in_readme: yes
+models:
+  pre_trained:
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: barl/envs/beta_tracking_env.py
+            line_no:
+              - 153
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: barl/envs/beta_tracking_env.py
+            line_no:
+              - 57
+              - 36
+              - 265
+              - 266
+              - 259
+              - 22
+        location: /zfsauton/project/public/ichar/BetaTracking/models/mlp_beta_only
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: barl/envs/tracking_env.py
+            line_no:
+              - 191
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: barl/envs/tracking_env.py
+            line_no:
+              - 60
+              - 45
+              - 318
+              - 319
+              - 313
+              - 33
+        location: /zfsauton/project/public/ichar/BetaTracking/models/beta_rotation_mlp_limited
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: barl/models/stan_gp.py
+            line_no:
+              - 36
+              - 80
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: barl/models/stan/gp_fixedsig.py
+            line_no:
+              - 36
+              - 24
+              - 22
+              - 23
+              - 20
+        location: barl/models/stan/model_pkls/gp_fixedsig.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null
+    - model:
+        self_trained: no
+        model_load_purpose_trace:
+          - file_path: barl/models/stan/compile_models.py
+            line_no:
+              - 16
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: barl/models/stan/gp_fixedsig_distmat.py
+            line_no:
+              - 36
+              - 24
+              - 22
+              - 23
+              - 20
+        location: barl/models/stan/model_pkls/gp_fixedsig_distmat.pkl
+        location_type: file system (not saved in VCS)
+        location_set_from: hard coded
+        size: null

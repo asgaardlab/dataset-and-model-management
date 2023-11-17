@@ -1,0 +1,76 @@
+repository_name: nasa/bingo
+last_commit_date: 2022-12-06 17:15
+description: .nan
+analyzing_commit_hash: 038e2f3eea0a66af48c503d2857b7f667dcba59e
+comment: ''
+has_instruction_in_readme: yes
+models:
+  training:
+    - model:
+        training_trace:
+          - file_path: bingo/symbolic_regression/symbolic_regressor.py
+            line_no:
+              - 246
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: bingo/symbolic_regression/symbolic_regressor.py
+            line_no:
+              - 238
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The dataset has been passed through method parameter. However, didn't find any call of the method
+    - model:
+        training_trace:
+          - file_path: bingo/symbolic_regression/symbolic_regressor.py
+            line_no:
+              - 288
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: bingo/symbolic_regression/symbolic_regressor.py
+            line_no:
+              - 268
+        location: np.linspace(-10, 10, 1000).reshape([-1, 1])
+        location_type: runtime memory
+        location_set_from: program method
+        size: null
+    - model:
+        training_trace:
+        - file_path: examples/get_started.ipynb
+          line_no:
+            - In[3]:3
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+        - file_path: examples/get_started.ipynb
+          line_no:
+            - In[1]:2
+        location: np.linspace(-10, 10).reshape((-1, 1))
+        location_type: runtime memory
+        location_set_from: numpy api
+        size: null
+        comment: Run a quick example to ensure that the installation works properly
+    - model:
+        training_trace:
+        - file_path: examples/sklearn_wrapper.ipynb
+          line_no:
+            - In[4]:1
+        is_resume_from_checkpoint: no
+        save_location: null
+      dataset:
+        location_trace:
+        - file_path: examples/sklearn_wrapper.ipynb
+          line_no:
+            - In[2]:3
+            - In[2]:2
+        location: np.linspace(-10, 10, num=30).reshape((-1, 1))
+        location_type: runtime memory
+        location_set_from: numpy api
+        size: null
+        comment: Used dummy training data. More on training data is provided in a link.

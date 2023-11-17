@@ -1,0 +1,165 @@
+repository_name: allegroai/clearml-serving
+last_commit_date: 2023-02-07 6:05
+description: ClearML - Model-Serving Orchestration and Repository Solution
+comment: ClearML Serving - Model deployment made easy
+analyzing_commit_hash: 2d3ac1fe63637db1978df2b3f5ea4903ef59788a
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: unknown
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: clearml_serving/serving/preprocess_service.py
+            line_no:
+              - 430
+              - 188
+              - 192
+              - 191
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: unknown
+        size: null
+        comment: The model is loaded using clearml custom package, however, the package is not present in the repository
+    - model:
+        self_trained: unknown
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: clearml_serving/serving/preprocess_service.py
+            line_no:
+              - 449
+              - 188
+              - 192
+              - 191
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: unknown
+        size: null
+        comment: The model is loaded using clearml custom package, however, the package is not present in the repository
+    - model:
+        self_trained: unknown
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: examples/custom/preprocess.py
+            line_no:
+              - 37
+              - 27
+          - file_path: clearml_serving/serving/preprocess_service.py
+            line_no:
+              - 100
+              - 188
+              - 192
+              - 191
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: unknown
+        size: null
+        comment: The model is loaded using clearml custom package, however, the package is not present in the repository
+    - model:
+        self_trained:
+        train_save_trace:
+        model_load_purpose:
+        location_trace:
+          - file_path: examples/keras/train_keras_mnist.py
+            line_no:
+              - 108
+              - 100
+        location: <tmp_folder>/keras_example_new_temp_now/weight.1.hdf5
+        location_type: file system (not saved in VCS - outside of the repository)
+        location_set_from: hard coded and program variable
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: examples/custom/train_model.py
+            line_no:
+              - 12
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: examples/custom/train_model.py
+            line_no:
+              - 14
+        save_location: custom-model.pkl
+        save_location_set_from: hard coded
+        comment: the model is not saved in the VCS
+      dataset:
+        location_trace:
+          - file_path: examples/custom/train_model.py
+            line_no:
+              - 9
+        location: make_blobs(n_samples=100, centers=2, n_features=3, random_state=1)
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+        comment: the dataset is loaded using the sklearn.datasets that generates isotropic Gaussian blobs for clustering. It is used to generate test datasets for machine learning algorithms.
+    - model:
+        training_trace:
+          - file_path: examples/ensemble/train_ensemble.py
+            line_no:
+              - 21
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: examples/ensemble/train_ensemble.py
+            line_no:
+              - 23
+        save_location: ensemble-vr.pkl
+        save_location_set_from: hard coded
+        comment: the model is not saved in the VCS
+      dataset:
+        location_trace:
+          - file_path: examples/ensemble/train_ensemble.py
+            line_no:
+              - 11
+        location: make_blobs(n_samples=100, centers=2, n_features=2, random_state=1)
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+        comment: the dataset is loaded using the sklearn.datasets that generates isotropic Gaussian blobs for clustering. It is used to generate test datasets for machine learning algorithms.
+    - model:
+        training_trace:
+          - file_path: examples/keras/train_keras_mnist.py
+            line_no:
+              - 112
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: file system (not saved in VCS)
+        save_location_trace:
+          - file_path: examples/keras/train_keras_mnist.py
+            line_no:
+              - 121
+        save_location: serving_model
+        save_location_set_from: hard coded
+        comment: the model is not saved in the VCS
+      dataset:
+        location_trace:
+          - file_path: examples/keras/train_keras_mnist.py
+            line_no:
+              - 61
+              - 59
+        location: mnist.load_data()
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+        comment: the dataset is loaded using the tensorflow.keras.datasets.
+    - model:
+        training_trace:
+          - file_path: examples/sklearn/train_model.py
+            line_no:
+              - 12
+        is_resume_from_checkpoint: no
+        save_location_trace:
+          - file_path: examples/sklearn/train_model.py
+            line_no:
+              - 14
+        save_location: sklearn-model.pkl
+        save_location_set_from: hard coded
+        comment: the model is not saved in the VCS
+      dataset:
+        location_trace:
+          - file_path: examples/sklearn/train_model.py
+            line_no:
+              - 9
+        location: make_blobs(n_samples=100, centers=2, n_features=2, random_state=1)
+        location_type: library dataset
+        location_set_from: program method
+        size: null
+        comment: the dataset is loaded using the sklearn.datasets that generates isotropic Gaussian blobs for clustering. It is used to generate test datasets for machine learning algorithms.

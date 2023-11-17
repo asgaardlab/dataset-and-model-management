@@ -1,0 +1,140 @@
+repository_name: open-mmlab/mmskeleton
+last_commit_date: 2022-11-25 20:02
+description: A OpenMMLAB toolbox  for human pose estimation, skeleton-based action
+  recognition, and action synthesis.
+analyzing_commit_hash: b4c076baa9e02e69b5876c49fa7c509866d902c7
+comment: ''
+has_instruction_in_readme: no
+models:
+  pre_trained:
+    - model:
+        self_trained: unknown
+        model_load_purpose: unknown
+        location_trace:
+          - file_path: deprecated/origin_stgcn_repo/processor/recognition.py
+            line_no:
+              - 41
+          - file_path: deprecated/origin_stgcn_repo/processor/io.py
+            line_no:
+              - 50
+              - 32
+              - 93
+              - 111
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: tools/publish_model.py
+            line_no:
+              - 23
+              - 26
+        model_load_purpose: change data structure of model file
+        location_trace:
+          - file_path: tools/publish_model.py
+            line_no:
+              - 17
+              - 16
+              - 31
+              - 30
+              - 7
+              - 10
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: argument
+        size: null
+        comment: The model is loaded to remove data from model then save.
+    - model:
+        self_trained: unknown
+        model_load_purpose_trace:
+          - file_path: mmskeleton/processor/apis.py
+            line_no:
+              - 55
+        model_load_purpose: prediction
+        location_trace:
+          - file_path: mmskeleton/processor/image2skeleton.py
+            line_no:
+              - 67
+              - 53
+              - 48
+              - 46
+              - 34
+        location: unknown
+        location_type: file system (source unknown)
+        location_set_from: method parameter
+        size: null
+  training:
+    - model:
+        training_trace:
+          - file_path: deprecated/origin_stgcn_repo/processor/recognition.py
+            line_no:
+              - 79
+              - 91
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: argument
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: deprecated/origin_stgcn_repo/processor/recognition.py
+            line_no:
+              - 87
+              - 84
+              - 81
+          - file_path: deprecated/origin_stgcn_repo/processor/processor.py
+            line_no:
+              - 51
+              - 53
+              - 54
+        location: unknown
+        location_type: unknown
+        location_set_from: argument
+        size: null
+        comment: The data loaded from the path provided through argument, however, no such variable exists in the arguments.
+    - model:
+        training_trace:
+          - file_path: mmskeleton/processor/recognition.py
+            line_no:
+              - 120
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: method parameter
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: mmskeleton/processor/recognition.py
+            line_no:
+              - 89
+              - 90
+              - 94
+              - 88
+              - 87
+              - 65
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data loaded from config passed through argument, however, no such variable exists in the arguments.
+    - model:
+        training_trace:
+          - file_path: mmskeleton/processor/twodimestimation.py
+            line_no:
+              - 100
+        is_resume_from_checkpoint: yes
+        resume_from_checkpoint_location_type: method parameter
+        save_location: null
+      dataset:
+        location_trace:
+          - file_path: mmskeleton/processor/twodimestimation.py
+            line_no:
+              - 69
+              - 71
+              - 79
+              - 66
+              - 65
+              - 52
+        location: unknown
+        location_type: unknown
+        location_set_from: method parameter
+        size: null
+        comment: The data loaded from config passed through argument, however, no such variable exists in the arguments.
