@@ -21,7 +21,8 @@ def plot_dataset_location_groups(dataset_location_counts, save_file_path):
     ]
     plot_data = pd.DataFrame(data, columns=['label', 'data'])
 
-    plot_groups_and_save(plot_data, '# of data files from all repositories', 'Dataset storage locations', save_file_path)
+    plot_groups_and_save(plot_data, '# of data files from all repositories', 'Dataset storage locations',
+                         save_file_path, figure_height=4)
 
 
 def plot_dataset_sizes_per_location_group(dataset_files, save_file_path):
@@ -95,7 +96,7 @@ def plot_per_storage_per_repo_files(files, save_file_path):
     plot_data = pd.DataFrame(data, columns=['label', 'data'])
 
     plot_groups_and_save(plot_data, '# of repositories using the storage', 'Dataset storage locations', save_file_path,
-                         show_percentage=False)
+                         show_percentage=False, figure_height=4)
 
 
 if __name__ == '__main__':

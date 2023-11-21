@@ -97,7 +97,7 @@ def plot_stacked_bar(plot_data, x_label, y_label, legend_title, save_file_path):
 def plot_multi_bar_and_save(plot_data, x_label, y_label, legend_title, save_file_path):
 
     with sns.axes_style('white'):
-        plt.figure(figsize=(6, 3))
+        plt.figure(figsize=(6, 4))
         ax = sns.barplot(data=plot_data, x='data', y='label', hue='categories', orient='h', palette='Blues')
         sns.move_legend(
             ax, "lower center",
@@ -143,6 +143,7 @@ def plot_multi_bar_and_save(plot_data, x_label, y_label, legend_title, save_file
 
 def plot_one_violin(data, x_label, save_file_path):
     sns.set_style('white')
+    plt.figure(figsize=(6, 3))
     ax = sns.violinplot(x=data, cut=0)
     sns.despine(ax=ax, top=True, right=True, left=False)
 

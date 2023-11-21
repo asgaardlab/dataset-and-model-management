@@ -48,12 +48,12 @@ def plot_model_location_groups(model_files, save_root):
         ['Pre-trained model', 'Repository', pre_trained_model_location_groups['file system (saved in VCS)']],
     ]
 
-    x_label = '# of model files'
+    x_label = '# of model files from all repositories'
     y_label = 'Model storage locations'
 
     plot_data = pd.DataFrame(data, columns=['categories', 'label', 'data'])
     graph_save_file_path = os.path.join(save_root, 'model_location_groups_per_category.pdf')
-    plot_multi_bar_and_save(plot_data, x_label, y_label, 'Trained model categories', graph_save_file_path)
+    plot_multi_bar_and_save(plot_data, x_label, y_label, 'Trained model types', graph_save_file_path)
 
     unknown_trainer_models_in_repository = unknown_trainer_model_location_groups[
         'file system (saved in VCS)'] if 'file system (saved in VCS)' in unknown_trainer_model_location_groups.keys() else 0
@@ -121,8 +121,8 @@ def plot_model_categories_distribution(model_files, save_file_path):
     plot_data = pd.DataFrame(data.items(), columns=['label', 'data'])
     plot_data = plot_data.sort_values(by=['data'], ascending=False)
 
-    plot_groups_and_save(plot_data, '# of model files', 'Trained model categories',
-                         save_file_path)
+    plot_groups_and_save(plot_data, '# of model files from all repositories', 'Trained model types', save_file_path,
+                         figure_height=2.3)
 
 
 def plot_model_load_purposes(code_segments, save_file_path):
