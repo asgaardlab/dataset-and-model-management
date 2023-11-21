@@ -8,6 +8,18 @@ models:
   pre_trained:
     - model:
         self_trained: yes
+        train_save_trace:
+          - file_path: Experiments/main/Experiment_Control.py
+            line_no:
+              - 196
+              - 150
+              - 51
+              - 59
+              - 50
+              - 488
+              - 481
+              - 439
+              - 428
         model_load_purpose_trace:
           - file_path: Experiments/main/Experiment_Control.py
             line_no:
