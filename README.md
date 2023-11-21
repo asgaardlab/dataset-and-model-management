@@ -1,5 +1,5 @@
 # An Exploratory Study of Dataset and Model Management in Open Source Machine Learning Applications
-The 1st analysis of the management of dataset and model in ML applications
+The analysis of the management of datasets and models in ML applications
 
 ## Directory structure
 ```
